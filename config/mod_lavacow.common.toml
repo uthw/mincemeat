@@ -40,7 +40,7 @@
 	"parasite attacks by attaching onto target" = true
 	#The amount of seconds before parasites naturally die or form into cocoons
 	#Range: 0 ~ 10000
-	"parasite lifespan" = 16
+	"parasite lifespan" = 4
 	#You can pick up parasites by right clicking them with an empty main hand while sneaking [false/true]
 	"parasite pickup" = true
 
