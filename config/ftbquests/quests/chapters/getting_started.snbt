@@ -2721,7 +2721,7 @@
 		{
 			x: -2.5d
 			y: -1.0d
-			subtitle: "Build a 3x3x3 cube of furnaces"
+			subtitle: "Build a 3x3x3 cube of furnaces. Don't waste time on a super smelter, make this instead!"
 			dependencies: ["4299828604426BEA"]
 			id: "1CCF9A3BFF04623C"
 			tasks: [{
@@ -2756,6 +2756,119 @@
 				id: "16E8AFCD10980DC8"
 				type: "item"
 				item: "engineersdecor:metal_crafting_table"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			subtitle: "Chipped allows you to customize the appearance of many blocks with lots of different options. "
+			description: [
+				"These workbenches handle blocks of different themes (example: botanist's table -> natural blocks)"
+				""
+				"Alongside Crayfish Furniture, Builders Additions, Architect's Palette, and more, you can build the base of your dreams!"
+			]
+			dependencies: ["06423DE8404671CB"]
+			id: "7C6893651C7CF5B8"
+			tasks: [
+				{
+					id: "4175737B14BF4144"
+					type: "item"
+					item: "chipped:botanist_workbench"
+				}
+				{
+					id: "7F00C2B547B1E043"
+					type: "item"
+					item: "chipped:glassblower"
+				}
+				{
+					id: "507DBA718D1043C0"
+					type: "item"
+					item: "chipped:carpenters_table"
+				}
+				{
+					id: "50C64510CD84B457"
+					type: "item"
+					item: "chipped:loom_table"
+				}
+				{
+					id: "3528E44A5FC69B0B"
+					type: "item"
+					item: "chipped:mason_table"
+				}
+				{
+					id: "55B7EDB26EF300CA"
+					type: "item"
+					item: "chipped:alchemy_bench"
+				}
+				{
+					id: "778F536DD08F01ED"
+					type: "item"
+					item: "chipped:mechanist_workbench"
+				}
+			]
+			rewards: [{
+				id: "028A5127A03A0D12"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.0d
+			dependencies: ["356BAEB4B5E2ACC4"]
+			id: "5868396064B273E1"
+			tasks: [{
+				id: "3795E9DF23699CD6"
+				type: "item"
+				item: "darkutils:charm_sleep"
+			}]
+			rewards: [{
+				id: "71F07E5C9882F5EC"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			subtitle: "Crafting ingredient. You can type $flat to see what it can make"
+			dependencies: ["78BD275AFF250DA0"]
+			id: "7FE45C3330D0615B"
+			tasks: [{
+				id: "0B156D435F65634D"
+				type: "item"
+				item: "darkutils:blank_plate"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			subtitle: "Refer to the image, which I did not take from Culinary Construct's CF page."
+			description: [
+				"{image:kubejs:textures/item/culinary_gui.png width:334 height:145 align:1 fit:true}"
+				""
+				"1. base slot for bread and bowl"
+				"2. ingredients: any food item you want. fluids are possible if you have a bowl."
+				"3. rename"
+				"4. output"
+				""
+				"Your meal will have the combined food value of all ingredients, and saturation equal to the average of all relative to their contribution to food value."
+				""
+				"Your food's saturation is further altered by its quality, assigned randomly."
+				""
+				"If your sandwich would've restored a large amount of food, it will be cut into multiple smaller sandwiches."
+			]
+			dependencies: ["06423DE8404671CB"]
+			id: "45A8A70BEE505781"
+			tasks: [{
+				id: "22EC26AAE973124F"
+				type: "item"
+				item: "culinaryconstruct:culinary_station"
+			}]
+			rewards: [{
+				id: "53632304E39697A0"
+				type: "ftbmoney:money"
+				ftb_money: 10L
 			}]
 		}
 	]
