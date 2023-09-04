@@ -49,13 +49,13 @@
 [grid]
 	#The energy used by Grids
 	#Range: > 0
-	gridUsage = 2
+	gridUsage = 0
 	#The energy used by Crafting Grids
 	#Range: > 0
-	craftingGridUsage = 4
+	craftingGridUsage = 0
 	#The energy used by Pattern Grids
 	#Range: > 0
-	patternGridUsage = 4
+	patternGridUsage = 2
 	#The energy used by Fluid Grids
 	#Range: > 0
 	fluidGridUsage = 2
@@ -71,51 +71,51 @@
 [storageBlock]
 	#The energy used by the 1k Storage Block
 	#Range: > 0
-	oneKUsage = 2
+	oneKUsage = 0
 	#The energy used by the 4k Storage Block
 	#Range: > 0
-	fourKUsage = 4
+	fourKUsage = 0
 	#The energy used by the 16k Storage Block
 	#Range: > 0
-	sixteenKUsage = 6
+	sixteenKUsage = 2
 	#The energy used by the 64k Storage Block
 	#Range: > 0
-	sixtyFourKUsage = 8
+	sixtyFourKUsage = 3
 	#The energy used by the Creative Storage Block
 	#Range: > 0
-	creativeUsage = 10
+	creativeUsage = 4
 
 [fluidStorageBlock]
 	#The energy used by the 64k Fluid Storage Block
 	#Range: > 0
-	sixtyFourKUsage = 2
+	sixtyFourKUsage = 0
 	#The energy used by the 256k Fluid Storage Block
 	#Range: > 0
-	twoHundredFiftySixKUsage = 4
+	twoHundredFiftySixKUsage = 0
 	#The energy used by the 1024k Fluid Storage Block
 	#Range: > 0
-	thousandTwentyFourKUsage = 6
+	thousandTwentyFourKUsage = 2
 	#The energy used by the 4096k Fluid Storage Block
 	#Range: > 0
-	fourThousandNinetySixKUsage = 8
+	fourThousandNinetySixKUsage = 3
 	#The energy used by the Creative Fluid Storage Block
 	#Range: > 0
-	creativeUsage = 10
+	creativeUsage = 4
 
 [externalStorage]
 	#The energy used by the External Storage
 	#Range: > 0
-	usage = 6
+	usage = 0
 
 [importer]
 	#The energy used by the Importer
 	#Range: > 0
-	usage = 1
+	usage = 0
 
 [exporter]
 	#The energy used by the Exporter
 	#Range: > 0
-	usage = 1
+	usage = 0
 
 [networkReceiver]
 	#The energy used by the Network Receiver
@@ -125,40 +125,40 @@
 [networkTransmitter]
 	#The energy used by the Network Transmitter
 	#Range: > 0
-	usage = 64
+	usage = 8
 
 [relay]
 	#The energy used by the Relay
 	#Range: > 0
-	usage = 1
+	usage = 0
 
 [detector]
 	#The energy used by the Detector
 	#Range: > 0
-	usage = 2
+	usage = 0
 
 [securityManager]
 	#The energy used by the Security Manager
 	#Range: > 0
-	usage = 4
+	usage = 0
 	#The additional energy used by Security Cards in the Security Manager
 	#Range: > 0
-	usagePerCard = 10
+	usagePerCard = 1
 
 [interface]
 	#The energy used by the Interface
 	#Range: > 0
-	usage = 2
+	usage = 1
 
 [fluidInterface]
 	#The energy used by the Fluid Interface
 	#Range: > 0
-	usage = 2
+	usage = 1
 
 [wirelessTransmitter]
 	#The energy used by the Wireless Transmitter
 	#Range: > 0
-	usage = 8
+	usage = 4
 	#The base range of the Wireless Transmitter
 	#Range: > 0
 	baseRange = 16
@@ -169,11 +169,11 @@
 [storageMonitor]
 	#The energy used by the Storage Monitor
 	#Range: > 0
-	usage = 3
+	usage = 2
 
 [wirelessGrid]
 	#Whether the Wireless Grid uses energy
-	useEnergy = true
+	useEnergy = false
 	#The energy capacity of the Wireless Grid
 	#Range: > 0
 	capacity = 3200
@@ -189,7 +189,7 @@
 
 [wirelessFluidGrid]
 	#Whether the Wireless Fluid Grid uses energy
-	useEnergy = true
+	useEnergy = false
 	#The energy capacity of the Wireless Fluid Grid
 	#Range: > 0
 	capacity = 3200
@@ -216,11 +216,11 @@
 [diskManipulator]
 	#The energy used by the Disk Manipulator
 	#Range: > 0
-	usage = 4
+	usage = 2
 
 [portableGrid]
 	#Whether the Portable Grid uses energy
-	useEnergy = true
+	useEnergy = false
 	#The energy capacity of the Portable Grid
 	#Range: > 0
 	capacity = 3200
@@ -237,7 +237,7 @@
 [crafter]
 	#The energy used by the Crafter
 	#Range: > 0
-	usage = 4
+	usage = 0
 	#The energy used for every Pattern in the Crafter
 	#Range: > 0
 	patternUsage = 1
@@ -245,16 +245,16 @@
 [crafterManager]
 	#The energy used by the Crafter Manager
 	#Range: > 0
-	usage = 8
+	usage = 2
 
 [craftingMonitor]
 	#The energy used by the Crafting Monitor
 	#Range: > 0
-	usage = 8
+	usage = 2
 
 [wirelessCraftingMonitor]
 	#Whether the Wireless Crafting Monitor uses energy
-	useEnergy = true
+	useEnergy = false
 	#The energy capacity of the Wireless Crafting Monitor
 	#Range: > 0
 	capacity = 3200
