@@ -1,3 +1,5 @@
+// sanguine arsenal
+
 onEvent("recipes", (event) => {
   // event.remove({output: 'eidolon:candle'})
   // event.remove({ output: "eidolon:soul_enchanter" });
@@ -5,15 +7,18 @@ onEvent("recipes", (event) => {
   let toRemove = [
     "eidolon:worktable",
 
-    "eidolon:pewter_ingot",
+    // "eidolon:pewter_ingot",
     "eidolon:pewter_blend",
-
-    ,
   ];
   toRemove.forEach((item) => event.remove({ output: item }));
 
   // event.replaceOutput("eidolon:arcane_gold_ingot", "#forge:ingots/arcane_gold");
   event.replaceInput("eidolon:arcane_gold_ingot", "#forge:ingots/arcane_gold");
+  event.replaceInput(
+    { output: "eidolon:arcane_gold_ingot" },
+    "minecraft:redstone",
+    "#forge:gems/mana"
+  );
 
   event.shaped(
     "eidolon:worktable",
@@ -70,10 +75,51 @@ onEvent("recipes", (event) => {
       "#forge:dusts/lead",
     ])
     .energy(4000);
+
+  // // move sanguine arsenal armors here
+  // let cores = [
+  //   ["BAB", "A A", "   "],
+  //   ["A A", "BAB", "CAC"],
+  //   ["AAA", "B B", "A A"],
+  //   ["   ", "A A", "A A"],
+  //   ["ABA", "B B", "ABA"],
+  // ];
+
+  // let keys = [
+  //   { A: "sanguinearsenal:shadow_ingot", B: "sanguinearsenal:crimson_weave" },
+  //   {
+  //     A: "sanguinearsenal:shadow_ingot",
+  //     B: "sanguinearsenal:crimson_weave",
+  //     C: "eidolon:gold_inlay",
+  //   },
+  //   { A: "sanguinearsenal:shadow_ingot", B: "sanguinearsenal:crimson_weave" },
+  //   { A: "sanguinearsenal:shadow_ingot" },
+  //   { A: "eidolon:crimson_essence", B: "eidolon:wicked_weave" },
+  // ];
+
+  // let results = [
+  //   { item: "sanguinearsenal:sanguine_praetor_hood" },
+  //   { item: "sanguinearsenal:sanguine_praetor_tunic" },
+  //   { item: "sanguinearsenal:sanguine_praetor_leggings" },
+  //   { item: "sanguinearsenal:sanguine_praetor_boots" },
+  //   { item: "sanguinearsenal:crimson_weave" },
+  // ];
+
+  // for (let i = 0; i < 4; i++) {
+  //   keys[i].D = "sanguinearsenal:sigil_of_the_dark_lord";
+
+  //   event.custom({
+  //     type: "eidolon:worktable",
+  //     core: cores[i],
+  //     extras: ["D", "  ", " "],
+  //     key: keys[i],
+  //     result: results[i],
+  //   });
+  // }
 });
 
 onEvent("item.tags", (event) => {
-  event.add("buzzier_bees:candle_base", "eidolon:tallow");
+  // event.add("buzzier_bees:candle_base", "eidolon:tallow");
   event.add("supplementaries:candle/base", "eidolon:tallow");
   event.add("forge:tallow", "eidolon:tallow");
 });
