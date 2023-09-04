@@ -1,7 +1,10 @@
 // also includes engineer's decor and tools
 
 onEvent("recipes", (event) => {
-  let removeItems = ["engineerstools:crushing_hammer"];
+  let removeItems = [
+    "engineerstools:crushing_hammer",
+    "immersiverods:stick_gold",
+  ];
   removeItems.forEach((item) => event.remove({ output: item }));
 
   event.replaceInput(
