@@ -1965,5 +1965,21 @@
 				ftb_money: 15L
 			}]
 		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["06212B5E866EB36E"]
+			id: "7E98763644657050"
+			tasks: [{
+				id: "52F71D7A61AF8480"
+				type: "item"
+				item: "darkutils:charm_portal"
+			}]
+			rewards: [{
+				id: "26821D6E1776D1F1"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
 	]
 }
