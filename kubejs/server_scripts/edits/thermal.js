@@ -15,4 +15,10 @@ onEvent("recipes", (event) => {
     "minecraft:iron_ingot",
     "#forge:plates/iron"
   );
+
+  event.replaceInput(
+    { output: "thermal:rf_coil" },
+    "minecraft:gold_ingot",
+    "createaddition:rod_gold"
+  );
 });
