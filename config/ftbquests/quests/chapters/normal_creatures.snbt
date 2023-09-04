@@ -155,18 +155,6 @@
 			corner: false
 		}
 		{
-			x: -2.0d
-			y: 0.5d
-			width: 1.0d
-			height: 1.0d
-			rotation: 0.0d
-			image: "terraincognita:textures/block/cactus_flower.png"
-			hover: [ ]
-			click: ""
-			dev: false
-			corner: false
-		}
-		{
 			x: -0.5d
 			y: 7.0d
 			width: 1.0d
