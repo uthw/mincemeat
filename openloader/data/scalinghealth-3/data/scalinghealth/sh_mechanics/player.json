@@ -1,0 +1,19 @@
+{
+  "startingHealth" : 20,
+  "minHealth" : 2,
+  "maxHealth" : 200,
+  "setOnDeath": "maxHealth",
+  "levelsPerHp": 10,
+  "hpPerLevel":  1,
+  "maxAttackDamage" : 10,
+  "regen" : {
+    "initialDelay": 40,
+    "tickDelay": 40,
+    "exhaustion": 0.08,
+    "minFood": 16,
+    "maxFood": 2147483647,
+    "minHealth": 0,
+    "maxHealth": 2147483647,
+    "proportionalToMaxHealth": false
+  }
+}

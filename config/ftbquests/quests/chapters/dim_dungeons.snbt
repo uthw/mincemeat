@@ -1,0 +1,321 @@
+{
+	id: "58D24E4D455DFD2C"
+	group: "2447BD0EE3FA64CA"
+	order_index: 1
+	filename: "dim_dungeons"
+	title: "Pocket Dungeon"
+	icon: "supplementaries:key"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 1.5d
+		y: 0.0d
+		width: 2.0d
+		height: 2.0d
+		rotation: 0.0d
+		image: "dimdungeons:textures/block/block_keyhole_front_lit2.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Building the Portal"
+			icon: {
+				id: "supplementaries:key"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Preparing for Dimensional Travel"
+			description: [
+				"Arrange the blocks in this shape:"
+				"{image:kubejs:textures/item/build_basic_1.png width:200 height:100 align:1}"
+				"You may sink the portal into the ground if you want, so you don't need to jump to enter every time."
+				""
+				"Also, the only blocks which must be air are the two blocks below the portal keyhole. All other empty space can be filled with walls for cosmetic reasons."
+				""
+				"You also need a key, a catalyst for the portal. This can be made with a key, a pyrope gem, and a name tag."
+			]
+			id: "1DD881F773F35E6C"
+			tasks: [
+				{
+					id: "03AF55323C5203E4"
+					type: "item"
+					item: {
+						id: "dimdungeons:block_gilded_portal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "1D1C6C2EA365251F"
+					type: "item"
+					item: {
+						id: "dimdungeons:block_portal_keyhole"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7226469084A439EC"
+					type: "item"
+					item: {
+						id: "minecraft:stone_bricks"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 9L
+				}
+				{
+					id: "7A1B92DB7B3EDF42"
+					type: "item"
+					item: {
+						id: "dimdungeons:block_key_charger"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "24388B86EEDED639"
+					type: "advancement"
+					advancement: "dimdungeons:dungeons/activate_basic_key"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5C97A8C039B65888"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "6F3D378B27C9DA10"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:protection"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Enter the Portal"
+			icon: "dimdungeons:block_gold_portal"
+			x: 1.5d
+			y: -1.5d
+			shape: "rsquare"
+			description: [
+				"Dungeons are procedurally generated, meaning they're renewable. You can't place or break blocks (anti-cheese). The regional difficulty is randomized but always above ~70 so be prepared for anything."
+				""
+				"Please avoid trying to \"cheese\" the dungeon with certain items since this may softlock your world if you aren't careful. I will create a datapack that prevents these items from being used in the dungeon."
+			]
+			dependencies: ["1DD881F773F35E6C"]
+			id: "3EE8FCE77B50FB7B"
+			tasks: [{
+				id: "6A4C48DF48608EAA"
+				type: "dimension"
+				dimension: "dimdungeons:dungeon_dimension"
+			}]
+			rewards: [{
+				id: "66993A7307EF5999"
+				type: "item"
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			title: "Upgrading Your Portal"
+			icon: {
+				id: "dimdungeons:block_portal_crown"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Give it a new fit"
+			description: [
+				"Portal Crowns are found in the chests of normal dimensional dungeons, while a special room with a structure resembling the portal contains the Advanced Key. Make sure to take it!"
+				""
+				"To create a gateway capable of taking you to an advanced dungeon, add the extra portal blocks like so:"
+				"{image:kubejs:textures/item/advanced_portal_build.png width:200 height:100 align:1}"
+				"The banners are part of the reward for this quest, so might as well use them instead of using your valuable wool."
+				""
+				"Note: a portal correctly built to support advanced keys will still accept normal dungeon keys. There is no need to have two portals."
+			]
+			dependencies: ["3EE8FCE77B50FB7B"]
+			id: "3FE9465EBB8F0A23"
+			tasks: [
+				{
+					id: "7DE40CDAD27A2B70"
+					type: "item"
+					item: {
+						id: "dimdungeons:block_portal_crown"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "47BFFE650F3AE94C"
+					type: "advancement"
+					advancement: "dimdungeons:dungeons/find_advanced_key"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "75F2F9EEC79FF8FB"
+					type: "item"
+					item: {
+						id: "minecraft:white_banner"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Patterns: [{
+									Pattern: "rd"
+									Color: 10
+								}]
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+				{
+					id: "2EFC3C51F7FE5B33"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Enter The Portal (again)"
+			x: 1.5d
+			y: 1.5d
+			shape: "rsquare"
+			subtitle: "To the max!"
+			description: [
+				"Upgraded dungeons have extremely powerful enemies and even minibosses, so exercise caution and try to pick off enemies one-by-one."
+				""
+				"However, you can find loot above your current tier (assuming it's Everbright/dawn) in the advanced dungeon, making it high-risk and high-reward."
+			]
+			dependencies: ["3FE9465EBB8F0A23"]
+			id: "08CDABE063739E91"
+			tasks: [{
+				id: "11694EDC923C840C"
+				type: "advancement"
+				advancement: "dimdungeons:dungeons/enter_advanced_dungeon"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "1E1F125507FBCE14"
+					type: "item"
+					item: {
+						id: "scalinghealth:medkit"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "47C23017F0148BB0"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "0BEDDE8A9B5942B0"
+					type: "loot"
+					table_id: 5232846627972773386L
+				}
+			]
+		}
+		{
+			title: "Wither Skeleton"
+			x: 0.0d
+			y: -3.0d
+			shape: "rsquare"
+			description: ["This dimension is the earliest place where you can find Wither Skeletons. This allows you to obtain wither bones and craft Dragon Bone tools, which are stronger than diamond."]
+			dependencies: ["3EE8FCE77B50FB7B"]
+			id: "7B8953FDC2EBF81E"
+			tasks: [{
+				id: "01BAB881ECFA2EEF"
+				type: "observation"
+				icon: {
+					id: "graveyard:wither_skull_pile"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "minecraft:wither_skeleton"
+			}]
+		}
+	]
+}

@@ -1,0 +1,1174 @@
+{
+	id: "76AC7F85778C7091"
+	group: "2447BD0EE3FA64CA"
+	order_index: 2
+	filename: "small_novelties"
+	title: "Novelties"
+	icon: "enigmaticlegacy:gem_ring"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Runic Repair Kit"
+			x: -2.5d
+			y: 2.5d
+			shape: "diamond"
+			description: [
+				"Did you find a sweet relic in a cave with some wacky perks? Are you dreading the moment you must part with it? Then this item is for you!"
+				""
+				"Place your relic on the anvil, and then use smash it with the Runic Hammer, and it will be repaired."
+				""
+				"Make sure you have a good few levels when you do this."
+			]
+			id: "659334CC61FB3F4C"
+			tasks: [
+				{
+					id: "4EF6FF9688371900"
+					type: "item"
+					item: {
+						id: "relics:runic_anvil"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "53A7BE13A23BD8A7"
+					type: "item"
+					item: {
+						id: "relics:runic_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			shape: "rsquare"
+			dependencies: ["7644D10E30C55105"]
+			id: "3D0BEC76F57F13A0"
+			tasks: [{
+				id: "104D1D612246F1AD"
+				type: "item"
+				item: {
+					id: "relics:out_runner"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			shape: "rsquare"
+			dependencies: ["7644D10E30C55105"]
+			id: "3A9989FBABBA9BD9"
+			tasks: [{
+				id: "1BCC8A9CEDD8FE78"
+				type: "item"
+				item: {
+					id: "relics:amphibian_boot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			shape: "rsquare"
+			dependencies: ["7644D10E30C55105"]
+			id: "1B3187981454BCDF"
+			tasks: [{
+				id: "2EE450989A98B985"
+				type: "item"
+				item: {
+					id: "relics:magma_walker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			shape: "rsquare"
+			dependencies: ["3EF23255C8C2A18B"]
+			id: "6785CCDDFC552414"
+			tasks: [{
+				id: "1715670DA918BF0B"
+				type: "item"
+				item: {
+					id: "relics:rage_glove"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			shape: "rsquare"
+			dependencies: ["7644D10E30C55105"]
+			id: "6D37DCFD6DAD07B7"
+			tasks: [{
+				id: "6500980F4701A2ED"
+				type: "item"
+				item: {
+					id: "relics:ice_skates"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			shape: "rsquare"
+			dependencies: ["3EF23255C8C2A18B"]
+			id: "51F6D4F4FCE0214F"
+			tasks: [{
+				id: "6B9651D8784356DE"
+				type: "item"
+				item: {
+					id: "relics:enders_hand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			shape: "rsquare"
+			dependencies: ["7644D10E30C55105"]
+			id: "0D049735EF63CFFD"
+			tasks: [{
+				id: "458FE9EC0E07A8DB"
+				type: "item"
+				item: {
+					id: "relics:ice_breaker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			shape: "diamond"
+			description: [
+				"In your travels you may come across junk like an old boot or a tin can. This item may be able to upgrade them."
+				""
+				"You will need the required elemental runes (JEI tells you) and then drop the item on the altar (don't place it)."
+			]
+			id: "34577AC531FA847F"
+			tasks: [{
+				id: "5B2B6159CAD9D2BF"
+				type: "item"
+				item: {
+					id: "relics:runic_altar"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			shape: "square"
+			size: 1.25d
+			id: "3EF23255C8C2A18B"
+			tasks: [{
+				id: "6397676797612D94"
+				type: "item"
+				item: {
+					id: "relics:wool_mitten"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			shape: "square"
+			description: ["Try upgrading it at a Runic Altar!"]
+			size: 1.25d
+			id: "7644D10E30C55105"
+			tasks: [{
+				id: "10C06FE007B7624D"
+				type: "item"
+				item: {
+					id: "relics:old_boot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.75d
+			y: 11.25d
+			shape: "hexagon"
+			description: ["The documentation for Enigmatic Legacy. It can also be used as a pretty nifty and unbreakable early-game weapon. Enlighten your foes!"]
+			size: 1.5d
+			id: "281490539F61750A"
+			tasks: [{
+				id: "32EC77B505A8D1AF"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:the_acknowledgment"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "losttrinkets:creepo"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.75d
+			y: 5.25d
+			shape: "octagon"
+			description: [
+				"Seek powerful artifacts from antiquity by breaking blocks and defeating foes. Wield their unique powers responsibly to become a legendary adventurer."
+				""
+				"Bind a key to open the Lost Trinkets GUI, default is R but personally I use K. You may spend XP to unlock another slot if you want to have the boons of two trinkets at once."
+			]
+			size: 1.5d
+			id: "47A4BEE3BF94C7BE"
+			tasks: [{
+				id: "59095FA3E025B86C"
+				type: "checkmark"
+				title: "The Lost Trinkets"
+			}]
+		}
+		{
+			x: -1.75d
+			y: 6.5d
+			description: ["Does not do much on its own, but when combined with other metals, it may obtain various effects."]
+			id: "763712C87FE81678"
+			tasks: [{
+				id: "348E0D152A3587B9"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:iron_ring"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.75d
+			y: 5.75d
+			dependencies: ["763712C87FE81678"]
+			id: "0823CCA7B64BB545"
+			tasks: [{
+				id: "322FAC9F64BBDBA5"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:ender_ring"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.75d
+			y: 5.75d
+			dependencies: ["6F2E35718080E9F0"]
+			id: "71BEC3A6FE5C188B"
+			tasks: [{
+				id: "73FF1D60C3989BF4"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:super_magnet_ring"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.75d
+			y: 7.25d
+			dependencies: ["763712C87FE81678"]
+			id: "6F2E35718080E9F0"
+			tasks: [{
+				id: "0BC0CCC436477BA4"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:magnet_ring"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.75d
+			y: 7.25d
+			dependencies: ["763712C87FE81678"]
+			id: "4F93B7D60E6F9430"
+			tasks: [{
+				id: "176FA1A52D8DC2CF"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:gem_ring"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.25d
+			y: 12.75d
+			shape: "rsquare"
+			subtitle: "Rock Solid"
+			description: [
+				"Within this rugged artifact beats the essence of a mythical golem, offering you formidable protection."
+				""
+				"However, be warned, as its dense composition leaves you vulnerable to the potent forces of magic, and spellcasters may prove to be your most daunting foes."
+			]
+			dependencies: ["4959593468C3393A"]
+			id: "1155F37FBB39DE82"
+			tasks: [{
+				id: "7E0F72EAF293814F"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:golem_heart"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.75d
+			y: 12.75d
+			shape: "rsquare"
+			dependencies: ["4959593468C3393A"]
+			id: "13A2BD03D1435EB6"
+			tasks: [{
+				id: "57D06EBA8621D5E0"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:angel_blessing"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.25d
+			y: 12.25d
+			dependencies: ["281490539F61750A"]
+			id: "096E32A9DDB67113"
+			tasks: [{
+				id: "6CE4F593ED1519FD"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: {
+						AssignedColor: 0.1f
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.75d
+			y: 10.75d
+			dependencies: ["281490539F61750A"]
+			id: "447D950346ECAE0E"
+			tasks: [{
+				id: "1D997E0AF1A6658A"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: {
+						AssignedColor: 0.7f
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.75d
+			y: 13.25d
+			dependencies: ["281490539F61750A"]
+			id: "2E9FFFEEE1FE4AE6"
+			tasks: [{
+				id: "5923A44D5ECAAF97"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: {
+						AssignedColor: 0.6f
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.75d
+			y: 10.75d
+			dependencies: ["281490539F61750A"]
+			id: "3F177C68C3C90926"
+			tasks: [{
+				id: "71D24554C5AFDB6D"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: {
+						AssignedColor: 0.5f
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.75d
+			y: 9.75d
+			dependencies: ["281490539F61750A"]
+			id: "7FD0A7A15AC8C2E9"
+			tasks: [{
+				id: "238414F97F8E15C8"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: {
+						AssignedColor: 0.4f
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.75d
+			y: 9.75d
+			dependencies: ["281490539F61750A"]
+			id: "7F9757C9C29A3303"
+			tasks: [{
+				id: "34D3C7E2782DFC41"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: {
+						AssignedColor: 0.3f
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.25d
+			y: 12.25d
+			dependencies: ["281490539F61750A"]
+			id: "12264195286BF72D"
+			tasks: [{
+				id: "73301A50AD867E7E"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_amulet"
+					Count: 1b
+					tag: {
+						AssignedColor: 0.2f
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 12.75d
+			shape: "rsquare"
+			dependencies: ["4959593468C3393A"]
+			id: "59BBC0B74592FDF9"
+			tasks: [{
+				id: "3D53AC2E0EEF8AB4"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:ocean_stone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.25d
+			y: 9.75d
+			shape: "rsquare"
+			dependencies: ["4959593468C3393A"]
+			id: "417F900F1BD75D8F"
+			tasks: [{
+				id: "4F560A6020347E6D"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:magma_heart"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.75d
+			y: 9.75d
+			shape: "rsquare"
+			dependencies: ["4959593468C3393A"]
+			id: "004189CD34149940"
+			tasks: [{
+				id: "48B3795F23565F8A"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:eye_of_nebula"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.75d
+			y: 8.75d
+			id: "6787D1B28D69BA99"
+			tasks: [{
+				id: "3F1E523FFA107104"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:thicc_scroll"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.75d
+			y: 10.25d
+			dependencies: ["6787D1B28D69BA99"]
+			id: "35801618570BEB1B"
+			tasks: [{
+				id: "4DAE2454A986470D"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:heaven_scroll"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.75d
+			y: 11.25d
+			shape: "rsquare"
+			description: ["This one's not a spellstone but fits with the theme of the others."]
+			dependencies: ["4959593468C3393A"]
+			id: "186F5C34E2EA035E"
+			tasks: [{
+				id: "08D260A8E332303D"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:monster_charm"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 9.75d
+			shape: "rsquare"
+			dependencies: ["4959593468C3393A"]
+			id: "373F8F13691B0DCF"
+			tasks: [{
+				id: "1D154E3DF5BC2C6E"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:void_pearl"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.25d
+			y: 3.75d
+			dependencies: ["484DF49ADD497061"]
+			id: "34C1602DC81F1176"
+			tasks: [{
+				id: "02319B4FECE1E425"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:mining_charm"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: 11.25d
+			id: "589CDCD881D3E03D"
+			tasks: [{
+				id: "75BAF524F422B514"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:mega_sponge"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.25d
+			y: 9.75d
+			id: "05EA10C2DB466261"
+			tasks: [{
+				id: "0F0B70251CDE9C65"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:extradimensional_eye"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.25d
+			y: 11.25d
+			shape: "rsquare"
+			description: [
+				"It's... just an inventory cleaner. That's it."
+				""
+				"It isn't really a spellstone."
+			]
+			dependencies: ["4959593468C3393A"]
+			id: "7456945F75938362"
+			tasks: [{
+				id: "1C371BF8AA2365FD"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:oblivion_stone"
+					Count: 1b
+					tag: {
+						ConsumptionMode: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.75d
+			y: 6.75d
+			shape: "hexagon"
+			subtitle: "Dealing with the devil?"
+			description: [
+				"Unlocks the mastery of the seven curses, granting you the power of ancient malevolence. "
+				""
+				"However, beware the consequences of tampering with such dark forces, for the price of wielding the seven curses may prove to be more than you bargained for."
+				""
+				"(if you REALLY like the old Minecraft hurt sound, use this item with the Eidolon glass hand)"
+			]
+			size: 1.5d
+			id: "73E8D214C2D81706"
+			tasks: [{
+				id: "70F8E6C9A0B09D2E"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:cursed_ring"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.75d
+			y: 3.75d
+			id: "484DF49ADD497061"
+			tasks: [{
+				id: "671208FD4D4B5540"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:earth_heart"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4A42BBAAD6CC8DFB"
+				type: "loot"
+				table_id: 7934602604047162851L
+			}]
+		}
+		{
+			x: 2.75d
+			y: 5.25d
+			dependencies: ["484DF49ADD497061"]
+			id: "5CE9633BB68A05A2"
+			tasks: [{
+				id: "4A5F62FD37606094"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:twisted_core"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.75d
+			y: 8.25d
+			dependencies: ["5CE9633BB68A05A2"]
+			id: "6AF624664B4BB2E0"
+			tasks: [{
+				id: "0A0B830E11DE39BD"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:dark_mirror"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.75d
+			y: 8.25d
+			dependencies: ["5C9F04588A05688B"]
+			id: "244CEB24BA2ADF29"
+			tasks: [{
+				id: "6565AED3D29B27CE"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:cursed_scroll"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.75d
+			y: 6.75d
+			description: ["Found in bastions."]
+			id: "5C9F04588A05688B"
+			tasks: [{
+				id: "64B9E35BB1115C44"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:darkest_scroll"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.75d
+			y: 5.25d
+			dependencies: ["5CE9633BB68A05A2"]
+			id: "1191D4455AA14621"
+			tasks: [{
+				id: "4BF5989252124D66"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:berserk_emblem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.75d
+			y: 5.25d
+			dependencies: ["5C9F04588A05688B"]
+			id: "2677076D15BF0068"
+			tasks: [{
+				id: "725D74AF2E20C18C"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:avarice_scroll"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.75d
+			y: 6.75d
+			description: ["Dropped by the Wither but can also be crafted (comintg soon)"]
+			id: "4E7C9A98FFCE1131"
+			tasks: [{
+				id: "2D8814B4CE09FC06"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:evil_essence"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.25d
+			y: 6.75d
+			dependencies: [
+				"4E7C9A98FFCE1131"
+				"5CE9633BB68A05A2"
+			]
+			id: "0B16AC3B193172CC"
+			tasks: [{
+				id: "575E6F46E13AC189"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:cursed_stone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.75d
+			y: 8.25d
+			dependencies: ["4E7C9A98FFCE1131"]
+			id: "10892A892D1A2753"
+			tasks: [{
+				id: "28F7404EE19DA7E0"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:the_twist"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.25d
+			y: 8.25d
+			dependencies: ["4E7C9A98FFCE1131"]
+			id: "3D7F0902117BABB4"
+			tasks: [{
+				id: "5FF48AD021089287"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enchanter_pearl"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.75d
+			y: 11.75d
+			id: "7E642302EDFB9A91"
+			tasks: [{
+				id: "5DC379654EEECA3C"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:forbidden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 14.25d
+			shape: "rsquare"
+			description: ["Don't drink it."]
+			id: "00AB69D55DCAB26E"
+			tasks: [{
+				id: "71FC69D66984166B"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:unholy_grail"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.25d
+			y: 3.75d
+			dependencies: ["484DF49ADD497061"]
+			id: "7F27BFAD2E887AFB"
+			tasks: [{
+				id: "0E1D6982A5EF7EA6"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:infinimeal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Spellstones Unlocked"
+			x: 0.75d
+			y: 11.25d
+			shape: "gear"
+			description: ["Allow them to aid you on your journey. Spellstones provide their owners great heights of power when used correctly."]
+			size: 2.0d
+			id: "4959593468C3393A"
+			tasks: [{
+				id: "4560D959D3777604"
+				type: "gamestage"
+				title: "atum"
+				stage: ""
+			}]
+		}
+	]
+}

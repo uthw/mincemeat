@@ -1,0 +1,30 @@
+{
+	id: "5F78914FFB9EBD91"
+	order_index: 1
+	title: "PlayerEx Level up!"
+	icon: {
+		id: "minecraft:experience_bottle"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	loot_size: 1
+	rewards: [{
+		title: "Level up!"
+		icon: {
+			id: "minecraft:experience_bottle"
+			Count: 1b
+			ForgeCaps: {
+				"dungeons_libraries:built_in_enchantments": {
+					BuiltInEnchantments: [ ]
+				}
+			}
+		}
+		command: "/playerex level-add @p 1"
+		player_command: false
+		type: "command"
+	}]
+}

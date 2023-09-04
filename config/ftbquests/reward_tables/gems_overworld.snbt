@@ -1,0 +1,86 @@
+{
+	id: "57F168E890488D70"
+	order_index: 0
+	title: "Overworld Gems"
+	icon: "minecraft:diamond"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:diamond"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 3
+			random_bonus: 2
+		}
+		{
+			item: {
+				id: "iceandfire:sapphire_gem"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "iceandfire:amythest_gem"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+			random_bonus: 1
+		}
+		{
+			item: {
+				id: "ars_nouveau:mana_gem"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 7
+			random_bonus: 3
+		}
+		{
+			item: {
+				id: "minecraft:emerald"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 10
+			random_bonus: 5
+		}
+		{
+			item: {
+				id: "astralsorcery:aquamarine"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 6
+			random_bonus: 2
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+  "difficultyWeight": 0.05,
+  "genericScale": 0,
+  "affectHostiles": true,
+  "affectPeacefuls": false,
+  "modBlacklist": ["doggytalents"],
+  "mode": "MAX_HEALTH",
+  "damageScales": [
+    {
+      "damageTypes": ["cactus"],
+      "scale": 0
+    }
+  ]
+}

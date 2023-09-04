@@ -1,0 +1,95 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 18, 2023 6:39:02 PM
+
+#forge:ender
+
+#forge:experience
+- sophisticatedbackpacks:xp_still
+- cofh_core:experience
+- mob_grinding_utils:fluid_xp
+- pneumaticcraft:memory_essence?
+- cofh_core:experience?
+- cyclic:xpjuice
+
+#forge:crude_oil
+
+#minecraft:water
+- minecraft:water
+- minecraft:flowing_water
+- create:flowing_honey
+- create:honey
+- create:flowing_chocolate
+- create:chocolate
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+- cyclic:biomass
+- cyclic:biomass_flowing
+- cyclic:honey
+- cyclic:honey_flowing
+- cyclic:xpjuice
+- cyclic:xpjuice_flowing
+
+#forge:slime
+- cyclic:slime
+
+#forge:redstone
+
+#forge:milk
+- minecraft:milk?
+- minecraft:flowing_milk?
+
+#forge:life
+- bloodmagic:life_essence_fluid
+- bloodmagic:life_essence_fluid_flowing
+
+#forge:glowstone
+
+#forge:tea
+- create:flowing_tea
+- create:tea
+
+#forge:biomass
+- cyclic:biomass
+
+#forge:magma
+- cyclic:magma
+
+#twilightforest:fire_jet_fuel
+- #minecraft:lava
+
+#forge:plantoil
+- createaddition:flowing_seed_oil
+- createaddition:seed_oil
+
+#minecraft:lava
+- minecraft:lava
+- minecraft:flowing_lava
+- theabyss:areno
+- theabyss:areno_flowing
+
+#forge:latex
+
+#forge:chocolate
+- create:flowing_chocolate
+- create:chocolate
+
+#forge:xpjuice
+- mob_grinding_utils:fluid_xp
+
+#decorative_blocks:thatch
+- decorative_blocks:thatch
+- decorative_blocks:flowing_thatch
+
+#forge:honey
+- cofh_core:honey
+- create:flowing_honey
+- create:honey
+- inspirations:honey?
+- cyclic:honey
+
+#forge:creosote
+
+#forge:potion
+- cofh_core:potion
+
+#twilightforest:portal_fluid
+- #minecraft:water

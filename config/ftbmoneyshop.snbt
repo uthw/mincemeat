@@ -1,0 +1,1088 @@
+{
+	tabs: [
+		{
+			title: "Information wants to be free!"
+			icon: "immersiveengineering:fake_icon_birthday"
+			entries: [
+				{
+					item: "alexsmobs:animal_dictionary"
+					buy: 1L
+				}
+				{
+					item: {
+						id: "akashictome:tome"
+						Count: 1b
+						tag: {
+							"akashictome:data": {
+								storagenetwork: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "storagenetwork:network_book"
+									}
+								}
+								industrialforegoing: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+								}
+								astralsorcery: {
+									id: "astralsorcery:tome"
+									Count: 1b
+								}
+								randomloot: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "randomloot:randomloot_book"
+									}
+								}
+								immersiveengineering: {
+									id: "immersiveengineering:manual"
+									Count: 1b
+								}
+								apotheosis: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+								eidolon: {
+									id: "eidolon:codex"
+									Count: 1b
+								}
+								forestcraft: {
+									id: "forestcraft:guidebook"
+									Count: 1b
+								}
+								solcarrot: {
+									id: "solcarrot:food_book"
+									Count: 1b
+								}
+								botania: {
+									id: "botania:lexicon"
+									Count: 1b
+									tag: { }
+								}
+								ars_nouveau: {
+									id: "ars_nouveau:worn_notebook"
+									Count: 1b
+								}
+								dimdungeons: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "dimdungeons:guide_book"
+									}
+								}
+								thermal: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+								supplementaries: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "supplementaries:supplementaries_guide"
+									}
+								}
+								twilightforest: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "twilightforest:guide"
+									}
+								}
+								betterendforge: {
+									id: "betterendforge:guidebook"
+									Count: 1b
+								}
+								mysticalagriculture: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "mysticalagriculture:guide"
+									}
+								}
+								cyclic: {
+									id: "patchouli:guide_book"
+									Count: 1b
+									tag: {
+										"patchouli:book": "cyclic:cyclic_guide_book"
+									}
+								}
+							}
+						}
+					}
+					buy: 1L
+				}
+				{
+					item: "immersiveengineering:voltmeter"
+					buy: 1L
+				}
+				{
+					item: {
+						id: "morphtool:tool"
+						Count: 1b
+						tag: {
+							"morphtool:is_morphing": 1b
+							"morphtool:data": {
+								botania: {
+									id: "botania:twig_wand"
+									Count: 1b
+									tag: {
+										color1: 0
+										color2: 0
+									}
+								}
+								immersiveengineering: {
+									id: "immersiveengineering:screwdriver"
+									Count: 1b
+									tag: {
+										"morphtool:is_morphing": 1b
+										"morphtool:displayName": {
+											text: "Engineer's Screwdriver"
+										}
+										display: {
+											Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Engineer's Screwdriver\"}]}"
+										}
+									}
+								}
+								thermal: {
+									id: "thermal:wrench"
+									Count: 1b
+									tag: {
+										"morphtool:is_morphing": 1b
+										"morphtool:displayName": {
+											text: "Crescent Hammer"
+										}
+										display: {
+											Name: "{\"translate\":\"morphtool.sudo_name\",\"with\":[{\"color\":\"green\",\"text\":\"Crescent Hammer\"}]}"
+										}
+									}
+								}
+								create: {
+									id: "create:wrench"
+									Count: 1b
+								}
+								refinedstorage: {
+									id: "refinedstorage:wrench"
+									Count: 1b
+								}
+								cyclic: {
+									id: "cyclic:cable_wrench"
+									Count: 1b
+								}
+							}
+						}
+					}
+					buy: 1L
+				}
+			]
+		}
+		{
+			title: "Enchantments"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "allurement:reforming"
+					}]
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			entries: [
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "allurement:reforming"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 45L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "allurement:shockwave"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 60L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "allurement:vengeance"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 110L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "charm:aerial_affinity"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 100L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "charm:tinted"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 150L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "tombstone:soulbound"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "tombstone:magic_siphon"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 140L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "allurement:reeling"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 50L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:protection"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 75L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:fire_protection"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 65L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:feather_falling"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 250L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:blast_protection"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 75L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:projectile_protection"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 70L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:respiration"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 95L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:aqua_affinity"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 50L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:depth_strider"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 60L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:depth_strider"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 50L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:sharpness"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 90L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:smite"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 90L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:bane_of_arthropods"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 80L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:looting"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 80L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:looting"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 105L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:efficiency"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 75L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:efficiency"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 125L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:unbreaking"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 55L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:unbreaking"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 80L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 110L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:power"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 90L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:punch"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 50L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:infinity"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 120L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:luck_of_the_sea"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 50L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:lure"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 65L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "minecraft:quick_charge"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 70L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:piercing"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 70L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 300L
+				}
+				{
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 2s
+								id: "elenaidodge2:lightweight"
+							}]
+						}
+					}
+					buy: 60L
+				}
+			]
+		}
+		{
+			title: "Tainted Items"
+			icon: {
+				id: "xreliquary:mob_charm"
+				Count: 1b
+				tag: {
+					Damage: 0
+					entity: "twilightforest:death_tome"
+				}
+			}
+			entries: [
+				{
+					item: {
+						id: "enigmaticlegacy:cursed_ring"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					buy: 5L
+				}
+				{
+					item: "eidolon:glass_hand"
+					buy: 100L
+				}
+			]
+		}
+		{
+			title: "Black Market"
+			icon: {
+				id: "losttrinkets:treasure_bag"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			entries: [
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "nerd"
+						}
+					}
+					buy: 250L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "a_trinket_"
+						}
+					}
+					buy: 400L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ordinary_items"
+						}
+					}
+					buy: 125L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "ars_nouveau"
+						}
+					}
+					buy: 100L
+				}
+				{
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "relics"
+						}
+					}
+					buy: 250L
+				}
+				{
+					item: "statues:slabfish"
+					buy: 10000L
+				}
+			]
+		}
+		{
+			title: "World of Magic"
+			icon: {
+				id: "eidolon:soulfire_wand"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			entries: [
+				{
+					item: "ars_nouveau:wilden_horn"
+					buy: 10L
+				}
+				{
+					item: "ars_nouveau:mana_jar"
+					buy: 25L
+				}
+				{
+					item: "ars_nouveau:mana_gem"
+					buy: 10L
+				}
+				{
+					item: "ars_nouveau:mana_condenser"
+					buy: 40L
+				}
+				{
+					item: "ars_nouveau:volcanic_accumulator"
+					buy: 40L
+				}
+				{
+					item: "ars_nouveau:alchemical_sourcelink"
+					buy: 40L
+				}
+				{
+					item: "ars_nouveau:vitalic_sourcelink"
+					buy: 40L
+				}
+				{
+					item: "ars_nouveau:mycelial_sourcelink"
+					buy: 40L
+				}
+				{
+					item: "ars_nouveau:ritual_flight"
+					buy: 65L
+				}
+				{
+					item: "botania:white_petal"
+					buy: 5L
+				}
+			]
+		}
+		{
+			title: "Engineer's Depot"
+			icon: "immersiveengineering:diesel_generator"
+			entries: [
+				{
+					item: "immersiveengineering:wirecoil_structure_rope"
+					buy: 10L
+				}
+				{
+					item: "immersiveengineering:breaker_switch"
+					buy: 40L
+				}
+				{
+					item: "immersiveengineering:armor_piercing"
+					buy: 15L
+				}
+				{
+					item: "immersiveengineering:homing"
+					buy: 25L
+				}
+				{
+					item: "thermal:fire_grenade"
+					buy: 30L
+				}
+				{
+					item: "thermal:ice_grenade"
+					buy: 30L
+				}
+				{
+					item: "thermal:lightning_grenade"
+					buy: 30L
+				}
+				{
+					item: "thermal:earth_grenade"
+					buy: 30L
+				}
+				{
+					item: "thermal:ender_grenade"
+					buy: 30L
+				}
+				{
+					item: "thermal:glowstone_grenade"
+					buy: 30L
+				}
+				{
+					item: "thermal:redstone_grenade"
+					buy: 25L
+				}
+				{
+					item: "thermal:slime_grenade"
+					buy: 30L
+				}
+				{
+					item: "create:empty_blaze_burner"
+					buy: 45L
+				}
+				{
+					item: "immersiveengineering:wirecoil_redstone"
+					buy: 20L
+				}
+				{
+					item: "create:white_sail"
+					buy: 15L
+				}
+				{
+					item: "create:hand_crank"
+					buy: 15L
+				}
+				{
+					item: "cyclic:gem_amber"
+					buy: 80L
+				}
+				{
+					item: "minecraft:comparator"
+					buy: 25L
+				}
+				{
+					item: "capsule:capsulemarker"
+					buy: 40L
+				}
+				{
+					item: "thermal:tinker_bench"
+					buy: 60L
+				}
+			]
+		}
+	]
+}

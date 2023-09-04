@@ -1,0 +1,1017 @@
+{
+	id: "45C09400ACDA35E6"
+	group: "0FD19FEC38E74BB8"
+	order_index: 1
+	filename: "the_twilight_forest"
+	title: "Twilight Forest"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Building the Portal"
+			icon: {
+				id: "twilightforest:twilight_portal_miniature_structure"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Enter the D\\&D world"
+			description: [
+				"{image:kubejs:textures/item/forestportal.png width:100 height:100 align:1}"
+				"Build this structure. Instead of leaves, you can use flowers or mushrooms."
+				""
+				"Then, toss in a diamond to activate the portal."
+			]
+			id: "44C386B08B4A53E4"
+			tasks: [{
+				id: "33A48C4E92978D3A"
+				type: "item"
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["I rushed this chapter so it would be done before Julian comes in town"]
+			id: "58A372F765B696B0"
+			tasks: [{
+				id: "48B502CD5AEF273F"
+				type: "checkmark"
+				title: "Twilight Forest"
+			}]
+		}
+		{
+			icon: {
+				id: "twilightforest:naga_trophy"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Hope it doesn't eat the world"
+			description: [
+				"Found in the Naga Courtyard. It drops its scales, which are crafting ingredients. Touching one of these scales lets you go to the Lich Tower."
+				""
+				"A serpentine beast that splits and begins moving faster when damaged more heavily."
+			]
+			dependencies: ["44C386B08B4A53E4"]
+			id: "14221BD6AA154A39"
+			tasks: [{
+				id: "15DC02375631979A"
+				type: "kill"
+				title: "The Naga"
+				entity: "twilightforest:naga"
+				value: 1L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			subtitle: "Joust!"
+			description: [
+				"Found atop the Lich Tower, a large spire made of stone bricks. Drops a variety of items, including one of its scepters. Has the ability to teleport, but will not leave its room unless the player does so first."
+				""
+				"The first phase of the fight involves the lich surrounding itself with shields, using its staff to shoot projectiels at you. The ender pearls that it shoots can be reflected, each one removing a shield."
+			]
+			dependencies: ["14221BD6AA154A39"]
+			id: "47930A95410D7922"
+			tasks: [{
+				id: "49538873B042DB1C"
+				type: "kill"
+				title: "Lich"
+				icon: {
+					id: "twilightforest:lich_trophy"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "twilightforest:lich"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1DFA66E3CB69F596"
+					type: "item"
+					item: {
+						id: "eidolon:soul_shard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "020B7F291708E15D"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:protection"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			title: "visit twilight swamp"
+			x: 5.0d
+			y: 2.0d
+			description: ["idk man"]
+			dependencies: ["47930A95410D7922"]
+			id: "44CE95B7DF263969"
+			tasks: [{
+				id: "1B6792E2AD129757"
+				type: "biome"
+				biome: "twilightforest:swamp"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			subtitle: "At least there's no Theseus."
+			description: ["He does damage and can charge at you."]
+			dependencies: ["44CE95B7DF263969"]
+			id: "7C524FDFC15D7B36"
+			tasks: [{
+				id: "115841D4772D5E2A"
+				type: "kill"
+				title: "Minoshroom"
+				icon: {
+					id: "twilightforest:minoshroom_trophy"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "twilightforest:minoshroom"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "442EE84C46647DE6"
+					type: "item"
+					item: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							Damage: 0
+							Enchantments: [
+								{
+									lvl: 10s
+									id: "minecraft:sharpness"
+								}
+								{
+									lvl: 1s
+									id: "enigmaticlegacy:nemesis_curse"
+								}
+							]
+							display: {
+								Name: "{\"text\":\"illegal axe\"}"
+							}
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7EEFC6055E81D772"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "6AB6CC944F630BF3"
+					type: "item"
+					item: {
+						id: "twilightforest:meef_stroganoff"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			icon: {
+				id: "twilightforest:hydra_trophy"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 2.5d
+			y: 6.5d
+			description: [
+				"Found in the Fire Swamp, you must eat meef stragonaff to fight it. Or however tf you spell it."
+				""
+				"Has a large pool of HP and does a lot of damage with its fire breath, bite, and explosion attacks."
+				""
+				"Go for the head. When a head dies, it's replaced by 2 more as per mythology."
+			]
+			dependencies: ["7C524FDFC15D7B36"]
+			id: "77ECC600F86AB2FD"
+			tasks: [
+				{
+					id: "3E26676FFB7E8049"
+					type: "kill"
+					title: "Hydra"
+					icon: {
+						id: "twilightforest:hydra_trophy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					entity: "twilightforest:hydra"
+					value: 1L
+				}
+				{
+					id: "1BE1F9D241C6F1BA"
+					type: "item"
+					item: {
+						id: "twilightforest:meef_stroganoff"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0C72812C188E4A61"
+					type: "item"
+					item: {
+						id: "minecraft:diamond"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 18
+				}
+				{
+					id: "6FDC7502ADE9DE73"
+					type: "item"
+					item: {
+						id: "atum:anput_godshard"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "darkwood forest"
+			x: 0.0d
+			y: 3.0d
+			description: ["The dense canopy makes it hard to see unless the Lich has been killed. Mixed with the dangerous mobs found within, make sure you come prepared."]
+			dependencies: ["47930A95410D7922"]
+			id: "6192953B542931CE"
+			tasks: [{
+				id: "649618124680134E"
+				type: "biome"
+				title: "Darkwood Foerst"
+				icon: {
+					id: "twilightforest:dark_log"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				biome: "twilightforest:dark_forest"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			dependencies: ["47930A95410D7922"]
+			id: "5C6DD691D40B3A26"
+			tasks: [{
+				id: "3AB1E2F89F6CFF71"
+				type: "item"
+				item: {
+					id: "twilightforest:twilight_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "34F62F504CB29BAB"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -1.5d
+			dependencies: ["47930A95410D7922"]
+			id: "5B374FB0CB69349F"
+			tasks: [{
+				id: "1C9390A7973D66BC"
+				type: "item"
+				item: {
+					id: "twilightforest:lifedrain_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "392FF15DEEF18589"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["47930A95410D7922"]
+			id: "40996C021C89A826"
+			tasks: [{
+				id: "3873AB6338FFDC1C"
+				type: "item"
+				item: {
+					id: "twilightforest:zombie_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "027AAC971C9F773F"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.5d
+			dependencies: ["47930A95410D7922"]
+			id: "021AABECA6F21634"
+			tasks: [{
+				id: "2A3B1C66739F2C87"
+				type: "item"
+				item: {
+					id: "twilightforest:shield_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5FA919A4EBE84DF1"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			dependencies: ["14221BD6AA154A39"]
+			id: "600F982F8DF46EBB"
+			tasks: [{
+				id: "59775F647BD34E5A"
+				type: "item"
+				item: {
+					id: "twilightforest:naga_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:fire_protection"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1C9855F33F64CC44"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "33000D14F1404FD8"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["14221BD6AA154A39"]
+			id: "62C4C5DAD317201A"
+			tasks: [{
+				id: "4BF5BAC80FD7D76B"
+				type: "item"
+				item: {
+					id: "twilightforest:naga_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							lvl: 3s
+							id: "minecraft:protection"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "58E3D9DE2067F085"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "16BCF2913A270AAE"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			dependencies: ["7C524FDFC15D7B36"]
+			id: "65B57BD1F3444B87"
+			tasks: [{
+				id: "7A76418612C63381"
+				type: "item"
+				item: {
+					id: "twilightforest:mazebreaker_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["7C524FDFC15D7B36"]
+			id: "644A9B9A6E85737A"
+			tasks: [{
+				id: "1BCCCD0E08952193"
+				type: "item"
+				item: {
+					id: "twilightforest:minotaur_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			description: ["Found in strongholds below dark forests in groups of 6. Here's the twist: 5 of them are clones. You must find the real Knight Phantom and kill it."]
+			dependencies: ["6192953B542931CE"]
+			id: "7FBCB3AE1A36875D"
+			tasks: [{
+				id: "3ADFE98E11E1D2F4"
+				type: "kill"
+				title: "Knight Phantom"
+				icon: {
+					id: "twilightforest:knight_phantom_trophy"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "twilightforest:knight_phantom"
+				value: 1L
+			}]
+			rewards: [{
+				id: "222D49092ADD0317"
+				type: "item"
+				item: {
+					id: "forestcraft:vita"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["7FBCB3AE1A36875D"]
+			id: "6F04DA67311C1112"
+			tasks: [{
+				id: "448494B2F0D375D3"
+				type: "item"
+				item: {
+					id: "twilightforest:phantom_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			dependencies: ["7FBCB3AE1A36875D"]
+			id: "1C925F3A7BC9CF67"
+			tasks: [{
+				id: "4894E8CE346C296A"
+				type: "item"
+				item: {
+					id: "twilightforest:phantom_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			description: ["Can be used to make fiery tools."]
+			dependencies: [
+				"77ECC600F86AB2FD"
+				"1761BDAF9ED699D2"
+			]
+			dependency_requirement: "one_completed"
+			id: "289D966712ED316F"
+			tasks: [{
+				id: "0A2AEB1FD4563432"
+				type: "item"
+				item: {
+					id: "twilightforest:fiery_blood"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			subtitle: "No I'm not!"
+			description: [
+				"Find the Dark Tower and climb to its peak, and you will challenge the Ur-ghast."
+				""
+				"Damage it with Ghast Traps (charged by killing ghastlings). Once charged, activate them with redstone to deal damage. You can also use ranged weapons."
+			]
+			dependencies: ["6192953B542931CE"]
+			id: "1761BDAF9ED699D2"
+			tasks: [{
+				id: "45F6DD26E7252011"
+				type: "kill"
+				title: "Urghast"
+				icon: {
+					id: "twilightforest:ur_ghast_trophy"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "twilightforest:ur_ghast"
+				value: 1L
+			}]
+			rewards: [{
+				id: "5488992B18A239CE"
+				type: "loot"
+				table_id: 6879408203518360977L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["1761BDAF9ED699D2"]
+			id: "7A8BAE428F232141"
+			tasks: [{
+				id: "6F29D6BB7CF9E1B4"
+				type: "item"
+				item: {
+					id: "twilightforest:carminite"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5601B385341D4372"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 2.0d
+			description: [
+				"Found in the Snowy Forest. He can launch ice at you and has minions who attack."
+				""
+				"If you hit it while it's using the ice attack, it'll switch to an attack that involves flailing while jumping."
+			]
+			dependencies: ["47930A95410D7922"]
+			id: "147DB00026488F60"
+			tasks: [{
+				id: "1EB146C26EA83751"
+				type: "kill"
+				title: "Alpha Yeti"
+				icon: {
+					id: "twilightforest:yeti_trophy"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "twilightforest:yeti_alpha"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0CAE7C89E19ECD64"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 13s
+							id: "tombstone:blessing"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.0d
+			description: ["The biome that houses the Snow Queen"]
+			dependencies: ["147DB00026488F60"]
+			id: "724EAD89A0744494"
+			tasks: [{
+				id: "2C70D36AB50B337B"
+				type: "biome"
+				title: "glacier"
+				icon: {
+					id: "cavesandcliffs:powder_snow_bucket"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				biome: "twilightforest:glacier"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			dependencies: ["147DB00026488F60"]
+			id: "6E4AE192FFC9A46C"
+			tasks: [{
+				id: "1E433E55E6828542"
+				type: "item"
+				item: {
+					id: "twilightforest:ice_bomb"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3F428CA9F10C61A4"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 2.5d
+			description: ["Craft yeti armor."]
+			dependencies: ["147DB00026488F60"]
+			id: "374705C82015F8E8"
+			tasks: [{
+				id: "262C8C8D441FF168"
+				type: "item"
+				item: {
+					id: "twilightforest:alpha_fur"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2042F58313FE2984"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.5d
+			dependencies: ["724EAD89A0744494"]
+			id: "13F2D613AA6E8DBD"
+			tasks: [{
+				id: "424FBE3DCA165CDE"
+				type: "kill"
+				title: "Snow Queen"
+				icon: {
+					id: "twilightforest:snow_queen_trophy"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "twilightforest:snow_queen"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "52CBB2FEC9454756"
+					type: "item"
+					item: {
+						id: "minecraft:blue_ice"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 10
+				}
+				{
+					id: "20551E0F01CD561E"
+					type: "item"
+					item: {
+						id: "scalinghealth:bandages"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 6
+				}
+				{
+					id: "67EF84A66A76FE96"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			dependencies: ["13F2D613AA6E8DBD"]
+			id: "1D091D8F6732D42F"
+			tasks: [{
+				id: "2D540334D60373CB"
+				type: "item"
+				item: {
+					id: "twilightforest:triple_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "73432015E9D2DDB3"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 7.0d
+			dependencies: ["13F2D613AA6E8DBD"]
+			id: "4AC4D3836065182A"
+			tasks: [{
+				id: "5751D665606E6A28"
+				type: "item"
+				item: {
+					id: "twilightforest:seeker_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D83F34A82427843"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			icon: {
+				id: "twilightforest:giant_cobblestone"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.5d
+			y: 7.5d
+			description: [
+				"Find the highlands biome."
+				""
+				"Just like how this mod isn't finished, this quest chapter isn't finished. L"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1761BDAF9ED699D2"
+				"77ECC600F86AB2FD"
+				"13F2D613AA6E8DBD"
+			]
+			id: "3AF30FEF3189E8CE"
+			tasks: [{
+				id: "7415405E3356A77E"
+				type: "biome"
+				title: "Acid Rain Cleared"
+				biome: "twilightforest:highlands"
+			}]
+		}
+	]
+}

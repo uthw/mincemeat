@@ -1,0 +1,1969 @@
+{
+	id: "1FC71781237AC246"
+	group: "0FD19FEC38E74BB8"
+	order_index: 0
+	filename: "atum"
+	title: "Atum"
+	icon: {
+		id: "atum:scarab"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Atum 2"
+			icon: "atum:scarab"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Return to the Sands"
+			description: [
+				"What once could have been a beautiful, flourishing civilization is now a desolate wasteland inhabited by bandits, barbarians and other ill-intentioned types in search of treasure."
+				""
+				"To start, make a Scarab. Note that you must defeat the Summoner or Conjurer to unlock the item."
+				""
+				"Now, create a 3x3 pool of water surrounded on all sides by sandstone with 2+ block pillars of sandstone in every corner. The ground under this structure must also be sandstone (5x5). You can use a schematicannon to build the portal."
+				""
+				"Then, drop the Scarab in the portal, Twilight Forest style."
+			]
+			dependencies: ["07F915C8F9F3C199"]
+			size: 2.0d
+			id: "06212B5E866EB36E"
+			tasks: [
+				{
+					id: "6DD65CF86989AF0B"
+					type: "item"
+					item: {
+						id: "atum:scarab"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0514C20F13AF1A56"
+					type: "advancement"
+					advancement: "atum:core/journeyintothesands"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "217FCA182C8A5211"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			subtitle: "Drink your ichor from its chalice"
+			description: [
+				"Nebu drops are the crystallized blood of gods."
+				""
+				"They are required in some crafting recipes, but most importantly Nebu Torches."
+			]
+			dependencies: ["011ED6D6620E08EF"]
+			id: "125DF6FD2A5F04B5"
+			tasks: [{
+				id: "38A6C3A9DBBE1119"
+				type: "item"
+				item: {
+					id: "atum:nebu_drop"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1F0A19D18B72F464"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			title: "Mineshaft"
+			x: 9.5d
+			y: -3.5d
+			description: ["Ancient mine defended by Stoneguards and Stonewardens"]
+			id: "594BCDAF479B137A"
+			tasks: [{
+				id: "2547FA3F5CB65ED8"
+				type: "structure"
+				icon: {
+					id: "atum:stoneguard_greatsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				structure: "atum:mineshaft"
+			}]
+			rewards: [{
+				id: "0A560F745D5A28F8"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			title: "Relic Collector"
+			icon: {
+				id: "atum:relic_dirty_bracelet"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -3.0d
+			y: -0.5d
+			subtitle: "Amass your collection"
+			description: [
+				"Covered in dirt and limestone from being buried so deep underground. You might be able to restore them to their former glory by dropping them in water?"
+				""
+				"Once cleaned, seek a village and give your relics to a Curator there. They will inspect it and give you some coins."
+				""
+				"In Atum, gold coins are the currency instead of emeralds, so you will use them to make trades with anyone who doesn't want to kill you."
+			]
+			dependencies: ["06212B5E866EB36E"]
+			id: "0816B55F8EDA5D59"
+			tasks: [
+				{
+					id: "5B27AC7AB884D71B"
+					type: "item"
+					item: {
+						id: "atum:relic_dirty_idol"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7A3D0C6BFC8C00DE"
+					type: "item"
+					item: {
+						id: "atum:relic_dirty_necklace"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1D06C859527D6799"
+					type: "item"
+					item: {
+						id: "atum:relic_dirty_ring"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2C51514F1C950F07"
+					type: "item"
+					item: {
+						id: "atum:relic_dirty_brooch"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "751272C6F42356EE"
+					type: "item"
+					item: {
+						id: "atum:relic_dirty_bracelet"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5EAC1EF686B39A91"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "296D5463BBFB5965"
+					type: "item"
+					item: {
+						id: "minecraft:totem_of_undying"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Kiln"
+			icon: {
+				id: "atum:kiln"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.0d
+			y: -3.5d
+			subtitle: "Heavy duty!"
+			description: [
+				"A furnace capable of smelting more than 1 stack of items at a time."
+				""
+				"You may ask, \"why not build a super smelter?\" Well, kilns are easy to set up and smelt blocks like stone more quickly."
+				""
+				"To set up a kiln, put 4 of the small limestone bricks in a 2x2. Then, put 2 kilns next to each other above the bricks and facing outside the cube. Then, complete the kiln by placing 2 small limestone bricks behind the kilns."
+				"{image:kubejs:textures/item/kiln.png width:115 height:100 align:1}"
+			]
+			id: "27293A7E5F8B7753"
+			tasks: [
+				{
+					id: "20C2119157DC4D04"
+					type: "item"
+					item: {
+						id: "atum:kiln"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "0A653FC5AB2AF456"
+					type: "item"
+					item: {
+						id: "atum:limestone_brick_small"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 6L
+				}
+			]
+			rewards: [
+				{
+					id: "1BD6D9C2545FD064"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "558A518F23890B19"
+					type: "item"
+					item: {
+						id: "minecraft:cobblestone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 128
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			description: ["While it may look worthless, you should still wash it just in case."]
+			dependencies: ["06212B5E866EB36E"]
+			id: "4206B7F3B3C7A6B5"
+			tasks: [{
+				id: "34864959A38B7F5A"
+				type: "item"
+				item: {
+					id: "atum:coin_dirty"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0083A1AC1424257A"
+					type: "item"
+					item: {
+						id: "minecraft:golden_carrot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "08D514EF5136CA85"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			title: "Nebu Torches"
+			x: 0.0d
+			y: -5.0d
+			subtitle: "Key to the pyramid"
+			dependencies: ["125DF6FD2A5F04B5"]
+			id: "002B05FB8187097F"
+			tasks: [{
+				id: "1B89FFFE3B5AB272"
+				type: "item"
+				item: {
+					id: "atum:nebu_torch"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 6L
+			}]
+			rewards: [{
+				id: "771EDA8C3A115DDF"
+				type: "item"
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			title: "Pyramid"
+			x: 0.0d
+			y: -6.5d
+			subtitle: "Not just a pressure plate and TNT"
+			description: [
+				"The tomb of a pharoah, riddled with traps..."
+				""
+				"To enter, find the Quandry blocks and the door on the exterior. Place two nebu torches on the quandry blocks."
+				""
+				"You will find burnt-out limestone torches, which you can light by interacting with them using a torch. There are traps everywhere, but fortunately they can be disabled by interacting with them while holding a pickaxe."
+			]
+			dependencies: ["002B05FB8187097F"]
+			id: "2685AF2EEFC3F10C"
+			tasks: [{
+				id: "3C7449CA3DF284D3"
+				type: "structure"
+				structure: "atum:pyramid"
+			}]
+			rewards: [{
+				id: "7FA975552CC6550A"
+				type: "item"
+				item: {
+					id: "minecraft:torch"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			icon: {
+				id: "atum:sarcophagus"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.5d
+			y: -6.5d
+			subtitle: "+ how to kill a pharaoh"
+			description: [
+				"Once you reach the pharoah's chamber, place nebu torches on the quandry blocks surrounding the sarcophagus. Interacting with the tomb will now summon the pharaoh, a formidable foe."
+				""
+				"Pharaohs are hostile immediately after spawning. They are quite simple with a projectile attack they spam most of the time and a melee attack. Also, they periodically summon mummies, who can be easily dispatched and sometimes even get killed by the pharaoh."
+				""
+				"Depending on the blessing the pharaoh has received, they will gain a power that normally causes unwanted effects when they hit you."
+				""
+				"On death, pharaohs drop an artifact of the god they were blessed by. The sarcophagus may also contain an artifact."
+				""
+				"This goes without saying, but you need a shield or something like a parrying dagger. The pharaoh's projectiles are fired so quickly you should never let your guard down."
+			]
+			dependencies: ["2685AF2EEFC3F10C"]
+			id: "3A089772FA4847C2"
+			tasks: [{
+				id: "26347050CAB5F5BF"
+				type: "observation"
+				title: "Sarcophagus"
+				icon: {
+					id: "atum:sarcophagus"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "atum:sarcophagus"
+			}]
+			rewards: [
+				{
+					id: "72CC8EDA7EC86912"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+				{
+					id: "5ACA226084379E3E"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_healing"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Kingslayer"
+			icon: {
+				id: "forestcraft:ancient_golden_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: -6.5d
+			subtitle: "Kill a pharaoh"
+			description: [
+				"Killing a pharaoh unlocks the recipe for the Netherite Lighter, which is required to enter the Nether."
+				""
+				"You get a guaranteed artifact from killing a pharaoh. Artifacts can be found in other places throughout Atum, such as relic ore, but are extremely rare."
+			]
+			dependencies: ["3A089772FA4847C2"]
+			id: "4861924B53D075CB"
+			tasks: [{
+				id: "0064F8FED6CE65AC"
+				type: "advancement"
+				advancement: "atum:core/kingslayer"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3E22725AD2CF7EA0"
+					type: "gamestage"
+					title: "Nether"
+					auto: "invisible"
+					stage: "three"
+				}
+				{
+					id: "1EAE09F9A0524665"
+					type: "item"
+					item: {
+						id: "paraglider:heart_container"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2E0B1BC47F688A2A"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			subtitle: "This thing still has value?"
+			description: ["Golden coins can be traded in exchange for items in Atum's villages."]
+			dependencies: ["4206B7F3B3C7A6B5"]
+			id: "2D6E6F1BCD47B01A"
+			tasks: [{
+				id: "5FC9C6F3D4E8B473"
+				type: "item"
+				item: {
+					id: "atum:coin_gold"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E06DCD2C7AE7680"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.5d
+			id: "38AF9FF4438A85E4"
+			tasks: [{
+				id: "0FF8B4549E9ED7AB"
+				type: "item"
+				item: {
+					id: "atum:anputs_grounding"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "02999F0C291AFADB"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 6.5d
+			id: "4583CAFDED0B9F6D"
+			tasks: [{
+				id: "00D20C740F4364B3"
+				type: "item"
+				item: {
+					id: "atum:anputs_hunger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2BCFDAB32F510133"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			id: "748757895DACF537"
+			tasks: [{
+				id: "071D714259ADC412"
+				type: "item"
+				item: {
+					id: "atum:anubis_wrath"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "494882C7E42AD53C"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			id: "2EEF35C70A046E89"
+			tasks: [{
+				id: "2258E67D0BF58EC5"
+				type: "item"
+				item: {
+					id: "atum:eyes_of_atem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "36F5D197A21873B8"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "63AF8DD00902F5EF"
+			tasks: [{
+				id: "4A7D05948CD91F3A"
+				type: "item"
+				item: {
+					id: "atum:body_of_atem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5288A0E4FCAB20BC"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			id: "31B149C30740E53A"
+			tasks: [{
+				id: "302E485A64CED10A"
+				type: "item"
+				item: {
+					id: "atum:legs_of_atem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "347AE5DF114B242E"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			id: "6F9AAE6F0591245F"
+			tasks: [{
+				id: "26F4F5066A28580B"
+				type: "item"
+				item: {
+					id: "atum:feet_of_atem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "215EFADED53D0887"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			id: "667EDBF29A99E6BB"
+			tasks: [{
+				id: "013D05E111BCEC91"
+				type: "item"
+				item: {
+					id: "atum:atems_bounty"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CACE76D103A6737"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			id: "4C639744ACDFE970"
+			tasks: [{
+				id: "68DD5FB66EF07F68"
+				type: "item"
+				item: {
+					id: "atum:atems_homecoming"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "63141D7C634DFA9E"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			id: "714A2CBF84B59C37"
+			tasks: [{
+				id: "7BD482F8F3C8B18C"
+				type: "item"
+				item: {
+					id: "atum:atems_protection"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F2B07043BFF2009"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			id: "386FE15F27A9F386"
+			tasks: [{
+				id: "221FA3B4F2900BAE"
+				type: "item"
+				item: {
+					id: "atum:atems_will"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6AD6D2C03A5FB59C"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.0d
+			id: "3A0733B3A97B831C"
+			tasks: [{
+				id: "6373D436F893B167"
+				type: "item"
+				item: {
+					id: "atum:gebs_might"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5489DEE7C866BFD5"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			id: "4FF0F818555358EC"
+			tasks: [{
+				id: "18EFAE7BEC8F8C3A"
+				type: "item"
+				item: {
+					id: "atum:gebs_toil"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4E64BF4A8A7EF0B0"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 1.0d
+			id: "2F7E167A6BC91E3A"
+			tasks: [{
+				id: "05A957A540DF55B4"
+				type: "item"
+				item: {
+					id: "atum:gebs_undoing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "523CB9B08F5F8FDB"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			id: "4511DD8D3C7DDE46"
+			tasks: [{
+				id: "6ECDFE723FD54CE2"
+				type: "item"
+				item: {
+					id: "atum:horus_ascension"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C8507E0B7004A14"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			id: "4A92A3D42CB3B53F"
+			tasks: [{
+				id: "66DA1E2DA6121D62"
+				type: "item"
+				item: {
+					id: "atum:horus_soaring"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4838121705CDCF3E"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.5d
+			id: "2A13ABF1B50853B3"
+			tasks: [{
+				id: "1E385469A059E979"
+				type: "item"
+				item: {
+					id: "atum:isis_division"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "640E254F46A75D87"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.5d
+			id: "563B72494F66DE12"
+			tasks: [{
+				id: "646E1FCB93508B81"
+				type: "item"
+				item: {
+					id: "atum:isis_healing"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "660119AE7B9E6BE6"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.5d
+			id: "7AAD8C84D6AAB970"
+			tasks: [{
+				id: "142F1521288BD14D"
+				type: "item"
+				item: {
+					id: "atum:montus_blast"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "71764252DFBAC719"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			id: "7117124F9CC0A82D"
+			tasks: [{
+				id: "2CA3863AE04876B4"
+				type: "item"
+				item: {
+					id: "atum:montus_strike"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4C7E6346EE5B8E38"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.5d
+			id: "3EE30D133109A754"
+			tasks: [{
+				id: "168AA53E14B04555"
+				type: "item"
+				item: {
+					id: "atum:nepthys_banishing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "77D653C3528911CE"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.5d
+			id: "41E53183BF576979"
+			tasks: [{
+				id: "1E18A4F656DA851E"
+				type: "item"
+				item: {
+					id: "atum:nepthys_guard"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "14FADC4DCF8CE4AB"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			id: "7CC05A8D7700DBAD"
+			tasks: [{
+				id: "69CE499BC0B3F9A8"
+				type: "item"
+				item: {
+					id: "atum:nuits_ire"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "260A9F4DCAAF86A6"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			id: "236F604E723776A8"
+			tasks: [{
+				id: "435A2E1CBAA2DDB7"
+				type: "item"
+				item: {
+					id: "atum:nuits_quarter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FB680D775E7DB64"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.0d
+			id: "641292F8DDA91202"
+			tasks: [{
+				id: "16AA5E77D812ECE9"
+				type: "item"
+				item: {
+					id: "atum:nuits_vanishing"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "315A13A04E9F5D2E"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.0d
+			id: "14E6D98CFFB2CDE5"
+			tasks: [{
+				id: "59D30C2C23C58322"
+				type: "item"
+				item: {
+					id: "atum:osiris_blessing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "67882C26B52362FA"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			id: "5F22FFBFF903D001"
+			tasks: [{
+				id: "13F19F9E20508128"
+				type: "item"
+				item: {
+					id: "atum:osiris_mercy"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "265FF07085FA2CD4"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.5d
+			id: "174AFDCD0B62924F"
+			tasks: [{
+				id: "43253ABDABD00E2B"
+				type: "item"
+				item: {
+					id: "atum:ptahs_decadence"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "51C32181A352FD10"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			id: "1E0B69E761A95460"
+			tasks: [{
+				id: "375C0F7EA40565C5"
+				type: "item"
+				item: {
+					id: "atum:halo_of_ra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "36276DD255B90910"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			id: "75546AEEB0DF5429"
+			tasks: [{
+				id: "3859833E5A4267C9"
+				type: "item"
+				item: {
+					id: "atum:body_of_ra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "29463E543567BB71"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			id: "4503BA66BEAAB0BD"
+			tasks: [{
+				id: "642F530DDEB0915C"
+				type: "item"
+				item: {
+					id: "atum:legs_of_ra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C98C3F3FA3A8E8F"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			id: "20F4B05C6426E377"
+			tasks: [{
+				id: "38F0B0554878FEB7"
+				type: "item"
+				item: {
+					id: "atum:feet_of_ra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0B93C2F4AA180814"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			id: "2FBD7B5449643DE8"
+			tasks: [{
+				id: "03EEC228885AF57A"
+				type: "item"
+				item: {
+					id: "atum:ras_fury"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "228810BE48CDC882"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			id: "24C5B617F0BB004B"
+			tasks: [{
+				id: "6A3B2D8D85B9E09F"
+				type: "item"
+				item: {
+					id: "atum:ras_step"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F82F85CE4D8FB4A"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 3.5d
+			id: "118B9EE9624C46AC"
+			tasks: [{
+				id: "783C09436A900375"
+				type: "item"
+				item: {
+					id: "atum:seths_sting"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6113165834C25CE8"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.5d
+			id: "75212C7A0FF89B4F"
+			tasks: [{
+				id: "5F6DD944D0858C45"
+				type: "item"
+				item: {
+					id: "atum:seths_venom"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E826C515A90B1EA"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.0d
+			id: "202BE882A8B9CC47"
+			tasks: [{
+				id: "1B6DC2366B0DBB41"
+				type: "item"
+				item: {
+					id: "atum:shus_breath"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "469AAF95A93E742D"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.0d
+			id: "10F398FC4D510129"
+			tasks: [{
+				id: "0BED9A57F6C4D651"
+				type: "item"
+				item: {
+					id: "atum:shus_exile"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "49AF245328BDC371"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.0d
+			id: "5F2D99A6A716E375"
+			tasks: [{
+				id: "07E2A1CBBFC41400"
+				type: "item"
+				item: {
+					id: "atum:shus_swiftness"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7645DD904E24D8E9"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 3.5d
+			id: "34989BFE48B489EA"
+			tasks: [{
+				id: "4FD67F3D6BE2EEA9"
+				type: "item"
+				item: {
+					id: "atum:tefnuts_call"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D1845CA8BCAB574"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.5d
+			id: "46AA322F82B637EA"
+			tasks: [{
+				id: "18AF629AA6DE7A26"
+				type: "item"
+				item: {
+					id: "atum:tefnuts_rain"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4CDE642DD04CA464"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Please play Hades"
+			description: [
+				"Obtained by smelting nebu ore in any furnace."
+				""
+				"This material aids in the creation of artifacts. Follow the quest line to the right and you will be guided through making one for free."
+			]
+			dependencies: ["06212B5E866EB36E"]
+			id: "011ED6D6620E08EF"
+			tasks: [{
+				id: "0A07FBD6FD134393"
+				type: "item"
+				item: {
+					id: "atum:nebu_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6845D276F5922EE8"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			icon: {
+				id: "atum:godforge"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 1.5d
+			y: -2.0d
+			subtitle: "A plasma-latticed nanoforge"
+			description: [
+				"Coating a furnace in the blood of gods yields the godforge, a device that can break artifacts down into their pure essence."
+				""
+				"You most likely don't have any artifacts yet, so I will give you 3 shards for free. In the crafting grid, combine 6 nebu ingots and 3 godshards as if you were making a bookshelf."
+			]
+			dependencies: ["011ED6D6620E08EF"]
+			id: "59C58A700C794235"
+			tasks: [
+				{
+					id: "6C5EF953E55029B5"
+					type: "item"
+					item: {
+						id: "atum:godforge"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5E636BB16E4D11DD"
+					type: "item"
+					item: {
+						id: "atum:nebu_hammer"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "54DCE5A69C7F0BC1"
+				type: "item"
+				item: {
+					id: "atum:atem_godshard"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			subtitle: "Artifact lootbox"
+			description: [
+				"When broken with a nebu hammer, the Godforged Block (make sure it doesn't have the name of a god) drops a random artifact from any god."
+				""
+				"All artifacts have unique effects, and they come in all forms from armor to tridents to hoes."
+				""
+				"If you aren't happy with what you got, put your artifact in the Godforge as input and lava bucket as fuel and watch it turn into 4 godshards."
+				""
+				"Then, craft a godforged block again. Theoretically you could repeat this until you get the artifact you want, but that would take hours of mining."
+				""
+				"You can create a godforged block specific to a god by combining 5 nebu ingots with 4 godshards on the crafting grid like you're making TNT. This block can only drop items blessed by a specific god."
+			]
+			dependencies: ["59C58A700C794235"]
+			id: "0E4CC2BC4E5C0AD3"
+			tasks: [{
+				id: "4359463564991471"
+				type: "item"
+				item: {
+					id: "atum:godforged_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D3FBC09BE6765A5"
+				type: "random"
+				title: "Level up!"
+				table_id: 6879408203518360977L
+			}]
+		}
+		{
+			title: "Godshard Torches"
+			x: 3.0d
+			y: -3.5d
+			subtitle: "Pls no dupe :("
+			description: [
+				"You can choose to summon pharaohs using godshard torches (a godshard surrounded by 4 nebu torches on crafting table)."
+				""
+				"If you do this, the pharaoh will have a blessing matching the torches you used."
+			]
+			dependencies: ["0E4CC2BC4E5C0AD3"]
+			id: "20B232442E7560A3"
+			tasks: [{
+				id: "094E5C7CAE043A2E"
+				type: "item"
+				item: {
+					id: "atum:torch_of_atem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -5.0d
+			subtitle: "You spin me right round"
+			description: ["A device that spins the input, usually creating some sort of string or linen."]
+			id: "6009C93D71ABDFD4"
+			tasks: [{
+				id: "2B5D870D1C019385"
+				type: "item"
+				item: {
+					id: "atum:spinning_wheel"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "45AC15E9070FCDC5"
+					type: "item"
+					item: {
+						id: "atum:flax"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 20
+				}
+				{
+					id: "62F70A011CFF8E62"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -5.0d
+			subtitle: "Is it useful?"
+			description: ["Insert a flower and watch it turn into dye."]
+			id: "697E79AD03464A91"
+			tasks: [{
+				id: "13E868D054128902"
+				type: "item"
+				item: {
+					id: "atum:quern"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57D7D6AB4A22B309"
+					type: "item"
+					item: {
+						id: "minecraft:poppy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0E4BBA203CE5D27C"
+					type: "item"
+					item: {
+						id: "atum:date"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "2CDBE92D172C5131"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			subtitle: "It's july 28, 2023"
+			description: ["Found on palm trees and sometimes in chests."]
+			id: "7A9FF62040057F2F"
+			tasks: [{
+				id: "6F3A35D796DB74A5"
+				type: "item"
+				item: {
+					id: "atum:date"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D4620E58F15CE64"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			subtitle: "Lucky you!"
+			dependencies: ["7A9FF62040057F2F"]
+			id: "78C5CD294BC9CA07"
+			tasks: [{
+				id: "32D78E53211EEBDE"
+				type: "item"
+				item: {
+					id: "atum:golden_date"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6171EBB886187FBD"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["78C5CD294BC9CA07"]
+			id: "3AA6BB96F51D3CB3"
+			tasks: [{
+				id: "157442E766F19E7A"
+				type: "item"
+				item: {
+					id: "atum:golden_date_enchanted"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5EC3DFDDBE0428F8"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			title: "Gatehouse"
+			x: 11.0d
+			y: -3.5d
+			description: ["A resting station for Barbarians full of not-so-useful loot."]
+			id: "32CEE238414ACD32"
+			tasks: [{
+				id: "3E6AA58895CCD954"
+				type: "structure"
+				icon: {
+					id: "atum:limestone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				structure: "atum:gatehouse"
+			}]
+			rewards: [{
+				id: "153AC2C6C0879836"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+	]
+}

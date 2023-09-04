@@ -1,0 +1,230 @@
+{
+	id: "493E3C459DEFDA1D"
+	group: "0A93ADDC025C8C14"
+	order_index: 4
+	filename: "examples_of_automation"
+	title: "Examples of Automation (WIP)"
+	icon: "immersiveengineering:conveyor_basic"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Easy Wood Farm"
+			icon: "minecraft:oak_sapling"
+			x: -1.5d
+			y: -1.0d
+			subtitle: "Cyclic"
+			description: [
+				"Here is a way of getting wood early game without much trouble at all. Using the forester and item collector from Cyclic, we can make a tree farm. (in the screenshot below, you obviously would use a different source of power from a creative generator)"
+				"{image:kubejs:textures/item/treefarm.png width:1000 height:600 align:1 fit:true}"
+				"Make sure you show the preview in the Cyclic machines to make sure the collector is able to collect the wood. You might also consider being smarter than I was and building a ceiling/walls so the leaves don't get out of hand."
+				""
+				"The forester requires RF to place down and harvest saplings. Of course, we can do that manually, but if we want to go full Nomifactory, it's necessary to have a slightly more complex setup."
+			]
+			dependencies: ["5FA0EB7B4C7E1BFD"]
+			id: "1968ADA769D4DF54"
+			tasks: [
+				{
+					id: "1E1C2B28C6A7FEFF"
+					type: "item"
+					item: "cyclic:collector"
+				}
+				{
+					id: "070FD35C57C02E3B"
+					type: "item"
+					item: "cyclic:forester"
+				}
+				{
+					id: "1E2A195EE5811F8A"
+					type: "item"
+					title: "Any #minecraft:saplings"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:saplings"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Fully Autonomous!"
+			icon: "mysticalagriculture:wood_essence"
+			x: -3.0d
+			y: -1.0d
+			subtitle: "Create, Cyclic, Thermal"
+			description: [
+				"Here is the method I used of completely removing all user input from the processes of the farm:"
+				"{image:kubejs:textures/item/farm2.png width:1000 height:600 align:1 fit:true}"
+				"In retrospect using pipes is much easier, but I will still explain how my contraption works. We transport items using conveyor belts, making them take right turns with a combo of gearshifts, belt funnels, and inventories."
+				""
+				"The only items that can leave the collector to the right are saplings, while to the left it's only sticks and logs. This is done using Create's filter item."
+				""
+				"Saplings will take a trip around the plot to the forester, where they will be inserted once there is free space."
+				"Because we don't need sticks, they are sent out of the barrel on the left and into a nullifier from Thermal."
+				""
+				"Logs are also sent out of that same barrel, but on a different path. Over there, the logs are eventually brought to a Stirling Dynamo, which is powering the forester. This creates a queue of sorts: when a log is burnt by the dynamo, a new one from the belt enters. This ensures power is being used efficiently with no clogs."
+				""
+				"* In the screenshot I forgot to add a funnel that allows the saplings to enter the forester."
+			]
+			dependencies: ["1968ADA769D4DF54"]
+			id: "128B7E71D6CCD811"
+			tasks: [{
+				id: "348071C5F1CC7840"
+				type: "checkmark"
+				title: "Automated!"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			subtitle: "Not an expert pack, after all"
+			description: [
+				"This chapter shows some examples of how to automate various things in the modpack. Use this if you need ideas of what to do, or want a solution to a problem. Maybe you can also use these concepts and apply them to other things."
+				""
+				"You absolutely don't have to use this chapter at all if you prefer solving your own problems."
+			]
+			id: "5FA0EB7B4C7E1BFD"
+			tasks: [{
+				id: "22AC8366DFEEC80E"
+				type: "checkmark"
+				title: "What is this?!"
+			}]
+		}
+		{
+			title: "Automatic Aura"
+			icon: "naturesaura:oak_generator"
+			x: -1.5d
+			y: 0.5d
+			subtitle: "Nature's Aura"
+			description: [
+				"The Canopy Diminisher prevents oak saplings from growing into their large variants, and generates aura whenever it does so. This can be easily automated."
+				""
+				"The imperceptible builder places tries to place things on blocks near it. We can tell it what to place on by putting an item frame on it. This allows a setup such as below:"
+				"{image:kubejs:textures/item/autoaura.png width:567 height:478 align:1 fit:true}"
+			]
+			dependencies: ["5FA0EB7B4C7E1BFD"]
+			id: "0791473E5C9968A3"
+			tasks: [
+				{
+					id: "52945E49AA56C1F7"
+					type: "item"
+					item: "naturesaura:oak_generator"
+				}
+				{
+					id: "1552B7A7BDFDBE9F"
+					type: "item"
+					item: "naturesaura:placer"
+				}
+				{
+					id: "757629B374F36AC8"
+					type: "item"
+					title: "Any #forge:chests"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:chests"
+						}
+					}
+				}
+				{
+					id: "2EA544B201B0800B"
+					type: "item"
+					item: "minecraft:item_frame"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			description: [
+				"Now, we need a way of cutting down the trees that grow, as well as re-inserting saplings into the inventory above the builder."
+				""
+				"Here are a few ideas for cutting down trees:"
+				"- Forester (Cyclic) (needs energy)"
+				"- Small Tree Cutter (Immersive Decor) (does not need energy)"
+				"- Harvest Drone (PneumaticCraft) (needs energy)"
+				""
+				"Assuming you're not using the harvest drone (place it on a chest to bind it), the best way of collecting items is the Item Collector from Cyclic, since it's easy to use and doesn't need energy."
+				""
+				"For more ways of generating aura, the Enigmatica devs made a tutorial for it that mostly appllies to this modpack too: https://wiki.enigmatica.net/enigmatica6/gameplay/how-to.../natures-aura-aura-generation"
+			]
+			dependencies: ["0791473E5C9968A3"]
+			id: "6F6AA6EA027077D0"
+			tasks: [{
+				id: "3E90EF5EA15EE781"
+				type: "checkmark"
+				title: "Cutting Down the Trees"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			id: "0417523EA4A213B3"
+			tasks: [{
+				id: "4B841F6745E01952"
+				type: "checkmark"
+				title: "Automate Food"
+			}]
+			rewards: [{
+				id: "08EA343607F84668"
+				type: "item"
+				item: "culturaldelights:elote"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			subtitle: "I haven't quite gotten around to most of blood magic in this pack yet, while you're waiting have this reddit comment I found (check off to show)"
+			description: [
+				"You can pipe into the blood altar. It's extremely slow, and kind of not necessary unless the pack specifically uses life essence for things outside blood magic. Upgrading the altar itself with capacity and augmented capacity runes is usually more than sufficient for storage."
+				""
+				"Automating demonic will is usually done with a pair of rituals. I'm not sure on the names, I think it's crack of the faceted crystal and resonance of the fractured crystal. You would need to make crystallizers and crucibles, and something to collect the crystals. I usually use the routing nodes because it's wireless so you don't have to maneuver around the ritual structure."
+				""
+				"Automating altar crafting is pretty easy if you have stuff that can control the quantity of items being placed into the altar. The altar will craft the entire quantity of whatever is put into it in one go, so if you put a whole stack of stone, it will try to make a stack of slates. This becomes an issue if your LP generation and internal storage isn't extremely high. By only putting one stone in at a time, it will make one slate, then you pipe that out, another goes in, and it makes one slate."
+			]
+			hide_text_until_complete: true
+			id: "169173E0E626A2A0"
+			tasks: [{
+				id: "043A7E548B02F4F9"
+				type: "checkmark"
+				title: "Automate Blood Magic"
+			}]
+		}
+		{
+			title: "Automate Coal"
+			icon: "minecraft:coal"
+			x: -3.0d
+			y: -2.5d
+			description: [
+				"With energy, you may think you can leave your typical furnace fuels behind. But did you consider you sometimes need coal to make energy?"
+				""
+				"First, it must be brought up that charcoal is far easier to automate, since you can just feed some of the wood from a tree farm into a furnace."
+				""
+			]
+			id: "550383086758381F"
+			tasks: [{
+				id: "5E6ABF5F51714617"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			subtitle: "wip"
+			description: [
+				"A well-known trick for automating mana production in a unique way is with Kekimurus and Enhanced Celestial Collectors. It uses the property of pumpkins becoming cake when starlight shines on them, and can then turn into mana by the flower."
+				""
+				"First, set up your collector crystals. Have them shine light on a pumpkin stem that is filtered by a growth lens (this speeds up their growth)."
+			]
+			id: "146DBB0ACD7233A4"
+			tasks: [{
+				id: "26753CEA9E58ECE1"
+				type: "checkmark"
+				title: "Automate Botania - Kekimurus"
+			}]
+		}
+	]
+}

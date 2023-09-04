@@ -1,0 +1,3187 @@
+{
+	id: "79517EDF7AF582FB"
+	group: "0FD19FEC38E74BB8"
+	order_index: 3
+	filename: "normal_creatures"
+	title: "Ordinary Creatures"
+	icon: "statues:pig_statue"
+	disable_toast: true
+	subtitle: ["Alex's Mobs"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -3.5d
+			y: -1.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "create:textures/item/tree_fertilizer.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "forestcraft:textures/block/regrass.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			width: 4.0d
+			height: 4.0d
+			rotation: 0.0d
+			image: "minecraft:textures/environment/snow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.5d
+			y: 3.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/bubble_coral_fan.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "aquaculture:textures/item/goldfish.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "byg:textures/block/plant_lilypad.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "twilightforest:textures/block/huge_lilypad.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.0d
+			y: -3.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chimes:textures/particle/leaf.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chimes:textures/particle/leaf3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chimes:textures/particle/leaf2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "tumbleweed:textures/entity/tumbleweed.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/cactus_side.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "terraincognita:textures/block/cactus_flower.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "cavesandcliffs:textures/block/pointed_dripstone_down_base.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: 7.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "cavesandcliffs:textures/block/pointed_dripstone_down_frustum.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: 8.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "cavesandcliffs:textures/block/pointed_dripstone_down_tip.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.5d
+			y: 7.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "betterendforge:textures/block/chorus_grass_02.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -9.0d
+			y: 8.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/chorus_flower.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "farmersdelight:textures/block/brown_mushroom_colony_stage3.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/block/nether_wart_stage2.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -8.5d
+			y: 2.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "netherdepthsupgrade:textures/item/warped_seagrass.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Deer"
+			x: -6.0d
+			y: 1.0d
+			subtitle: "Mom, I know I let you down"
+			id: "57A279C46BD030A2"
+			tasks: [{
+				id: "0ED245CFC8752FBD"
+				type: "observation"
+				icon: {
+					id: "alexsmobs:moose_antler"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "environmental:deer"
+			}]
+			rewards: [
+				{
+					id: "0500DD126EABBA38"
+					type: "item"
+					item: {
+						id: "minecraft:iron_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 6
+				}
+				{
+					id: "29E044F69E44AA4C"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			title: "Nautilus"
+			x: 1.5d
+			y: 4.0d
+			subtitle: "When will it be 79?"
+			id: "1144180201A60767"
+			tasks: [{
+				id: "70A460B43B95F022"
+				type: "item"
+				item: {
+					id: "upgrade_aquatic:nautilus_bucket"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "58543CCEF6EB9CAF"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -0.5d
+			subtitle: "Sting like a butterfly"
+			id: "29C02F9E555E4325"
+			tasks: [{
+				id: "4F2614F1560279FE"
+				type: "item"
+				item: {
+					id: "terraincognita:bottled_butterfly"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5A255B2E267C21E7"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			title: "Jellyfish Catcher"
+			x: 0.0d
+			y: 5.5d
+			shape: "rsquare"
+			subtitle: "Favorite pasttime of Bikini Bottom"
+			description: ["Toxic jellies with dangerous venom. They don't actively hunt players."]
+			id: "7E6F1E669C8590DF"
+			tasks: [{
+				id: "76D1CC4ED677EA5D"
+				type: "item"
+				item: {
+					id: "aquaculture:jellyfish_bucket"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C50A363D3194E75"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 2.0d
+			y: -3.75d
+			shape: "hexagon"
+			description: [
+				"Guide to the animals added by Alex's Mobs. For detailed descriptions, please consult the dictionary."
+				""
+				"The 3d models of the mobs from Alex's Mobs are actually the hidden creative tab item. The NBT tag that lets them be static is from the RAD 2 \"Hostile World\" quest chapter. Play that modpack!"
+				""
+				"The source of information related to Alex's Mobs is the unofficial wiki. Thank you to the Alex's Mobs wiki editors (Sooshi Guy, Vollidiot3000, SavyCadogan, and RacingBulletTag) for your hard work!"
+			]
+			size: 1.5d
+			id: "504E9D3C134EAD3A"
+			tasks: [{
+				id: "510CB93B9332753E"
+				type: "item"
+				item: {
+					id: "alexsmobs:animal_dictionary"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Blobfish"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:blobfish"
+				}
+			}
+			x: 1.5d
+			y: 5.5d
+			subtitle: "Has a funny face"
+			description: ["Gelatinous fish found deep below the surface of the ocean. While they normally suffocate on land, coating them in slime allows them to stay there infinitely."]
+			id: "4ADC083229035C40"
+			tasks: [{
+				id: "1D66BDACCE46CFCE"
+				type: "observation"
+				icon: {
+					id: "alexsmobs:spawn_egg_blobfish"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:blobfish"
+			}]
+			rewards: [{
+				id: "48096E1FAA22B022"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			shape: "rsquare"
+			subtitle: "Cover yourself in oil"
+			description: ["Allows its drinker to float on water, as well as being used to tame eagles."]
+			dependencies: ["4ADC083229035C40"]
+			id: "3CE63D27933D8AE4"
+			tasks: [{
+				id: "2CD3225DB305C9A1"
+				type: "item"
+				item: {
+					id: "alexsmobs:fish_oil"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "617420580C6DCA95"
+					type: "item"
+					item: {
+						id: "alexsmobs:fish_oil"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "09D4CFA8164DF023"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:cockroach"
+				}
+			}
+			x: 1.5d
+			y: 8.5d
+			subtitle: "Nuclear war champion"
+			description: ["Large insects who live underground."]
+			id: "485C5F69DED25C21"
+			tasks: [{
+				id: "024218C3C0A2FDF6"
+				type: "observation"
+				title: "Cockroach"
+				icon: {
+					id: "alexsmobs:spawn_egg_cockroach"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:cockroach"
+			}]
+			rewards: [{
+				id: "46BFE6A0A9DC1606"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 10.0d
+			shape: "rsquare"
+			description: ["Gives its drinker a status effect that makes all arthopods hostile towards them."]
+			dependencies: ["485C5F69DED25C21"]
+			id: "6871209975BF310F"
+			tasks: [{
+				id: "199665F69664B76D"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:bug_pheromones"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0420F880445D0DA0"
+				type: "item"
+				item: {
+					id: "minecraft:golden_apple"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:crow"
+				}
+			}
+			x: 2.5d
+			y: 2.5d
+			subtitle: "Delicious pancakes?"
+			description: [
+				"Intelligent birds who try to steal crops. Can be tamed by throwing enough pumpkin seeds at them."
+				""
+				"They are afraid of carved pumpkins, so putting them in your farms scares them away. That's why they're called scarecrows."
+			]
+			id: "120AA32518CBBE10"
+			tasks: [{
+				id: "45885BCFB8C461E8"
+				type: "observation"
+				title: "Crow"
+				icon: {
+					id: "alexsmobs:spawn_egg_crow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:crow"
+			}]
+			rewards: [{
+				id: "242692E529FCE366"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:endergrade"
+				}
+			}
+			x: -7.5d
+			y: 8.0d
+			description: [
+				"Harmless creatures capable of flight who are found in the End."
+				""
+				"Can be tamed using a saddle. You need a chorus fruit on a stick in order to control it."
+			]
+			id: "5CAB8650497D31C3"
+			tasks: [{
+				id: "03E01C3B35968983"
+				type: "observation"
+				title: "Endergrade"
+				icon: {
+					id: "alexsmobs:spawn_egg_endergrade"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "alexsmobs:endergrade"
+			}]
+			rewards: [{
+				id: "5076B92D0F00C6A3"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:fly"
+				}
+			}
+			x: -1.5d
+			y: 4.0d
+			subtitle: "A contaminant!"
+			description: ["Passive mobs who feed on the undead. Spawns almost everywhere in the overworld."]
+			id: "13734115FC2A440E"
+			tasks: [{
+				id: "2E35EA68AECA3D07"
+				type: "observation"
+				title: "Fly"
+				icon: {
+					id: "alexsmobs:spawn_egg_fly"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:fly"
+			}]
+			rewards: [{
+				id: "2EE3179065EC75D8"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			title: "Gazelle"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:gazelle"
+				}
+			}
+			x: -3.0d
+			y: -3.5d
+			description: ["Gazelles are mammals who live in savannas. When one is attacked, the entire herd normally runs away."]
+			id: "2B015BB165ADE187"
+			tasks: [{
+				id: "06A043E39DE92776"
+				type: "observation"
+				icon: {
+					id: "alexsmobs:gazelle_horn"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:gazelle"
+			}]
+			rewards: [{
+				id: "64898840E72D45F7"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:hummingbird"
+				}
+			}
+			x: -7.5d
+			y: 1.0d
+			subtitle: "Wings of fury"
+			description: ["Birds with small wings who can pollinate flowers. "]
+			id: "41C4D1996B81CB20"
+			tasks: [{
+				id: "5A90B58C8C1BE9C0"
+				type: "observation"
+				title: "Hummingbird"
+				icon: {
+					id: "byg:pollen_dust"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:hummingbird"
+			}]
+			rewards: [{
+				id: "2C4BB7E8DB488B67"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -0.5d
+			shape: "rsquare"
+			description: [
+				"Used to keep hummingbirds in place when it contains water or sugar."
+				""
+				"Hummingbird pollination becomes better with a feeder."
+			]
+			dependencies: ["41C4D1996B81CB20"]
+			id: "51B7D1B22D45AFE2"
+			tasks: [{
+				id: "1CF02211D922EF9C"
+				type: "item"
+				item: {
+					id: "alexsmobs:hummingbird_feeder"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:mimic_octopus"
+				}
+			}
+			x: 0.0d
+			y: 4.0d
+			description: ["An octopus who has mastered camouflage. Can change colors to blend in with its surroundings, causing predators to ignore it."]
+			id: "59DDA941F5B31B54"
+			tasks: [{
+				id: "3240F3E9D49BE0CD"
+				type: "observation"
+				title: "Mimic Octopus"
+				icon: {
+					id: "alexsmobs:mimic_octopus_bucket"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:mimic_octopus"
+			}]
+			rewards: [{
+				id: "23325DAC9C75C960"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			title: "Mungus"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:mungus"
+				}
+			}
+			x: 7.5d
+			y: 1.0d
+			subtitle: "Banished for eternity"
+			description: ["Mycelial creatures with one eye and a long nose."]
+			id: "16A64037CBAD1769"
+			tasks: [{
+				id: "2A82F633204D9C14"
+				type: "observation"
+				icon: {
+					id: "alexsmobs:spawn_egg_mungus"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:mungus"
+			}]
+			rewards: [{
+				id: "04DFADD99A6F90AD"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			title: "Roadrunner"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:roadrunner"
+				}
+			}
+			x: -3.0d
+			y: -2.0d
+			subtitle: "Meep meep"
+			description: ["Birds who feed on rattlesnakes."]
+			id: "50DA5639B2066662"
+			tasks: [{
+				id: "643326D809AFDA3A"
+				type: "observation"
+				icon: {
+					id: "exoticbirds:roadrunner_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:roadrunner"
+			}]
+			rewards: [{
+				id: "0735C14643D10D7F"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			description: ["Birds found on beaches who are inclined to steal your food"]
+			id: "1A94C812637EF3C6"
+			tasks: [{
+				id: "7451347AAA9DDAE0"
+				type: "observation"
+				title: "Seagull"
+				icon: {
+					id: "alexsmobs:spawn_egg_seagull"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:seagull"
+			}]
+			rewards: [{
+				id: "417D5A8D432328DA"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			title: "Spectre"
+			icon: {
+				id: "alexsmobs:tab_icon"
+				Count: 1b
+				tag: {
+					DisplayEntityType: "alexsmobs:spectre"
+				}
+			}
+			x: -6.0d
+			y: 8.0d
+			subtitle: "Who you gonna call?"
+			description: [
+				"A relative of the phantom that lives in the End. You may find them flying around in the sky."
+				"You can hang onto it using a lead. Spectres are attracted to players holding Soul Hearts."
+			]
+			id: "3C4BAED281BDDC5E"
+			tasks: [{
+				id: "6F3986BA24C21D75"
+				type: "observation"
+				icon: {
+					id: "alexsmobs:spawn_egg_spectre"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:spectre"
+			}]
+			rewards: [{
+				id: "3D3EE5E0D52A0F85"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			title: "Stradpole"
+			x: -6.0d
+			y: 5.5d
+			description: [
+				"Small, harmless amphibians that live in the lava pools of basalt deltas."
+				""
+				"They tolerate water and lava but not land, where they will helplessly flop around (they don't suffocate)."
+			]
+			id: "0AF7A2FFBEF1FB0B"
+			tasks: [{
+				id: "731B25CD6C03C2C8"
+				type: "observation"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:stradpole"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:stradpole"
+			}]
+			rewards: [{
+				id: "47213A8E81F474D2"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			title: "Crimson Mosquito"
+			x: -4.5d
+			y: 2.5d
+			description: ["When a fly enters the nether, it eventually turns into this. They suck the blood of their prey, but will be blocked from doing this if their target shields themselves."]
+			dependencies: ["13734115FC2A440E"]
+			id: "03CA9C382BC1DC46"
+			tasks: [{
+				id: "354415DA83317A98"
+				type: "observation"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:crimson_mosquito"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:crimson_mosquito"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			shape: "rsquare"
+			description: ["Guns that fire blood, like the crimson mosquito's attack. Consumes blood sacs as ammunition. The blood doesn't do that much damage."]
+			dependencies: ["03CA9C382BC1DC46"]
+			id: "10C650E7B6573865"
+			tasks: [{
+				id: "249FAE0FD0B41F67"
+				type: "item"
+				item: {
+					id: "alexsmobs:blood_sprayer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			shape: "rsquare"
+			dependencies: ["03CA9C382BC1DC46"]
+			id: "5F07A49042403BA6"
+			tasks: [{
+				id: "364E06236657DFE4"
+				type: "item"
+				item: {
+					id: "alexsmobs:mosquito_proboscis"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			shape: "rsquare"
+			description: [
+				"Crafting ingredient useful for many things related to Alex's Mobs. Here's how to obtain them:"
+				"Killing flies, platypus digging, sugar glider foraging, trader elephants, and anteater raiding."
+				"You can use maggots to heal warped toads, crafting crimson mosquito larva, and breed mobs like blue jays, capuchin monkeys, and roadrunners."
+			]
+			id: "3CEDDC6B2F78DF73"
+			tasks: [{
+				id: "01E851529E210B1F"
+				type: "item"
+				item: {
+					id: "alexsmobs:maggot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "78C03FA4DE49BCB3"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.0d
+			shape: "rsquare"
+			dependencies: ["5F07A49042403BA6"]
+			id: "4CD893C31D18B2A7"
+			tasks: [{
+				id: "74CEBFDE18CA42C8"
+				type: "item"
+				item: {
+					id: "alexsmobs:mosquito_larva"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.5d
+			description: ["Feed a Stradpole Crimson Mosquito Larvae to turn it into a Straddler"]
+			dependencies: [
+				"0AF7A2FFBEF1FB0B"
+				"4CD893C31D18B2A7"
+			]
+			id: "74A17975D32772B9"
+			tasks: [{
+				id: "4E45C5FA54D370B8"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/stradpole_feed"
+				criterion: ""
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			subtitle: "Welcome to the Hotel California"
+			description: [
+				"Birds of prey found in snowy mountain and grove biomes. They are often seen flying around in search of their prey, which includes rabbits and salmon."
+				""
+				"Eagles will abduct their prey and kill them midflight. "
+				""
+				"You can use fish oil to tame a bald eagle. When tamed, bald eagles can be commanded to stay, follow, or move freely. Tamed eagles are capable of defending themselves and their owner. They are healed with fish."
+			]
+			hide_dependency_lines: true
+			id: "54CFED43A10D10BE"
+			tasks: [{
+				id: "5038C0A46AF31369"
+				type: "observation"
+				title: "Bald Eagle"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:bald_eagle"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:bald_eagle"
+			}]
+			rewards: [{
+				id: "275DCC93FA9820F3"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			title: "Falconry"
+			x: 1.5d
+			y: -0.5d
+			shape: "rsquare"
+			subtitle: "Such a lovely place"
+			description: [
+				"These items allow for greater control over your bald eagle."
+				""
+				"You can use a Falconry Glove to pick up your eagle. Punching a mob while the eagle is in your hand causes the eagle to peck at it. This is actually very powerful, and you will absorb all the damage instead of your precious freedom bird!"
+				""
+				"If your eagle wears a falconry hood and is launched using a falconry glove, you can control exactly where it goes. Always do this from a safe place since you won't be able to move until you sneak or move the bird too far away causing you to lose control over it."
+				""
+				"After you stop controlling your eagle, it will return to your glove."
+			]
+			dependencies: ["54CFED43A10D10BE"]
+			id: "7251E57ABA9DE254"
+			tasks: [
+				{
+					id: "362D5BDE35968F37"
+					type: "item"
+					item: {
+						id: "alexsmobs:falconry_glove"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "35C722FADC22719B"
+					type: "item"
+					item: {
+						id: "alexsmobs:falconry_hood"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2E89ADD447BEE837"
+					type: "item"
+					item: {
+						id: "aquaculture:catfish"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "158853BBF04E23CB"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			subtitle: "Such a lovely face"
+			description: ["Kill any creature from 100 blocks away with an Eagle wearing a Hood"]
+			dependencies: ["7251E57ABA9DE254"]
+			id: "42B0BB99623EE97C"
+			tasks: [{
+				id: "2DF41036AA031DCB"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/bald_eagle_challenge"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0AAF8EA34D43E49A"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			subtitle: "Mobius Richardson"
+			description: [
+				"Massive mammals who can be found in oceans. "
+				""
+				"During thunderstorms, whales will rarely be found beached on land. If you can manage to push it back into the water without doing damage to it, it'll give you a reward."
+			]
+			id: "23315511E4699748"
+			tasks: [{
+				id: "0BA636A32562AFEF"
+				type: "observation"
+				title: "Cachalot Whale"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:cachalot_whale"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:cachalot_whale"
+			}]
+			rewards: [{
+				id: "6012689468538CB6"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			description: ["Cachalot whales give you Ambergris for doing this. It has a few uses, most notable being the Echolocator. It is also a highly potent fuel source and can be traded for a lot of emeralds."]
+			dependencies: ["23315511E4699748"]
+			id: "6F8C0384B5BEFE65"
+			tasks: [
+				{
+					id: "0B49F175A0C4CEF5"
+					type: "advancement"
+					advancement: "alexsmobs:alexsmobs/save_cachalot_whale"
+					criterion: ""
+				}
+				{
+					id: "092892CCF23992A5"
+					type: "item"
+					item: {
+						id: "alexsmobs:ambergris"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2D5C8AA4341D03DF"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			shape: "rsquare"
+			description: ["Shows the location of nearby caves. Caves are sort of everywhere so you won't really need one."]
+			dependencies: ["6F8C0384B5BEFE65"]
+			id: "7AA68D711F3B3410"
+			tasks: [{
+				id: "4320A396FAC9B00B"
+				type: "item"
+				item: {
+					id: "alexsmobs:echolocator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "69736D0B7AB5F80C"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 7.0d
+			shape: "rsquare"
+			description: ["Uses echolocation to find the nearest end portal frame. You may think it's overshadowed by the Explorer's Compass but it's not, since you can use it to save the hassle of scavenging the entire stronghold for the end portal."]
+			dependencies: ["7AA68D711F3B3410"]
+			id: "6208D7C110AE38A6"
+			tasks: [{
+				id: "420E4551967C34D0"
+				type: "item"
+				item: {
+					id: "alexsmobs:endolocator"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "50BB212DC4C2F9C2"
+				type: "item"
+				item: {
+					id: "cyclic:apple_emerald"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			shape: "rsquare"
+			subtitle: "You killed the server TPS optimization mod!"
+			dependencies: ["50DA5639B2066662"]
+			id: "0EA4D579B28463AF"
+			tasks: [{
+				id: "7171CB5D06C5E46E"
+				type: "item"
+				item: {
+					id: "alexsmobs:roadrunner_feather"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0C2436B752D1056B"
+					type: "item"
+					item: {
+						id: "alexsmobs:roadrunner_feather"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4FA22C169CEF1107"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			shape: "rsquare"
+			description: ["Diamond-equivalent boots. Useful for how early you can obtain them. They increase your speed on sand."]
+			dependencies: ["0EA4D579B28463AF"]
+			id: "75F86AE01AEF6CB3"
+			tasks: [{
+				id: "680AFFC6B5DB0DA0"
+				type: "item"
+				item: {
+					id: "alexsmobs:roadrunner_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "01638682E2699685"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "445B7976C5218AF7"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -0.5d
+			description: [
+				"Primates who can be found in jungle biomes. When provoked, they will defend themselves by throwing rocks."
+				""
+				"Can be tamed using bananas. They have the same three commands as bald eagles. Healed using eggs."
+				""
+				"Like with dragons, shift + right click lets you put the monkey on your shoulder. While mounted, the monkeys help you by throwing cobblestone at your enemies. Sneak to remove."
+			]
+			id: "31BC99E933E863DE"
+			tasks: [{
+				id: "30820A81814C4432"
+				type: "observation"
+				title: "Capuchin Monkey"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:capuchin_monkey"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:capuchin_monkey"
+			}]
+			rewards: [
+				{
+					id: "54B4F048CCA4B3C3"
+					type: "item"
+					item: {
+						id: "minecraft:egg"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "703660637ED519CB"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -0.5d
+			shape: "rsquare"
+			description: ["Can be given to your monkey to make their projectiles stronger."]
+			dependencies: ["31BC99E933E863DE"]
+			id: "782B309C36AEA759"
+			tasks: [{
+				id: "129370D010B1AE33"
+				type: "item"
+				item: {
+					id: "alexsmobs:ancient_dart"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "09BA53240EDDB1D8"
+				type: "item"
+				item: {
+					id: "minecraft:arrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.0d
+			subtitle: "I hear a who!"
+			description: [
+				"Majestic mammals native to savannas who travel in herds, each one led by a leader. Their size brings power, so you shouldn't mess with them."
+				""
+				"Sometimes, a wandering trader coming to a hot biome will be riding an elephant. These vendors have speical trades for items from Alex's Mobs, so be sure you check them out."
+			]
+			id: "57A650E23A9C2065"
+			tasks: [{
+				id: "455A77545AE04509"
+				type: "observation"
+				title: "Elephant"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:elephant"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:elephant"
+			}]
+			rewards: [{
+				id: "75692BC46ED26E5C"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			subtitle: "tame an elephant"
+			description: [
+				"Tame an Elephant by feeding it Acacia Blossoms"
+				""
+				"Tamed elephants can be ridden and given carpets. They're like llamas but not pathetic. They also share the trait with many other animals of helping you in combat."
+				""
+				"Note: a leader elephant can only be tamed when it's a baby. They can charge at enemies by feeding them wheat while mounted."
+			]
+			dependencies: ["57A650E23A9C2065"]
+			id: "309664BBA2FE0E4D"
+			tasks: [{
+				id: "1D3A9AC2FC5F7702"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_elephant"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "22636CA3BDFB6212"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "5CDBDE39111A4B41"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			subtitle: "They beat the Aussies!"
+			description: [
+				"Flightless birds who travel in mobs (that's the name for a group of emus)."
+				""
+				"This mob is basically a very high-effort reference to the Great Emu War:"
+				"They can be fed wheat and this is also the food used for breeding them. This references how emus in Australia ate all the wheat."
+				"They are highly skilled in avoiding projectiles, which references the difficulty the military had with shooting emus."
+				"They attack any mob holding a ranged weapon."
+			]
+			id: "6E2605469A32266D"
+			tasks: [{
+				id: "3222E6DAE03A7E54"
+				type: "observation"
+				title: "Emu"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:emu"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:emu"
+			}]
+			rewards: [
+				{
+					id: "4F78211AC573A77D"
+					type: "item"
+					item: {
+						id: "minecraft:crossbow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1B3AE77A95E04EE8"
+					type: "item"
+					item: {
+						id: "minecraft:arrow"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "0F65C414E3D55F4E"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 5.5d
+			subtitle: "Watch out for loan sharks!"
+			description: ["Large predatory fish who hunt aquatic wildlife. They live their lives deep underwater, with the surface not being suitable for them."]
+			id: "11387B71AF56B5E1"
+			tasks: [{
+				id: "02E4796FFFFE1B06"
+				type: "observation"
+				title: "Frilled Shark"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:frilled_shark"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:frilled_shark"
+			}]
+			rewards: [{
+				id: "556D62AA60B73BB5"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.5d
+			shape: "rsquare"
+			description: ["Obtained from frilled sharks while they are attacking squids. Used to craft the Shield of the Deep."]
+			dependencies: ["11387B71AF56B5E1"]
+			id: "6DBB737CE3192B13"
+			tasks: [{
+				id: "2EAD26CC9F446C2B"
+				type: "item"
+				item: {
+					id: "alexsmobs:serrated_shark_tooth"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "12A85631AE5502A6"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.0d
+			subtitle: "He's the leader of the pack"
+			description: [
+				"Large, powerful primates who live in jungles. "
+				""
+				"Tamed easily using bananas."
+			]
+			id: "6703A6B64B9B9DE8"
+			tasks: [{
+				id: "04BDC8831814138E"
+				type: "observation"
+				title: "Gorilla"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:gorilla"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:gorilla"
+			}]
+			rewards: [{
+				id: "1A1FEE5132D1F35A"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: [
+				"Marsupials with powerful legs. They carry their young in pouches and like carrots. bred with grass or dead bushes."
+				""
+				"Tamed kangaroos can store items in their pouches. If you store a helmet, chestplate, or sword, the kangaroo equips it. Kangaroos also eat vegan food in their pouches autonomously."
+			]
+			id: "5D68CFC9BAA7D524"
+			tasks: [{
+				id: "26E22A48D1D56F98"
+				type: "observation"
+				title: "Kangaroo"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:kangaroo"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:kangaroo"
+			}]
+			rewards: [
+				{
+					id: "386CBDFF3965C6C8"
+					type: "item"
+					item: {
+						id: "minecraft:stone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "44F0B8E79858C315"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "69A505C5B92242D4"
+					type: "item"
+					item: {
+						id: "iceandfire:armor_silver_metal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6D2812A25B9FA714"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 1.0d
+			description: [
+				"Large insects found in jungles. Do not step on or destroy their precious anthills, or else you'll be in for a fight."
+				""
+				"If you do destroy a colony, the queen leafcutter ant comes out to attack you."
+			]
+			id: "1B3989BD20DCF6F8"
+			tasks: [{
+				id: "0FD4004E9465F7BC"
+				type: "observation"
+				title: "Leafcutter Ant"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:leafcutter_ant"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:leafcutter_ant"
+			}]
+			rewards: [{
+				id: "0D6B2DB2B45C6B80"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			description: ["Found underwater in beaches. Can survive on land and underwater."]
+			id: "33055C46A5B1F684"
+			tasks: [{
+				id: "7BDC3B0137B4C48A"
+				type: "observation"
+				title: "Lobster"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:lobster"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:lobster"
+			}]
+			rewards: [{
+				id: "00196151DADF5BC1"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 4.0d
+			subtitle: "You're telling me a shrimp fried this rice?"
+			description: [
+				"Aquatic invertebrates. They can't survive on land."
+				""
+				"Tameable with tropical fish. They have the same commands as eagles. Since fists of mantis shrimp are so powerful they can set enemies on fire, they're pretty good at defending you."
+				""
+				"Shift RMB to give the shrimp the block in your hand. The shrimp will start exploring and break blocks identical to the one in its hands, which allows for some low-level automation!"
+				""
+				"healed with fish and bred with lobster tails."
+			]
+			id: "0BEA9586D1AD4D0D"
+			tasks: [{
+				id: "59AE5F0E2323A4AA"
+				type: "observation"
+				title: "Mantis Shrimp"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:mantis_shrimp"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:mantis_shrimp"
+			}]
+			rewards: [{
+				id: "655EAFFE4F88749D"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			description: [
+				"Large mammals found in snowy biomes. Can be seen fighting amongst themselves."
+				""
+				"Moose shed their antlers every few in-game days."
+			]
+			id: "00E47A607130B3D0"
+			tasks: [{
+				id: "0CE0AB9E302729F1"
+				type: "observation"
+				title: "Moose"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:moose"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:moose"
+			}]
+			rewards: [{
+				id: "5CC4C0704563082E"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: ["00E47A607130B3D0"]
+			id: "07BD13E01BF98CBD"
+			tasks: [{
+				id: "6BBA81B3E12D7773"
+				type: "item"
+				item: {
+					id: "alexsmobs:moose_antler"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6A2B41AD7CAD1074"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			shape: "rsquare"
+			description: ["Very protective early-game armor that provides knockback resistance. If you can believe it, this was actually nerfed by 1 point of defense for the modpack."]
+			dependencies: ["07BD13E01BF98CBD"]
+			id: "3ACBD44E6D604CE5"
+			tasks: [{
+				id: "21AE9E5287305402"
+				type: "item"
+				item: {
+					id: "alexsmobs:moose_headgear"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			subtitle: "They're actually dolphins!"
+			description: ["Despite the nickname \"killer whale\", these aquatic mammals only attack you if provoked. They can be found in cold oceans."]
+			id: "0A28025EEBC6969D"
+			tasks: [{
+				id: "54BA2F1D66936EC1"
+				type: "observation"
+				title: "Orca"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:orca"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:orca"
+			}]
+			rewards: [{
+				id: "2A0BFFFABC01B440"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			subtitle: "Trash pandas no more"
+			description: [
+				"Mammals found hanging out in many different biomes."
+				""
+				"If you hold food near a raccoon, it will beg for you to feed it. The raccoon, with its high standards, then washes the food before consuming it."
+				""
+				"They are so gluttonous, they'll steal food from your chests if you leave them exposed."
+			]
+			id: "2A5603FA9CA50D0F"
+			tasks: [{
+				id: "29B2A9988B76E544"
+				type: "observation"
+				title: "Raccoon"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:raccoon"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:raccoon"
+			}]
+			rewards: [{
+				id: "013F9287AD7319EB"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			description: ["Predatory felines that hunt many different species. Their three activities are sitting, resting, and hunting."]
+			id: "7F56EC1E532926FD"
+			tasks: [{
+				id: "49F2301F2B79B4E7"
+				type: "observation"
+				title: "Snow Leopard"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:snow_leopard"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:snow_leopard"
+			}]
+			rewards: [{
+				id: "72552F2CB8FDF9E4"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			subtitle: "What even is it?"
+			description: [
+				"While they are grotesque insects who may look hostile, they can be befriended pretty easily."
+				""
+				"Tarantula hawks love torturing spiders and frequently attack them. You may be able to tame them using a spider eye."
+			]
+			id: "6B0CBDB3A1614064"
+			tasks: [{
+				id: "6B3041DFB42166DF"
+				type: "observation"
+				title: "Tarantula Hawk"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:tarantula_hawk"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:tarantula_hawk"
+			}]
+			rewards: [{
+				id: "6E29EF6C756D84BF"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			description: [
+				"Tamed has three variants. Tired of typing this out."
+				""
+				"Heal with flowers and breed with fermented spider eyes (spider eye + mushrooms)."
+			]
+			dependencies: ["6B0CBDB3A1614064"]
+			id: "62CDDDCE8F8A3142"
+			tasks: [{
+				id: "40F96193D3F07621"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/tame_tarantula_hawk"
+				criterion: ""
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			id: "12DBD5915AD9675D"
+			tasks: [{
+				id: "66F9CFC5B6B28E91"
+				type: "observation"
+				title: "Tasmanian Devil"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:tasmanian_devil"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:tasmanian_devil"
+			}]
+			rewards: [{
+				id: "0F242A605F318AD1"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			description: [
+				"Warped toads have many adaptations that allow them to survive in a variety of environments. Therefore, they can walk on land and swim in both water and lava."
+				""
+				"Tamed using crimson mosquito larvae. Healed using maggots."
+			]
+			id: "1D30B8B637D5218D"
+			tasks: [{
+				id: "47165BEEBDBC332D"
+				type: "observation"
+				title: "Warped Toad"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:warped_toad"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:warped_toad"
+			}]
+			rewards: [{
+				id: "0B7D6A181DB51989"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -2.0d
+			description: [
+				"Rare mobs hiding in swamps. If you get too close they will attack. Since they spend most of their time in water, their shell begins to be covered in moss."
+				""
+				"You can get items by shearing turtles."
+			]
+			id: "256F160293629D49"
+			tasks: [{
+				id: "34020399EDBDB7A8"
+				type: "observation"
+				title: "Alligator Snapping Turtle"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:alligator_snapping_turtle"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:alligator_snapping_turtle"
+			}]
+			rewards: [{
+				id: "1BB01A8E76EB0245"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			shape: "rsquare"
+			description: ["Special helmet that gives knockback resistance"]
+			dependencies: ["256F160293629D49"]
+			id: "1D43DB0DED395A85"
+			tasks: [{
+				id: "0AED5507C90ECA69"
+				type: "item"
+				item: {
+					id: "alexsmobs:spiked_turtle_shell"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C1812B87B049404"
+				type: "item"
+				item: {
+					id: "quark:ancient_tome"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: -7.5d
+			y: 9.5d
+			description: [
+				"An interesting construct(?) that seems to be designed to hunt endergrades."
+				""
+				"They can fly by shooting DNA particles, and inflict Ender Flu on mobs it attacks. When Ender Flu runs out, the victim takes damage and a new Enderiophage spawns."
+			]
+			id: "346A96A8506C4B32"
+			tasks: [{
+				id: "24A2EC6026353E8D"
+				type: "advancement"
+				title: "Enderiophage"
+				advancement: "alexsmobs:alexsmobs/enderiophage"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "572EB01B810FF390"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			title: "Grizzly bear"
+			x: -7.5d
+			y: -2.0d
+			description: [
+				"Defensive mobs found in forests. If you approach them or their cubs too closely, they attack."
+				""
+				"Bears love honey and tend to relax after finishing a nice meal!"
+				""
+				"The absolute favorite meal for bears, however, is salmon."
+			]
+			id: "64640397C037C1D5"
+			tasks: [{
+				id: "3C2F9417FF895976"
+				type: "advancement"
+				advancement: "alexsmobs:alexsmobs/grizzly_bear"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "04510BCF423F98BE"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.0d
+			shape: "rsquare"
+			description: ["Shed by bears while alive, so there's no need to kill them. They can be used for some crafting and brewing recipes."]
+			dependencies: ["64640397C037C1D5"]
+			id: "41AE15B03C20AB3B"
+			tasks: [{
+				id: "2811A85426910D5B"
+				type: "item"
+				item: {
+					id: "alexsmobs:bear_fur"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "28A4D081C1FCBC3B"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			shape: "rsquare"
+			subtitle: "Care for some steak?"
+			description: ["A pair of pants that lets you occasionally negate projectile damage."]
+			dependencies: [
+				"6E2605469A32266D"
+				"5D68CFC9BAA7D524"
+			]
+			id: "54E8F2C7FDB04D10"
+			tasks: [{
+				id: "428DC3BE5B980D24"
+				type: "item"
+				item: {
+					id: "alexsmobs:emu_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			description: [
+				"A rare mammal that spawns in rivers. Uses poison as a defense mechanism."
+				""
+				"Give the platypus some redstone and watch it go nuts!"
+			]
+			id: "7D62F8EA0309690C"
+			tasks: [{
+				id: "2715CDC3EC7D2AA1"
+				type: "observation"
+				title: "Platypus"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:platypus"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:platypus"
+			}]
+			rewards: [
+				{
+					id: "76E563283ABA4554"
+					type: "item"
+					item: {
+						id: "minecraft:redstone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 6
+				}
+				{
+					id: "162496DB8465E64A"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			id: "351B1E68E56F1EC3"
+			tasks: [{
+				id: "6B93F83C38BEF211"
+				type: "advancement"
+				title: "Rattlesnake"
+				advancement: "alexsmobs:alexsmobs/rattlesnake"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "1B7FD8247DBF5DAA"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.5d
+			description: ["Rare, majestic birds who soar above the highest peaks in the world."]
+			id: "36EE68A3E4196075"
+			tasks: [{
+				id: "239868F2185A315F"
+				type: "observation"
+				title: "Sunbird"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:sunbird"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:sunbird"
+			}]
+			rewards: [
+				{
+					id: "44A512BB8FC089B7"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "5274D11EF44A55CC"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			subtitle: "At least they can't fly"
+			description: [
+				"Long, skeletal snakes who hide in lava lakes, looking for something to bite."
+				""
+				"They might attack some Nether denizens, too."
+			]
+			id: "62C136E530736DDB"
+			tasks: [{
+				id: "760D9ADC32D41058"
+				type: "observation"
+				title: "Bone Serpent"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:bone_serpent"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:bone_serpent"
+			}]
+			rewards: [
+				{
+					id: "67D31D155CF6DEB8"
+					type: "item"
+					item: {
+						id: "minecraft:bone_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 9
+				}
+				{
+					id: "1BC8D36D32159B97"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			shape: "rsquare"
+			description: ["Hard teeth from a Bone Serpent. Used to brew Lava Vision potions and craft the Tide Trident."]
+			dependencies: ["62C136E530736DDB"]
+			id: "0B576C5033CDFDA0"
+			tasks: [{
+				id: "37AAA76559E4A896"
+				type: "item"
+				item: {
+					id: "alexsmobs:bone_serpent_tooth"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "29AA3A9C9C680445"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "alexsmobs:lava_vision"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "539EDD7D800A8ADE"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 8.5d
+			subtitle: "Don't skip leg day"
+			description: ["Creepy crawlies found deep in caves."]
+			id: "0C56EDDA85D4E7C4"
+			tasks: [{
+				id: "67C1056285A21537"
+				type: "observation"
+				title: "Centipede"
+				icon: {
+					id: "alexsmobs:spawn_egg_centipede"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "alexsmobs:centipede"
+			}]
+			rewards: [{
+				id: "486386A2FCAB37E3"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 10.0d
+			shape: "rsquare"
+			description: ["Enables Wall Climbing"]
+			dependencies: ["0C56EDDA85D4E7C4"]
+			id: "3624C8B952F9CF96"
+			tasks: [{
+				id: "4014263D329DBE1B"
+				type: "item"
+				item: {
+					id: "alexsmobs:centipede_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: [
+				"Territorial reptiles who call swamps home. They can be found underwater or on land."
+				""
+				"If you are near a crocodile egg when it hatches, the baby will consider you to be its mother, meaning it's now tamed. You can breed crocodiles with rotten flesh."
+			]
+			id: "32DB1B0F5535C113"
+			tasks: [{
+				id: "4EB4CFFAA20E80A4"
+				type: "observation"
+				title: "Crocodile"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:crocodile"
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "alexsmobs:crocodile"
+			}]
+			rewards: [{
+				id: "01044C858E9D8E69"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			shape: "rsquare"
+			dependencies: ["32DB1B0F5535C113"]
+			id: "4A103EDFAA3D9AB1"
+			tasks: [{
+				id: "7F189EDF53C0F648"
+				type: "item"
+				item: {
+					id: "alexsmobs:crocodile_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C386A5822E14808"
+				type: "item"
+				item: {
+					id: "aquaculture:lockbox"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			description: ["Aquatic predators that prefer warm waters and will sniff out and attack any wounded creature they see."]
+			id: "5C9202556AEBC6E4"
+			tasks: [{
+				id: "17D5D7C0C82609D5"
+				type: "observation"
+				title: "Hammerhead Shark"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:hammerhead_shark"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:hammerhead_shark"
+			}]
+			rewards: [{
+				id: "789D909CA68665F5"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			shape: "rsquare"
+			description: ["Shed from hammerhead sharks when they are attacking any mob. Can be used to craft a special arrow that works better in water as well as the Shield of the Deep."]
+			dependencies: ["5C9202556AEBC6E4"]
+			id: "561828121FFD013E"
+			tasks: [{
+				id: "5723A72F9CB7000F"
+				type: "item"
+				item: {
+					id: "alexsmobs:shark_tooth"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5902ED18C429F773"
+				type: "item"
+				item: {
+					id: "alexsmobs:shark_tooth_arrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 16
+			}]
+		}
+		{
+			x: -10.5d
+			y: -2.0d
+			subtitle: "It's poison in one bite"
+			description: [
+				"Large lizards found in badlands and sparse jungles. They will inflict a poisonous bite unless you have tamed it."
+				""
+				"Can be tamed using 64 rotten flesh."
+			]
+			id: "29089A51573B8D0B"
+			tasks: [{
+				id: "48DA4459A359372B"
+				type: "observation"
+				title: "Komodo Dragon"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:komodo_dragon"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:komodo_dragon"
+			}]
+			rewards: [{
+				id: "6E4BAA40B3615663"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -12.0d
+			y: -2.0d
+			shape: "rsquare"
+			dependencies: ["29089A51573B8D0B"]
+			id: "466782C8CD6D0A3B"
+			tasks: [{
+				id: "14427CE3B232FDE4"
+				type: "item"
+				item: {
+					id: "alexsmobs:komodo_spit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "313B6C4BC00FDCCF"
+					type: "ftbmoney:money"
+					ftb_money: 4L
+				}
+				{
+					id: "41F2C82976241D58"
+					type: "ftbmoney:money"
+					ftb_money: 1L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -2.0d
+			shape: "rsquare"
+			description: ["Use these in place of awkward potions (with a cave centipede leg as ingredient) to make yourself Poison Resistance potions. I recommend bringing these to your fight against the Arachnarch."]
+			dependencies: ["466782C8CD6D0A3B"]
+			id: "10F4421FBAF0BD45"
+			tasks: [{
+				id: "4107743AE17435AF"
+				type: "item"
+				item: {
+					id: "alexsmobs:komodo_spit_bottle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "41D1413BBF7ED496"
+					type: "ftbmoney:money"
+					ftb_money: 4L
+				}
+				{
+					id: "1770E64BC22B7E81"
+					type: "ftbmoney:money"
+					ftb_money: 1L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -0.5d
+			shape: "rsquare"
+			subtitle: "Get vaccinated"
+			dependencies: ["10F4421FBAF0BD45"]
+			id: "6319364C7E399383"
+			tasks: [{
+				id: "7821E95C1C5CCD15"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "alexsmobs:poison_resistance"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4E700BB86F647A0B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "42B87F461B2B4E05"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 2.5d
+			description: [
+				"Aggressive birds who feast on souls of long-dead creatures (as well as piglins)."
+				""
+				"Normally seen flying around in Soul Sand Valleys. Their attacks consist of sapping their targets' health and absorbing it."
+				""
+				"If a soul vulture is slain after it has stolen a mob's life force, it will sometimes drop a Soul Heart."
+			]
+			id: "210FE9CF8396FDED"
+			tasks: [{
+				id: "4F479637C5F43F54"
+				type: "advancement"
+				title: "Soul Vulture"
+				advancement: "alexsmobs:alexsmobs/soul_vulture"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3DB5CB3C1CF8EFA8"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -13.5d
+			y: 1.0d
+			subtitle: "Thrill of the fight"
+			description: [
+				"Big cats who pounce on their prey. They turn almost invisible before they attack."
+				""
+				"While they can't be tamed, they can be fed any meat. Doing this makes them give you the Tiger's blessing effect. This makes tigers ignore you until you attack one."
+				""
+				"Plus, tigers will help you in fights if you have Tiger's Blessing."
+			]
+			id: "6740672CC296E9A7"
+			tasks: [{
+				id: "0CF8AB6E1DC28729"
+				type: "observation"
+				title: "Tiger"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:tiger"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:tiger"
+			}]
+			rewards: [{
+				id: "457DBA80F0834BC8"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			subtitle: "It's not real"
+			description: [
+				"Strange bear-like mobs found in Nether Wastes who are hostile. They can jump high and climb upside-down."
+				""
+				"Dropbears can jump down and ambush you, dealing damage."
+			]
+			id: "3A9C6B51E542F0C6"
+			tasks: [{
+				id: "4054F7C03C8327A9"
+				type: "observation"
+				title: "Dropbear"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:dropbear"
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "alexsmobs:dropbear"
+			}]
+			rewards: [{
+				id: "4F18D04B3D8D7D33"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Average day in Oklahoma"
+			description: [
+				"Sand tornadoes with two eyes that spawn in the deserts and badlands when it's raining."
+				""
+				"They shoot sand at you normally, but if you get too close they can suck you up and launch you upwards."
+			]
+			id: "04A2EE1D49A2279B"
+			tasks: [{
+				id: "677A862C163C6846"
+				type: "advancement"
+				title: "Guster"
+				advancement: "alexsmobs:alexsmobs/guster"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "501F6649C586A0E8"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: [
+				"Can be used to craft some items."
+				""
+				"The gustmaker is a redstone device capable of moving enemies caught in its sand blasts."
+				""
+				"Pockets of sand use sand as ammunition and fires sand that deals minor damage."
+			]
+			dependencies: ["04A2EE1D49A2279B"]
+			id: "102313192FE132F8"
+			tasks: [{
+				id: "30E8A8E527542B86"
+				type: "item"
+				item: {
+					id: "alexsmobs:guster_eye"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "35491FE5878A5E0B"
+					type: "item"
+					item: {
+						id: "minecraft:sand"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 64
+				}
+				{
+					id: "42569EA201D9ED1C"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 9.5d
+			subtitle: "Mimic tear ashes are OP!"
+			description: [
+				"Strange slime relatives found in End Cities. They are capable of copying whatever helmet or weapon you're using."
+				""
+				"They can also use your food to heal themselves, but can only do this if they see you holding food."
+			]
+			id: "1DFCDE2D39E93165"
+			tasks: [{
+				id: "68AF9386C911D723"
+				type: "observation"
+				title: "Mimicube"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:mimicube"
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "alexsmobs:mimicube"
+			}]
+			rewards: [{
+				id: "0325981DFB452BCE"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 9.5d
+			shape: "rsquare"
+			subtitle: "Also try Play-doh"
+			description: ["Substance that powers Mimicubes. By surrounding an item with 8 mimicream, it will duplicate it. The item in question must be able to lose durability."]
+			dependencies: ["1DFCDE2D39E93165"]
+			id: "0B42EDCB9E69FBB7"
+			tasks: [{
+				id: "1461C3D8A8A2FAFE"
+				type: "item"
+				item: {
+					id: "alexsmobs:mimicream"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			description: ["Hostile mobs found in Basalt Deltas that launch stradpoles to deal damage."]
+			id: "4EC428853B525545"
+			tasks: [{
+				id: "51CDFBB75EBD7B1F"
+				type: "advancement"
+				title: "Straddler"
+				icon: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					tag: {
+						DisplayEntityType: "alexsmobs:straddler"
+					}
+				}
+				advancement: "alexsmobs:alexsmobs/straddler"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "54B5574C9F636F50"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			description: [
+				"Crafted using straddlite (a rare drop from Straddlers) and netherite ingots."
+				""
+				"Place the Straddleboard and then ride it by right clicking. It can only be effectively ridden on lava."
+				""
+				"You can also jump while on a straddleboard. They can additionally receive a variety of enchantments."
+			]
+			dependencies: ["4EC428853B525545"]
+			id: "0FCF9E8A5D30560C"
+			tasks: [{
+				id: "341E1A11337D83A8"
+				type: "item"
+				item: {
+					id: "alexsmobs:straddleboard"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.0d
+			subtitle: "Lavacow"
+			description: ["Lavacow"]
+			id: "76342844C9AAD208"
+			tasks: [{
+				id: "270A341C9986D124"
+				type: "observation"
+				title: "Lavacow"
+				icon: {
+					id: "minecraft:lava_bucket"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "mod_lavacow:lavacow"
+			}]
+			rewards: [
+				{
+					id: "5897C3354BB8B867"
+					type: "item"
+					item: {
+						id: "minecraft:bucket"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "165D2B384EFEC1E2"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+	]
+}

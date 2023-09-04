@@ -1,0 +1,71 @@
+{
+	id: "0309F4EA085785F5"
+	order_index: 1
+	title: "gems everbright/dawn"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "blue_skies:moonstone_shard"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 8
+			random_bonus: 4
+		}
+		{
+			item: {
+				id: "blue_skies:aquite_gem"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 3
+			random_bonus: 1
+		}
+		{
+			item: {
+				id: "blue_skies:pyrope_gem"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 3
+			random_bonus: 2
+		}
+		{
+			item: {
+				id: "blue_skies:charoite"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "blue_skies:diopside_gem"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+		}
+	]
+}

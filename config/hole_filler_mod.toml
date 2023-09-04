@@ -1,0 +1,28 @@
+
+[hole_filler]
+	#Maximum diameter that the hole filler will consider a hole. If hole is larger than this value, it will not fill on that axis.  Default = 12
+	#Range: 3 ~ 32
+	max_hole_diameter = 12
+	#Maximum number of blocks that can be placed per hole. Default = 500
+	#Range: 1 ~ 5000
+	max_hole_volume = 500
+	#How long before 'Curing Blocks' are converted to dirt, in seconds. This is an approximation as some randomness is involved. Default = 15
+	#Range: 1 ~ 120
+	undo_timer = 15
+	#How many 'Curing Blocks' placed per tick. Default = 5
+	#Range: 1 ~ 120
+	fill_speed = 5
+	#If true, dirt isn't required in the player's inventory
+	is_dirt_free = true
+	#Recommended to set 'is_dirt_free' to true
+	smart_preserve = false
+	#This is ignored if 'is_dirt_free' is true
+	#Allowed Values: cobblestone, dirt, stone
+	smart_preserve_fill_block = "cobblestone"
+	#Maximum diameter that the hole filler will consider a hole. If hole is larger than this value, it will not fill on that axis.  Default = 18
+	#Range: 3 ~ 32
+	max_water_diameter = 18
+	#Maximum number of blocks that can be placed per hole. Default = 500
+	#Range: 1 ~ 5000
+	max_water_volume = 500
+

@@ -1,0 +1,121 @@
+{
+	id: "29F0A792D42BC228"
+	order_index: 16
+	title: "Hero's Crate"
+	icon: {
+		id: "relics:arrow_quiver"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "cyclic:prospector"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "eidolon:void_amulet" }
+		{ item: "xreliquary:angelheart_vial" }
+		{ item: "twilightforest:fiery_ingot", count: 3, random_bonus: 3 }
+		{ item: "aquamirae:sea_stew", count: 2 }
+		{
+			item: {
+				id: "iceandfire:troll_weapon_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanismtools:steel_paxel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "forestcraft:soul_scythe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "iceandfire:witherbone", count: 4, random_bonus: 5 }
+		{ item: "iceandfire:dragonbone", count: 10, random_bonus: 5 }
+		{ item: "undergarden:forgotten_nugget", count: 9, random_bonus: 5 }
+		{ item: "undergarden:froststeel_ingot", count: 3, random_bonus: 2 }
+		{ item: "scalinghealth:heart_crystal", count: 3, random_bonus: 2 }
+		{
+			item: {
+				id: "mod_lavacow:felarmor_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mod_lavacow:felarmor_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mod_lavacow:felarmor_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mod_lavacow:felarmor_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "apotheosis:seashelf", random_bonus: 1 }
+		{ item: "forestcraft:thunder_feather", random_bonus: 2 }
+		{ item: "sanguinearsenal:shadow_ingot", random_bonus: 1 }
+		{
+			item: {
+				id: "capsule:capsule"
+				Count: 1b
+				tag: {
+					state: 0
+					color: 1972267
+					size: 9
+				}
+			}
+		}
+		{ item: "iceandfire:dragonbone_arrow", count: 12 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "rare_adventurer_s_crate"
+	}
+}

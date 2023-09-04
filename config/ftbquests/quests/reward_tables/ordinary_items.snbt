@@ -1,0 +1,732 @@
+{
+	id: "546A52E9B070F3A3"
+	order_index: 2
+	title: "Adventurer's Crate"
+	icon: "mcwlights:gray_lamp"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "mcwlights:classic_street_lamp"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "create:gray_seat"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+			random_bonus: 4
+		}
+		{
+			item: {
+				id: "farmersdelight:cooked_mutton_chops"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "supplementaries:globe"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:experience_bottle"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 5
+			random_bonus: 10
+		}
+		{
+			item: {
+				id: "aquaculture:iron_hook"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "cavesandcliffs:cobbled_deepslate"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 10
+			random_bonus: 13
+		}
+		{
+			item: {
+				id: "charm:oak_bookcase"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			random_bonus: 2
+		}
+		{
+			item: {
+				id: "minecraft:bookshelf"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			random_bonus: 2
+		}
+		{
+			item: {
+				id: "minecraft:book"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 10
+			random_bonus: 5
+		}
+		{
+			item: {
+				id: "supplementaries:rope"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "minecraft:coal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 5
+			random_bonus: 12
+		}
+		{
+			item: {
+				id: "minecraft:cobblestone"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 12
+			random_bonus: 24
+		}
+		{
+			item: {
+				id: "aquaculture:gold_hook"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "aquaculture:redstone_hook"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "ironchest:iron_chest"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "ironchest:gold_chest"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:backpack"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcwlights:oak_tiki_torch"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcwlights:spruce_tiki_torch"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcwlights:birch_tiki_torch"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcwlights:jungle_tiki_torch"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcwlights:acacia_tiki_torch"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mcwlights:dark_oak_tiki_torch"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:iron_ring"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:boomerang_wood"
+				Count: 1b
+				tag: {
+					Damage: 0
+					AmmoUsed: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:skillet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "supplementaries:statue"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "supplementaries:jar"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "farmersdelight:honey_cookie"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 6
+			random_bonus: 14
+		}
+		{
+			item: {
+				id: "supplementaries:clock_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:arrow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 12
+			random_bonus: 18
+		}
+		{
+			item: {
+				id: "cavesandcliffs:lightning_rod"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:cake_slice"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+			random_bonus: 8
+		}
+		{
+			item: {
+				id: "quark:dirt_bricks"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 10
+			random_bonus: 20
+		}
+		{
+			item: {
+				id: "alexsmobs:bear_fur"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "cavesandcliffs:small_dripleaf"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "better_badlands:kindling"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 5
+			random_bonus: 9
+		}
+		{
+			item: {
+				id: "amfd:singular_cooked_moose_rib"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			count: 2
+			random_bonus: 3
+		}
+		{ item: "forbidden_arcanus:edelwood_bucket" }
+		{ item: "forbidden_arcanus:xpetrified_orb", count: 3, random_bonus: 3 }
+		{ item: "paraglider:stamina_vessel" }
+		{ item: "paraglider:paraglider" }
+		{ item: "paraglider:deku_leaf" }
+		{
+			item: {
+				id: "forestcraft:chicken_wings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "forestcraft:aquamarine_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "aquaculture:iron_fillet_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "forestcraft:elegant_balloon" }
+		{ item: "dummmmmmy:target_dummy_placer" }
+		{
+			item: {
+				id: "forestcraft:dirtscalibur"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "doggytalents:throw_stick" }
+		{ item: "alexsmobs:blobfish" }
+		{ item: "alexsmobs:cockroach_wing", count: 4, random_bonus: 3 }
+		{ item: "iceandfire:ectoplasm", count: 4, random_bonus: 4 }
+		{
+			item: {
+				id: "aquaculture:gold_fillet_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:prospector"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "apotheosis:iron_mining_arrow", count: 4, random_bonus: 8 }
+		{ item: "farmersdelight:stove" }
+		{
+			item: {
+				id: "thermal:hazmat_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:hazmat_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "paraglider:spirit_orb", count: 5, random_bonus: 2 }
+		{ item: "alexsmobs:boiled_emu_egg", count: 3, random_bonus: 9 }
+		{ item: "iceandfire:amythest_gem" }
+		{ item: "chimes:bamboo_chimes" }
+		{ item: "chimes:carved_bamboo_chimes" }
+		{ item: "chimes:iron_chimes" }
+		{ item: "chimes:copper_chimes" }
+		{ item: "upgrade_aquatic:glowing_ink_sac", count: 13, random_bonus: 8 }
+		{
+			item: {
+				id: "enigmaticlegacy:earth_heart"
+				Count: 1b
+				tag: { }
+			}
+			count: 2
+			random_bonus: 2
+		}
+		{
+			item: {
+				id: "spartanweaponry:club_studded"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "twilightforest:ironwood_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 1s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		}
+		{ item: "scalinghealth:heart_crystal" }
+		{ item: "scalinghealth:medkit", count: 2, random_bonus: 3 }
+		{ item: "scalinghealth:enchanted_heart", count: 2, random_bonus: 1 }
+		{ item: "scalinghealth:cursed_heart" }
+		{ item: "scalinghealth:chance_heart", count: 2, random_bonus: 1 }
+		{ item: "forestcraft:thunder_feather" }
+		{
+			item: {
+				id: "tombstone:scroll_of_true_sight"
+				Count: 1b
+				tag: {
+					ancient: 1b
+					enchant: 1b
+				}
+			}
+		}
+		{ item: "cavesandcliffs:lightning_rod", count: 2, random_bonus: 3 }
+		{ item: "scalinghealth:bandages", count: 5, random_bonus: 6 }
+		{ item: "minecraft:cake", count: 2 }
+		{ item: "farmersdelight:safety_net" }
+		{ item: "simplefarming:birthday_cake" }
+		{
+			item: {
+				id: "forestcraft:gem_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quarterstaff_invar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "thermal:rf_coil", count: 2 }
+		{ item: "mowziesmobs:glowing_jelly", count: 5, random_bonus: 3 }
+		{ item: "apotheosis:seashelf" }
+		{ item: "cyclic:tile_transporter_empty" }
+		{ item: "hole_filler_mod:throwable_hole_filler", count: 16 }
+		{ item: "apotheosis:obsidian_arrow", count: 8 }
+		{ item: "farmersdelight:stuffed_pumpkin", count: 4 }
+		{ item: "forestcraft:dirt_with_seeds" }
+		{ item: "mod_lavacow:sonicbomb", count: 6 }
+		{ item: "mod_lavacow:ghostbomb", count: 7, random_bonus: 2 }
+		{
+			item: {
+				id: "forestcraft:sky_shooter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "hole_filler_mod:throwable_hole_filler_water", count: 4, random_bonus: 8 }
+		{ item: "cyclic:charm_xp_blocker" }
+		{ item: "supplementaries:spring_launcher" }
+		{ item: "thermal:machine_output_augment" }
+		{ item: "eidolon:pewter_ingot", count: 7, random_bonus: 6 }
+		{ item: "undergarden:cloggrum_ingot", count: 3 }
+		{
+			item: {
+				id: "forestcraft:sharped_leaf_scythe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanshields:shield_botania_manasteel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:manasteel_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "immersiveengineering:pickaxe_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "scalinghealth:heart_crystal", random_bonus: 1 }
+		{ item: "grapplemod:baseupgradeitem", count: 2 }
+		{ item: "create:hand_crank" }
+		{
+			item: {
+				id: "farmersdelight:skillet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "ordinary_items"
+	}
+}

@@ -1,0 +1,2928 @@
+{
+	id: "7017FFBE08333876"
+	group: "0FD19FEC38E74BB8"
+	order_index: 4
+	filename: "ice_and_fire"
+	title: "Mythical Creatures"
+	icon: "iceandfire:dragon_skull_lightning"
+	subtitle: ["Ice and Fire, Wyrmroost"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 4.5d
+			shape: "hexagon"
+			subtitle: "How do those authors know what right clicking is?"
+			description: [
+				"Use your newly found manuscripts to create a bestiary, the (currently mostly empty) documentation of many mythological creatures."
+				""
+				"Tip: you should use the \"Frostbite \\& Brimstone\" resourcepack for Ice and Fire, it makes the textures a lot nicer."
+				""
+				"Note that you don't to grind out dragonsteel in order to beat the modpack. Aeternium armor only offers 2 less points and is much less of a grind to obtain, with the only difference being that you need to kill the Ender Dragon for it."
+			]
+			dependencies: ["28998807CC3D6DF6"]
+			size: 1.5d
+			id: "44CF16EC191275FB"
+			tasks: [{
+				id: "2541BE852959B857"
+				type: "item"
+				item: {
+					id: "iceandfire:bestiary"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "32E503C4E740C5CE"
+					type: "item"
+					item: {
+						id: "scalinghealth:medkit"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "46562D45EC4948FF"
+					type: "item"
+					item: {
+						id: "scalinghealth:bandages"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			subtitle: "Princess diaries"
+			description: ["Has a few purposes: crafting and upgrading the bestiary. Can be found in village chests."]
+			id: "28998807CC3D6DF6"
+			tasks: [{
+				id: "381314F05EAA5161"
+				type: "item"
+				item: {
+					id: "iceandfire:manuscript"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "42ACA6D876F9CDFF"
+				type: "item"
+				item: {
+					id: "iceandfire:silver_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			shape: "hexagon"
+			description: [
+				"Let's face it: your bestiary is lackluster. Soon, you will have memorized everything it has to offer. Maybe you could append entries to it?"
+				""
+				"As you explore the many pockets of this world more, you will come across writings of scholars. They may be found in villages, underground, or other places."
+				""
+				"Insert your bestiary in its current form with some manuscripts and discover something new about the world."
+				""
+				"You will need around 80 manuscripts to complete the Bestiary."
+			]
+			dependencies: ["44CF16EC191275FB"]
+			size: 1.5d
+			id: "384F35A12CCEC9D5"
+			tasks: [{
+				id: "5F6C2EF45ABF8C96"
+				type: "item"
+				item: {
+					id: "iceandfire:lectern"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2C059EFBB2F9350A"
+					type: "item"
+					item: {
+						id: "iceandfire:manuscript"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "4DFC76CCFCBF73A8"
+					type: "item"
+					item: {
+						id: "minecraft:ender_pearl"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "412F6E3263FE1810"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			title: "Dragon Scale"
+			x: 2.0d
+			y: -1.0d
+			subtitle: "Should've gone for the horn..."
+			dependencies: ["0887AF189D175F80"]
+			id: "69EDB19B7C77EAC4"
+			tasks: [{
+				id: "54740690BAC54DA1"
+				type: "item"
+				title: "Any #forge:scales/dragon"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:scales/dragon"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "79655563F6C9E079"
+					type: "item"
+					item: {
+						id: "iceandfire:manuscript"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 6
+				}
+				{
+					id: "69E63EF38D4F6BF9"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			title: "Dragon Bones"
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["0887AF189D175F80"]
+			id: "096533F801C56BB8"
+			tasks: [{
+				id: "421E30A9B16B355D"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3L
+			}]
+			rewards: [{
+				id: "6A683B022E837B13"
+				type: "item"
+				item: {
+					id: "iceandfire:manuscript"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Here be dragons"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"A large, reptilian creature that is slow on the ground but capable of flying at high speeds."
+				""
+				"Dragons have five stages of growth. Stages 1 and 2 are those in which we observe them as infants, being only mild threats. Stage 3 is the type you may have seen in roosts on the surface. They are powerful and should not be attacked without preparation. Stages 4 and 5 are the most powerful, but can only be found in caves surrounded by treasure."
+				""
+				"The sex of the dragon makes a difference. Males have patched wings and females have curved horns. Males also collect stronger items, while females bear eggs."
+			]
+			hide_dependency_lines: true
+			id: "0887AF189D175F80"
+			tasks: [{
+				id: "0D1CD4F2F72014E0"
+				type: "checkmark"
+				title: "Dragons"
+			}]
+			rewards: [{
+				id: "419F465EC12CFB72"
+				type: "item"
+				item: {
+					id: "iceandfire:manuscript"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 6
+			}]
+		}
+		{
+			title: "Kill a Fire Dragon"
+			icon: "iceandfire:fire_dragon_heart"
+			x: -1.5d
+			y: -2.5d
+			subtitle: "It had too much wasabi"
+			description: [
+				"The most common type, can be found in most biomes (on the surface)."
+				""
+				"If you want to raise your own dragon, make sure it's a female who lives underground. These are the only dragons that drop eggs."
+			]
+			dependencies: ["0887AF189D175F80"]
+			id: "16E95A4198F75C3E"
+			tasks: [
+				{
+					id: "64B5B352BBC79731"
+					type: "kill"
+					entity: "iceandfire:fire_dragon"
+					value: 1L
+				}
+				{
+					id: "58786C3100A0457E"
+					type: "item"
+					item: {
+						id: "iceandfire:fire_dragon_heart"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2D795C6537C38BFB"
+					type: "item"
+					item: {
+						id: "artifacts:obsidian_skull"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4B71ED767E6421BE"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "50DE1DAA8667D3A1"
+					type: "item"
+					item: {
+						id: "minecraft:glass_bottle"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "51C9229F563B09CF"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "spartanshields:firebrand"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Kill an Ice Dragon"
+			icon: "iceandfire:ice_dragon_heart"
+			x: 0.0d
+			y: -3.0d
+			subtitle: "You have no chill"
+			description: [
+				"A more rare type of dragon that can only be found in the coldest parts of the world."
+				""
+				"If you want to raise your own dragon, make sure it's a female who lives underground. These are the only dragons that drop eggs."
+			]
+			dependencies: ["0887AF189D175F80"]
+			id: "2587E72D0B3CC7AB"
+			tasks: [
+				{
+					id: "22918A6C55E51D33"
+					type: "kill"
+					entity: "iceandfire:ice_dragon"
+					value: 1L
+				}
+				{
+					id: "76B862896B404103"
+					type: "item"
+					item: {
+						id: "iceandfire:ice_dragon_heart"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "061B3F1F8586E444"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:frost_walker"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3744B763AC56B949"
+					type: "item"
+					item: {
+						id: "cyclic:charm_speed"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "00DEE31D614C6E92"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "14827C3B7FCCDDEF"
+					type: "item"
+					item: {
+						id: "minecraft:glass_bottle"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Kill a Lightning Dragon"
+			icon: "iceandfire:lightning_dragon_heart"
+			x: 1.5d
+			y: -2.5d
+			subtitle: "Hypersensitivity"
+			description: [
+				"The rarest of dragons, residing in jungle, badlands, and savanna biomes."
+				""
+				"If you want to raise your own dragon, make sure it's a female who lives underground. These are the only dragons that drop eggs."
+			]
+			dependencies: ["0887AF189D175F80"]
+			id: "376BF958EB97A878"
+			tasks: [
+				{
+					id: "7C4BD704A3497B55"
+					type: "kill"
+					entity: "iceandfire:lightning_dragon"
+					value: 1L
+				}
+				{
+					id: "4BB650CC8A1A947F"
+					type: "item"
+					item: {
+						id: "iceandfire:lightning_dragon_heart"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6348DE473C80FED4"
+					type: "item"
+					item: {
+						id: "cyclic:lightning_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5129691DD0641CCE"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "17AC7418BD78DBC5"
+					type: "item"
+					item: {
+						id: "minecraft:glass_bottle"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -4.0d
+			description: ["Use the glass bottles awarded to you on the dragon's corpse to collect its blood. This will be useful in crafting."]
+			dependencies: ["16E95A4198F75C3E"]
+			id: "1E103AC3D9BD037D"
+			tasks: [{
+				id: "63DB9A27423F2FC5"
+				type: "item"
+				item: {
+					id: "iceandfire:fire_dragon_blood"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4240F8E292D188A4"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			description: ["Use the glass bottles awarded to you on the dragon's corpse to collect its blood. This will be useful in crafting."]
+			dependencies: ["2587E72D0B3CC7AB"]
+			id: "69A5C3E3034537B7"
+			tasks: [{
+				id: "662151F1A82F2D56"
+				type: "item"
+				item: {
+					id: "iceandfire:ice_dragon_blood"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "12F279021C646654"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -4.0d
+			description: ["Use the glass bottles awarded to you on the dragon's corpse to collect its blood. This will be useful in crafting."]
+			dependencies: ["376BF958EB97A878"]
+			id: "0A8FF4BAE2BDB650"
+			tasks: [{
+				id: "464700D52B77CBCB"
+				type: "item"
+				item: {
+					id: "iceandfire:lightning_dragon_blood"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "73ED4ADB4D3CB47A"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			title: "Raising your own dragon"
+			x: 2.0d
+			y: -6.5d
+			subtitle: "Airborne epic troop that shoots AoE fireballs"
+			description: [
+				"Dragon eggs can be obtained from the corpses of stage 4 or 5 female dragons. These are the ones who are found underground. Make sure to only collect around 2-3 bottles of blood, or else it won't drop its egg."
+				""
+				"Depending on the element, dragon eggs hatch under different conditions: "
+				"Fire dragon eggs must be placed on a block that is on fire; pick one that burns forever such as netherack."
+				"Ice dragon eggs must be placed in water."
+				"Lightning dragon eggs must be exposed to rain. Lightning will strike once the egg hatches. Have a water bucket on hand to put out any possible fires, since these might kill your dragon!"
+				""
+				"Dragon eggs take a total of 6 minutes to hatch. You know you're doing it right if the egg shakes. Dragon eggs are affected by gravity and will drop when broken."
+				"{image:kubejs:textures/item/baby_dragon.png width:200 height:120 align:1}"
+				"Baby dragons are very small and vulnerable. You can right click on one to put it on your shoulder. Do this and take a screenshot of it! By putting a dragon on your shoulder, you tame it, meaning you also can't hurt it!"
+				""
+				"While initially passive, dragons will begin to be hostile towards almost all mobs when they're a little older, so make sure to raise it where it won't threaten or be threatened by anything."
+				""
+				"Dragons take a very long time to grow with each stage needing 25 in-game days. At stage 3, your dragon can be ridden and becomes capable of activating Dragonforges. Check on the status of your dragon with sneak + RMB."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"16E95A4198F75C3E"
+				"376BF958EB97A878"
+				"2587E72D0B3CC7AB"
+			]
+			dependency_requirement: "one_completed"
+			id: "79D476123174CCE3"
+			tasks: [
+				{
+					id: "1530D0AC3FF249D7"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonegg_red"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "28D6E5EE16708768"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonegg_green"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1D12EA9772B56CBF"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonegg_bronze"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0A46B0429E5CB180"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonegg_gray"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5CFD4C80146D1C36"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonegg_blue"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "783CE24A7C0251CF"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonegg_white"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "717AA7BD17432916"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonegg_sapphire"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "541DF01F602DD790"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonegg_silver"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "11A9EB024D363089"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonegg_electric"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "180E29F06D0568D0"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonegg_amythest"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "457A45E03E99E8B8"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonegg_copper"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "54E3EDAB20D6483B"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonegg_black"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7D68BE082145326C"
+					type: "ftbmoney:money"
+					ftb_money: 40L
+				}
+				{
+					id: "74C31A0B40E7C063"
+					type: "item"
+					item: {
+						id: "iceandfire:dragon_meal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "7800DDFBE72C5BE9"
+					type: "item"
+					item: {
+						id: "forestcraft:rain_flute"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -8.0d
+			subtitle: "Looks nutritious."
+			description: [
+				"Each use of Dragon Meat accelerates the growth of a baby dragon by 1 day. This means you would need 50 dragon meals (250 bones and 200 meat) to bring a dragon from stage 1 to stage 3 on the day it's born."
+				""
+				"Adds 20 hunger to your dragon. Dragon hunger decreases very slowly over time but it's still a good idea to check on it every once in a while to make sure it won't starve."
+			]
+			dependencies: ["79D476123174CCE3"]
+			id: "712ADB4D3091E623"
+			tasks: [{
+				id: "1834AAEC69C594B0"
+				type: "item"
+				item: {
+					id: "iceandfire:dragon_meal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A4467D988966264"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+				{
+					id: "77F194C5A531DB91"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:mending"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: 3.5d
+			y: -6.5d
+			subtitle: "Where can I download the Dragonforge Mod Loader?"
+			description: [
+				"Dragonforges aren't crafting tables; they're 3x3x3 cubes of a few different blocks. You need your materials (except the bone blocks) to be the same element as your dragon blood and the dragon you will use to power the forge."
+				""
+				"They are necessary in creating dragonsteel ingots/tools, some of the most powerful equipment in the modpack."
+				""
+				"The quest stemming off of your dragon type's blood shows what you need to create a Dragonforge. In the screenshot below, the bottom and top layers of the Dragonforge are depicted. The blocks in the corners are Blocks of Dragon Bones (NOT Dragon Bone Blocks) and the blue bricks are dragonforge bricks. "
+				"{image:kubejs:textures/item/dragonforge_1.png width:100 height:100 align:1}"
+				"The screenshot below shows how blocks must be placed for the middle layer. The bricks are still dragonforge bricks, the middle block is a dragonforge core, and the bottom middle is the dragonforge aperture."
+				"{image:kubejs:textures/item/dragonforge_2.png width:100 height:100 align:1}"
+				"If you did it correctly, vents will appear on the sides. Congratulations! You're now ready to make dragonsteel ingots."
+			]
+			dependencies: ["79D476123174CCE3"]
+			id: "2B02F4C5D6B472DA"
+			tasks: [{
+				id: "379E54CC8F1D7A6B"
+				type: "checkmark"
+				title: "Dragonforge"
+			}]
+			rewards: [{
+				id: "271161316B7558A3"
+				type: "item"
+				item: {
+					id: "minecraft:golden_apple"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			icon: {
+				id: "iceandfire:dragonsteel_fire_ingot"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 5.0d
+			y: -8.0d
+			subtitle: "My screams echo out through the fire"
+			description: [
+				"The first thing you should be doing with your completed dragonforge is placing the appropriate dragon blood and and iron ingot in their slots within the aperture."
+				""
+				"Then you need your dragon. It doesn't have to be tamed, but using a wild dragon is more difficult. When brought near a forge with the ingredients inside, it will automatically breathe its elemental breath, powering the forge and crafting Dragonsteel Ingots."
+				""
+				"Dragonsteel tools are among the game's most powerful. Each one has a unique trait that acts as an upgrade to the ones found on dragon bone weapons."
+			]
+			dependencies: ["2B02F4C5D6B472DA"]
+			id: "7B9C33E5F24745A9"
+			tasks: [{
+				id: "459B1E05A83CDEB3"
+				type: "checkmark"
+				title: "Dragonsteel"
+			}]
+			rewards: [{
+				id: "5D8A129B30B81D3B"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_golden_apple"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Lightning Dragonforge"
+			x: 4.5d
+			y: -5.5d
+			description: ["Please refer to the \"Dragonforge\" quest (it's just a check-off with information, don't worry) to learn how to construct"]
+			dependencies: ["0A8FF4BAE2BDB650"]
+			id: "3FA41748BD9C497C"
+			tasks: [
+				{
+					id: "06D5B4A8C4F27AFC"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonforge_lightning_brick"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 17L
+				}
+				{
+					id: "6F4719CBF5D120D6"
+					type: "item"
+					item: {
+						id: "iceandfire:dragon_bone_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "339DBEB885C8E5DE"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonforge_lightning_input"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "429537EE48405D98"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonforge_lightning_core_disabled"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1FA621D39237D744"
+					type: "item"
+					item: {
+						id: "iceandfire:lightning_dragon_blood"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0063ECD6B919B1D3"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Ice Dragonforge"
+			x: 0.0d
+			y: -8.0d
+			description: ["Please refer to the \"Dragonforge\" quest (it's just a check-off with information, don't worry) to learn how to construct"]
+			dependencies: ["69A5C3E3034537B7"]
+			id: "5E153AFA91276F59"
+			tasks: [
+				{
+					id: "6B329B61BE0F3784"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonforge_ice_brick"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 17L
+				}
+				{
+					id: "446560E3E0A1274B"
+					type: "item"
+					item: {
+						id: "iceandfire:dragon_bone_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "7929806F39FBD6EF"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonforge_ice_input"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "08AB9703173C1652"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonforge_ice_core_disabled"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "423B2C7EA4A0AF49"
+					type: "item"
+					item: {
+						id: "iceandfire:ice_dragon_blood"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "0B99E76F159BD969"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Fire Dragonforge"
+			x: -4.5d
+			y: -5.5d
+			description: ["Please refer to the \"Dragonforge\" quest (it's just a check-off with information, don't worry) to learn how to construct"]
+			dependencies: ["1E103AC3D9BD037D"]
+			id: "6AF1C6907F25272D"
+			tasks: [
+				{
+					id: "7A3C4ECFBBD45C6E"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonforge_fire_brick"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 17L
+				}
+				{
+					id: "497DC35E3B1F3076"
+					type: "item"
+					item: {
+						id: "iceandfire:dragon_bone_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "5FD846516570E890"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonforge_fire_input"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "06F49326F088D9C2"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonforge_fire_core_disabled"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7AAF8CA43FD75A78"
+					type: "item"
+					item: {
+						id: "iceandfire:fire_dragon_blood"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "3D54F46A381A3844"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -5.5d
+			description: [""]
+			dependencies: ["1E103AC3D9BD037D"]
+			id: "1DAB67516F5E2A33"
+			tasks: [{
+				id: "5BBB7201FB1359A8"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_fire"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "59AD5580126059D6"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -7.0d
+			dependencies: ["69A5C3E3034537B7"]
+			id: "29FDA5128CAC20B0"
+			tasks: [{
+				id: "4947D771AE06A8E8"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_ice"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7C2BECDB65BADBA4"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			dependencies: ["0A8FF4BAE2BDB650"]
+			id: "3C6A8C582918AA30"
+			tasks: [{
+				id: "2C1996217CE3CA82"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone_sword_lightning"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "632E09139414400A"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			description: ["Right click on a saved dragon, and again somewhere else to teleport it."]
+			dependencies: ["1E103AC3D9BD037D"]
+			id: "4656846B90388D98"
+			tasks: [{
+				id: "15D2AFFDB62191EB"
+				type: "item"
+				item: {
+					id: "iceandfire:summoning_crystal_fire"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "28F850E4D85DDD06"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			description: ["Right click on a saved dragon, and again somewhere else to teleport it."]
+			dependencies: ["69A5C3E3034537B7"]
+			id: "23361572F524E2F2"
+			tasks: [{
+				id: "0ED68BD901BD7ED0"
+				type: "item"
+				item: {
+					id: "iceandfire:summoning_crystal_ice"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1944FD51FA68A982"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			description: ["Right click on a saved dragon, and again somewhere else to teleport it."]
+			dependencies: ["0A8FF4BAE2BDB650"]
+			id: "67B67A86EE9FC472"
+			tasks: [{
+				id: "528F33B9C1839282"
+				type: "item"
+				item: {
+					id: "iceandfire:summoning_crystal_lightning"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EF0B9024F63F888"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			subtitle: "Play a nice tune"
+			description: [
+				"Dragon horns are able to store your tamed dragons. To do this, right click a dragon with the horn in hand. When you want to release your dragon, hold right click."
+				""
+				"Dragons don't age while stored in a horn."
+			]
+			dependencies: ["096533F801C56BB8"]
+			id: "5A23C46CB9318CFD"
+			tasks: [{
+				id: "7C583A54E4B2E383"
+				type: "item"
+				item: {
+					id: "iceandfire:dragon_horn"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "34E4E40B62853D29"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "660F3685912461C7"
+					type: "item"
+					item: {
+						id: "iceandfire:manuscript"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			subtitle: "No-fly zone"
+			description: [
+				"Causes tamed dragons and hippogryphs to stop flying when played."
+				""
+				"The creature must be nearby. The flute can affect multiple dragons/hippogryphs at once."
+			]
+			dependencies: ["096533F801C56BB8"]
+			id: "77F61CDB1E79FD32"
+			tasks: [{
+				id: "21C2678025F49510"
+				type: "item"
+				item: {
+					id: "iceandfire:dragon_flute"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "60E8290857B09A8B"
+					type: "item"
+					item: {
+						id: "iceandfire:dragon_meal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "47FD92635A86C0D6"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:resistance"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Dragon Skull"
+			x: -2.0d
+			y: 0.5d
+			dependencies: ["0887AF189D175F80"]
+			id: "4F35C708FA977DE1"
+			tasks: [{
+				id: "71DF22A34EA8AC5C"
+				type: "item"
+				title: "Any #iceandfire:dragon_skulls"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "iceandfire:dragon_skulls"
+					}
+				}
+			}]
+			rewards: [{
+				id: "3B8C0D6CCACDEEC9"
+				type: "item"
+				item: {
+					id: "iceandfire:manuscript"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			subtitle: "Leader of the pack"
+			description: [
+				"Dragons are mighty beasts, and even when you have raised one all the way to adulthood, it still refuses to listen to what you want it to do."
+				""
+				"That's where these come in. Dragon command staffs let you command your dragon (or hippogryph) like a dog. You can even define a dragon's home by shift right clicking and it won't leave that area."
+				""
+				"This item works for any tamed flying mob from Ice and Fire."
+			]
+			dependencies: ["4F35C708FA977DE1"]
+			id: "6C1762F054064CA3"
+			tasks: [{
+				id: "2C1EEF68BB8D3154"
+				type: "item"
+				item: {
+					id: "iceandfire:dragon_stick"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2FDFC3C85A4EEE1C"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonbone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "53FD5669A953EC3F"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "Dragon Bone Arsenal"
+			icon: {
+				id: "iceandfire:dragonbone_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -3.5d
+			y: -0.5d
+			description: [
+				"Dragon bones make great weapons."
+				""
+				"Dragon bone bows are great, but need dragon bone arrows. They're definitely worth it though, as they dish out over 30 damage per shot."
+			]
+			dependencies: ["096533F801C56BB8"]
+			id: "3BDA8F8FD5C5E8FB"
+			tasks: [
+				{
+					id: "6386CBDA8EF8A049"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonbone_bow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7A6DFB3CB6520E63"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonbone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1C615EEFB979A7DF"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonbone_arrow"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16L
+				}
+			]
+		}
+		{
+			title: "Hippogryphs"
+			icon: "iceandfire:hippogryph_skull"
+			x: 4.0d
+			y: 1.5d
+			subtitle: "The ultimate chimera"
+			description: [
+				"Hippogryphs are common in hillier biomes and feast on most things they see, including players."
+				""
+				"One way we have found to tame a hippogryph is by offering it a part of its favorite prey: rabbits. Locate a rabbit, kill it, and drop its foot in front of the hippogryph."
+				"You may need more than 1 rabbit foot to tame a hippogryph. It is guaranteed to be tamed after the 8th one."
+			]
+			id: "2F66A8E8513C7C2C"
+			tasks: [{
+				id: "74F0861E756B2D91"
+				type: "observation"
+				timer: 0L
+				observe_type: 5
+				to_observe: "iceandfire:hippogryph"
+			}]
+			rewards: [{
+				id: "34E607C480D761E0"
+				type: "item"
+				item: {
+					id: "minecraft:rabbit_spawn_egg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Controlling hippogryphs"
+			icon: {
+				id: "minecraft:stick"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: 1.0d
+			description: [
+				"You can use a simple stick to tell hippogryphs whether to stay in place or move freely. They can fly at great heights, so you should always be riding your hippogryph when it's in wander mode."
+				""
+				"You can invest in a dragon bone flute to make your hippogryph stop flying when you don't want it to."
+				""
+				"You can put a saddle, chest, and armor on a hippogryph. Since they are only 50% horse, you need to create special armor for them by surrounding horse armor to the left and right with feathers on a crafting grid."
+				""
+				"Can be bred using rabbit stew."
+			]
+			dependencies: ["2F66A8E8513C7C2C"]
+			id: "73A2606AB02EC6FB"
+			tasks: [
+				{
+					id: "4A808B81544A0A24"
+					type: "item"
+					item: {
+						id: "minecraft:rabbit_foot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "69A3863BBEEE71B5"
+					type: "item"
+					item: {
+						id: "minecraft:stick"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7A860FAA7EE46876"
+					type: "advancement"
+					advancement: "iceandfire:iceandfire/tame_hippogryph"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5BDFFAC26D6F1565"
+					type: "item"
+					item: {
+						id: "iceandfire:gold_hippogryph_armor"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7B575A84197F935B"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Hippogryph Loot"
+			icon: {
+				id: "iceandfire:hippogryph_talon"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: 2.0d
+			subtitle: "Hooked yet?"
+			description: [
+				"You can kill hippogryphs instead, but they rarely drop anything more than what you could get from cutting down on the amount of livestock you have."
+				""
+				"You can make a sword with a hippogryph talon, but skulls don't serve any more purpose than as decoration."
+			]
+			dependencies: ["2F66A8E8513C7C2C"]
+			id: "3CA395CD3125E8A9"
+			tasks: [{
+				id: "5B8A0D38BDBD7FBB"
+				type: "item"
+				item: {
+					id: "iceandfire:hippogryph_talon"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "07E27DDEC7134429"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "54B70AABA737AD36"
+					type: "item"
+					item: {
+						id: "minecraft:rabbit_foot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			description: [
+				"A unique sword that performs sweeping attacks regardless of charge level."
+				""
+				"Must be obtained after completing Blue Skies as you need a material from Atum."
+			]
+			dependencies: ["3CA395CD3125E8A9"]
+			id: "4428CB447D78657A"
+			tasks: [{
+				id: "002E62645E594146"
+				type: "item"
+				item: {
+					id: "iceandfire:hippogryph_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "48746AE44B5B3092"
+					type: "item"
+					item: {
+						id: "forestcraft:sky_fragment"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "3F30C7122CDC6438"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "6283F19DC96C8A31"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "cyclic:levitation"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Gorgons"
+			icon: {
+				id: "iceandfire:gorgon_head"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 4.0d
+			y: 2.5d
+			subtitle: "Bane of many Hades runs"
+			description: [
+				"An ancient humanoid monster with hair made out of snakes and snake-like tails."
+				""
+				"Documents reveal they are able to instantly kill anything that looks at them using petrification."
+				""
+				"All gorgons have been locked below temples found on coasts; they will not be found anywhere in the wild."
+			]
+			id: "7B13F38941B46953"
+			tasks: [{
+				id: "6E58B0852DA73C17"
+				type: "structure"
+				structure: "iceandfire:gorgon_temple"
+			}]
+			rewards: [
+				{
+					id: "60835B270D888897"
+					type: "item"
+					item: {
+						id: "minecraft:iron_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "30DD21A24E6B3394"
+					type: "item"
+					item: {
+						id: "iceandfire:silver_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "0B7586695BE2754F"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "Kill a Gorgon"
+			icon: {
+				id: "iceandfire:blindfold"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.0d
+			y: 3.0d
+			subtitle: "Gorgon Ramsay"
+			description: [
+				"Gorgons are minibosses, so their base HP is only 100. You should bring a powerful sword, allowing the gorgon to go down with a few hits."
+				""
+				"Milk is also suggested because the gorgon's melee attacks poison you. "
+				""
+				"The gorgon's direct attacks deal negligible damage. The poison and limited eyesight are what's really concerning. If you can adapt to these, the miniboss goes down easily."
+				""
+				"Gorgons drop their heads, which you can use to turn one mob into stone. While this is useful, the mob becoming stone means it'll only drop some cobblestone and you won't get credit for killing it."
+			]
+			dependencies: ["7B13F38941B46953"]
+			id: "772204F76820FC7D"
+			tasks: [
+				{
+					id: "1E5DDD52AE1690F8"
+					type: "kill"
+					entity: "iceandfire:gorgon"
+					value: 1L
+				}
+				{
+					id: "5D31A3003BE6D949"
+					type: "item"
+					item: {
+						id: "iceandfire:blindfold"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5EA91C290C05F892"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:unbreaking"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "51156F0CA7FF82EB"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Cyclopes"
+			x: 4.0d
+			y: 0.5d
+			subtitle: "Take them down with ODM gear"
+			description: [
+				"Giant monsters with only one eye. They are found in caves on beaches doing what they do best: caring for sheep. They can also be found (presumably) looking for sheep in plains and savanna biomes."
+				""
+				"The thing they do second best is eating players like you, so you shouldn't let it take you down."
+			]
+			id: "18DA2063740B348C"
+			tasks: [{
+				id: "34DDE15FD77A2BD7"
+				type: "observation"
+				icon: {
+					id: "iceandfire:cyclops_skull"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "iceandfire:cyclops"
+			}]
+			rewards: [
+				{
+					id: "02E6965C1B1B7611"
+					type: "item"
+					item: {
+						id: "culturaldelights:mutton_sandwich"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 14
+				}
+				{
+					id: "06453CD870294F86"
+					type: "item"
+					item: {
+						id: "minecraft:white_wool"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Not quite as powerful as Sauron"
+			description: ["When held in either hand, inflicts weakness on nearby mobs. Its durability goes down over time, but it can be enchanted with unbreaking using an anvil. It can receive any enchantments that are universally applicable to tools like Life-Mending."]
+			dependencies: ["18DA2063740B348C"]
+			id: "18FDEE5F2D941744"
+			tasks: [{
+				id: "4D4EF11DB67F80C1"
+				type: "item"
+				item: {
+					id: "iceandfire:cyclops_eye"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0D6A2C432E7C2544"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_weakness"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "7E19DE40BC355EAB"
+					type: "item"
+					item: {
+						id: "artifacts:running_shoes"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "065A89ABF7679422"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Hippocampi"
+			icon: {
+				id: "iceandfire:hippocampus_fin"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 8.0d
+			y: 2.5d
+			subtitle: "Educated mammals"
+			description: [
+				"Beautiful creatures who live in oceans. They have never been seen attacking other creatures under any circumstance."
+				""
+				"They can be tamed and healed with enough kelp, their favorite food. Meanwhile, they're fed using prismarine crystals."
+				""
+				"They can be mounted and move quickly across the ocean while being sluggish on land. They can be given a saddle and chest."
+				""
+				"Hippocampi drop shiny scales and (more rarely) their fins. These items are not required for anything useful and do not make hippocampi worth killing."
+			]
+			id: "05EB76C97F06B5C4"
+			tasks: [{
+				id: "34F30F085EE0C675"
+				type: "observation"
+				timer: 0L
+				observe_type: 5
+				to_observe: "iceandfire:hippocampus"
+			}]
+			rewards: [{
+				id: "7CEBB7703C256AC6"
+				type: "item"
+				item: {
+					id: "artifacts:flippers"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Cockatrices"
+			icon: "iceandfire:cockatrice_skull"
+			x: 4.0d
+			y: 3.5d
+			subtitle: "This is where your McNuggets come from"
+			description: [
+				"Mutant mixtures between lizards and chickens. Found in small groups in savannas. "
+				""
+				"Cockatrices are tamed by besting them in staring contests. It's suggested that you bring many healing items like medkits, health potions, and whatever else you have access to."
+			]
+			id: "53901807F754AE99"
+			tasks: [{
+				id: "3E6C8B827C331C59"
+				type: "observation"
+				timer: 0L
+				observe_type: 0
+				to_observe: "iceandfire:cockatrice"
+			}]
+			rewards: [
+				{
+					id: "2A614ECDFBED1E41"
+					type: "item"
+					item: {
+						id: "scalinghealth:bandages"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "352D1C5613B747CE"
+					type: "item"
+					item: {
+						id: "minecraft:golden_apple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			icon: {
+				id: "iceandfire:rotten_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 8.0d
+			y: 3.5d
+			subtitle: "Death stare"
+			description: [
+				"Right clicking changes the behavior of the cockatrice between following, patrolling, acting freely, or sitting still."
+				""
+				"You can heal them by feeding them seeds."
+				""
+				"Throwing rotten eggs can hatch baby cockatrices, which are automatically tamed."
+			]
+			hide_dependency_lines: true
+			dependencies: ["53901807F754AE99"]
+			id: "5AC1EAE7C5766D69"
+			tasks: [{
+				id: "1358D3DF782FDEA9"
+				type: "checkmark"
+				title: "Tamed Cockatrices"
+			}]
+		}
+		{
+			title: "Cockatrice Drops"
+			x: 6.0d
+			y: 4.0d
+			description: [
+				"Cockatrices drop the same thing as chicken in addition to wither bones and cockatrice eyes (rare)."
+				""
+				"Cockatrice eyes can be used to craft a cockatrice scepter."
+			]
+			dependencies: ["53901807F754AE99"]
+			id: "3DEAE5EF551A6025"
+			tasks: [
+				{
+					id: "12AAAF8584D9A37B"
+					type: "item"
+					item: {
+						id: "iceandfire:cockatrice_eye"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "22D76BDF1BBE6EFA"
+					type: "item"
+					item: {
+						id: "iceandfire:cockatrice_scepter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "646EC40B7D5A36C5"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_golden_apple"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "74C683DC835F82A0"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+			]
+		}
+		{
+			title: "Trolls"
+			x: 4.0d
+			y: 4.5d
+			subtitle: "U mad bro?"
+			description: [
+				"Large monsters with tusks on their faces. They use massive pillars or tree trunks as weapons."
+				""
+				"As you would expect based on their appearance, trolls are hostile. They let you know this with their loud roar (if you couldn't tell)."
+			]
+			id: "64A2F0BD9546074C"
+			tasks: [{
+				id: "55DA9BEF0D3CCB0A"
+				type: "observation"
+				icon: {
+					id: "iceandfire:troll_skull"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "iceandfire:troll"
+			}]
+		}
+		{
+			title: "Kill a Troll"
+			x: 6.0d
+			y: 5.0d
+			subtitle: "No more trolling"
+			description: [
+				"Trolls are difficult foes. They are immune to arrows and they have powerful melee attacks. To balance this, trolls drop some great loot."
+				""
+				"The best advice I can give you is to have good equipment and be at a good level. But trolls are hard to fight in enclosed areas like caves, so maybe luring it outside at night is a good idea?"
+				""
+				"Trolls drop tusks and leather, which are used to craft their armor. They might also drop their weapons, which have extreme power but very slow speed."
+			]
+			dependencies: ["64A2F0BD9546074C"]
+			id: "7B6AFA318D85EC95"
+			tasks: [{
+				id: "6770CAE01A8615CE"
+				type: "kill"
+				icon: {
+					id: "iceandfire:troll_tusk"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "iceandfire:troll"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "691452777B9A0CEE"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "12E2E80AE9FD988C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			title: "Pixies"
+			icon: "iceandfire:pixie_wings"
+			x: 8.0d
+			y: 4.5d
+			subtitle: "Immune to Dragons"
+			description: ["Small flying creatures that live in small villages. Not hostile, but will try to steal your things."]
+			id: "553B9DCB123F5C7B"
+			tasks: [{
+				id: "716623411BF62B8A"
+				type: "observation"
+				icon: {
+					id: "iceandfire:pixie_wings"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "iceandfire:pixie"
+			}]
+			rewards: [
+				{
+					id: "2123220F893F2F04"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:haste"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0E3CC98707FF9EA2"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strength"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "26833A07E30E72E4"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Sirens"
+			icon: "iceandfire:siren_tear"
+			x: 8.0d
+			y: 5.5d
+			subtitle: "There's an impostor among us!"
+			description: ["If you ever become enthralled by a siren, make sure to find land, since they aren't that good at walking."]
+			id: "77E8C7EC64879971"
+			tasks: [{
+				id: "1B09D5E810D5C081"
+				type: "observation"
+				timer: 0L
+				observe_type: 5
+				to_observe: "iceandfire:siren"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.0d
+			subtitle: "Interesting new AirPods you have there"
+			description: ["A very primitive yet effective method of dealing with sirens."]
+			dependencies: ["77E8C7EC64879971"]
+			id: "0650B0AF3F61CE59"
+			tasks: [{
+				id: "182C7B83150B6888"
+				type: "item"
+				item: {
+					id: "iceandfire:earplugs"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "013B21D78E7EF27B"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 6.0d
+			subtitle: "Create your own natural disaster alarms!"
+			dependencies: ["77E8C7EC64879971"]
+			id: "5D989A49F4B7E793"
+			tasks: [{
+				id: "3DF35A9E98DBED9F"
+				type: "item"
+				item: {
+					id: "iceandfire:siren_flute"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "402AFC74EC24D1A0"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "6D89F324EDF36ADE"
+					type: "item"
+					item: {
+						id: "scalinghealth:heart_crystal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Death Worms"
+			x: 8.0d
+			y: 0.5d
+			subtitle: "I shall feast upon your essence!"
+			description: [
+				"Burrowing worms that spawn in deserts. The largest ones are massive and are capable of catching you off guard."
+				""
+				"Small worms try to bite anything that comes near them, while larger ones lunge out of the sand."
+				""
+				"Death worms can also attack other hostile mobs, so let them take care of the worms for you and then collect the drops!"
+				""
+				"Be careful: large death worm attacks are classified as explosions, meaning they won't trigger your one-hit kill protection."
+			]
+			id: "459699627D3BEA90"
+			tasks: [{
+				id: "520F844D69997B10"
+				type: "kill"
+				icon: {
+					id: "iceandfire:deathworm_chitin_red"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "iceandfire:deathworm"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2B30E52BCB36B561"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			title: "Stymphalian Bird"
+			x: 8.0d
+			y: -0.5d
+			subtitle: "Very exotic"
+			description: [
+				"They look like an ordinary bird of prey at first, but are precise killers who pick on anything from pigs to players."
+				""
+				"Stymphalian birds shoot feathers at their prey. Bows and shields will help you!"
+			]
+			id: "2E1BD6A9FE215669"
+			tasks: [{
+				id: "19396E3DA0FC2208"
+				type: "kill"
+				icon: {
+					id: "iceandfire:stymphalian_skull"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "iceandfire:stymphalian_bird"
+				value: 1L
+			}]
+			rewards: [{
+				id: "62D0B8F55A57FEF3"
+				type: "item"
+				item: {
+					id: "minecraft:arrow"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 32
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			description: [
+				"Sometimes drops from stymphalian birds. Used to craft various weapons."
+				""
+				"Try the arrows! "
+			]
+			dependencies: ["2E1BD6A9FE215669"]
+			id: "0EC002141B4910F9"
+			tasks: [{
+				id: "3E95F084410C8FA0"
+				type: "item"
+				item: {
+					id: "iceandfire:stymphalian_bird_feather"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "22EB1E2EEAAA393B"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "6DFA413CF252AEF8"
+					type: "item"
+					item: {
+						id: "iceandfire:stymphalian_arrow"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Amphitheres"
+			x: 10.0d
+			y: 0.0d
+			subtitle: "Flying snakes"
+			description: [
+				"Large winged reptiles. No, not like dragons. These ones don't attack anything and can't do elemental breath. They also have cooler tails. Found in jungles"
+				""
+				"They can be tamed, but it's pretty hard. The first thing you must do is catch it on the ground. A Dragon Bone Flute can help."
+				""
+				"Then, you should mount the amphithere. It will buck you off and then start attacking you. All you need to do is block its attacks without fighting back until the reptile gets bored."
+				""
+				"Cocoa beans heal tamed amphitheres and cookies allow them to breed."
+			]
+			id: "52A66AD25F66C4D8"
+			tasks: [{
+				id: "152DFCEE269D58EE"
+				type: "observation"
+				title: "Amphithere"
+				icon: {
+					id: "iceandfire:amphithere_skull"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "iceandfire:amphithere"
+			}]
+			rewards: [
+				{
+					id: "6D022DFB4CA31517"
+					type: "item"
+					item: {
+						id: "minecraft:snowball"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 16
+				}
+				{
+					id: "620C515238DDDA5A"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "environmental:vitality"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "iceandfire:seaserpent_skull"
+			x: 10.0d
+			y: 1.0d
+			subtitle: "Hall of RLCraft fame"
+			description: ["Depending on the size, a sea serpent could be as dangerous as a dragon, so they should be treated as such. "]
+			id: "49F32484E3D09EF6"
+			tasks: [{
+				id: "6FE779FBAB719615"
+				type: "kill"
+				title: "Sea Serpents"
+				entity: "iceandfire:sea_serpent"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "762F758AF938026D"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "5174410DC64C9D98"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			subtitle: "Smells like laundry detergent"
+			dependencies: ["49F32484E3D09EF6"]
+			id: "60C0814AC4E42246"
+			tasks: [{
+				id: "6D8F4051D4C6C1CB"
+				type: "item"
+				item: {
+					id: "iceandfire:tide_trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4AA6C0CE33DBB022"
+					type: "item"
+					item: {
+						id: "xpbook:xp_tome"
+						Count: 1b
+						tag: {
+							xp: 974
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "0ED5FBD7B7BC6790"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 10s
+								id: "minecraft:impaling"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "22B8CB6D7090EC15"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+			]
+		}
+		{
+			title: "Kill a hydra!"
+			icon: {
+				id: "iceandfire:hydra_skull"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 10.0d
+			y: 4.0d
+			description: ["Still working on this one, check back soon!"]
+			id: "64FC6B806893F667"
+			tasks: [{
+				id: "6039D40BA4C8DF35"
+				type: "kill"
+				entity: "iceandfire:hydra"
+				value: 1L
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			dependencies: ["64FC6B806893F667"]
+			id: "2A50BAABFB62A2FE"
+			tasks: [{
+				id: "365EC1E9333FCD1D"
+				type: "item"
+				item: {
+					id: "iceandfire:hydra_heart"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			subtitle: "When will the Sniper Skeleton spawn?"
+			description: ["Dropped by ghosts, an enemy you can disturb in the graveyard (the special one from Ice and Fire, not the ones added by the The Graveyard mod)."]
+			id: "6599F5CE69F334E8"
+			tasks: [{
+				id: "7775063DBD92B0DC"
+				type: "item"
+				item: {
+					id: "iceandfire:ectoplasm"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: ["Rare drop from ghosts"]
+			dependencies: ["6599F5CE69F334E8"]
+			id: "69C947520BF94B87"
+			tasks: [{
+				id: "75F87AEF90AF37FF"
+				type: "item"
+				item: {
+					id: "iceandfire:ghost_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["69C947520BF94B87"]
+			id: "2C88B5CA13FF8E9E"
+			tasks: [{
+				id: "4E737F684A8D4E24"
+				type: "item"
+				item: {
+					id: "iceandfire:ghost_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,213 @@
+{
+	id: "0574D9B0B0398489"
+	group: "446571DD2C208B26"
+	order_index: 0
+	filename: "sell_your_items"
+	title: "Sell your items (WIP)"
+	icon: "atum:coin_gold"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Trade your Diamonds"
+			x: 0.0d
+			y: -1.0d
+			id: "44F8D7CD9D69A1B6"
+			tasks: [{
+				id: "23D646D4DF98B45D"
+				type: "item"
+				disable_toast: true
+				item: {
+					id: "minecraft:diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "36A652F2101B481D"
+					type: "command"
+					icon: "atum:coin_gold"
+					auto: "enabled"
+					command: "/ftbmoney add @p 6"
+					player_command: false
+				}
+				{
+					id: "2F3B3CA81E150C9A"
+					type: "command"
+					icon: {
+						id: "atum:coin_gold"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					auto: "no_toast"
+					command: "/ftbquests change_progress @a reset 44F8D7CD9D69A1B6"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			id: "730E225C8D51E2CF"
+			tasks: [{
+				id: "02CE8CF811EACF5C"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Gamble $50"
+			disable_toast: true
+			x: -1.5d
+			y: -1.0d
+			id: "42DF59AE8F72ABF0"
+			tasks: [{
+				id: "436A837326F3A9A7"
+				type: "ftbmoney:money"
+				value: 50L
+			}]
+			rewards: [
+				{
+					id: "4D2E51D7CB543DB2"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+					random_bonus: 65
+				}
+				{
+					id: "6F3EAE1E1A83DFC9"
+					type: "command"
+					title: "Click to reset!"
+					icon: "create:analog_lever"
+					auto: "disabled"
+					command: "/ftbquests change_progress @a reset 42DF59AE8F72ABF0"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Trade your logs"
+			icon: {
+				id: "minecraft:oak_log"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			disable_toast: true
+			x: 1.5d
+			y: -1.0d
+			id: "1A5EA0673C66615C"
+			tasks: [{
+				id: "4962F2AB55E493EF"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 32L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "685AD146F4EFE919"
+					type: "command"
+					auto: "enabled"
+					command: "/ftbmoney add @p 8"
+					player_command: false
+				}
+				{
+					id: "167930D7EABD164E"
+					type: "command"
+					auto: "invisible"
+					command: "/ftbquests change_progress @a reset 1A5EA0673C66615C"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Buy an iron hammer"
+			icon: {
+				id: "tetra:modular_double"
+				Count: 1b
+				tag: {
+					"double/handle": "double/basic_handle"
+					honing_progress: 365
+					HideFlags: 1
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "afa45f96-3ef6-43cd-8993-9b0cefe86c47"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					Damage: 0
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/basic_hammer_left_material": "basic_hammer/iron"
+				}
+			}
+			disable_toast: true
+			x: -1.5d
+			y: 0.5d
+			subtitle: "Have as many as you'd like"
+			dependencies: ["7D1E20910E3D620F"]
+			id: "5A2385BBB39C6E8F"
+			tasks: [{
+				id: "07E4C95C1AC6F9DC"
+				type: "ftbmoney:money"
+				value: 20L
+			}]
+			rewards: [
+				{
+					id: "5263776EE91791A8"
+					type: "command"
+					title: "Click to reset progress"
+					icon: {
+						id: "relics:runic_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					command: "/ftbquests change_progress @p reset 5A2385BBB39C6E8F"
+					player_command: false
+				}
+				{
+					id: "39C179E651631226"
+					type: "item"
+					item: {
+						id: "tetra:modular_double"
+						Count: 1b
+						tag: {
+							"double/head_left/settle_progress": 313
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							honing_progress: 414
+							HideFlags: 1
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							"double/head_right/settle_progress": 313
+							id: "8954360c-cd74-44f6-a1bb-4f314cda972b"
+							Damage: 15
+							"double/basic_hammer_right_material": "basic_hammer/iron"
+							"double/handle/settle_progress": 253
+							"double/basic_hammer_left_material": "basic_hammer/iron"
+						}
+					}
+				}
+			]
+		}
+	]
+}

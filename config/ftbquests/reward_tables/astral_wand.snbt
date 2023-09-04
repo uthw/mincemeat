@@ -1,0 +1,46 @@
+{
+	id: "1B7AE1DF3F5705E5"
+	order_index: 12
+	title: "Astral wand"
+	loot_size: 1
+	rewards: [
+		{ item: "astralsorcery:wand" }
+		{
+			item: {
+				id: "astralsorcery:illumination_wand"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "astralsorcery:architect_wand"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "astralsorcery:exchange_wand"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+		}
+		{ item: "astralsorcery:grapple_wand" }
+		{
+			item: {
+				id: "astralsorcery:blink_wand"
+				Count: 1b
+				tag: {
+					astralsorcery: { }
+				}
+			}
+		}
+	]
+}

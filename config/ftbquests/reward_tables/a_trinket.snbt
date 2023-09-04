@@ -1,0 +1,21 @@
+{
+	id: "489ECE48886AF60A"
+	order_index: 2
+	title: "A trinket!"
+	loot_size: 1
+	rewards: [{
+		command: "/losttrinkets unlock @p random"
+		player_command: false
+		type: "command"
+	}]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		item_name: "Random Trinket"
+		string_id: "a_trinket_"
+	}
+}

@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "mekanism:osmium_ore",
+      "filler": "atum:limestone",
+      "minY": 1,
+      "maxY": 90,
+      "maxVeinSize": 6,
+      "spawnRate": 4.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

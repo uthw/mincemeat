@@ -1,0 +1,28 @@
+{
+	id: "43209163C87A1D3A"
+	order_index: 15
+	title: "Create Blocks"
+	loot_size: 1
+	rewards: [
+		{ item: "create:water_wheel" }
+		{ item: "create:nozzle" }
+		{ item: "create:cuckoo_clock" }
+		{ item: "create:hand_crank" }
+		{ item: "create:millstone" }
+		{ item: "create:mechanical_press" }
+		{ item: "create:mechanical_mixer" }
+		{ item: "create:empty_blaze_burner" }
+		{ item: "create:analog_lever" }
+		{ item: "create:mechanical_pump" }
+		{ item: "create:hose_pulley" }
+		{ item: "create:item_drain" }
+		{ item: "create:cart_assembler" }
+		{ item: "create:linear_chassis" }
+		{ item: "create:sticker" }
+		{ item: "create:mechanical_drill" }
+		{ item: "create:mechanical_saw" }
+		{ item: "create:mechanical_harvester" }
+		{ item: "create:mechanical_plough" }
+		{ item: "create:flywheel" }
+	]
+}

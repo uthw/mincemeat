@@ -1,0 +1,21 @@
+#Chance a tumbleweed spawns in a chunk.
+spawnChance = 0.5
+#Maximum number of tumbleweeds existing per player (technically 17x17 loaded chunks).
+maxPerPlayer = 8
+enableDrops = true
+#Should tumbleweeds damage crops.
+damageCrops = false
+#Drop items only when destroyed by player (normally also drops on lava and cactus damage, for example).
+dropOnlyByPlayer = false
+#These items will drop from a tumbleweed upon destroying. The identifier can include an NBT compound. The amount parameter is optional.
+#weight item amount
+#Example entry: 2 minecraft:arrow{display:{Name:'{"text":"Cool arrow"}'}} 20
+drops = ["3 minecraft:bone", "3 minecraft:dead_bush", "3 minecraft:string", "3 minecraft:feather", "3 minecraft:wheat", "3 minecraft:stick", "3 minecraft:sugar_cane", "2 minecraft:melon_seeds", "2 minecraft:pumpkin_seeds", "2 minecraft:gold_nugget", "1 minecraft:name_tag", "1 minecraft:saddle", "1 minecraft:emerald", "1 minecraft:diamond", "1 minecraft:iron_ingot", "1 minecraft:gold_ingot", "1 dungeons_gear:tasty_bone", "2 hole_filler_mod:throwable_hole_filler", "1 dungeons_gear:light_feather", "1 chancecubes:chance_cube", "3 darkerdepths:ash", "1 iceandfire:sapphire_gem", "2 simplefarming:cumin_seeds", "2 simplefarming:marshmallow_root", "2 simplefarming:quinoa_seeds", "2 2 simplefarming:sunflower_seeds", "2 simplefarming:barley_seeds", "2 simplefarming:cassava_seeds", "2 simplefarming:cotton_seeds", ""]
+#Blocks in which tumbleweeds can spawn. Only works with non-solid blocks.
+#The actual location also requires sky access and a solid block below it.
+#<mod>:<block>
+spawningBlocks = ["minecraft:dead_bush"]
+#If not empty, tumbleweeds spawn ONLY in the specified biomes. Else they appear in all hot, dry biomes.
+#Example entry: minecraft:desert
+biomeWhitelist = []
+

@@ -1,0 +1,16 @@
+{
+	id: "00354AB384E08421"
+	order_index: 6
+	title: "Thermal Explosives"
+	loot_size: 1
+	rewards: [
+		{ item: "thermal:fire_tnt" }
+		{ item: "thermal:ice_tnt" }
+		{ item: "thermal:lightning_tnt" }
+		{ item: "thermal:earth_tnt" }
+		{ item: "thermal:ender_tnt" }
+		{ item: "thermal:glowstone_tnt" }
+		{ item: "thermal:redstone_tnt" }
+		{ item: "thermal:slime_tnt" }
+	]
+}

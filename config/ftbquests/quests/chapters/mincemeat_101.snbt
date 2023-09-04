@@ -1,0 +1,270 @@
+{
+	id: "3181B3EA0B689A82"
+	group: ""
+	order_index: 0
+	filename: "mincemeat_101"
+	title: "Mincemeat 101"
+	icon: {
+		id: "enigmaticlegacy:earth_heart"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Don't worry about multiblocks!"
+			icon: "create:schematicannon"
+			disable_toast: true
+			x: -1.0d
+			y: 2.5d
+			description: [
+				"In case you're not that big of a fan of multiblocks, I took the time to build every multiblock in the modpack in creative mode so you don't need to do it in survival."
+				""
+				"You will need gunpowder to fuel the Schematicannon and the table to write a schematic to the paper."
+				""
+				"I got this idea from Enigmatica, which does the exact same thing. Very good modpack if you want to dive deeper into tech."
+			]
+			id: "43AE01442F56FC8F"
+			tasks: [
+				{
+					id: "32062A7589C1B92A"
+					type: "item"
+					disable_toast: true
+					item: "create:schematicannon"
+				}
+				{
+					id: "6F1F8A865ADB679D"
+					type: "item"
+					disable_toast: true
+					item: "create:schematic_table"
+				}
+				{
+					id: "7ABE3AD382988E26"
+					type: "item"
+					disable_toast: true
+					item: "create:empty_schematic"
+				}
+				{
+					id: "7E6C75F8360DA57C"
+					type: "checkmark"
+				}
+			]
+			rewards: [{
+				id: "5E542DD02172594F"
+				type: "item"
+				item: "minecraft:gunpowder"
+				count: 5
+			}]
+		}
+		{
+			icon: {
+				id: "spartanweaponry:katana_wood"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.0d
+			y: -1.5d
+			description: [
+				"This modpack uses Better Combat, which overhauls the combat system to use a collision detection-based combat system. This allows you to more easily play in third person, and those who have trouble aiming or are on controller can have an easier time."
+				""
+				"Some weapons are two-handed and will disable the use of the offhand."
+				""
+				"Weapons that deal strike-based or bludgeoning damage may have armor penetration, meaning they partially negate the target's armor."
+				""
+				"You can dodge roll using whatever you have set the \"key.elenaidodge.dodge\" to in the controls menu."
+				""
+				"Shields are briefly disabled when you lower your guard or when they take a hit for you. Shield parrying negates this penalty. Weapon parrying occurs when a mob hits you while you're swinging your weapon. This negates the hits for both combatants."
+			]
+			id: "4D5D2503604B7EF3"
+			tasks: [{
+				id: "2275BAFD2930C576"
+				type: "checkmark"
+				title: "Combat"
+			}]
+		}
+		{
+			icon: "cyclic:heart"
+			x: -7.0d
+			y: 0.5d
+			subtitle: "(may be disabled)"
+			description: [
+				"By default, a datapack made by myself is active that fully restores the HP of mobs when you die. This prevents cheesing bosses by setting your spawn in the arena and running head-first at them until they die."
+				""
+				"Currently, this datapack is in a primitive state, so it applies to all mobs when any player dies. This is my subtle indication that you should remove the \"healthreset\" datapack if you're going to play this with more than 1 person."
+				""
+				"To remove the datapack, you will want to go in (installation folder)/openloader/data and remove the \"healthreset\" folder."
+				""
+				"I dedicate this datapack to the public domain, meaning you can use it/copy its code without asking."
+			]
+			id: "34C0C35B898BE717"
+			tasks: [{
+				id: "0D0C2C34A01553AD"
+				type: "checkmark"
+				title: "HP Restoring Datapack"
+			}]
+		}
+		{
+			icon: "infernalexp:infernal_painting"
+			x: -7.0d
+			y: -1.5d
+			description: [
+				"Update and polish Ice and Fire's textures: Frostbite \\& Brimstone"
+				""
+				"Update Immersive Engineering's artwork in Create's style: Updated Engineering"
+				""
+				"Update Botania's art: Botania Revamped"
+				""
+				"Change Simple Storage Network's art to match Create's style: Created Simple Storage"
+				""
+				"Xaero's Minimap - Mod Icons"
+				""
+				"Revamp Apotheosis's textures: Pinnacle"
+				""
+				"Unity and Unity: Modded"
+			]
+			id: "2FECF374B9E49FC2"
+			tasks: [{
+				id: "6F50E91E5230CE13"
+				type: "checkmark"
+				title: "Suggested Resource Packs"
+			}]
+		}
+		{
+			icon: "doggytalents:sunglasses"
+			x: -7.0d
+			y: -0.5d
+			description: [
+				"You should use Complementary v4 or Reimagined for the best balance of visuals and performance. It should be noted that banners will render incorrectly due to an incompatibility with Flywheel, but BSL does not have this problem."
+				""
+				"Shaders can cause issues with Create contraptions, and have continuity errors due to liquids such as oil not being changed. Additionally, you should disable shaders while going through Astral Sorcery since it uses a custom night sky."
+			]
+			id: "5CC6701A3F528B49"
+			tasks: [{
+				id: "73915AC87CB00D70"
+				type: "checkmark"
+				title: "Suggested Shader Packs"
+			}]
+		}
+		{
+			icon: "create:empty_schematic"
+			x: -2.0d
+			y: 2.5d
+			description: ["Pressing a keybind lets you effortlessly design a blueprint for a house. This house will be saved in the schematics folder, so if you have the blocks for it you can build it with the Schematicannon."]
+			dependencies: ["43AE01442F56FC8F"]
+			id: "4E6C631378CB4B42"
+			tasks: [{
+				id: "47CA549AEAC7D37D"
+				type: "checkmark"
+				title: "Mighty Architect"
+			}]
+		}
+		{
+			icon: "twilightforest:ore_meter"
+			x: -2.0d
+			y: -1.5d
+			description: [
+				"Bottom: area difficulty. This increases further from spawn"
+				""
+				"Top: your player difficulty. This is influenced by the amount of time you've spent in the world as well as chance/cursed/enchanted hearts you've used which modify the difficulty."
+			]
+			id: "181B85373E8DF8DB"
+			tasks: [{
+				id: "0BDCA9A8A723BB6F"
+				type: "checkmark"
+				title: "How to read the difficulty meter"
+			}]
+		}
+		{
+			icon: "naturesaura:range_visualizer"
+			x: -2.0d
+			y: 0.5d
+			description: [
+				"A mod that allows you to view and search for any item in the game."
+				""
+				"Press CTRL+F in the inventory to focus on the JEI search bar. You can click on items that pop up to view how they're obtained, or right click to view what you can use them for."
+				""
+				"You can also use hotkeys while hovering over items in the inventory: R(ecipe) and U(ses) by default."
+				""
+				"There are more advanced methods of narrowing down your searches. Type @(mod name) to only include (mod name)'s items in the search. Press up arrow for your previous search."
+			]
+			id: "3120CB4C9B0EE5F4"
+			tasks: [{
+				id: "7ED85151022E26EE"
+				type: "checkmark"
+				title: "JEI (Just Enough Items)"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:wooden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: 0.5d
+			description: [
+				"Hold ` while mining a block to break all connected blocks of the same type. This can be done with any tool or a bare hand and can break up to 64 blocks in one go."
+				""
+				"Beware, though: this costs a lot of hunger."
+			]
+			id: "5A99A6FF6299FF74"
+			tasks: [{
+				id: "5DF6A87B57DD2BE4"
+				type: "checkmark"
+				title: "Ore Excavation"
+			}]
+		}
+		{
+			icon: "minecraft:white_banner"
+			x: -4.0d
+			y: 0.5d
+			description: [
+				"If you're in multiplayer, make a new team using the button in the top left of the inventory."
+				""
+				"By being on the same team, you unlock perks like being able to see each other on the minimap even while far away, and having synchronized quests (when one person completes a quest, everyone gets the progress and rewards)."
+			]
+			id: "7F8A154B44B1EA3A"
+			tasks: [{
+				id: "47048D745DF253CA"
+				type: "checkmark"
+				title: "FTB Teams"
+			}]
+		}
+		{
+			icon: "forbidden_arcanus:xpetrified_orb"
+			x: -1.0d
+			y: 0.5d
+			description: [
+				"This is the level-up mod of the modpack. I chose it over PMMO due to its simplicity."
+				""
+				"There is a scroll in the top-right corner of your inventory. Click on it to view the PlayerEx menu."
+				""
+				"You can level up one of 5 stats, each of which increasing a few perks. Note: for balance reasons, dexterity does not increase attack speed."
+			]
+			id: "289007A4EE45DCF9"
+			tasks: [{
+				id: "7D8E0123A5674A9A"
+				type: "checkmark"
+				title: "PlayerEx"
+			}]
+		}
+		{
+			icon: "xreliquary:fortune_coin"
+			x: -3.0d
+			y: -1.5d
+			subtitle: "wip"
+			description: ["Spend money from quests or trading in items on things you may otherwise need to spend lots of time obtaining."]
+			id: "617AFE8B0FDABE05"
+			tasks: [{
+				id: "027A72833641D29F"
+				type: "checkmark"
+				title: "The Shop"
+			}]
+		}
+	]
+}

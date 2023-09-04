@@ -1,0 +1,282 @@
+{
+	id: "6C70C966E5655A38"
+	group: "0A93ADDC025C8C14"
+	order_index: 3
+	filename: "advanced_storage"
+	title: "Advanced Storage"
+	icon: {
+		id: "quark:backpack"
+		Count: 1b
+		tag: {
+			Inventory: [
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+				{ }
+			]
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.0d
+			description: [
+				"The centerpiece of a storage network, and the block that all your storage pieces should connect to."
+				""
+				"*You can obtain silicon without going to the Nether and collecting quartz by using Create washing on stone."
+			]
+			id: "2B189053BCA54F8D"
+			tasks: [{
+				id: "40DBD2730970C8A0"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+			rewards: [{
+				id: "6870F74560655BD7"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			title: "Setting up Storage"
+			x: 0.0d
+			y: 0.5d
+			description: [
+				"You can make a higher tier of storage disk if you want. Put the disk in the drive."
+				""
+				"Then, place a grid. Lastly, connect these blocks to your controller with cables. The grid is what you'll use to edit the contents of the disks."
+				""
+				"Items must be attached to the controller somehow in order to be functional. If the item is attached properly, it will be lit up."
+			]
+			dependencies: ["2B189053BCA54F8D"]
+			id: "5251048FABCC1731"
+			tasks: [
+				{
+					id: "2BC1FF92F203D71E"
+					type: "item"
+					item: "refinedstorage:disk_drive"
+				}
+				{
+					id: "5B1A281F017A7BDE"
+					type: "item"
+					item: "refinedstorage:1k_storage_disk"
+				}
+				{
+					id: "49BAC7FDE77F8BFF"
+					type: "item"
+					item: "refinedstorage:grid"
+				}
+				{
+					id: "387254735990A4FA"
+					type: "item"
+					item: "refinedstorage:cable"
+				}
+			]
+			rewards: [{
+				id: "159DFEED7A2B99E7"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			title: "Exporting and Importing"
+			x: -1.5d
+			y: -0.5d
+			subtitle: "You can connect these items to an inventory to import or export items to/from it."
+			description: [""]
+			dependencies: ["5251048FABCC1731"]
+			id: "72996FDB1ECB9BC4"
+			tasks: [
+				{
+					id: "4A139F654CF6D5C2"
+					type: "item"
+					item: "refinedstorage:exporter"
+				}
+				{
+					id: "4D378A84B3E46BFE"
+					type: "item"
+					item: "refinedstorage:importer"
+				}
+			]
+			rewards: [{
+				id: "283F94980A1690DA"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			subtitle: "Has the functionality of an importer and exporter all in one block."
+			dependencies: ["5251048FABCC1731"]
+			id: "758E2F02A79F9AE1"
+			tasks: [{
+				id: "0A6AC3DB3217794E"
+				type: "item"
+				item: "refinedstorage:interface"
+			}]
+			rewards: [{
+				id: "428EB009562A4C9A"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			title: "Constructor and Destructor"
+			x: -1.5d
+			y: 1.5d
+			subtitle: "When you configure the filters to the block you want, these items can place/destroythat block in the world, depending on which one you're using."
+			description: [""]
+			dependencies: ["5251048FABCC1731"]
+			id: "581D9139E23C46AD"
+			tasks: [
+				{
+					id: "2BDD8D2A44E8057D"
+					type: "item"
+					item: "refinedstorage:constructor"
+				}
+				{
+					id: "255E97D78315FBEE"
+					type: "item"
+					item: "refinedstorage:destructor"
+				}
+			]
+			rewards: [{
+				id: "1FC3A51CC260FFBF"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			subtitle: "This block aids with moving items between disks. You can configure it to have a whitelist or blacklist, and choose whether it should import or export."
+			description: [""]
+			dependencies: ["5251048FABCC1731"]
+			id: "706D796AEB59679E"
+			tasks: [{
+				id: "3E0EC8CAD5C0DFB7"
+				type: "item"
+				item: "refinedstorage:disk_manipulator"
+			}]
+			rewards: [{
+				id: "0CF5B5B1F3BE6244"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Import, export, view, and search items, all in one block."
+			description: [""]
+			dependencies: ["5251048FABCC1731"]
+			id: "198EA622D8755FF5"
+			tasks: [{
+				id: "393AD7D56665B538"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["198EA622D8755FF5"]
+			id: "319BD115367B8096"
+			tasks: [{
+				id: "34C99F41E993734F"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+			rewards: [{
+				id: "33690918821D1B74"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			subtitle: "Shift clicking buckets causes them to empty their fluids into the fluid grid. This item requires a special disk type for fluids."
+			dependencies: ["198EA622D8755FF5"]
+			id: "5E0C50ED9E9A6BA0"
+			tasks: [{
+				id: "55F5DF5FB65F9292"
+				type: "item"
+				item: "refinedstorage:fluid_grid"
+			}]
+			rewards: [{
+				id: "5DE975D24344044E"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			subtitle: "Make patterns which make your storage system automatically craft items"
+			dependencies: ["198EA622D8755FF5"]
+			id: "017618231F84986C"
+			tasks: [{
+				id: "20DFAE59590D8851"
+				type: "item"
+				item: "refinedstorage:pattern_grid"
+			}]
+			rewards: [{
+				id: "40EA7D1739E68BEE"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			subtitle: "Connect other inventories to your storage system, right click and set its priority above 0 for it to favor the inventory over the disks"
+			description: ["This is useful if you'd like to use something like Storage Drawers."]
+			dependencies: ["5251048FABCC1731"]
+			id: "5F978FBCC74F902E"
+			tasks: [{
+				id: "6F4A6343F3907C99"
+				type: "item"
+				item: "refinedstorage:external_storage"
+			}]
+			rewards: [
+				{
+					id: "1F383EE5C3A9CDAA"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "195579200560DF4A"
+					type: "item"
+					item: "storagedrawers:controller"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "key": "gui.xaero_open_map.custom",
+    "color": "LIGHT_PURPLE"
+  },
+  {
+    "key": "gui.xaero_waypoints_key.custom",
+    "color": "DARK_AQUA"
+  },
+  {
+    "key": "key.ftbquests.quests.custom",
+    "color": "YELLOW"
+  },
+  {
+    "key": "quark.keybind.change_hotbar.custom",
+    "color": "GREEN"
+  },
+  {
+    "key": "keybind.sophisticatedbackpacks.open_backpack.custom",
+    "color": "BLUE"
+  },
+  {
+    "key": "key.dungeons_libraries.curiosintegration.description_slot1.custom",
+    "color": "RED"
+  },
+  {
+    "key": "gui.xaero_enlarge_map.custom",
+    "color": "LIGHT_PURPLE"
+  },
+  {
+    "key": "gui.xaero_new_waypoint.custom",
+    "color": "DARK_AQUA"
+  },
+  {
+    "key": "key.advancements",
+    "color": "YELLOW"
+  },
+  {
+    "key": "controllable.key.debugInfo",
+    "color": "GREEN"
+  },
+  {
+    "key": "key.spartanweaponry.access_quiver.custom",
+    "color": "BLUE"
+  },
+  {
+    "key": "key.losttrinkets.trinket.custom",
+    "color": "RED"
+  }
+]

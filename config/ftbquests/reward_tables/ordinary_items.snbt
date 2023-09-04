@@ -1,0 +1,604 @@
+{
+	id: "546A52E9B070F3A3"
+	order_index: 4
+	title: "Ordinary Items"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:oak_planks"
+				Count: 1b
+				
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "buzzier_bees:white_candle"
+				Count: 1b
+				
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "mcwlights:classic_street_lamp"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "create:gray_seat"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_ingot"
+				Count: 1b
+				
+			}
+			count: 2
+			random_bonus: 4
+		}
+		{
+			item: {
+				id: "farmersdelight:cooked_mutton_chops"
+				Count: 1b
+				
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "supplementaries:globe"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "minecraft:experience_bottle"
+				Count: 1b
+				
+			}
+			count: 5
+			random_bonus: 10
+		}
+		{
+			item: {
+				id: "aquaculture:iron_hook"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "cavesandcliffs:cobbled_deepslate"
+				Count: 1b
+				
+			}
+			count: 10
+			random_bonus: 13
+		}
+		{
+			item: {
+				id: "charm:oak_bookcase"
+				Count: 1b
+				
+			}
+			random_bonus: 2
+		}
+		{
+			item: {
+				id: "minecraft:bookshelf"
+				Count: 1b
+				
+			}
+			random_bonus: 2
+		}
+		{
+			item: {
+				id: "minecraft:book"
+				Count: 1b
+				
+			}
+			count: 10
+			random_bonus: 5
+		}
+		{
+			item: {
+				id: "supplementaries:rope"
+				Count: 1b
+				
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "minecraft:string"
+				Count: 1b
+				
+			}
+			count: 6
+			random_bonus: 4
+		}
+		{
+			item: {
+				id: "minecraft:coal"
+				Count: 1b
+				
+			}
+			count: 5
+			random_bonus: 12
+		}
+		{
+			item: {
+				id: "minecraft:cobblestone"
+				Count: 1b
+				
+			}
+			count: 12
+			random_bonus: 24
+		}
+		{
+			item: {
+				id: "aquaculture:gold_hook"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "aquaculture:redstone_hook"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "ironchest:iron_chest"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "ironchest:gold_chest"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:backpack"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "mcwlights:oak_tiki_torch"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "mcwlights:spruce_tiki_torch"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "mcwlights:birch_tiki_torch"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "mcwlights:jungle_tiki_torch"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "mcwlights:acacia_tiki_torch"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "mcwlights:dark_oak_tiki_torch"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "extraboats:large_spruce_boat"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "extraboats:large_oak_boat"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "extraboats:large_birch_boat"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "extraboats:large_jungle_boat"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "extraboats:large_acacia_boat"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "extraboats:large_dark_oak_boat"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "biomesoplenty:redwood_door"
+				Count: 1b
+				
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "enigmaticlegacy:iron_ring"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:boomerang_wood"
+				Count: 1b
+				tag: {
+					Damage: 0
+					AmmoUsed: 0
+				}
+				
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:skillet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				
+			}
+		}
+		{
+			item: {
+				id: "supplementaries:statue"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "supplementaries:jar"
+				Count: 1b
+				
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "terraincognita:hazelnut_cookie"
+				Count: 1b
+				
+			}
+			count: 2
+			random_bonus: 8
+		}
+		{
+			item: {
+				id: "farmersdelight:honey_cookie"
+				Count: 1b
+				
+			}
+			count: 6
+			random_bonus: 14
+		}
+		{
+			item: {
+				id: "supplementaries:clock_block"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "minecraft:arrow"
+				Count: 1b
+				
+			}
+			count: 12
+			random_bonus: 18
+		}
+		{
+			item: {
+				id: "cavesandcliffs:lightning_rod"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:cake_slice"
+				Count: 1b
+				
+			}
+			count: 4
+			random_bonus: 8
+		}
+		{
+			item: {
+				id: "quark:dirt_bricks"
+				Count: 1b
+				
+			}
+			count: 10
+			random_bonus: 20
+		}
+		{
+			item: {
+				id: "alexsmobs:bear_fur"
+				Count: 1b
+				
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "cavesandcliffs:small_dripleaf"
+				Count: 1b
+				
+			}
+			count: 4
+		}
+		{
+			item: {
+				id: "better_badlands:kindling"
+				Count: 1b
+				
+			}
+			count: 5
+			random_bonus: 9
+		}
+		{
+			item: {
+				id: "amfd:singular_cooked_moose_rib"
+				Count: 1b
+				
+			}
+			count: 2
+			random_bonus: 3
+		}
+		{
+			item: {
+				id: "aquaculture:iron_fillet_knife"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 0
+		}
+		{
+			item: {
+				id: "aquaculture:iron_fillet_knife"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 0
+		}
+		{
+			item: {
+				id: "aquaculture:gold_fillet_knife"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "aquaculture:gold_fillet_knife"
+				Count: 1b
+				
+			}
+		}
+		{
+			item: {
+				id: "aquaculture:sushi"
+				Count: 1b
+				
+			}
+			count: 12
+			random_bonus: 4
+		}
+		{
+			item: {
+				id: "iceandfire:ectoplasm"
+				Count: 1b
+				
+			}
+			count: 2
+			random_bonus: 2
+		}
+		{
+			item: {
+				id: "aquaculture:iron_fillet_knife"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 0
+		}
+		{
+			item: {
+				id: "alexsmobs:cockroach_ootheca"
+				Count: 1b
+				
+			}
+			count: 3
+			random_bonus: 2
+		}
+		{
+			item: {
+				id: "alexsmobs:blobfish"
+				Count: 1b
+				
+			}
+			count: 4
+			random_bonus: 3
+		}
+		{
+			item: {
+				id: "aquaculture:iron_fillet_knife"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 0
+		}
+		{
+			item: {
+				id: "doggytalents:throw_stick"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 0
+		}
+		{
+			item: {
+				id: "forestcraft:dirtscalibur"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 0
+		}
+		{
+			item: {
+				id: "forestcraft:net"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 0
+		}
+		{
+			item: {
+				id: "forestcraft:elegant_balloon"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 0
+		}
+		{
+			item: {
+				id: "aquaculture:iron_fillet_knife"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 0
+		}
+		{
+			item: {
+				id: "forestcraft:aquamarine_shovel"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 0
+		}
+		{
+			item: {
+				id: "forestcraft:chicken_wings"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 0
+		}
+		{
+			item: {
+				id: "paraglider:deku_leaf"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 0
+		}
+		{
+			item: {
+				id: "paraglider:paraglider"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 0
+		}
+		{
+			item: {
+				id: "paraglider:stamina_vessel"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 1
+		}
+		{
+			item: {
+				id: "forbidden_arcanus:xpetrified_orb"
+				Count: 1b
+				
+			}
+			count: 2
+			random_bonus: 4
+		}
+		{
+			item: {
+				id: "forbidden_arcanus:edelwood_bucket"
+				Count: 1b
+				
+			}
+			count: 1
+			random_bonus: 0
+		}
+	]
+}

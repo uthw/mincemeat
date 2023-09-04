@@ -1,0 +1,16 @@
+{
+	id: "6A56AC6448DD1859"
+	order_index: 17
+	title: "Factory Worker's Crate"
+	loot_size: 1
+	rewards: [
+		{ item: "create:hand_crank" }
+		{ item: "create:shaft", count: 20, random_bonus: 10 }
+		{ item: "immersiveengineering:wirecoil_copper", count: 2, random_bonus: 1 }
+		{ item: "immersiveengineering:wirecoil_electrum", random_bonus: 1 }
+		{ item: "immersiveengineering:wirecoil_steel" }
+		{ item: "create:gearshift", count: 3, random_bonus: 2 }
+		{ item: "create:mechanical_piston" }
+		{ item: "create:belt_connector", count: 3 }
+	]
+}

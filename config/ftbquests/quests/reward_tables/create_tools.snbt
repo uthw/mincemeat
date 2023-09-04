@@ -1,0 +1,89 @@
+{
+	id: "7B0E7BC5B7C318CD"
+	order_index: 14
+	title: "Create Tools"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "create:potato_cannon"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "create:wrench" }
+		{
+			item: {
+				id: "create:extendo_grip"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "create:goggles" }
+		{
+			item: {
+				id: "create:wand_of_symmetry"
+				Count: 1b
+				tag: {
+					symmetry: {
+						type: "empty"
+						pos: [
+							0.0f
+							0.0f
+							0.0f
+						]
+						enable: 1b
+						direction: 0
+					}
+					enable: 0b
+				}
+			}
+		}
+		{
+			item: {
+				id: "create:super_glue"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "create:red_sand_paper"
+				Count: 1b
+				tag: {
+					Damage: 0
+					AS_Amulet_Holder: [I;
+						-1056431902
+						-870824742
+						-1861254397
+						1175915970
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "create:diving_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "create:diving_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+}

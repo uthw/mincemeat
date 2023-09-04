@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "pack_format": 6,
+        "description": "refills mob HP when a player dies. disable this on servers"
+    }
+}

@@ -1,0 +1,204 @@
+
+#With default value every difficulty perk maxes out at difficulty 250
+[general]
+	#Disable/Enables the whole difficulty scaling of this mod. Requires a mc restart
+	"Enable difficulty scaling" = true
+	#Time in ticks for which the difficulty shouldnt increase at the beginning. One full minecraft day is 24000 ticks
+	"Difficulty Delay" = 0
+	#Handles increase in difficulty regarding current difficulty.
+	#Format is <minimum current difficulty>-<increase every 2400 ticks>
+	#Example ["0-0.01","10-0.1","30-0"]
+	#So the difficulty increases by 0.01 every 2400 ticks (->0.1 per mc day) till it reaches a difficulty of 10.
+	#Then it increases by 1 per mc day till it reaches 30 and then stops.
+	"Difficulty Increase" = ["0-0.1", "5-0.2", "15-0.25", "30-0"]
+	#Wether difficulty should only increase with at least one online players or not
+	"Ignore Players" = false
+	#Mobs to include for the new light spawning rules.
+	#Only prevention is possible. Meaning you cant allow mobs to spawn at higher light levels
+	"Light list" = []
+	#Turn the light list whitelist to blacklist
+	"Light list blacklist" = false
+	#Light level >= x will prevent mob spawning for defined mobs.
+	#Range: 0 ~ 16
+	Light = 7
+	#Should punish time skipping with e.g. bed, commands? If false, difficulty will increase by 0.1 regardless of skipped time.
+	"Punish Time Skip" = true
+	#Disable/Enable friendly fire for owned pets.
+	FriendlyFire = false
+	#Blacklist for pet you should't be able to give armor to. Pets from mods, which have custom armor should be included here.
+	"Pet Blacklist" = []
+	#Treat pet blacklist as whitelist
+	"Pet Whitelist" = false
+	#Increase difficulty with time
+	#Here untill its back as a gamerule
+	"Difficulty toggle" = true
+	#How the difficulty at a position is calculated. Supported values are: 
+	#GLOBAL: Serverwide difficulty value
+	#PLAYERMAX: Maximum difficulty of players in a 128 radius around the position
+	#PLAYERMEAN: Average difficulty of players in a 128 radius around the position
+	#Allowed Values: GLOBAL, PLAYERMAX, PLAYERMEAN
+	"Difficulty type" = "GLOBAL"
+
+#Black/Whitelist for various stuff
+[list]
+	#Entities added here will be blacklisted from their assigned flags. Usage:
+	#<entity registry name> or <namespace> followed by any of:
+	#[ALL,ATTRIBUTES,ARMOR,HELDITEMS,BLOCKBREAK,USEITEM,LADDER,STEAL,GUARDIAN,PARROT,TARGETVILLAGER,NEUTRALAGGRO,REVERSE].
+	#Having no flags is equal to ALL. Use REVERSE to reverse all flags. Some flags do nothing for certain mobs!
+	#Examples:
+	#minecraft:sheep is equal to minecraft:sheep|ALL and excludes sheeps from all modifications
+	#minecraft:sheep|REVERSE|ATTRIBUTES will add sheep to attributes modification only
+	#minecraft:sheep|ATTRIBUTES will add sheep to everything except attributes
+	"More Entities" = ["exoticbirds:owl", "tropicraft:turtle", "alexsmobs:centipede_tail", "alexsmobs:snow_leopard", "bloodandmadness:cathedral_wolf_beast", "aquaculture:pink_salmon", "betteranimalsplus:octopus", "betterendforge:dragonfly", "tropicraft:tropicreeper", "alexsmobs:seal", "environmental:deer", "alexsmobs:roadrunner", "minecraft:trader_llama", "bloodandmadness:church_doctor_lantern", "ars_nouveau:familiar_wixie", "blue_skies:supporter_pet", "goblintraders:goblin_trader", "alexsmobs:endergrade", "minecraft:horse", "ars_nouveau:familiar_carbuncle", "aquaculture:muskellunge", "bloodandmadness:church_giant", "mysticalworld:endermini", "aquaculture:bayad", "minecraft:llama", "twilightforest:raven", "aquamirae:poisoned_chakra", "mushroomquest:yellow_amanita_fungling", "whisperwoods:moth", "minecraft:dolphin", "upgrade_aquatic:immortal_jellyfish", "whisperwoods:hidebehind", "environmental:yak", "mushroomquest:red_amanita_fungling", "bloodandmadness:large_huntsman_plow", "tropicraft:marlin", "untamedwilds:aardvark", "untamedwilds:triggerfish", "blue_skies:azulfo", "alexsmobs:hammerhead_shark", "blue_skies:reindeer", "alexsmobs:tiger", "tropicraft:jaguar", "betteranimalsplus:eel_freshwater", "upgrade_aquatic:box_jellyfish", "alexsmobs:grizzly_bear", "exoticbirds:bluejay", "untamedwilds:boar", "tropicraft:eih", "blue_skies:firefly", "environmental:duck", "buzzier_bees:grizzly_bear", "ars_nouveau:dummy", "minecraft:bee", "aquaculture:perch", "dungeons_mobs:geomancer_bomb", "goblintraders:vein_goblin_trader", "statues:statue_bat", "betteranimalsplus:moose", "guardvillagers:guard", "betteranimalsplus:badger", "undergarden:brute", "dungeons_gear:soul_wizard", "minecraft:mooshroom", "bloodandmadness:blood_starved_beast", "exoticbirds:roadrunner", "rats:plague_doctor", "twilightforest:hydra", "minecraft:villager", "tropicraft:piranha", "mowziesmobs:foliaath", "mowziesmobs:frostmaw", "tropicraft:dolphin", "mushroomquest:brown_amanita_fungling", "betteranimalsplus:eel_saltwater", "blue_skies:snow_owl", "bloodandmadness:church_doctor_flamesprayer", "stalwart_dungeons:nether_keeper", "untamedwilds:football_fish", "alexsmobs:gorilla", "exoticbirds:ostrich", "bloodandmadness:flesh_werewolf", "aquaculture:arapaima", "mysticalworld:hell_sprout", "infernalexp:glowsilk_moth", "minecraft:strider", "undergarden:gwibling", "quark:crab", "exoticbirds:flamingo", "betteranimalsplus:feralwolf", "untamedwilds:shark", "atum:villager_male", "untamedwilds:giant_clam", "ars_nouveau:drygmy", "bloodandmadness:raven_dog", "minecraft:wandering_trader", "aquaculture:pacific_halibut", "exoticbirds:robin", "netherdepthsupgrade:lava_pufferfish", "netherdepthsupgrade:blazefish", "alexsmobs:kangaroo", "blue_skies:grittle_flatfish", "projectvibrantjourneys:clam", "bloodandmadness:brick_troll", "villagertools:reinforced_golem", "strawgolem:strawgolem", "bloodandmadness:wolf_beast", "bloodandmadness:pitchfork_huntsman", "mushroomquest:wine_cap_fungling", "netherdepthsupgrade:bonefish", "projectvibrantjourneys:slug", "mysticalworld:owl", "quark:leash_knot_fake", "exoticbirds:hummingbird", "alexsmobs:hummingbird", "bloodandmadness:female_beast_patient", "upgrade_aquatic:flare", "betteranimalsplus:songbird", "untamedwilds:big_cat", "takesapillage:clay_golem", "bloodandmadness:dog_crow", "alexsmobs:crow", "exoticbirds:macaw", "bloodandmadness:church_doctor_scythe", "doggytalents:dog", "atum:desert_rabbit", "betteranimalsplus:blackbear", "aquaculture:atlantic_cod", "bloodandmadness:church_doctor_crucifix", "exoticbirds:kookaburra", "twilightforest:knight_phantom", "minecraft:pufferfish", "aquaculture:starshell_turtle", "exoticbirds:swan", "projectvibrantjourneys:firefly", "infernalexp:shroomloin", "minecraft:fox", "betteranimalsplus:lammergeier", "untamedwilds:trevally", "ars_nouveau:familiar_sylph", "untamedwilds:whale_shark", "netherdepthsupgrade:obsidianfish", "alexsmobs:warped_toad", "mushroomquest:warped_fungling", "minecraft:chicken", "nethers_exoticism:moloch", "dungeons_mobs:geomancer_wall", "alexsmobs:emu", "alexsmobs:cockroach", "tropicraft:fiddler_crab", "exoticbirds:heron", "blue_skies:frost_spirit", "aquaculture:tambaqui", "buzzier_bees:moobloom", "neapolitan:chimpanzee", "betteranimalsplus:goose", "tropicraft:eagle_ray", "minecraft:hoglin", "blue_skies:municipal_monkfish", "mowziesmobs:barakoa_sunblocker_player", "bloodandmadness:brainsucker", "twilightforest:wraith", "ars_nouveau:cascading_weald_walker", "alexsmobs:capuchin_monkey", "tropicraft:sea_urchin", "aquaculture:brown_shrooma", "blue_skies:shade_monitor", "upgrade_aquatic:glow_squid", "iceandfire:myrmex_swarmer", "minecraft:polar_bear", "twilightforest:bunny", "aquaculture:brown_trout", "tropicraft:failgull", "bloodandmadness:carrion_crow", "minecraft:turtle", "minecraft:sheep", "minecraft:ender_dragon", "supplementaries:firefly", "exoticbirds:cassowary", "losttrinkets:dark_vex", "bloodandmadness:church_doctor", "netherdepthsupgrade:searing_cod", "graveyard:ghoul", "alexsmobs:rattlesnake", "quark:foxhound", "untamedwilds:manatee", "betteranimalsplus:squid_giant", "environmental:fennec_fox", "netherdepthsupgrade:wither_bonefish", "waddles:adelie_penguin", "tropicraft:sardine", "alexsmobs:raccoon", "tropicraft:white_lipped_peccary", "minecraft:squid", "twilightforest:tiny_bird", "iceandfire:myrmex_soldier", "undergarden:dweller", "alexsmobs:fly", "outer_end:chorus_squid", "quark:shiba", "iceandfire:pixie", "upgrade_aquatic:ululu", "exoticbirds:penguin", "whisperwoods:wisp", "blue_skies:charscale_moki", "mowziesmobs:barakoan_barakoana", "rats:rat_mount_chicken", "exoticbirds:pigeon", "undergarden:scintling", "tropicraft:koa", "twilightforest:quest_ram", "iceandfire:myrmex_sentinel", "mysticalworld:duck", "exoticbirds:magpie", "supplementaries:red_merchant", "betteranimalsplus:shark", "netherdepthsupgrade:magmacubefish", "bloodandmadness:powerful_wolf_beast", "endergetic:booflo_baby", "projectvibrantjourneys:starfish", "mysticalworld:silkworm", "alexsmobs:orca", "cavesandcliffs:glow_squid", "mushroomquest:crimson_fungling", "exoticbirds:crane", "bloodandmadness:father_gascoigne", "infernalexp:blackstone_dwarf", "ars_elemental:summon_direwolf", "twilightforest:bighorn_sheep", "minecraft:bat", "upgrade_aquatic:perch", "iceandfire:amphithere", "exoticbirds:budgerigar", "mysticalworld:deer", "atum:desert_wolf", "twilightforest:hostile_wolf", "ars_elemental:summon_skelehorse", "blue_skies:sliv", "autumnity:turkey", "rats:demon_rat", "bloodandmadness:church_doctor_pistol", "infernalexp:glowsquito", "bloodandmadness:ashen_blood_beast_patient", "bloodandmadness:father_gascoigne_old", "untamedwilds:bear", "alexsmobs:enderiophage", "ars_nouveau:familiar_jabberwog", "alexsmobs:sunbird", "environmental:koi", "blue_skies:stardust_ram", "alexsmobs:tasmanian_devil", "iceandfire:myrmex_worker", "outer_end:stalker", "tropicraft:man_o_war", "minecraft:cat", "alexsmobs:stradpole", "blue_skies:gatekeeper", "atum:camel", "minecraft:tropical_fish", "iceandfire:hippogryph", "bygonenether:wither_skeleton_horse", "betteranimalsplus:goat", "exoticbirds:cardinal", "untamedwilds:snake", "bloodandmadness:rabid_dog", "endergetic:puff_bug", "betteranimalsplus:squid_colossal", "betteranimalsplus:lamprey", "mowziesmobs:barakoana", "minecraft:panda", "exoticbirds:lyrebird", "bloodandmadness:hunting_dog", "ars_nouveau:wixie", "alexsmobs:lobster", "mowziesmobs:lantern", "alexsmobs:seagull", "exoticbirds:woodpecker", "untamedwilds:hippo", "alexsmobs:moose", "aquaculture:atlantic_herring", "alexsmobs:shoebill", "upgrade_aquatic:goose", "ars_nouveau:vexing_weald_walker", "upgrade_aquatic:thrasher", "betteranimalsplus:bobbit_worm", "blue_skies:jelly_drifter", "ars_nouveau:sylph", "aquaculture:bluegill", "betteranimalsplus:nautilus", "mushroomquest:morel_fungling", "betteranimalsplus:flying_fish", "stalwart_dungeons:spore_projectile", "mysticalworld:beetle", "exoticbirds:gull", "tropicraft:v_monkey", "alexsmobs:komodo_dragon", "bloodandmadness:wandering_madness", "tropicraft:tapir", "minecraft:donkey", "untamedwilds:newt", "twilightforest:loyal_zombie", "quark:stoneling", "untamedwilds:hyena", "aquamirae:golden_moth", "mysticalworld:frog", "atum:quail", "alexsmobs:crocodile", "quark:toretoise", "projectvibrantjourneys:night_bat", "bloodandmadness:beast_patient", "quark:frog", "infernalexp:warpbeetle", "aquaculture:jellyfish", "alexsmobs:frilled_shark", "bloodandmadness:large_huntsman_spear", "aquaculture:tuna", "alexsmobs:bald_eagle", "twilightforest:wild_boar", "bloodandmadness:cleric_beast", "untamedwilds:tortoise", "untamedwilds:sunfish", "rats:rat", "iceandfire:ice_dragon", "alexsmobs:blobfish", "projectvibrantjourneys:snail", "betteranimalsplus:turkey", "bloodandmadness:father_gascoigne_beast", "tropicraft:hummingbird", "autumnity:snail", "environmental:slabfish", "upgrade_aquatic:great_thrasher", "undergarden:gloomper", "aquaculture:blackfish", "untamedwilds:tarantula", "bloodandmadness:silverbeast", "minecraft:parrot", "aquamirae:spinefish", "tropicraft:seahorse", "tropicraft:tropibee", "untamedwilds:rhino", "meetyourfight:swampjaw", "mowziesmobs:barako", "twilightforest:mist_wolf", "untamedwilds:giant_salamander", "aquaculture:carp", "betteranimalsplus:piranha", "ars_nouveau:familiar_bookwyrm", "infernalexp:basalt_giant", "iceandfire:sea_serpent", "minecraft:iron_golem", "cavesandcliffs:goat", "twilightforest:deer", "betteranimalsplus:barracuda", "iceandfire:mob_skull", "mowziesmobs:barakoan_player", "dummmmmmy:target_dummy", "betteranimalsplus:squirrel", "betteranimalsplus:coyote", "alexsmobs:mimic_octopus", "aquaculture:boulti", "betteranimalsplus:dragonfly", "exoticbirds:gouldianfinch", "rats:rat_spawner", "upgrade_aquatic:cassiopea_jellyfish", "twilightforest:squirrel", "minecraft:mule", "betteranimalsplus:pheasant", "tropicraft:iguana", "betteranimalsplus:jellyfish", "alexsmobs:centipede_body", "aquaculture:synodontis", "alexsmobs:tarantula_hawk", "ars_nouveau:blazing_weald_walker", "aquaculture:smallmouth_bass", "alexsmobs:cachalot_whale", "tropicraft:tree_frog", "snowpig:snow_pig", "endergetic:booflo_adolescent", "untamedwilds:arowana", "good_nights_sleep:gns_spawner", "betteranimalsplus:whale", "mysticalworld:lava_cat", "blue_skies:horizofin_tunid", "ars_nouveau:whelp", "upgrade_aquatic:pike", "untamedwilds:large_snake", "aquaculture:minnow", "tombstone:grave_guardian", "mysticalworld:silver_fox", "betterendforge:end_fish", "mysticalworld:clam", "netherdepthsupgrade:glowdine", "tropicraft:cubera", "aquaculture:catfish", "exoticbirds:kingfisher", "iceandfire:dread_horse", "cavesandcliffs:axolotl", "exoticbirds:peafowl", "exoticbirds:cockatoo", "iceandfire:lightning_dragon", "upgrade_aquatic:nautilus", "mowziesmobs:grottol", "iceandfire:dragon_skull", "minecraft:pig", "blue_skies:crogre", "alexsmobs:alligator_snapping_turtle", "aquaculture:red_shrooma", "betteranimalsplus:butterfly", "aquaculture:atlantic_halibut", "twilightforest:winter_wolf", "mowziesmobs:baby_foliaath", "rats:rat_mount_strider", "bloodandmadness:large_huntsman_cleaver", "blue_skies:nyctofly", "iceandfire:fire_dragon", "good_nights_sleep:gummy_bear", "betteranimalsplus:brownbear", "untamedwilds:softshell_turtle", "minecraft:cod", "aquaculture:gar", "alexsmobs:mantis_shrimp", "aquaculture:red_grouper", "netherdepthsupgrade:soulsucker", "blue_skies:cosmic_fox", "alexsmobs:platypus", "tropicraft:hammerhead", "minecraft:skeleton_horse", "rats:rat_mount_golem", "projectvibrantjourneys:fly", "betteranimalsplus:walrus", "mysticalworld:sprout", "atum:serval", "minecraft:cow", "mowziesmobs:barakoaya", "exoticbirds:booby", "atum:villager_female", "aquaculture:rainbow_trout", "iceandfire:hippocampus", "ars_nouveau:familiar_drygmy", "mowziesmobs:barakoa_sunblocker", "dungeons_mobs:quick_growing_vine", "minecraft:salmon", "iceandfire:myrmex_queen", "upgrade_aquatic:lionfish", "mowziesmobs:naga", "untamedwilds:camel", "minecraft:snow_golem", "outer_end:spectrafly", "rats:rat_mount_beast", "ars_nouveau:flourishing_weald_walker", "betterendforge:silk_moth", "mowziesmobs:ferrous_wroughtnaut", "iceandfire:myrmex_royal", "minecraft:rabbit", "artifacts:mimic", "exoticbirds:kiwi", "projectvibrantjourneys:ocean_starfish", "betteranimalsplus:deer", "aquaculture:piranha", "aquaculture:box_turtle", "tropicraft:green_basilisk_lizard", "alexsmobs:leafcutter_ant", "exoticbirds:toucan", "tropicraft:cowktail", "alexsmobs:mungus", "betterendforge:cubozoa", "alexsmobs:spectre", "bloodandmadness:rifle_huntsman", "ars_nouveau:summon_horse", "dungeons_mobs:quick_growing_kelp", "betteranimalsplus:crab", "betteranimalsplus:horseshoecrab", "aquamirae:maze_rose", "aquaculture:pollock", "exoticbirds:pelican", "tropicraft:brown_basilisk_lizard", "dungeons_mobs:poison_quill_vine", "untamedwilds:bison", "aquaculture:arrau_turtle", "projectvibrantjourneys:frog", "undergarden:gwib", "tropicraft:starfish", "alexsmobs:elephant", "tropicraft:spider_monkey", "aquaculture:capitaine", "alexsmobs:gazelle", "untamedwilds:catfish", "betteranimalsplus:boar", "minecraft:zombie_horse", "iceandfire:cockatrice", "tropicraft:ashen", "good_nights_sleep:unicorn", "blue_skies:crystal_camel", "ars_nouveau:summon_wolf", "undergarden:minion", "endergetic:booflo", "minecraft:ocelot", "exoticbirds:duck", "twilightforest:penguin", "iceandfire:deathworm", "bloodandmadness:saber_huntsman", "dungeons_mobs:poison_anemone", "bloodandmadness:axe_huntsman", "minecraft:wolf", "betteranimalsplus:reindeer", "undergarden:mog", "tropicraft:tropical_fish", "ars_nouveau:carbuncle"]
+	#Put the above flags here to completly disable them.
+	"Flag Blacklist" = []
+	#Treat ATTRIBUTES flags as whitelist
+	"Attribute Whitelist" = false
+	#Treat ARMOR flags as whitelist
+	"Armor Equip Whitelist" = false
+	#Treat HELDITEMS flags as whitelist
+	"Held Equip Whitelist" = false
+	#Treat BLOCKBREAK flags as whitelist
+	"Breaker Whitelist" = false
+	#Treat USEITEM flags as whitelist
+	"Item Use Whitelist" = false
+	#Treat LADDER flags as whitelist
+	"Ladder Whitelist" = false
+	#Treat STEAL flags as whitelist
+	"Steal Whitelist" = false
+	#Treat GUARDIAN flags as whitelist
+	"Guardian Whitelist" = false
+	#Treat PARROT flags as whitelist
+	"Parrot Whitelist" = false
+	#Treat TARGETVILLAGER flags as whitelist
+	"Villager Whitelist" = false
+	#Treat NEUTRALAGGRO flags as whitelist
+	"Neutral Aggro Whitelist" = false
+
+#Debugging
+[debug]
+	#Enable showing of entity paths
+	"Path Debugging" = false
+
+#Settings for mod integration
+[integration]
+	#Should the scaling health mods difficulty system be used instead of this ones. (Requires scaling health mod)
+	"Use Scaling Health Mod" = true
+
+#Settings regarding custom ai for mobs
+[ai]
+	#Whitelist for blocks, which can be actively broken. 
+	#Usage: <registry name;classname;tag;namespace> put "!" infront to exclude blocks
+	#Note: If you include common blocks (like grass blocks) the pathfinding will be a bit strange
+	"Block Whitelist" = ["forge:glass", "forge:glass_panes", "minecraft:fence_gates", "forge:fence_gates", "minecraft:wooden_doors"]
+	#Treat Block Whitelist as Blocklist
+	"Block as Blacklist" = false
+	#Use the block breaking sound instead of a knocking sound
+	Sound = false
+	#Chance for a mob to be able to break blocks
+	#Range: 0.0 ~ 1.0
+	"Breaker Chance" = 0.3
+	#Initial cooldown for block breaking mobs
+	"Breaker Initial Cooldown" = 120
+	#Cooldown for breaking blocks
+	"Breaker Cooldown" = 20
+	#Chance for a mob to be able to steal items
+	#Range: 0.0 ~ 1.0
+	"Stealer Chance" = 0.0
+	#Items which will be given to mobs who can break blocks. Empty list = no items. Syntax: id;weight
+	"Breaking items" = ["minecraft:diamond_pickaxe;1"]
+	#Should mobs be able to break tile entities? Evaluated before the break list
+	"Break Tiles" = false
+	#Chance for neutral mobs to be aggressive
+	#Range: 0.0 ~ 1.0
+	"Neutral Aggressive Chance" = 0.0
+	#List for of pairs containing which mobs auto target others. Syntax is [mob id]-[mob id] where second value is the target.
+	# e.g. minecraft:zombie-minecraft:skeleton makes all zombies target skeletons
+	"Auto Target List" = []
+	#Delay for the coroutil repair block. Coroutil integration needs to be enabled
+	"Repair Ticks" = 500
+	#Difficulty at which mobs are able to break blocks
+	"Difficulty Break AI" = 0.0
+	#Difficulty at which mobs are able to steal items
+	"Difficulty Steal AI" = 0.0
+	#Chance for mobs to be able to ride a guardian
+	#Range: 0.0 ~ 1.0
+	"Guardian Chance" = 1.0
+	#Chance for mobs to be able to ride a parrot
+	"Fly Chance" = 0.5
+
+#Configs regarding mobs spawning with equipment
+[equipment]
+	#Blacklist for mods. Add modid to prevent items from that mod being equipped. (For individual items use the equipment.json)
+	"Item Blacklist" = []
+	#Use blacklist as whitelist
+	"Item Whitelist" = false
+	#Blacklist for items mobs should never be able to use.
+	#Use as in using the item similar to players (e.g. shooting bows)
+	"Item Use Blacklist" = ["bigbrain:buckler"]
+	#Turn the use blacklist into a whitelist
+	"Item Use Whitelist" = false
+	#Blacklist for specific mobs and items they shouldnt use (e.g. skeletons already use bows)
+	#<entity registry name-item>
+	#For different items but same entity use multiple lines
+	#Some special names are BOW, TRIDEN, CROSSBOW refering to every bow/trident/crossbow item (So you dont need to type e.g. every bow item)
+	"Entity Item Use Blacklist" = ["minecraft:drowned;TRIDENT", "minecraft:illusioner;BOW", "minecraft:piglin;CROSSBOW", "minecraft:pillager;CROSSBOW", "minecraft:skeleton;BOW", "minecraft:snow_golem;minecraft:snowball", "minecraft:stray;BOW", "minecraft:wither_skeleton;BOW"]
+	#Base chance that a mob can have one piece of armor
+	#Range: 0.0 ~ 1.0
+	"Equipment Chance" = 0.1
+	#Base chance for each additional armor pieces
+	#Range: 0.0 ~ 1.0
+	"Additional Equipment Chance" = 0.5
+	#Adds additional x*difficulty% to base equip chance
+	"Equipment Addition" = 0.3
+	#Chance for mobs to have a weapon
+	#Range: 0.0 ~ 1.0
+	"Weapon Chance" = 0.05
+	#Adds additional x*difficulty% to base weapon chance
+	"Weapon Chance Add" = 0.3
+	#Base chance for each armor pieces to get enchanted
+	#Range: 0.0 ~ 1.0
+	"Enchanting Chance" = 0.2
+	#Adds additional x*difficulty% to base enchanting chance
+	"Enchanting Addition" = 0.2
+	#Specify min and max enchanting levels according to difficulty. difficulty-minLevel-maxLevel
+	"Enchanting Calc" = ["0-5-10", "25-5-15", "50-10-17", "100-15-25", "200-20-30", "250-30-35"]
+	#Chance for mobs to have an item in offhand
+	#Range: 0.0 ~ 1.0
+	"Item Equip Chance" = 0.05
+	#Adds additional x*difficulty% to base item chance
+	"Item Chance add" = 0.2
+	#Should mobs drop the armor equipped through this mod? (Other methods e.g. through vanilla is not included)
+	"Should drop equipment" = true
+
+#Settings for attribute modifiers
+[attributes]
+	#Health will be multiplied by difficulty*0.016*x. Set to 0 to disable
+	"Health Increase Multiplier" = 1.0
+	#Health will be multiplied by at maximum this. Set to 0 means no limit
+	"Max Health Increase" = 5.0
+	#Round health to the nearest x. Set to 0 to disable
+	"Round HP" = 0.5
+	#Damage will be multiplied by difficulty*0.008*x. Set to 0 to disable
+	"Damage Increase Multiplier" = 1.0
+	#Damage will be multiplied by at maximum this. Set to 0 means no limit
+	"Max Damage Increase" = 3.0
+	#Speed will be increased by difficulty*0.0008*x. Set to 0 to disable
+	"Speed Increase" = 1.0
+	#Maximum increase in speed
+	#Range: 0.0 ~ 1.0
+	"Max Speed" = 0.1
+	#Knockback will be increased by difficulty*0.002*x. Set to 0 to disable
+	"Knockback Increase" = 1.0
+	#Maximum increase in knockback
+	"Max Knockback" = 0.5
+	#Magic resistance will be increased by difficulty*0.0016*x. Set to 0 to disable
+	"Magic Resistance Increase" = 1.0
+	#Maximum increase in magic resistance. Magic reduction is percentage
+	#Range: 0.0 ~ 1.0
+	"Max Magic Resistance" = 0.4
+	#Projectile Damage will be multiplied by 1+difficulty*0.008*x. Set to 0 to disable
+	"Projectile Damage Increase" = 1.0
+	#Projectile damage will be multiplied by maximum of this
+	"Max Projectile Damage" = 2.0
+

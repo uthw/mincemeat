@@ -1,0 +1,1672 @@
+{
+	id: "110C9F4AE4142983"
+	group: "62CA08E8B2EFA105"
+	order_index: 3
+	filename: "the_nether"
+	title: "The Nether"
+	icon: {
+		id: "forestcraft:netherite_lighter"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "forestcraft:netherite_lighter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -4.0d
+			shape: "gear"
+			description: [
+				"A special flint and steel needed to get into the nether."
+				""
+				"Unlike the previous two dimensions, you can pick between two bosses to fight. I would suggest Netherite Monstrosity and then come back for Ignis, because Ignis is far more difficult."
+			]
+			dependencies: ["07F915C8F9F3C199"]
+			size: 2.0d
+			id: "252A982DEA1EC5A5"
+			tasks: [
+				{
+					id: "1F31908C2EBB6511"
+					type: "item"
+					item: {
+						id: "forestcraft:netherite_lighter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "71485107DC52AC82"
+					type: "advancement"
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "731B9DEE89F6F546"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "018167B620A2173D"
+					type: "item"
+					item: {
+						id: "minecraft:obsidian"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Nether Fortress"
+			x: 4.0d
+			y: -4.0d
+			dependencies: ["252A982DEA1EC5A5"]
+			id: "16080CEF30FDFE08"
+			tasks: [{
+				id: "1EF3542581C14597"
+				type: "advancement"
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7E868E3696CD99EE"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			title: "Wither Catacomb"
+			icon: "bygonenether:withered_debris"
+			x: 2.5d
+			y: -1.5d
+			subtitle: "Heavily fortified by wither skeletons. What could be inside? The shape is unsettling too..."
+			description: [""]
+			dependencies: ["252A982DEA1EC5A5"]
+			id: "1EE49ABC6E6F3353"
+			tasks: [{
+				id: "30BB6B384A9F58D3"
+				type: "structure"
+				structure: "bygonenether:catacomb"
+			}]
+			rewards: [{
+				id: "5174C49E1D17C160"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["252A982DEA1EC5A5"]
+			id: "27CED14910E69BCE"
+			tasks: [{
+				id: "56B60B48F14E245A"
+				type: "item"
+				item: {
+					id: "bygonenether:warped_ender_pearl"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2A17A6490B19D6D7"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			description: ["Can also be made into a grappling hook upgrade."]
+			dependencies: ["27CED14910E69BCE"]
+			id: "315DB97609ABEFE1"
+			tasks: [{
+				id: "68F4267BEA0C9DAD"
+				type: "item"
+				item: {
+					id: "grapplemod:launcheritem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5ED66CAE186923A3"
+				type: "ftbmoney:money"
+				ftb_money: 35L
+			}]
+		}
+		{
+			title: "Witherbone"
+			icon: "iceandfire:witherbone"
+			x: 4.0d
+			y: 0.0d
+			description: ["Used to craft dragon bone items, which are slight upgrades from diamond (the bow is extremely op, idk if it's intended)"]
+			dependencies: ["2E7D45F16CAF4396"]
+			dependency_requirement: "one_completed"
+			id: "60F66098C5272038"
+			tasks: [
+				{
+					id: "4931902F86D23375"
+					type: "item"
+					item: {
+						id: "iceandfire:witherbone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "28561F5497452EE0"
+					type: "kill"
+					entity: "minecraft:wither_skeleton"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "31A3963388916680"
+				type: "item"
+				item: {
+					id: "iceandfire:dragonbone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			dependencies: ["16080CEF30FDFE08"]
+			id: "77E878A90387405E"
+			tasks: [{
+				id: "56E412DCD4B6E06D"
+				type: "item"
+				item: {
+					id: "minecraft:blaze_rod"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6B021D4A79225776"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			subtitle: "It looks like a cinnamon roll"
+			description: ["Can be traded with Vein Goblin Traders for netherite scraps at an increased rate than smelting."]
+			dependencies: ["252A982DEA1EC5A5"]
+			id: "4B8308578F203DB9"
+			tasks: [{
+				id: "71A842351FABDE29"
+				type: "item"
+				item: {
+					id: "minecraft:ancient_debris"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6C513DDDCA736425"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -1.25d
+			y: 0.0d
+			dependencies: ["4B8308578F203DB9"]
+			size: 1.25d
+			id: "0248CF0DADEC6D41"
+			tasks: [{
+				id: "2F5A75E860232D95"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "74005AE5D9A441B3"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -3.75d
+			y: -4.0d
+			dependencies: ["252A982DEA1EC5A5"]
+			id: "227A041194766265"
+			tasks: [{
+				id: "2197D78DEDD2488C"
+				type: "item"
+				item: {
+					id: "minecraft:ghast_tear"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "312964D5696ACAAA"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -5.25d
+			y: -4.5d
+			subtitle: "Exact revenge!"
+			dependencies: ["227A041194766265"]
+			id: "1A78D0E2515CE73E"
+			tasks: [{
+				id: "701D8557806FC646"
+				type: "item"
+				item: {
+					id: "forestcraft:ghast_cannon"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "31341865ADF95514"
+				type: "item"
+				item: {
+					id: "minecraft:fire_charge"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 12
+			}]
+		}
+		{
+			x: -4.25d
+			y: -3.0d
+			subtitle: "The real solution to world hunger"
+			dependencies: ["227A041194766265"]
+			id: "2D8676A656A26736"
+			tasks: [{
+				id: "1AB654D2E25FB862"
+				type: "item"
+				item: {
+					id: "cyclic:charm_starvation"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "347A4065F5FCAA17"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -5.25d
+			y: -3.5d
+			subtitle: "If there's a place you got to go, I'm the one you need to know"
+			dependencies: ["227A041194766265"]
+			id: "32749CBE4D6A658D"
+			tasks: [{
+				id: "33A55306F28D7852"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:mining_charm"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "54DB8635F5115A6F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "259E03D8DAEA98E8"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:long_haste"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.25d
+			y: -5.0d
+			subtitle: "Can you fix it?"
+			dependencies: ["227A041194766265"]
+			id: "636BE7B0F1756956"
+			tasks: [{
+				id: "4EF70255D3E33FAA"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:mending_mixture"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0E2A25EC492FB647"
+				type: "item"
+				item: {
+					id: "scalinghealth:heart_crystal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.0d
+			dependencies: ["77E878A90387405E"]
+			id: "755C36B2CA0A0FD2"
+			tasks: [{
+				id: "6B1AFCAEE0617221"
+				type: "item"
+				item: {
+					id: "minecraft:blaze_powder"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "38F038252FD9DA63"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"Who could've guessed this item allows you to fish in lava?"
+				""
+				"You can reel in some interesting specimens you'd never have guessed were hiding in the lava."
+			]
+			dependencies: ["4B8308578F203DB9"]
+			id: "1583E859FA44EDF5"
+			tasks: [{
+				id: "299A1BB01E2BA609"
+				type: "item"
+				item: {
+					id: "netherdepthsupgrade:lava_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4232A196C5A95F2B"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			dependencies: ["77E878A90387405E"]
+			id: "4D3A4FC8CE62E4BB"
+			tasks: [{
+				id: "1A03B2F10F33FFA2"
+				type: "item"
+				item: {
+					id: "cyclic:prospector"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "39C84683271D2C99"
+				type: "item"
+				item: {
+					id: "tombstone:scroll_of_true_sight"
+					Count: 1b
+					tag: {
+						enchant: 1b
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -8.0d
+			subtitle: "Stop raising my prices!"
+			dependencies: ["755C36B2CA0A0FD2"]
+			id: "7F256ADD51A9A8BA"
+			tasks: [{
+				id: "2E1EECD89FCB36BB"
+				type: "item"
+				item: {
+					id: "forestcraft:spectralum"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "457CF3DDDFFC8F32"
+				type: "item"
+				item: {
+					id: "forestcraft:molten_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 6.5d
+			y: -7.0d
+			dependencies: ["7F256ADD51A9A8BA"]
+			id: "34F7BDFC24DAACC3"
+			tasks: [{
+				id: "7C004D6F8BCDD90A"
+				type: "item"
+				item: {
+					id: "forestcraft:soul_harp"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "60FA9D2E0E7114ED"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -9.0d
+			description: ["Inflicts wither."]
+			dependencies: ["7F256ADD51A9A8BA"]
+			id: "605F9A9EE7884595"
+			tasks: [{
+				id: "0909AF0337F03C3C"
+				type: "item"
+				item: {
+					id: "forestcraft:soul_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "39EB634174FBABA1"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 7.5d
+			y: -7.0d
+			dependencies: ["7F256ADD51A9A8BA"]
+			id: "4CD8C5B30BFA73A7"
+			tasks: [{
+				id: "034D32AD0C68E72E"
+				type: "item"
+				item: {
+					id: "forestcraft:soul_conqueror"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4930385DA536806B"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.5d
+			y: -9.0d
+			subtitle: "If I had a nickel for every Terraria reference in this modpack..."
+			dependencies: ["7F256ADD51A9A8BA"]
+			id: "0C1D51A7167A95B0"
+			tasks: [{
+				id: "6F17E7E62374E603"
+				type: "item"
+				item: {
+					id: "forestcraft:soul_eater"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3BEAF7B1E6DC1FC3"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -7.0d
+			subtitle: "This would make a great venue!"
+			description: ["The large, open blacksmith that houses the Netherite Monstrosity, the third required boss of the modpack."]
+			dependencies: ["252A982DEA1EC5A5"]
+			id: "2977431B7576A243"
+			tasks: [{
+				id: "23CB3AC4F245A1AC"
+				type: "structure"
+				title: "Soul Black Smith[sic]"
+				icon: {
+					id: "minecraft:blackstone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				structure: "cataclysm:soul_black_smith"
+			}]
+			rewards: [
+				{
+					id: "3BFB2EF17D861FCB"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "5069A2B508CAC0CC"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:sundering"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -7.0d
+			description: [
+				"Home of the Ignited Revenants, shielded blazes who look eerily similar to that one mob who lost the mob vote."
+				""
+				"They drop their ashes, which you may use at the altar upstairs to summon Ignis."
+				""
+				"You should use the blocks you're rewarded with for finding this palace to seal the holes in the Ignis Arena. If you don't, you will constantly fall in them."
+			]
+			dependencies: ["252A982DEA1EC5A5"]
+			id: "2689B7B775BBB707"
+			tasks: [{
+				id: "1C8589F4E3D92438"
+				type: "structure"
+				title: "Burning Arena"
+				icon: {
+					id: "minecraft:nether_bricks"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				structure: "cataclysm:burning_arena"
+			}]
+			rewards: [{
+				id: "7F01B095811C8191"
+				type: "item"
+				item: {
+					id: "byg:pink_smooth_sandstone"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 192
+			}]
+		}
+		{
+			x: 1.0d
+			y: -8.0d
+			description: ["It's hard."]
+			dependencies: ["2689B7B775BBB707"]
+			id: "2B7539BB12F2F2C6"
+			tasks: [{
+				id: "4E4CA078F3BED5E1"
+				type: "checkmark"
+				title: "Note on Ignis"
+			}]
+			rewards: [
+				{
+					id: "1FB2BC9610E090B7"
+					type: "item"
+					item: {
+						id: "minecraft:respawn_anchor"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "204F7C5FBBFF4925"
+					type: "item"
+					item: {
+						id: "minecraft:glowstone_dust"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "relics:flaming_amber_geode"
+			x: 1.0d
+			y: -9.0d
+			subtitle: "I am Ignis, blade of Miquella."
+			description: ["*violent elden ring flashbacks*"]
+			dependencies: ["2B7539BB12F2F2C6"]
+			id: "113F3969A0C3144F"
+			tasks: [{
+				id: "0BA370E0F6A0812E"
+				type: "kill"
+				title: "Ignis"
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "77939EA5AFDED18B"
+					type: "item"
+					item: {
+						id: "paraglider:heart_container"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5C68C05A8FCAF49E"
+					type: "ftbmoney:money"
+					ftb_money: 250L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -10.0d
+			dependencies: ["113F3969A0C3144F"]
+			id: "19AF647D5D19D960"
+			tasks: [{
+				id: "1696DE3B1C7FE647"
+				type: "item"
+				item: {
+					id: "cataclysm:ignitium_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "730E51557D561DCA"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			title: "Ignitium Armor"
+			icon: {
+				id: "cataclysm:ignitium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 3.5d
+			y: -10.5d
+			description: ["Upgrade your Netherite"]
+			dependencies: ["19AF647D5D19D960"]
+			id: "25C55BC5946FA32E"
+			tasks: [
+				{
+					id: "163813B173DC3CEF"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "792348BB7F583AC6"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4A8174EAF149E103"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "34CBD970955198AB"
+					type: "item"
+					item: {
+						id: "cataclysm:ignitium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5D957DAA5E7CA75C"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+				{
+					id: "5C8BA55559DBCBC8"
+					type: "item"
+					item: {
+						id: "forestcraft:spectralum"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "53CAB6B8DF543C5C"
+					type: "item"
+					item: {
+						id: "apotheosis:blazing_hellshelf"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:netherite_block"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.0d
+			y: -9.0d
+			description: ["Description coming soon:tm:"]
+			dependencies: ["2977431B7576A243"]
+			id: "39739C139F8E53F9"
+			tasks: [{
+				id: "0DA3549CA8962ED4"
+				type: "kill"
+				title: "Netherite Monstrosity"
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0F96A12A39FB7F8E"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -10.0d
+			dependencies: ["19AF647D5D19D960"]
+			id: "4FBFF44816E063BD"
+			tasks: [{
+				id: "4315C21AC11844CF"
+				type: "item"
+				item: {
+					id: "cataclysm:the_incinerator"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "198B007004049F13"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "cyclic:life_leech"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "579A0BED12F41892"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:sharpness"
+							}]
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -9.5d
+			dependencies: ["19AF647D5D19D960"]
+			id: "073751AA4AE506FF"
+			tasks: [{
+				id: "02E68E610FCBAEF5"
+				type: "item"
+				item: {
+					id: "cataclysm:bulwark_of_the_flame"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6B5AAF615FCD7030"
+					type: "item"
+					item: {
+						id: "spartanweaponry:arrow_diamond_tipped"
+						Count: 1b
+						tag: {
+							Potion: "apotheosis:sundering"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 32
+				}
+				{
+					id: "6D50199236DB4AEE"
+					type: "ftbmoney:money"
+					ftb_money: 60L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -10.0d
+			dependencies: ["39739C139F8E53F9"]
+			id: "4310937077A69931"
+			tasks: [{
+				id: "5B19E31A58AD4E08"
+				type: "item"
+				item: {
+					id: "cataclysm:infernal_forge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3422633D7D6E67A7"
+				type: "ftbmoney:money"
+				ftb_money: 45L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.0d
+			description: ["Use a Smithing Table to upgrade your netherite helmet."]
+			dependencies: ["39739C139F8E53F9"]
+			id: "6B7E381C562CA4FD"
+			tasks: [{
+				id: "17622DB83F55B140"
+				type: "item"
+				item: {
+					id: "cataclysm:monstrous_helm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "388AD847ECDEAF3B"
+				type: "ftbmoney:money"
+				ftb_money: 55L
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: [
+				"16080CEF30FDFE08"
+				"1EE49ABC6E6F3353"
+			]
+			id: "2E7D45F16CAF4396"
+			tasks: [{
+				id: "44D3AF6F7C70D129"
+				type: "kill"
+				icon: {
+					id: "minecraft:wither_skeleton_skull"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "minecraft:wither_skeleton"
+				value: 1L
+			}]
+			rewards: [{
+				id: "136BCFBD23BA2F7C"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.5d
+			dependencies: ["2E7D45F16CAF4396"]
+			id: "3DE9414BE76BF2D4"
+			tasks: [{
+				id: "0B0082F4A6C4E7BE"
+				type: "item"
+				item: {
+					id: "minecraft:wither_skeleton_skull"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "06F92E0B6784B1BC"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["0248CF0DADEC6D41"]
+			id: "6393B13D3775146C"
+			tasks: [{
+				id: "4852B6AD9D577925"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:forbidden_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4E8F0AB7244FBE93"
+				type: "ftbmoney:money"
+				ftb_money: 35L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			description: ["Lets you see 2 more of the guaranteed enchantments on an enchanting table."]
+			dependencies: ["0248CF0DADEC6D41"]
+			id: "656AF5FC00D44250"
+			tasks: [{
+				id: "0F4B191DE068A665"
+				type: "item"
+				item: {
+					id: "apotheosis:sightshelf_t2"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7545A7AF2C1DE1D8"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			dependencies: ["77E878A90387405E"]
+			id: "40EA1B84E6DF7A41"
+			tasks: [{
+				id: "0AF03E003934C94C"
+				type: "item"
+				item: {
+					id: "minecraft:brewing_stand"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "222153D23BEB4A94"
+				type: "item"
+				item: {
+					id: "minecraft:nether_wart"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 16
+			}]
+		}
+		{
+			x: 1.0d
+			y: -0.5d
+			description: ["A gem found in the Nether that inhibits speed."]
+			dependencies: ["252A982DEA1EC5A5"]
+			id: "2592CE1155607212"
+			tasks: [{
+				id: "42432303C254581F"
+				type: "item"
+				item: {
+					id: "forestcraft:jewel_wart"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "297594E35AFA2B24"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			shape: "hexagon"
+			dependencies: [
+				"39739C139F8E53F9"
+				"113F3969A0C3144F"
+			]
+			id: "0B5CE92F23ED32FE"
+			tasks: [{
+				id: "75189B551B736F35"
+				type: "checkmark"
+				title: "Time for the End!"
+			}]
+			rewards: [
+				{
+					id: "35D509B96A6AF9C0"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "four"
+				}
+				{
+					id: "03D41BB40FEC7646"
+					type: "item"
+					item: {
+						id: "paraglider:heart_container"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.25d
+			y: -3.0d
+			subtitle: "Do you want the most out of your gear?"
+			description: [
+				"You can put affix items on it to turn them into shards."
+				""
+				"Shards are used on the smithing table to craft a special book that can extract affixes, which can then be applied to an item of your choice."
+			]
+			dependencies: ["252A982DEA1EC5A5"]
+			id: "55938BAE708C960A"
+			tasks: [{
+				id: "4BCC1C093C071FBB"
+				type: "item"
+				item: {
+					id: "minecraft:soul_campfire"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1733B4C565FC0E28"
+				type: "item"
+				item: {
+					id: "apotheosis:uncommon_tome"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: ["3DE9414BE76BF2D4"]
+			size: 1.25d
+			id: "003716AC485B6BC7"
+			tasks: [{
+				id: "19A96B1BFF9EEEAC"
+				type: "item"
+				item: {
+					id: "minecraft:nether_star"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "225574457A01D63C"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "0A90DB1D4FEEB33E"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["2592CE1155607212"]
+			id: "57AABD8887A27EE0"
+			tasks: [{
+				id: "48B6DDE4BEA3FA9A"
+				type: "item"
+				item: {
+					id: "forestcraft:jewel_wart_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "728A1683F330C003"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Until the rainbow burns the stars out in the sky"
+			dependencies: ["2592CE1155607212"]
+			id: "77EE0E7697E1E61E"
+			tasks: [{
+				id: "6B14490BD0CAF13F"
+				type: "item"
+				item: {
+					id: "forestcraft:prismatic_diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "34BD0FFF2D986531"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["57AABD8887A27EE0"]
+			id: "7F6F1C6AF1FD01DD"
+			tasks: [{
+				id: "563BD26A59B68110"
+				type: "item"
+				item: {
+					id: "forestcraft:jewel_wart_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B6964C528D899C9"
+				type: "item"
+				item: {
+					id: "minecraft:obsidian"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 12
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["77EE0E7697E1E61E"]
+			id: "2600AC3C1AC8D4E5"
+			tasks: [{
+				id: "744A9175C0C6DFBE"
+				type: "item"
+				item: {
+					id: "forestcraft:true_dirtscalibur"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "40DFB28997EFD6C1"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.5d
+			dependencies: ["252A982DEA1EC5A5"]
+			id: "784BEAAB567C23AC"
+			tasks: [{
+				id: "3DA6D45A5357AAEF"
+				type: "item"
+				item: {
+					id: "apotheosis:hellshelf"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.25d
+			y: -5.5d
+			subtitle: "It's dropped by Bakudans, mischevious creatures that live in warped forests."
+			description: [""]
+			dependencies: ["252A982DEA1EC5A5"]
+			id: "7F54B80FD89E8A12"
+			tasks: [{
+				id: "09B16189A2825E0E"
+				type: "item"
+				item: {
+					id: "forestcraft:bakudan_ball"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "65CAE3EF3612FA1B"
+				type: "ftbmoney:money"
+				ftb_money: 35L
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.0d
+			dependencies: ["636BE7B0F1756956"]
+			id: "3BC6D6640C821433"
+			tasks: [{
+				id: "1A1F75B4958F18FD"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3A7894C6D4736E54"
+				type: "ftbmoney:money"
+				ftb_money: 60L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -3.0d
+			subtitle: "Diamond sword that does double damage vs. undead"
+			dependencies: ["3DE9414BE76BF2D4"]
+			id: "02B2E88DA6CEEC5F"
+			tasks: [{
+				id: "16DDE78ABC6A91FC"
+				type: "item"
+				item: {
+					id: "xreliquary:mercy_cross"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "11EA4525D7D03CAC"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+	]
+}

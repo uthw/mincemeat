@@ -1,0 +1,7 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jul 18, 2023 6:39:07 PM
+
+#minecraft:tick
+- wythers:tick
+
+#minecraft:load
+- wythers:load

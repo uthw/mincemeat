@@ -1,0 +1,2096 @@
+{
+	id: "43C9EDEF2D1AEB5E"
+	group: "46FFD1E16D795543"
+	order_index: 1
+	filename: "botania"
+	title: "Natural Magic (WIP)"
+	icon: {
+		id: "botania:lexicon"
+		Count: 1b
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	subtitle: ["Botania, Nature's Aura"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Botania"
+			x: 0.0d
+			y: -2.0d
+			shape: "hexagon"
+			subtitle: "The kitchen sink mod"
+			description: ["Botania is a classic tech mod that is themed around natural magic. It's different from any other tech mods you may have used up to this point, though, containing RPG-like elements such as equipment, trinkets, and boss fights."]
+			id: "0CC23EBAA624C4C6"
+			tasks: [{
+				id: "200F14C1733610F1"
+				type: "item"
+				item: {
+					id: "botania:lexicon"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "0275262F31075019"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			subtitle: "Petals are a crafting ingredient in Botania."
+			description: ["Generally, two petals can be made from one block, but taller variants can be plucked with shears for four petals."]
+			dependencies: ["0CC23EBAA624C4C6"]
+			id: "35A9F1C4FA55A371"
+			tasks: [{
+				id: "5524616673CACB0D"
+				type: "item"
+				title: "Any #botania:petals"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:petals"
+					}
+				}
+			}]
+			rewards: [{
+				id: "74F547ECF1D8C002"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			subtitle: "Using on the grass can grow some Botania flowers."
+			description: ["You should make a lot of these to collect lots of petals, since they are used often in Botania's recipes."]
+			dependencies: ["35A9F1C4FA55A371"]
+			id: "30F34FCDC31CD2E9"
+			tasks: [{
+				id: "0F1C27C3320FD6DB"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			rewards: [{
+				id: "42C7BC61DD3BB60D"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			subtitle: "When given water, throwing in certain collections of mystical petals causes this block to absorb their energies. Begin the process by throwing in any seeds."
+			description: [
+				"If you make a mistake, right clicking with nothing in your hand undoes the last inserted item."
+				""
+				"When a water bucket is dropped on the apothecary, it is filled. This allows for automation using dispensers."
+				""
+				"From your guide book: \"A simple tip for the more efficiency-minded: Up to twenty seconds after crafting a flower and after refilling the water, if you right-click the apothecary with an empty hand, it'll pull another set of the same ingredients out of your inventory, for quick crafting in bulk.\""
+			]
+			dependencies: ["35A9F1C4FA55A371"]
+			id: "0C54EDFDF7DC2500"
+			tasks: [{
+				id: "4628B25CFF4DFDBF"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "28F07666358D7CBE"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			subtitle: "Turns wood and stone blocks into livingwood and livingrock, which are crafting ingredients."
+			dependencies: ["0C54EDFDF7DC2500"]
+			id: "2B46AF8CE1809421"
+			tasks: [{
+				id: "6C3147323A3B4482"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "58DA173AECD1F420"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			subtitle: "Makes runes, which are crafting ingredients. Right click on it with an item to put it on the altar. Needs mana instead of water"
+			description: ["Complete the ritual using the items specified under the checkmark and arrow. Shift right click to take item off"]
+			dependencies: ["2B46AF8CE1809421"]
+			id: "40D5A2EF84EBB3C7"
+			tasks: [{
+				id: "697CF4E1E002FA69"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "210027047CE7C7B3"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			subtitle: "Burns items that can be used as furnace fuel to generate mana *must be linked using wand with shift rclick*"
+			dependencies: ["0C54EDFDF7DC2500"]
+			id: "278CC3F3C1AD1C6D"
+			tasks: [{
+				id: "771BEDACB60D97E7"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "20C659EABB13ECA1"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			subtitle: "When items are put in its inventory, they fall through the hole in the bottom"
+			description: [
+				"{image:kubejs:textures/item/endoflame_farm.png width:672 height:370 align:1 fit:true}"
+				"Here's an example of a farm you can use. The pressure plate uses the mechanic of the crate stopping when given a redstone signal."
+			]
+			dependencies: ["2B46AF8CE1809421"]
+			id: "7B0AFB41528211E3"
+			tasks: [{
+				id: "790DFA93B3E561DD"
+				type: "item"
+				item: "botania:open_crate"
+			}]
+			rewards: [{
+				id: "63E44C0C851A301D"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			subtitle: "Sucks up nearby water to generate mana before decaying after 3 in-game days"
+			dependencies: ["0C54EDFDF7DC2500"]
+			id: "412F2C1C93006975"
+			tasks: [{
+				id: "17DF6C4E84FFD27A"
+				type: "item"
+				item: "botania:hydroangeas"
+			}]
+			rewards: [{
+				id: "37B836FBD281C860"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			title: "Pools"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Learn about Mana (not the one from ars nouveau)"
+			description: [
+				"Mana is the supernatural form of energy used by Botania. As such, knowing how to use it is important."
+				""
+				"This mod offers a few ways of moving mana from place to place and keeping it in one place. These come in the forms of the items you just made."
+				""
+				"Diluted mana pools can store much less mana than normal ones, making it useful in some situations."
+				""
+				"{image:kubejs:textures/item/manaspreaders.png width:974 height:470 align:1 fit:true}"
+			]
+			dependencies: [
+				"412F2C1C93006975"
+				"278CC3F3C1AD1C6D"
+				"2B46AF8CE1809421"
+			]
+			dependency_requirement: "one_completed"
+			id: "40A6C999BE2D99F8"
+			tasks: [{
+				id: "01A0904D069AD210"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botania:mana_pool"
+								Count: 1b
+							}
+							{
+								id: "botania:diluted_pool"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2807CB206B4B04BD"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+				{
+					id: "79D04E10F39072E3"
+					type: "item"
+					item: "botania:redstone_spreader"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			subtitle: "Portable mana storage. See lexica botania"
+			dependencies: ["40A6C999BE2D99F8"]
+			id: "17A2A2D56B549FB6"
+			tasks: [{
+				id: "1DB59F8D37EBCDC2"
+				type: "item"
+				item: {
+					id: "botania:mana_tablet"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "050AFE042F8377D9"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			subtitle: "Upgrade for a mana spreader. Can be dyed, and add effects to the spreader they're attached to. See JEI for the different lenses."
+			description: ["- You can combine two mana lenses using either a slime ball or bottle of honey."]
+			dependencies: ["0BA546DC8B8D476A"]
+			id: "4FFAA8A577F95B12"
+			tasks: [{
+				id: "0A2F14175F317CF1"
+				type: "item"
+				item: {
+					id: "botania:lens_normal"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "1D3E5150374F00FB"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "60B2A051822CDC8E"
+					type: "item"
+					item: "botania:pool_minecart"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 11.0d
+			subtitle: "Better mana spreader."
+			dependencies: ["6A0DCA9557AF4CD2"]
+			id: "419AA9ED181F13C7"
+			tasks: [{
+				id: "56605B02D0F6211E"
+				type: "item"
+				item: "botania:elven_spreader"
+			}]
+			rewards: [{
+				id: "7A0EB28839B3DE84"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Changes color depending on the profit/loss of the pool next to it"
+			dependencies: ["0C54EDFDF7DC2500"]
+			id: "61F6869A0D42ACB0"
+			tasks: [{
+				id: "5D48CC311DDB38AB"
+				type: "item"
+				item: "botania:manastar"
+			}]
+			rewards: [{
+				id: "7F92862AB75D977A"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			subtitle: "Converts incoming mana to RF which is pretty cool"
+			dependencies: ["0BA546DC8B8D476A"]
+			id: "06987673FFD52F32"
+			tasks: [{
+				id: "4B5E6118B41D01DF"
+				type: "item"
+				item: "botania:mana_fluxfield"
+			}]
+			rewards: [{
+				id: "396E892AB8950178"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.5d
+			subtitle: "When bound to a mana pool, your items that use mana as durability will get their charge from the mirror"
+			dependencies: ["1E9420A3765BFAD9"]
+			id: "1CE6A334BA3D6FC8"
+			tasks: [{
+				id: "7A4F5092CE85FC51"
+				type: "item"
+				item: {
+					id: "botania:mana_mirror"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "76D2E18FEE200253"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			subtitle: "Prisms are a more convenient way for mana lenses to be changed."
+			description: [
+				"Rclicking a prism with any mana lens will place the lens in the prism."
+				""
+				"Bursts passing through the prism have their effects modified depending on the lens."
+			]
+			dependencies: ["4FFAA8A577F95B12"]
+			id: "49EC386B0C7A5336"
+			tasks: [{
+				id: "05443120AE63203B"
+				type: "item"
+				item: "botania:prism"
+			}]
+			rewards: [{
+				id: "658D0E77C05A04C1"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.0d
+			subtitle: "Divides mana bursts into pools adjacent to it"
+			dependencies: ["40A6C999BE2D99F8"]
+			id: "76EEEB1BF715B905"
+			tasks: [{
+				id: "2F4A939208C4F02D"
+				type: "item"
+				item: "botania:mana_distributor"
+			}]
+			rewards: [{
+				id: "048124F40263F110"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			subtitle: "Mana entering this block is deleted"
+			dependencies: ["0BA546DC8B8D476A"]
+			id: "58779E8265553E35"
+			tasks: [{
+				id: "39D54D4A25A04C66"
+				type: "item"
+				item: "botania:mana_void"
+			}]
+			rewards: [{
+				id: "661D17DAD9245C8A"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			subtitle: "In a hurry? Bellows increases the speed at which mana pools export mana"
+			dependencies: ["40A6C999BE2D99F8"]
+			id: "2838BFAB495C24B1"
+			tasks: [{
+				id: "4ED6614AC913D41F"
+				type: "item"
+				item: "botania:bellows"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			subtitle: "Place a spark on a mana pool and another on another valid item"
+			description: ["Can be dyed. The star orbiting it changes color."]
+			dependencies: ["40A6C999BE2D99F8"]
+			id: "1B51A4C1DE504D62"
+			tasks: [{
+				id: "505508ABEEE14F15"
+				type: "item"
+				item: "botania:spark"
+			}]
+			rewards: [{
+				id: "59F4F2D313E289EA"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			subtitle: "Bury a petal in the ground, and then use bone meal on that ground to grow a new flower."
+			dependencies: ["30F34FCDC31CD2E9"]
+			id: "306C80234A43E120"
+			tasks: [{
+				id: "2D0B5B5BE470BFA0"
+				type: "checkmark"
+				title: "Duplicating Flowers"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			description: [
+				"You can direct the spreader to a pool using the wand in bind mode. You should see a checkmark when you've done it right. The spreader takes mana generated from nearby flowers and sends them to things like other spreaders and mana pools."
+				""
+			]
+			dependencies: [
+				"278CC3F3C1AD1C6D"
+				"412F2C1C93006975"
+			]
+			id: "0BA546DC8B8D476A"
+			tasks: [{
+				id: "04C5B1AA5F2819D8"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["40D5A2EF84EBB3C7"]
+			id: "3F0D8F2D6BF7BB34"
+			tasks: [{
+				id: "1D74176DADA0ED02"
+				type: "item"
+				item: "botania:entropinnyum"
+			}]
+			rewards: [{
+				id: "6E59089DB19EA1B2"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			subtitle: "Eats food and generates mana based on saturation. It must be a fan of Spice of Life since it doesn't like eating the same thing constantly."
+			hide_dependency_lines: true
+			dependencies: ["40D5A2EF84EBB3C7"]
+			id: "276BB2128C4B2A37"
+			tasks: [{
+				id: "07EC7B87F014BDB3"
+				type: "item"
+				item: "botania:gourmaryllis"
+			}]
+			rewards: [{
+				id: "05BDA35010D40BF3"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.0d
+			subtitle: "Eats cake"
+			hide_dependency_lines: true
+			dependencies: ["40D5A2EF84EBB3C7"]
+			id: "0DC6EF0C1BD504EA"
+			tasks: [{
+				id: "240B7BC6B68A4A24"
+				type: "item"
+				item: "botania:kekimurus"
+			}]
+			rewards: [{
+				id: "5A6FB409D6A825C1"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			subtitle: "Eats slimes"
+			hide_dependency_lines: true
+			dependencies: ["40D5A2EF84EBB3C7"]
+			id: "10AC00C23B561D62"
+			tasks: [{
+				id: "66E6A1F921953D64"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+			rewards: [{
+				id: "4CA648D02D7485A0"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 5.0d
+			subtitle: "Takes XP to generate mana"
+			hide_dependency_lines: true
+			dependencies: ["40D5A2EF84EBB3C7"]
+			id: "3BF7155B188F0106"
+			tasks: [{
+				id: "726B7A466F238A00"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [{
+				id: "520493343A13D016"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			subtitle: "Eats lava"
+			hide_dependency_lines: true
+			dependencies: ["40D5A2EF84EBB3C7"]
+			id: "508CEE79471E44F9"
+			tasks: [{
+				id: "62F428F40D6CA5AA"
+				type: "item"
+				item: "botania:thermalily"
+			}]
+			rewards: [{
+				id: "2C0017A773A6C722"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			subtitle: "Eats the trees"
+			hide_dependency_lines: true
+			dependencies: ["40D5A2EF84EBB3C7"]
+			id: "668FAA92294CF348"
+			tasks: [{
+				id: "473219D94484EB8F"
+				type: "item"
+				item: "botania:munchdew"
+			}]
+			rewards: [{
+				id: "7A358CA30DD8241A"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			title: "Spark Augments"
+			x: 5.0d
+			y: 6.0d
+			subtitle: "Please check your lexicon for these items."
+			dependencies: ["1B51A4C1DE504D62"]
+			id: "60B3AA5D699D3A68"
+			tasks: [{
+				id: "1F7606558F437AD1"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botania:spark_upgrade_dispersive"
+								Count: 1b
+							}
+							{
+								id: "botania:spark_upgrade_dominant"
+								Count: 1b
+							}
+							{
+								id: "botania:spark_upgrade_recessive"
+								Count: 1b
+							}
+							{
+								id: "botania:spark_upgrade_isolated"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "2476A4CA558E52CF"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			subtitle: "Multiblock used to make Terrasteel, you can use a schematicannon. The agglomerator needs mana, achieve this with a spark"
+			dependencies: [
+				"40D5A2EF84EBB3C7"
+				"1B51A4C1DE504D62"
+			]
+			id: "3A19695C8476D071"
+			tasks: [
+				{
+					id: "7EFF5788E7E5315E"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "770C5E2ACB839FD2"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+				{
+					id: "7A424BBD8A190500"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "5C4A3636FB5B3CD1"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			subtitle: "Alloy of manasteel, pewter, and diopside. This creates an especially potent material for botanists."
+			description: ["Can make some pretty nifty tools."]
+			dependencies: ["3A19695C8476D071"]
+			id: "1E9420A3765BFAD9"
+			tasks: [{
+				id: "595B334A239584FF"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [{
+				id: "55130D4D087D965D"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			dependencies: ["1E9420A3765BFAD9"]
+			id: "7539C9D4F9574B6B"
+			tasks: [{
+				id: "751EEC8EE251D036"
+				type: "item"
+				item: "botania:natura_pylon"
+				count: 2L
+			}]
+			rewards: [{
+				id: "3D0FE645ADFE7049"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			title: "Portal to Alfheim"
+			x: 5.5d
+			y: 10.0d
+			description: [
+				"You can do some exchanges using large amounts of mana. Right click with the wand to activate the portal (you can't go through it). Instead, you throw items in and they're traded."
+				"{image:kubejs:textures/item/Botania_Portal_to_Alfheim.png width:686 height:671 align:1 fit:true}"
+				"Image credit:"
+			]
+			dependencies: ["7539C9D4F9574B6B"]
+			id: "4676F51D510F7026"
+			tasks: [
+				{
+					id: "1E9D9F9202C1F588"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+				{
+					id: "2ACE92B970A4FEE0"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "3B36713DB6BE189E"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+			]
+			rewards: [{
+				id: "09D53361F99EE3B6"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 10.5d
+			dependencies: ["4676F51D510F7026"]
+			id: "6A0DCA9557AF4CD2"
+			tasks: [{
+				id: "5E68CFA4A785546D"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [{
+				id: "0FD84721407DA0AF"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.0d
+			subtitle: "Portable mana storage that also provides mana to items that need it"
+			dependencies: ["17A2A2D56B549FB6"]
+			id: "65D4C85176645FEF"
+			tasks: [{
+				id: "1FEFCC0172B5DA01"
+				type: "item"
+				item: {
+					id: "botania:mana_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "69553BBB240F440F"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 7.5d
+			dependencies: ["65D4C85176645FEF"]
+			id: "57B645C1283FDDB5"
+			tasks: [{
+				id: "000AC231F01AF31A"
+				type: "item"
+				item: {
+					id: "botania:mana_ring_greater"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 9.0d
+			dependencies: ["385F626E79D1DBF8"]
+			id: "1FE8FE3C28ACD0A1"
+			tasks: [{
+				id: "172EDC603B825F1E"
+				type: "item"
+				item: {
+					id: "botania:crystal_bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7279DF0B8DA08350"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 7.0d
+			y: 9.5d
+			dependencies: ["4676F51D510F7026"]
+			id: "385F626E79D1DBF8"
+			tasks: [{
+				id: "18359B8939AEA90A"
+				type: "item"
+				item: "botania:dragonstone"
+			}]
+			rewards: [{
+				id: "0E2849C1B5CE745E"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 11.0d
+			dependencies: ["6A0DCA9557AF4CD2"]
+			id: "655CCD03C0FBE223"
+			tasks: [{
+				id: "705006991D12309D"
+				type: "item"
+				item: {
+					id: "botania:reach_ring"
+					Count: 1b
+					tag: {
+						baubleUUIDMost: -6000231369834738653L
+						baubleUUIDLeast: -6064837934332946333L
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			subtitle: "Increase movement speed and get auto jump"
+			dependencies: ["40D5A2EF84EBB3C7"]
+			id: "267A0160E47ACA5F"
+			tasks: [{
+				id: "5B61D76FFB7EECCE"
+				type: "item"
+				item: {
+					id: "botania:travel_belt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3D110DB73AB43EAF"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			subtitle: "Double jump"
+			dependencies: ["40D5A2EF84EBB3C7"]
+			id: "331E57219FEC4EC0"
+			tasks: [{
+				id: "7DC25F63919B165C"
+				type: "item"
+				item: {
+					id: "botania:cloud_pendant"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5A15C80332D97125"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			subtitle: "Nullifies nearby creeper explosions"
+			dependencies: ["40D5A2EF84EBB3C7"]
+			id: "594DE0BCE765FD34"
+			tasks: [{
+				id: "0213CE5448E76F35"
+				type: "item"
+				item: {
+					id: "botania:goddess_charm"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "480FDE2382D9E71D"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 3.5d
+			y: 9.5d
+			dependencies: ["1E9420A3765BFAD9"]
+			id: "724C19BA37C6FAF9"
+			tasks: [{
+				id: "449B298312BEDD4E"
+				type: "item"
+				item: {
+					id: "botania:terra_pick"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 10.0d
+			dependencies: [
+				"385F626E79D1DBF8"
+				"6A0DCA9557AF4CD2"
+			]
+			id: "0C1CD88A9DE22872"
+			tasks: [{
+				id: "46F1CC33C7939896"
+				type: "item"
+				item: "botania:rainbow_rod"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			dependencies: ["267A0160E47ACA5F"]
+			id: "6241DC31A9820757"
+			tasks: [{
+				id: "098C31404282FB77"
+				type: "item"
+				item: {
+					id: "botania:super_travel_belt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 12.0d
+			subtitle: "Dropped by Gaia Guardian"
+			dependencies: ["1DA45BD335E61671"]
+			id: "78569B65CFBBDB2D"
+			tasks: [{
+				id: "2EFA4CF450BC71EC"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+			rewards: [
+				{
+					id: "33601B4DFB614C29"
+					type: "ftbmoney:money"
+					ftb_money: 120L
+				}
+				{
+					id: "6805D15245E9CD16"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+			]
+		}
+		{
+			title: "Gaia Ritual"
+			icon: "minecraft:beacon"
+			x: 6.0d
+			y: 12.5d
+			subtitle: "(You'll also need 9 blocks of choice to power it)"
+			description: [
+				"You can use the schematicannon to build the ritual setup for you, or be guided by the Lexica Botania. You can sink the blocks in the ground."
+				""
+				"Summon the boss by shift right clicking the beacon."
+			]
+			dependencies: ["6A0DCA9557AF4CD2"]
+			id: "1DA45BD335E61671"
+			tasks: [
+				{
+					id: "0CA20D1683321FF6"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+				{
+					id: "18B0D72DE442ECD2"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+				{
+					id: "7E11655B74751E49"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			rewards: [{
+				id: "01C669BBF3DF2E16"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 11.5d
+			subtitle: "Summons level 2 gaia when used in place of terrasteel. Defeat it for better rewards and access to Alfheim."
+			dependencies: ["78569B65CFBBDB2D"]
+			id: "2ADCEF023215E642"
+			tasks: [{
+				id: "7DED7A41F445B1DF"
+				type: "item"
+				item: "botania:gaia_ingot"
+			}]
+			rewards: [{
+				id: "4FDBE3DBD5DB2EF3"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Transmutes some items. Place it under the pool and then put things in it"
+			description: ["How can you automate this ...?"]
+			dependencies: ["0C54EDFDF7DC2500"]
+			id: "026197B2CA75D274"
+			tasks: [{
+				id: "4865D1D06EDDEAB9"
+				type: "item"
+				item: "botania:alchemy_catalyst"
+			}]
+			rewards: [{
+				id: "7C693313EB6076FF"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 12.5d
+			subtitle: "Item duper (no joke). Laggy"
+			dependencies: ["6A0DCA9557AF4CD2"]
+			id: "6D4D2FA97B03E17F"
+			tasks: [{
+				id: "7B5A704D6D14DF4B"
+				type: "item"
+				item: "botania:conjuration_catalyst"
+			}]
+			rewards: [{
+				id: "3A3F6D28AE8DBED9"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.5d
+			subtitle: "Warps items up to 2,000 blocks away, use bind wand to set a location"
+			dependencies: ["491A34691200FD1F"]
+			id: "32AA68DD0203AB8B"
+			tasks: [{
+				id: "320F85F830CCBAD3"
+				type: "item"
+				item: "botania:spectranthemum"
+			}]
+			rewards: [{
+				id: "12B1F79C43010FFB"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 10.5d
+			dependencies: ["78569B65CFBBDB2D"]
+			id: "5D3649E535D2A5BF"
+			tasks: [{
+				id: "2F3AD81A6DD2C815"
+				type: "item"
+				item: "botania:mana_bomb"
+			}]
+			rewards: [{
+				id: "20B18097E6C7FCE3"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.5d
+			dependencies: ["1E9420A3765BFAD9"]
+			id: "6B479EB7B5BE7A79"
+			tasks: [{
+				id: "16D9EFC4B5DC6BFC"
+				type: "item"
+				item: {
+					id: "botania:terra_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3360A95B18A36344"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.5d
+			subtitle: "Generates ores from nearby stone"
+			dependencies: ["491A34691200FD1F"]
+			id: "3E9E01CCDF993320"
+			tasks: [{
+				id: "2A6625FB9936E87B"
+				type: "item"
+				item: "botania:orechid"
+			}]
+			rewards: [{
+				id: "6BDD711D1791658E"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 9.5d
+			subtitle: "Turns mana into fertilizer, promoting growth of nearby crops"
+			dependencies: ["491A34691200FD1F"]
+			id: "2CC8A77B261E87B0"
+			tasks: [{
+				id: "53A7AEC6B89D3628"
+				type: "item"
+				item: "botania:agricarnation"
+			}]
+			rewards: [{
+				id: "6A9BFD82ED6C8F92"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 9.5d
+			subtitle: "Silence!"
+			dependencies: ["491A34691200FD1F"]
+			id: "0BF86D02D49B8B5F"
+			tasks: [{
+				id: "42D47EF7314FB87D"
+				type: "item"
+				item: "botania:bergamute"
+			}]
+			rewards: [{
+				id: "604B6FBF53C7099C"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 9.5d
+			subtitle: "Pushes items in front of it forward"
+			dependencies: ["491A34691200FD1F"]
+			id: "206B2C2EFCA85C86"
+			tasks: [{
+				id: "3E505A8C19497A20"
+				type: "item"
+				item: "botania:daffomill"
+			}]
+			rewards: [{
+				id: "225881C143EA4A61"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 10.5d
+			subtitle: "Gives regeneration to nearby players and tamed pets"
+			dependencies: ["491A34691200FD1F"]
+			id: "27FA8C7316887DAF"
+			tasks: [{
+				id: "2AFD3DB26E0F9AA7"
+				type: "item"
+				item: "botania:fallen_kanade"
+			}]
+			rewards: [{
+				id: "21A3E79F30A61A2C"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			subtitle: "These flowers absorb mana from a nearby pool and use them for an effect depending on the flower."
+			description: ["Stemming from this quest are just a few of the functional flora. There is a boatload of them, make sure you check the Lexica Botania!"]
+			dependencies: ["40D5A2EF84EBB3C7"]
+			id: "491A34691200FD1F"
+			tasks: [{
+				id: "2AC0CB938FF904BA"
+				type: "checkmark"
+				title: "Functional Flora"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.5d
+			subtitle: "Funnels items into adjacent inventories, giving it mana increases the range"
+			description: ["Item frames can specify a whitelist or blacklist, configure this by shift Rclicking the flower with a wand"]
+			dependencies: ["491A34691200FD1F"]
+			id: "55427C2E4D3AF858"
+			tasks: [{
+				id: "18FDBC818E71D06F"
+				type: "item"
+				item: "botania:hopperhock"
+			}]
+			rewards: [{
+				id: "16A61ECFCA9F5AED"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 11.5d
+			subtitle: "Summons a foe which drops good loot"
+			dependencies: ["491A34691200FD1F"]
+			id: "55ABA1C1C9713642"
+			tasks: [{
+				id: "2E323EA804395F28"
+				type: "item"
+				item: "botania:loonium"
+			}]
+			rewards: [{
+				id: "7A542D35458C3BE2"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			title: "Nature's Aura"
+			x: -1.0d
+			y: -2.0d
+			shape: "hexagon"
+			subtitle: "*Nature's Aura quests wip"
+			description: [
+				"Nature's Aura is a mod about using the aura found in the earth for different purposes."
+				""
+				"While these effects can be pretty cool (like smelting items without fuel), you must remember to balance your aura use with aura production, or else you will start seeing consequences."
+			]
+			id: "6A3552D30FC25417"
+			tasks: [{
+				id: "2265F058A7D921FF"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "naturesaura:book"
+					}
+				}
+			}]
+			rewards: [{
+				id: "65553258672862F8"
+				type: "item"
+				item: "naturesaura:range_visualizer"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			subtitle: "Right click on leaves to convert them, then wait for the tree to turn gold"
+			dependencies: ["6A3552D30FC25417"]
+			id: "15930FDDCEC9C06C"
+			tasks: [{
+				id: "1954998D6A43E3EE"
+				type: "item"
+				item: "naturesaura:gold_fiber"
+			}]
+			rewards: [{
+				id: "162C977B53BD7A4F"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			subtitle: "Dropped by golden trees (converted using brilliant fiber)"
+			dependencies: ["15930FDDCEC9C06C"]
+			id: "7A5962F1D83C2B7B"
+			tasks: [{
+				id: "399ADDF5BBE56FFE"
+				type: "item"
+				item: "naturesaura:gold_leaf"
+				count: 64L
+			}]
+			rewards: [{
+				id: "4F8D66A4FBC09C8E"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			subtitle: "Can be placed on the ground like redstone"
+			dependencies: ["7A5962F1D83C2B7B"]
+			id: "240235514E50DD3B"
+			tasks: [{
+				id: "7239CBD4F10860AD"
+				type: "item"
+				item: "naturesaura:gold_powder"
+			}]
+			rewards: [{
+				id: "3968B25A3268F487"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			title: "Ritual of the Forest"
+			icon: "naturesaura:wood_stand"
+			x: -7.5d
+			y: 0.0d
+			subtitle: "This is a simple setup that allows for more basic rituals with no consideration for aura."
+			description: ["The necessary multiblock can be created using the Schematicannon."]
+			dependencies: ["240235514E50DD3B"]
+			id: "2FD697091D1A770B"
+			tasks: [
+				{
+					id: "0E9A33F2DFB1B4BE"
+					type: "item"
+					item: "naturesaura:wood_stand"
+					count: 8L
+				}
+				{
+					id: "0942C80E2B0D3B67"
+					type: "item"
+					item: "naturesaura:gold_powder"
+					count: 16L
+				}
+				{
+					id: "47E3625953E31829"
+					type: "item"
+					title: "Any #minecraft:saplings"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:saplings"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1B1698F39710F932"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "15648A9BD4F655F6"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			subtitle: "Ancient saplings can replenish aura in the area around them, but decay in the process"
+			dependencies: ["2FD697091D1A770B"]
+			id: "5C585538B921D5C5"
+			tasks: [{
+				id: "05B2714430D1CC31"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+			rewards: [{
+				id: "4FEE918D2B12CF4E"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			subtitle: "Collects aura from the nearby nature, but stops doing so when there is none left (still decays trees)"
+			description: ["Automation: input to side, output on the bottom"]
+			dependencies: [
+				"0B4A513BF76E2846"
+				"5C585538B921D5C5"
+			]
+			id: "0E9A9FE26968E49E"
+			tasks: [{
+				id: "5B673C426C580437"
+				type: "item"
+				item: "naturesaura:nature_altar"
+			}]
+			rewards: [{
+				id: "14424BC884C6B5CC"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			subtitle: "Created when an upwards-facing dispenser launches a bottle and cork"
+			dependencies: ["4A90D63441C1795C"]
+			id: "0B4A513BF76E2846"
+			tasks: [{
+				id: "19EA50B7C5AE4D00"
+				type: "item"
+				item: {
+					id: "naturesaura:aura_bottle"
+					Count: 1b
+					tag: {
+						stored_type: "naturesaura:overworld"
+					}
+				}
+			}]
+			rewards: [{
+				id: "0CEE3ED64052D9D0"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			dependencies: ["6A3552D30FC25417"]
+			id: "4A90D63441C1795C"
+			tasks: [{
+				id: "133549FD7D85CB26"
+				type: "item"
+				item: "naturesaura:bottle_two_the_rebottling"
+			}]
+			rewards: [{
+				id: "38FAA4C250A90984"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			x: -8.5d
+			y: 4.0d
+			dependencies: ["0E9A9FE26968E49E"]
+			id: "465A8A2181D95F8A"
+			tasks: [{
+				id: "7B0CEB60B7B5397D"
+				type: "item"
+				item: "naturesaura:infused_iron"
+			}]
+			rewards: [{
+				id: "001AB4EF6D80B4BE"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.5d
+			dependencies: ["0E9A9FE26968E49E"]
+			id: "222D8DE54AAD10DD"
+			tasks: [{
+				id: "4FC1F26562C0800C"
+				type: "item"
+				item: "naturesaura:infused_stone"
+			}]
+			rewards: [{
+				id: "508701F93E53B26A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 7.5d
+			subtitle: "Converts dead things into living things (example: coarse dirt -> grass)"
+			dependencies: ["465A8A2181D95F8A"]
+			id: "61AAE194B8BA72B1"
+			tasks: [{
+				id: "13B3BF6F9D97159F"
+				type: "item"
+				item: {
+					id: "naturesaura:infused_iron_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3FA5F876585CB08A"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -10.0d
+			y: 6.5d
+			subtitle: "Slows targets"
+			dependencies: ["465A8A2181D95F8A"]
+			id: "603C8A8AFB5E8383"
+			tasks: [{
+				id: "4E6A1198EC571F0A"
+				type: "item"
+				item: {
+					id: "naturesaura:infused_iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5CB38D304C164803"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 6.0d
+			subtitle: "Chance to give seeds when tilling"
+			dependencies: ["465A8A2181D95F8A"]
+			id: "41FA01E1560E3A14"
+			tasks: [{
+				id: "748F7F20754CA9E4"
+				type: "item"
+				item: {
+					id: "naturesaura:infused_iron_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "70712714E9F080D1"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			title: "Botanist Armor"
+			icon: {
+				id: "naturesaura:infused_iron_chest"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -9.0d
+			y: 7.0d
+			subtitle: "Set bonus: wither thorns"
+			dependencies: ["465A8A2181D95F8A"]
+			id: "440EB0C44E9E4210"
+			tasks: [
+				{
+					id: "1659A1430145068D"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "619AC7BD1AFF0AC1"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "43E2630148EA9A73"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "130E29E1CC8D0D33"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_shoes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1CD47D58D838274F"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.0d
+			subtitle: "Recharge at natural altars. Powers items that need aura, and repairs tools and armor from Nature's Aura"
+			dependencies: ["222D8DE54AAD10DD"]
+			id: "5E7343B2B03BE7BD"
+			tasks: [{
+				id: "06FF0310E9901F13"
+				type: "item"
+				item: "naturesaura:aura_cache"
+			}]
+			rewards: [{
+				id: "05C136D2EB9F0B3A"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -9.5d
+			y: 3.0d
+			subtitle: "Shows information about aura around you"
+			dependencies: ["0E9A9FE26968E49E"]
+			id: "2FA39407D30CB06F"
+			tasks: [{
+				id: "1C9C1B8EE0F677D8"
+				type: "item"
+				item: "naturesaura:eye"
+			}]
+			rewards: [{
+				id: "78CE67137A676B84"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			subtitle: "Heat furnaces using aura instead of fuel"
+			dependencies: ["5D05B9303A7D4850"]
+			id: "2272BB402C499947"
+			tasks: [{
+				id: "415C00C611EC1724"
+				type: "item"
+				item: "naturesaura:furnace_heater"
+			}]
+			rewards: [{
+				id: "13B67C03F477A889"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			subtitle: "Same process as sunlight, only in the nether."
+			dependencies: ["0B4A513BF76E2846"]
+			id: "5D05B9303A7D4850"
+			tasks: [{
+				id: "0A03804614A281CA"
+				type: "item"
+				item: {
+					id: "naturesaura:aura_bottle"
+					Count: 1b
+					tag: {
+						stored_type: "naturesaura:nether"
+					}
+				}
+			}]
+			rewards: [{
+				id: "748201E3BB6C640F"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 5.5d
+			subtitle: "Prevents oak trees from growing into their larger variants, and generates aura whenever one tries to do so"
+			description: ["*see how to use this in the Automation chapter*"]
+			dependencies: ["465A8A2181D95F8A"]
+			id: "7125CBBFAE4EB39E"
+			tasks: [{
+				id: "4CF55056F84F59CF"
+				type: "item"
+				item: "naturesaura:oak_generator"
+			}]
+			rewards: [{
+				id: "22525213DE6E0CA4"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 5.5d
+			subtitle: "Takes items from an inventory above it and places them nearby. Specify the block to place it on by placing an item frame on the builder"
+			dependencies: ["465A8A2181D95F8A"]
+			id: "1810DCA9B50FF7D6"
+			tasks: [{
+				id: "1710D8BDF4C1A7CF"
+				type: "item"
+				item: "naturesaura:placer"
+			}]
+			rewards: [{
+				id: "074B3C512098AC2A"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.5d
+			subtitle: "Trade with the gods. First place the item you want to convert (try infused ingots) and then drop the spirit on the pedestal"
+			description: ["Multiblock is necessary. The one for the cannon needs poppies, so I will give you some as a reward for this quest."]
+			dependencies: ["465A8A2181D95F8A"]
+			id: "5292FE7997FA5D63"
+			tasks: [
+				{
+					id: "03D1C68CBC13DBEB"
+					type: "item"
+					item: "naturesaura:offering_table"
+				}
+				{
+					id: "1A4137DEFC958CA7"
+					type: "item"
+					item: "naturesaura:calling_spirit"
+				}
+			]
+			rewards: [
+				{
+					id: "1ACC06D6FA1F8D1E"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 64
+				}
+				{
+					id: "1CDCF22E271AE86F"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 7.0d
+			dependencies: ["5292FE7997FA5D63"]
+			id: "7988F6326CCD2EDF"
+			tasks: [{
+				id: "476E29FA3776C718"
+				type: "item"
+				item: "naturesaura:sky_ingot"
+			}]
+			rewards: [{
+				id: "6E52EAED4F21B476"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -12.0d
+			y: 3.5d
+			subtitle: "When activated by redstone, prevents nearby items from being picked up. Sneak to override"
+			description: ["Could be useful when your farm could be ruined by a player picking up an item on accident"]
+			dependencies: ["465A8A2181D95F8A"]
+			id: "42A08B84FF336532"
+			tasks: [{
+				id: "4DE42E39008FCFB1"
+				type: "item"
+				item: "naturesaura:pickup_stopper"
+			}]
+			rewards: [{
+				id: "5C144D72281C3941"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			dependencies: ["5D05B9303A7D4850"]
+			id: "0F4CD7416740F40C"
+			tasks: [{
+				id: "19BE4BB21891253E"
+				type: "item"
+				item: {
+					id: "naturesaura:aura_bottle"
+					Count: 1b
+					tag: {
+						stored_type: "naturesaura:end"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6CA49D1F50477853"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 4.5d
+			subtitle: "Can only handle one item at a time but passes it on instantaneously. Filter with item frames"
+			dependencies: ["465A8A2181D95F8A"]
+			id: "5134994CCB756FA8"
+			tasks: [{
+				id: "4AC12BCB1EF125BF"
+				type: "item"
+				item: "naturesaura:grated_chute"
+			}]
+			rewards: [
+				{
+					id: "109F69D18EFFD269"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+				{
+					id: "133F2FA916D09016"
+					type: "item"
+					item: "minecraft:item_frame"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 3.5d
+			subtitle: "Increases pickup range for hoppers by 7 blocks in each direction"
+			dependencies: ["5134994CCB756FA8"]
+			id: "242EB2A21CFBE294"
+			tasks: [{
+				id: "6F15CF04CE644091"
+				type: "item"
+				item: "naturesaura:hopper_upgrade"
+			}]
+			rewards: [{
+				id: "383D1D6BB962AC19"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.0d
+			subtitle: "Automatic shaped or shapeless crafting, put the table in the middle with arrow pointing towards the top middle slot"
+			dependencies: ["5C585538B921D5C5"]
+			optional: true
+			id: "201CFD4A334C390C"
+			tasks: [{
+				id: "0E4C004F4EE441DF"
+				type: "item"
+				item: "naturesaura:auto_crafter"
+			}]
+			rewards: [{
+				id: "6F8DAED6FA6C2CCF"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: -11.0d
+			y: 2.5d
+			subtitle: "Redstone signal depending on the amount of aura in the area"
+			dependencies: ["2FA39407D30CB06F"]
+			id: "47F27B1EE32E6257"
+			tasks: [{
+				id: "20F74332A85A7BAB"
+				type: "item"
+				item: "naturesaura:eye_improved"
+			}]
+			rewards: [{
+				id: "5418EF9FE5E381CC"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: -12.5d
+			y: 2.5d
+			id: "1135CCCECAC47638"
+			tasks: [{
+				id: "532E81E4D41D220E"
+				type: "item"
+				item: "naturesaura:mover_cart"
+			}]
+		}
+		{
+			title: "Mana Infuser"
+			icon: "mythicbotany:mana_infuser"
+			x: 7.0d
+			y: 13.5d
+			subtitle: "More powerful version of the agglomeration plate setup allowing for more powerful but more mana-intensive operations"
+			dependencies: ["6A0DCA9557AF4CD2"]
+			id: "376CA1E6ED4684CF"
+			tasks: [
+				{
+					id: "799D0A067FA40B23"
+					type: "item"
+					item: "botania:shimmerrock"
+					count: 5L
+				}
+				{
+					id: "5FAC11429220BE52"
+					type: "item"
+					item: "minecraft:gold_block"
+					count: 4L
+				}
+				{
+					id: "73AB771E7EC1A32B"
+					type: "item"
+					item: "mythicbotany:mana_infuser"
+				}
+			]
+			rewards: [{
+				id: "289F4E6FD869E436"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 9.0d
+			y: 11.5d
+			subtitle: "Slows down enemies greatly when they hit you"
+			dependencies: ["6A0DCA9557AF4CD2"]
+			id: "06C87FC19E6823D4"
+			tasks: [{
+				id: "3789171004692A1B"
+				type: "item"
+				item: {
+					id: "mythicbotany:ice_ring"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: ["2B46AF8CE1809421"]
+			optional: true
+			id: "38A926D67A5A3203"
+			tasks: [{
+				id: "6096D4460F379A96"
+				type: "item"
+				item: "minecraft:blue_ice"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 15.0d
+			subtitle: "Can upgrade terrasteel items in a smithing table. Combine two together to upgrade armor"
+			dependencies: ["376CA1E6ED4684CF"]
+			id: "65D687B17A379A04"
+			tasks: [{
+				id: "2F1220FFE22056E6"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+		}
+		{
+			title: "Rune Tablet Rituals"
+			x: 1.0d
+			y: 12.5d
+			subtitle: "Dropped by Gaia Guardian II. You're going to need a good few runes for rituals, and rune tablets are consumed every ritual"
+			description: [
+				"You will need a rune holder for every rune you need and a master rune for the tablet. If a ritual requires mana, mana bands do the trick. If it needs extra items, just throw them on the ground nearby."
+				""
+				"Initiate a ritual by Rclicking the central master rune with a rod of the forest."
+			]
+			dependencies: ["712AF16DC03AFCDB"]
+			id: "13C7DAA1C4751A22"
+			tasks: [{
+				id: "1B531CF27C8FC9A2"
+				type: "item"
+				item: "mythicbotany:fimbultyr_tablet"
+			}]
+			rewards: [
+				{
+					id: "2BC4971688EF6E15"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+				{
+					id: "19441B2FF7C61443"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+			]
+		}
+		{
+			icon: "mythicbotany:gjallar_horn_empty"
+			x: 2.5d
+			y: 12.0d
+			subtitle: "Place the horn on the yggdrasil branch and give it mana, when the horn is full drink out of it"
+			dependencies: ["2ADCEF023215E642"]
+			id: "712AF16DC03AFCDB"
+			tasks: [
+				{
+					id: "2855A954A26BCE0E"
+					type: "item"
+					item: "mythicbotany:gjallar_horn_empty"
+				}
+				{
+					id: "3E321C20CACDAEF7"
+					type: "item"
+					item: "mythicbotany:yggdrasil_branch"
+				}
+			]
+			rewards: [{
+				id: "026E044DE6971F4E"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			subtitle: "Drink to become well-versed in elven language and be able to traverse their worlds"
+			dependencies: ["13C7DAA1C4751A22"]
+			id: "3D7732792DB67A57"
+			tasks: [{
+				id: "6E28A87C6B47C265"
+				type: "item"
+				item: "mythicbotany:kvasir_mead"
+			}]
+			rewards: [{
+				id: "44E6C433E88E5D94"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 13.0d
+			subtitle: "Don't drop it on your feet"
+			dependencies: ["13C7DAA1C4751A22"]
+			id: "1393C80AC723D2C4"
+			tasks: [{
+				id: "426212093ED09918"
+				type: "item"
+				item: "mythicbotany:mjoellnir"
+			}]
+		}
+	]
+}

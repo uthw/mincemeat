@@ -1,0 +1,604 @@
+{
+	id: "36AFEC6FF0CFE167"
+	group: "0A93ADDC025C8C14"
+	order_index: 1
+	filename: "advanced_technology"
+	title: "Advanced Technology (WIP)"
+	icon: "immersiveengineering:watermill"
+	subtitle: ["Mekanism, Industrial Foregoing, Powah!, ???"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 0.0d
+			shape: "gear"
+			description: [
+				"These are basically hoppers that can equip any combination of modules. Modules do different things to the router to upgrade it. By default the router executes the functions of all modules once per second."
+				"{image:kubejs:textures/item/modular_interface.png width:346 height:363 align:1 fit:true}"
+				"The &3buffer&f is an inventory slot that can store up to a stack of an item. This slot can export and import items."
+				""
+				"The &3modules&f determine what the item router does. You can middle click a module to open its config."
+				""
+				"Lastly, the &3upgrades&f enhance the capabilities of the router, like the speed it processes items and the amount of items it can handle at once."
+			]
+			id: "0122BB7E8732B800"
+			tasks: [{
+				id: "767741EA51471E79"
+				type: "item"
+				item: "modularrouters:item_router"
+			}]
+			rewards: [{
+				id: "4505A9B698F476E7"
+				type: "ftbmoney:money"
+				ftb_money: 35L
+			}]
+		}
+		{
+			title: "Item Transport with Routers"
+			x: -3.0d
+			y: 0.0d
+			subtitle: "Only for the weak, real ones use the boats"
+			description: ["Try using routers to effortlessly move items between inventories without cables."]
+			dependencies: ["0122BB7E8732B800"]
+			id: "58D1E19D9FABC2F8"
+			tasks: [
+				{
+					id: "7DA43E7EF7C8EB3E"
+					type: "item"
+					item: {
+						id: "modularrouters:sender_module_2"
+						Count: 1b
+						tag: {
+							modularrouters: {
+								ModuleFilter: { }
+							}
+						}
+					}
+				}
+				{
+					id: "01C0D121E4799127"
+					type: "item"
+					item: {
+						id: "modularrouters:puller_module_2"
+						Count: 1b
+						tag: {
+							modularrouters: {
+								ModuleFilter: { }
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3CA2143FD7113B3C"
+				type: "ftbmoney:money"
+				ftb_money: 20L
+			}]
+		}
+		{
+			title: "Industrial Foregoing"
+			x: 0.0d
+			y: -0.75d
+			shape: "gear"
+			description: [
+				"Industrial Foregoing is a mod with many different machines, tools, and other helpful things which might relate to energy, agriculture, storage, mob grinding, and more. If it's in the pack, there's a decent chance IF can automate it."
+				""
+				"IF does not have an energy unit, so its machines simply call it FE (forge energy). While most of its machines require FE, some are only hastened by it. If this is the case, you will know by seeing the tooltip."
+				""
+				"Industrial Foregoing's machines are configured similarly to Thermal's machines using the four colored buttons right above your inventory and at the bottom of the machine GUI."
+			]
+			size: 1.5d
+			id: "01E2E064ED6CE0E5"
+			tasks: [{
+				id: "4F70398EC0884374"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "Place it adjacent to a log, and this machine starts working without a need for energy."
+			description: ["Generates latex (the liquid, not the math typeset) at a pretty slow rate unless given power. You should consider pumping the latex out of the box and sending it directly where it'll be processed."]
+			dependencies: ["01E2E064ED6CE0E5"]
+			id: "3E03B91EDDD972C3"
+			tasks: [{
+				id: "006D9555A2CACC79"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			subtitle: "The processing unit takes 100 mb of latex and 500 mb of water and outputs 1 tiny dry rubber"
+			dependencies: ["3E03B91EDDD972C3"]
+			id: "583F2E600C14A426"
+			tasks: [{
+				id: "523A76EFF11DE738"
+				type: "item"
+				item: "industrialforegoing:latex_processing_unit"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			dependencies: ["583F2E600C14A426"]
+			id: "660EF4A9ADCC837E"
+			tasks: [{
+				id: "7A5028ED7FD73912"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			subtitle: "Decreases the amount the progress bar needs to fill to complete an operation"
+			dependencies: ["6D64F29FC47F9656"]
+			id: "4AF517AE1C0E5F78"
+			tasks: [{
+				id: "6CE1FC291DB17FC7"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.9f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			subtitle: "Increases range of machines that work within a limited area"
+			dependencies: ["6D64F29FC47F9656"]
+			id: "5594BD73799EE491"
+			tasks: [{
+				id: "6DAB6627B2E2B2B9"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon0"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			dependencies: ["6D64F29FC47F9656"]
+			id: "28BBA43EE8092D4F"
+			tasks: [{
+				id: "5F2D2D5D4C3B53FF"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 2.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -4.5d
+			subtitle: "Increases the speed at which the progress bar fills"
+			dependencies: ["6D64F29FC47F9656"]
+			id: "360004F636128CAA"
+			tasks: [{
+				id: "12EDE66562BDF405"
+				type: "item"
+				item: {
+					id: "industrialforegoing:speed_addon_1"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Speed: 2.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			subtitle: "Shapeless crafter that handles many IF recipes, takes 8 items and a fluid without considering their positions"
+			dependencies: ["660EF4A9ADCC837E"]
+			id: "6D64F29FC47F9656"
+			tasks: [{
+				id: "34BB80EB11857319"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.5d
+			subtitle: "A machine that shears sheep and milks cows."
+			dependencies: ["660EF4A9ADCC837E"]
+			id: "7377EE160E47B30B"
+			tasks: [{
+				id: "382B17599CAA4A7F"
+				type: "item"
+				item: "industrialforegoing:animal_rancher"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -11.5d
+			dependencies: ["73DC42DC2E236E58"]
+			id: "2A3635EA5FAC6134"
+			tasks: [{
+				id: "0D73B260720662D0"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			subtitle: "Automatically chops and harvests, generating some sludge with each operation"
+			dependencies: ["660EF4A9ADCC837E"]
+			id: "6B1B6B00933E1A2B"
+			tasks: [{
+				id: "3F4A8E937CC77E34"
+				type: "item"
+				item: "industrialforegoing:plant_gatherer"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.5d
+			subtitle: "Uses a lot of energy (1k rf/t) to turn sludge into something useful"
+			dependencies: ["6B1B6B00933E1A2B"]
+			id: "1717EA0C28EE97EC"
+			tasks: [{
+				id: "70714F6435F26F4C"
+				type: "item"
+				item: "industrialforegoing:sludge_refiner"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			subtitle: "Plants seeds, the color coded slots in the gui correspond to the highlighted blocks"
+			dependencies: ["6B1B6B00933E1A2B"]
+			id: "5AECE3928097DC58"
+			tasks: [{
+				id: "7114FBB7C557B424"
+				type: "item"
+				item: "industrialforegoing:plant_sower"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			subtitle: "Kills mobs and turns them into liquid meat and pink slime, more effective on passive mobs"
+			dependencies: ["660EF4A9ADCC837E"]
+			id: "7EBEB2C4ED9C045B"
+			tasks: [{
+				id: "239140B4BC173F06"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -7.0d
+			subtitle: "Feeds food to animals so they can be bred, needs to be given the proper breeding item"
+			dependencies: ["7377EE160E47B30B"]
+			id: "7339EC1F683759AD"
+			tasks: [{
+				id: "07B4590B8470A4CC"
+				type: "item"
+				item: "industrialforegoing:animal_feeder"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.5d
+			subtitle: "Collects sewage from animals"
+			dependencies: ["7377EE160E47B30B"]
+			id: "5628035722463E00"
+			tasks: [{
+				id: "729986E989B4601F"
+				type: "item"
+				item: "industrialforegoing:sewer"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -8.5d
+			subtitle: "Turns input sewage into fertilizer"
+			dependencies: ["5628035722463E00"]
+			id: "6DBCA42FD9A4D539"
+			tasks: [{
+				id: "7314AE7594D3868F"
+				type: "item"
+				item: "industrialforegoing:sewage_composter"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -8.5d
+			subtitle: "Separates parent animals from babies. Babies are moved to the back of the machine"
+			dependencies: ["7339EC1F683759AD"]
+			id: "506A305CE845004F"
+			tasks: [{
+				id: "6963D927A1920413"
+				type: "item"
+				item: "industrialforegoing:animal_baby_separator"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -9.5d
+			subtitle: "When given water or lava, it grows plants. Ether makes it faster and allows it to replant"
+			dependencies: [
+				"6DBCA42FD9A4D539"
+				"2965D03D8FD48A5D"
+			]
+			id: "6E53E6B090910D95"
+			tasks: [{
+				id: "6FA2E44FF6B70316"
+				type: "item"
+				item: "industrialforegoing:hydroponic_bed"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -4.5d
+			subtitle: "Makes biofuel. Not to be confused with the biodiesel from IE or PNC"
+			description: [
+				"When given water and some seeds, saplings, dyes, and skulls, it makes biofuel."
+				""
+				"More biofuel is made when more unique inputs (see previous paragraph) are provided. Can you automate 'em all?"
+			]
+			dependencies: ["660EF4A9ADCC837E"]
+			id: "52C46DBF5F599A39"
+			tasks: [{
+				id: "0C38B3FB516D318F"
+				type: "item"
+				item: "industrialforegoing:bioreactor"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			subtitle: "Generates 160 RF/t using biofuel. Will stop using fuel when its buffer is full"
+			dependencies: ["52C46DBF5F599A39"]
+			id: "5850B132203CD5D6"
+			tasks: [{
+				id: "033D4BD87C1F98BD"
+				type: "item"
+				item: "industrialforegoing:biofuel_generator"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -12.0d
+			description: ["I don't have a damn clue how this item works. You're gonna have to look this one up yourself, Buddy."]
+			dependencies: ["73DC42DC2E236E58"]
+			id: "7A8C820BCC329A8D"
+			tasks: [{
+				id: "7B0E42588DAA3641"
+				type: "item"
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -8.5d
+			dependencies: ["6D64F29FC47F9656"]
+			id: "2965D03D8FD48A5D"
+			tasks: [{
+				id: "497333B68C81FE9A"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.5d
+			dependencies: ["2965D03D8FD48A5D"]
+			id: "61D791CCD650C46B"
+			tasks: [{
+				id: "7C5F9EA02DE67306"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -10.5d
+			dependencies: ["61D791CCD650C46B"]
+			id: "73DC42DC2E236E58"
+			tasks: [{
+				id: "4B064E206B0D7E23"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			subtitle: "With this item equipped, it will auto feed the liquid meat stored within."
+			dependencies: ["7EBEB2C4ED9C045B"]
+			id: "48CD359F0AF5B0AE"
+			tasks: [{
+				id: "42B808F734CFCC01"
+				type: "item"
+				item: "industrialforegoing:meat_feeder"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			subtitle: "Meet sophisticated backpack's big cousin"
+			description: [
+				"An all-in-one type backpack that can do a lot of things. It can automate things with biofuel, essence for automatic xp, and liquid meat for auto healing."
+				""
+				"You can also configure slots to void or refill and some other things; for details see the patchouli book :)"
+			]
+			dependencies: ["7EBEB2C4ED9C045B"]
+			id: "755F71F2B9BAC6BF"
+			tasks: [{
+				id: "6C9971409DFE210E"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_backpack"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -6.0d
+			dependencies: ["07570052A4EBD45C"]
+			id: "60CB71FE159C4029"
+			tasks: [{
+				id: "60FCD455C25A8983"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			description: [
+				"Tools that grow in strength and tier (allowing them to get special abilities) when they have more power. They can run on biofuel instead of power if desired."
+				""
+				"Shift + RMB to open the tool's GUI."
+				""
+				"If an infinity tool is not in the Advanced Tech chapter (hold shift for quest lookup), it is disabled."
+			]
+			dependencies: ["6D64F29FC47F9656"]
+			id: "07570052A4EBD45C"
+			tasks: [{
+				id: "7B24675D2EC1C09E"
+				type: "checkmark"
+				title: "Infinity Tools"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.0d
+			dependencies: ["07570052A4EBD45C"]
+			id: "5ED5A83CCB4AD236"
+			tasks: [{
+				id: "42C1C106AF5A4B9B"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_saw"
+					Count: 1b
+					tag: {
+						CanCharge: 1b
+						Special: 0b
+						Selected: "POOR"
+						Energy: 0L
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			subtitle: "In case Create and IE's conveyors haven't convinced you"
+			description: [
+				"These have a variety of upgrades as well as items you can use to improve their behavior."
+				""
+				"Glowstone dust increases speed of the conveyor and plastic prevents you from picking up the item."
+			]
+			dependencies: ["660EF4A9ADCC837E"]
+			id: "159B1ADA0570B7C5"
+			tasks: [{
+				id: "302D15D351B7F1C7"
+				type: "item"
+				item: "industrialforegoing:conveyor"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			id: "4B11355907828AB7"
+			tasks: [{
+				id: "6AF441AC3B3A9D4F"
+				type: "item"
+				item: "industrialforegoing:item_transporter_type"
+			}]
+		}
+		{
+			title: "Transporters"
+			x: 1.5d
+			y: -2.0d
+			subtitle: "Transports fluid between inventories 1 block away"
+			description: [
+				"One transporter will be in the insertion side and another in the extraction side. Change the behavior of the transporter by right clicking the center."
+				""
+				"You can use some upgrades and addons on the transporter, see the manual for Industrial Foregoing."
+			]
+			dependencies: ["01E2E064ED6CE0E5"]
+			optional: true
+			id: "14F42CAFDACE3C75"
+			tasks: [
+				{
+					id: "60E9C900DF13FAE9"
+					type: "item"
+					item: "industrialforegoing:fluid_transporter_type"
+				}
+				{
+					id: "6B08D05CF8015BD6"
+					type: "item"
+					item: "industrialforegoing:item_transporter_type"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -10.5d
+			subtitle: "Upgraded cobblestone generator"
+			dependencies: ["61D791CCD650C46B"]
+			id: "74651976583703D4"
+			tasks: [{
+				id: "752DFBDF1A7948C5"
+				type: "item"
+				item: "industrialforegoing:material_stonework_factory"
+			}]
+		}
+	]
+}

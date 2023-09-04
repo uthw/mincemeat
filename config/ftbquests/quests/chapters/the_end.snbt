@@ -1,0 +1,297 @@
+{
+	id: "5947D26F6D317209"
+	group: "62CA08E8B2EFA105"
+	order_index: 4
+	filename: "the_end"
+	title: "The End"
+	icon: {
+		id: "endergetic:activated_mystical_obsidian_activation_rune"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -1.5d
+			subtitle: "Found by mining the aurora crystals in the Crystal Mountains biome."
+			description: [""]
+			dependencies: ["7BE2905A0B9A1D5A"]
+			id: "14DCF18A164246DB"
+			tasks: [{
+				id: "6F74DE09D9D78954"
+				type: "item"
+				item: {
+					id: "betterendforge:crystal_shards"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "18240D318E33A0C5"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			dependencies: ["14DCF18A164246DB"]
+			id: "693D575D87F98251"
+			tasks: [{
+				id: "1974DFFDA5B8ED45"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:astral_dust"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4367CA7FBEBAF575"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			icon: "betterendforge:flavolite_runed"
+			x: 5.0d
+			y: -2.5d
+			subtitle: "An ancient gateway to the overworld found in the outer end"
+			description: ["refer to your copy of \"The End for Dummies\" for information on this portal"]
+			dependencies: ["7BE2905A0B9A1D5A"]
+			id: "6ADFA44882A2265C"
+			tasks: [{
+				id: "0F46EA35B6ACE477"
+				type: "structure"
+				title: "Eternal Portal"
+				structure: "betterendforge:eternal_portal_structure"
+			}]
+			rewards: [{
+				id: "6C5DAA1FDEC39FB4"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			subtitle: "If you STILL don't have a machine that is already capable of alloying, the End Stone Smelter can do it for you"
+			dependencies: ["74F6EAC5484E479D"]
+			optional: true
+			id: "04A1B9F5FC1F6C1F"
+			tasks: [{
+				id: "0042ABCF3A218CD3"
+				type: "item"
+				item: {
+					id: "betterendforge:end_stone_smelter"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E57AD5CE0155A8F"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			subtitle: "Can be used to make Draco Arcanus items"
+			description: ["Draco Arcanus armor can be infused with various dragon scales to make tyr armor, some of the strongest in the game."]
+			dependencies: ["7BE2905A0B9A1D5A"]
+			id: "05FD09C0D35C654B"
+			tasks: [{
+				id: "71C789D0B9D87E34"
+				type: "item"
+				item: "forbidden_arcanus:dragon_scale"
+			}]
+			rewards: [{
+				id: "58DC5C8E7846252D"
+				type: "ftbmoney:money"
+				ftb_money: 5L
+			}]
+		}
+		{
+			title: "Go to the End"
+			icon: "minecraft:ender_eye"
+			x: 0.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["0B5CE92F23ED32FE"]
+			id: "535E84871CFC3DC8"
+			tasks: [{
+				id: "6E911A8C12A9A29E"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Has a few new tricks up her sleeve"
+			dependencies: ["535E84871CFC3DC8"]
+			id: "7BE2905A0B9A1D5A"
+			tasks: [{
+				id: "6E5A85B0B5548548"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [{
+				id: "6B85D8508ACBF37C"
+				type: "ftbmoney:money"
+				ftb_money: 45L
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			subtitle: "*you will also need 8 pedestals of any type*"
+			description: [
+				"These pedestals can be used to perform Thaumcraft-style rituals. The item placed in the middle will be infused with the items surrounding it and turn into something new."
+				""
+				"Direction matters: make sure you use f3 to see what item should go on the northern pedestal, for example"
+				""
+				"If you have a valid setup, placing the central ingredient last will begin the ritual automatically. Otherwise, interact with the central pedestal."
+			]
+			dependencies: ["7BE2905A0B9A1D5A"]
+			id: "41D7E21954001FFB"
+			tasks: [{
+				id: "290ED940F162AE7E"
+				type: "item"
+				item: "betterendforge:infusion_pedestal"
+			}]
+			rewards: [{
+				id: "4007A36C39CABC4E"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			icon: "minecraft:purpur_pillar"
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["7BE2905A0B9A1D5A"]
+			id: "05DF9AB2849BCFAC"
+			tasks: [{
+				id: "518D9606AA3CF957"
+				type: "structure"
+				structure: "minecraft:endcity"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.5d
+			dependencies: ["05DF9AB2849BCFAC"]
+			id: "4902CCD7B5EF6343"
+			tasks: [{
+				id: "7B1E8228E9FBF15D"
+				type: "item"
+				item: "enigmaticlegacy:etherium_ingot"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -3.5d
+			dependencies: ["74F6EAC5484E479D"]
+			id: "0113FDA081E662CE"
+			tasks: [{
+				id: "5341E3067ED3FE07"
+				type: "item"
+				item: "betterendforge:terminite_ingot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			dependencies: ["7BE2905A0B9A1D5A"]
+			id: "74F6EAC5484E479D"
+			tasks: [{
+				id: "44050DCC50203968"
+				type: "item"
+				title: "Any #betterendforge:hammers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "betterendforge:hammers"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			dependencies: ["0113FDA081E662CE"]
+			id: "112A76143B389941"
+			tasks: [{
+				id: "481F3D46B5668036"
+				type: "item"
+				item: "betterendforge:aeternium_ingot"
+			}]
+		}
+		{
+			icon: "cataclysm:void_infused_end_stone_bricks"
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["7BE2905A0B9A1D5A"]
+			id: "04F745CAD550A94F"
+			tasks: [{
+				id: "6F157A179E4B67E4"
+				type: "structure"
+				structure: "cataclysm:ruined_citadel"
+			}]
+			rewards: [{
+				id: "658869D71815389D"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			icon: "cataclysm:gauntlet_of_guard"
+			x: -2.5d
+			y: 1.0d
+			shape: "hexagon"
+			dependencies: ["04F745CAD550A94F"]
+			id: "5EF470DDC2933557"
+			tasks: [{
+				id: "38ADEFBF04FBCE98"
+				type: "kill"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6B0807A350DDE6CF"
+					type: "ftbmoney:money"
+					ftb_money: 100L
+				}
+				{
+					id: "68B545EF70E4BBEB"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+			]
+		}
+	]
+}

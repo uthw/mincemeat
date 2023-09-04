@@ -1,0 +1,5 @@
+#Toggles whether non-diurnal entities have eye-shine. Default is true
+"Eye Shine" = true
+#Toggles whether the Main Menu panorama is the Prehistoric Fauna one or not. Default is true
+"Custom Menu Background" = true
+

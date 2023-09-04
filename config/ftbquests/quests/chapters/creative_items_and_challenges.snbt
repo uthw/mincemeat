@@ -1,0 +1,428 @@
+{
+	id: "52B39F1AE8E29039"
+	group: "446571DD2C208B26"
+	order_index: 1
+	filename: "creative_items_and_challenges"
+	title: "Creative Items and Challenges"
+	icon: {
+		id: "enigmaticlegacy:enigmatic_item"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "10BE1A33EBCB04F2"
+			tasks: [{
+				id: "02DCCE18E13B3339"
+				type: "item"
+				item: {
+					id: "mowziesmobs:earth_talisman"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			subtitle: "You will never obtain this item."
+			id: "137BB1C25870EEB6"
+			tasks: [{
+				id: "40111EC7BB27B2A7"
+				type: "item"
+				item: {
+					id: "enigmaticlegacy:enigmatic_item"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Every Job Site Block"
+			x: -0.5d
+			y: 4.0d
+			id: "66E9675F5378216A"
+			tasks: [
+				{
+					id: "2852904A295A91D7"
+					type: "item"
+					item: {
+						id: "minecraft:blast_furnace"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2B40DA5C6BEFC944"
+					type: "item"
+					item: {
+						id: "minecraft:smoker"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "701E6A929031D9A1"
+					type: "item"
+					item: {
+						id: "minecraft:cartography_table"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "42FFE4E302858110"
+					type: "item"
+					item: {
+						id: "minecraft:brewing_stand"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "172987AEA5E95879"
+					type: "item"
+					item: {
+						id: "minecraft:composter"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6458B4EBF2A25FD3"
+					type: "item"
+					item: {
+						id: "minecraft:barrel"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2337283D4F854D10"
+					type: "item"
+					item: {
+						id: "minecraft:fletching_table"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2ACE2C11868F4609"
+					type: "item"
+					item: {
+						id: "minecraft:cauldron"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "227316B782535709"
+					type: "item"
+					item: {
+						id: "minecraft:lectern"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "52C96FB11ECF0EAE"
+					type: "item"
+					item: {
+						id: "minecraft:stonecutter"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5907EDEE47D3DB6F"
+					type: "item"
+					item: {
+						id: "minecraft:loom"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "710602C28BDF655A"
+					type: "item"
+					item: {
+						id: "minecraft:smithing_table"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "087FA48E0D9AFFCA"
+					type: "item"
+					item: {
+						id: "minecraft:grindstone"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7CE07297081645F8"
+					type: "item"
+					item: {
+						id: "blue_skies:star_emitter"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2B14B54AA2F0B5E7"
+					type: "item"
+					item: {
+						id: "blue_skies:trough"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4392B0A43A1A2187"
+					type: "item"
+					item: {
+						id: "blue_skies:tool_box"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "313534BB519873DE"
+					type: "item"
+					item: {
+						id: "blue_skies:bag_of_spoils"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4479D1B9041E14A5"
+					type: "item"
+					item: {
+						id: "blue_skies:summoning_table"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "45B19EC76184C3F8"
+					type: "item"
+					item: {
+						id: "blue_skies:alchemy_table"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "035AB0D307875A09"
+					type: "item"
+					item: {
+						id: "iceandfire:lectern"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "66BA2AB34C23EEEC"
+					type: "item"
+					item: {
+						id: "environmental:kiln"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6555FEDBEA075BC9"
+				type: "ftbmoney:money"
+				ftb_money: 200L
+			}]
+		}
+		{
+			title: "Every Dragonsteel Ingot"
+			x: 1.0d
+			y: 4.0d
+			subtitle: "Stop! They'll go extinct!"
+			id: "2E4A9C7D7B7B2766"
+			tasks: [
+				{
+					id: "6E000674D6D6FAFC"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "57D6AD07565AE58F"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "2E33B4D2416274A9"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			subtitle: "The Alex's Mobs, in the palm of your hand..."
+			id: "5D427511918F220A"
+			tasks: [{
+				id: "1FBAB948005247BC"
+				type: "item"
+				item: {
+					id: "alexsmobs:tab_icon"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			id: "49DEF8044AFB3F14"
+			tasks: [{
+				id: "674973D84090DA02"
+				type: "item"
+				item: {
+					id: "create:handheld_worldshaper"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+	]
+}

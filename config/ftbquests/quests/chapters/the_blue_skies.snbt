@@ -1,0 +1,1303 @@
+{
+	id: "3AB750F40B342126"
+	group: "62CA08E8B2EFA105"
+	order_index: 2
+	filename: "the_blue_skies"
+	title: "Everbright/Everdawn"
+	icon: "paraglider:essence"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -0.5d
+		y: 1.0d
+		width: 1.0d
+		height: 1.0d
+		rotation: 0.0d
+		image: "explorerscompass:textures/item/explorerscompass_16.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "Gatekeeper House"
+			icon: {
+				id: "blue_skies:maple_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"A small house inhabited by a magic-wielding, friendly villager."
+				""
+				"Make sure you have a book so you can trade with them."
+			]
+			dependencies: ["64913539F8C67585"]
+			hide: true
+			id: "3FFF9128B1E265A0"
+			tasks: [{
+				id: "7D14DF7F34179A7B"
+				type: "observation"
+				timer: 0L
+				observe_type: 5
+				to_observe: "blue_skies:gatekeeper"
+			}]
+			rewards: [{
+				id: "0C4D1CD2F5204DDE"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: [
+				"The Gatekeeper's collection of diaries in the Everbright and Everdawn dimensions."
+				""
+				"Mysteriously, as you discover more, new entries appear in the journal."
+				""
+				"Once this item enters your inventory, a tab appears on the right side of your screen, letting you access the journal."
+			]
+			dependencies: ["3FFF9128B1E265A0"]
+			id: "3BE7305E0BF0FE29"
+			tasks: [{
+				id: "4FFB5F9E2230A6E7"
+				type: "item"
+				item: {
+					id: "blue_skies:blue_journal"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2F0BBC224EDE0CB1"
+					type: "item"
+					item: {
+						id: "scalinghealth:bandages"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "3B4C7CC43B3D0924"
+					type: "item"
+					item: {
+						id: "minecraft:emerald"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"Trade with the Gatekeeper for one of their Zeal Lighters. These can be used according to the Blue Journal."
+				""
+				"The portal's location is uncertain, however. Maybe the Gatekeeper would happen to have one lying around?"
+			]
+			dependencies: ["3BE7305E0BF0FE29"]
+			id: "5CE16C5714A4247E"
+			tasks: [{
+				id: "64038D2C376AF4F4"
+				type: "item"
+				item: {
+					id: "blue_skies:zeal_lighter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "42E51786712F909F"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:fire_resistance"
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			icon: "blue_skies:everbright_portal"
+			x: 1.5d
+			y: -1.5d
+			shape: "hexagon"
+			description: [
+				"Your gear doesn't work as well here. It's best to start anew with the local materials instead."
+				""
+				"A cold, winter-like dimension where it is always daytime. You will encounter strange animals and enemies who are well-accustomed to the freezing climate."
+			]
+			dependencies: ["5CE16C5714A4247E"]
+			size: 1.5d
+			id: "7D4ABC616DFE98B4"
+			tasks: [{
+				id: "4826B8C010779D33"
+				type: "dimension"
+				dimension: "blue_skies:everbright"
+			}]
+			rewards: [{
+				id: "4B0B92B42BE67CC9"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			icon: "blue_skies:everdawn_portal"
+			x: 1.5d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "The sun never sets on Everdawn"
+			description: [
+				"Your gear doesn't work as well here. It's best to start anew with the local materials instead."
+				""
+				"A tropical world where the sun is eternally rising, resulting in high humidity. As such, local wildlife has become highly qualified to live here, developing abnormal traits with many of which relying on poison to subdue their foes."
+			]
+			dependencies: ["5CE16C5714A4247E"]
+			size: 1.5d
+			id: "532882C47D607C4B"
+			tasks: [{
+				id: "42F46130E58F7E61"
+				type: "dimension"
+				dimension: "blue_skies:everdawn"
+			}]
+			rewards: [{
+				id: "5EB10F637BFD19CA"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			title: "Frozen Foes"
+			icon: "minecraft:packed_ice"
+			x: 1.0d
+			y: -5.0d
+			shape: "diamond"
+			subtitle: "Ice pick"
+			description: [
+				"These frozen creatures sure are vulnerable to pickaxes. This trend applies to many of the frozen creatures you will find."
+				""
+				"Particularly effective are those made of silver."
+			]
+			dependencies: ["7D4ABC616DFE98B4"]
+			id: "7E43AC6532B00705"
+			tasks: [
+				{
+					id: "624C5886845259D8"
+					type: "kill"
+					entity: "blue_skies:crynocerous"
+					value: 5L
+				}
+				{
+					id: "1DDA96837812006B"
+					type: "kill"
+					entity: "blue_skies:armored_frost_spirit"
+					value: 10L
+				}
+			]
+			rewards: [{
+				id: "620EAACDAC7E678D"
+				type: "item"
+				item: {
+					id: "iceandfire:silver_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 6s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 4s
+								id: "minecraft:unbreaking"
+							}
+						]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Brewberries"
+			x: 2.0d
+			y: -5.0d
+			shape: "diamond"
+			subtitle: "Berry nice"
+			description: [
+				"Common shrubbery native to the Everbright. They provide nice snacks, and some of them have unique qualities that make them useful."
+				""
+				"Plain brewberries, while otherwise forgettable, can be eaten rather quickly."
+				""
+				"Pink brewberries have been observed growing on cherry grass. Its strong concentration of vitamins provide stimulation for its consumer's regenerative abilities."
+				""
+				"Black brewberries, found to grow on mycelium, act as an antidote for poisons that may be in the consumer's body."
+			]
+			dependencies: ["7D4ABC616DFE98B4"]
+			id: "47625B530DCD63EE"
+			tasks: [
+				{
+					id: "53F0F450F9AA772C"
+					type: "item"
+					item: {
+						id: "blue_skies:brewberry"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "1B44BB6A86A34911"
+					type: "item"
+					item: {
+						id: "blue_skies:pink_brewberry"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4088BE8E5AAF7314"
+					type: "item"
+					item: {
+						id: "blue_skies:black_brewberry"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "54E7A1993C90298B"
+					type: "item"
+					item: {
+						id: "forestcraft:berry_jam"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "7E89BF1C0310DB49"
+					type: "ftbmoney:money"
+					ftb_money: 30L
+				}
+			]
+		}
+		{
+			title: "Diophyde Prowler"
+			icon: "statues:cat_jellie_statue"
+			x: 1.0d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "Born to hunt"
+			description: [
+				"Fast, strong cat with great maneuverability. Beware of its lunges."
+				""
+				"It puts a lot of energy into its attacks; try using your shield."
+			]
+			dependencies: ["7D4ABC616DFE98B4"]
+			id: "38C3730D4F209C17"
+			tasks: [{
+				id: "3F026E092F25C8DA"
+				type: "kill"
+				entity: "blue_skies:diophyde_prowler"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "4A61ACC5DCF2DD27"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "707936BEAAF7E6DA"
+					type: "item"
+					item: {
+						id: "scalinghealth:bandages"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "34BE40DC0189094E"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			title: "Whistleshell Crab"
+			icon: "quark:crab_shell"
+			x: 2.0d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "Only in Maryland"
+			description: ["Large crabs who excel on land, but not the sea."]
+			dependencies: ["7D4ABC616DFE98B4"]
+			id: "0876DD5CE3992EAC"
+			tasks: [{
+				id: "36AF2E803175DE10"
+				type: "kill"
+				entity: "blue_skies:whistleshell_crab"
+				value: 10L
+			}]
+			rewards: [{
+				id: "385FEBA97E81BEB0"
+				type: "item"
+				item: {
+					id: "quark:cooked_crab_leg"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 10
+			}]
+		}
+		{
+			title: "Snowcap Mushrooms"
+			icon: "blue_skies:snowcap_mushroom"
+			x: 1.0d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "Snow cap?"
+			description: ["Fuel."]
+			dependencies: ["7D4ABC616DFE98B4"]
+			id: "718502A2BF38AD54"
+			tasks: [
+				{
+					id: "734921F6AD519871"
+					type: "item"
+					item: {
+						id: "blue_skies:snowcap_pinhead"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "7EA252818ECF680F"
+					type: "item"
+					item: {
+						id: "blue_skies:snowcap_mushroom"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "682DFA08A7B16F97"
+				type: "item"
+				item: {
+					id: "minecraft:blast_furnace"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			shape: "diamond"
+			subtitle: "Wild Pines"
+			description: ["An exotic food that is loved by the reindeer of the Everbright."]
+			dependencies: ["7D4ABC616DFE98B4"]
+			id: "7B6277CA5FF294F6"
+			tasks: [{
+				id: "179523B226811AF1"
+				type: "item"
+				item: {
+					id: "blue_skies:pine_fruit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4A846C6F40BA9572"
+					type: "item"
+					item: {
+						id: "minecraft:saddle"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5E00A75BFA51E8A4"
+					type: "ftbmoney:money"
+					ftb_money: 20L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "I don't see why they made it like this."
+			description: ["It seems like the Illagers created a system requiring 4 keys to prevent trespassers from meeting their generals."]
+			dependencies: [
+				"233F79E589A46800"
+				"68A8CFDD1934C987"
+			]
+			dependency_requirement: "one_completed"
+			size: 1.5d
+			id: "72A591330ACC53CC"
+			tasks: [{
+				id: "5737726EEC7CC01F"
+				type: "item"
+				item: {
+					id: "blue_skies:blinding_key"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 4L
+			}]
+			rewards: [{
+				id: "69645E3AA783ECEF"
+				type: "item"
+				item: {
+					id: "blue_skies:pink_brewberry"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 12
+			}]
+		}
+		{
+			title: "Blinding Dungeon (Everbright)"
+			x: 1.5d
+			y: -4.5d
+			shape: "diamond"
+			dependencies: ["7D4ABC616DFE98B4"]
+			id: "233F79E589A46800"
+			tasks: [{
+				id: "06389A1393DA3D5C"
+				type: "structure"
+				structure: "blue_skies:everbright_blinding_dungeon"
+			}]
+			rewards: [{
+				id: "4F7770CBC84927ED"
+				type: "item"
+				item: {
+					id: "scalinghealth:medkit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Blinding Dungeon (Everdawn)"
+			x: 1.5d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["532882C47D607C4B"]
+			id: "68A8CFDD1934C987"
+			tasks: [{
+				id: "458CB840917B6C48"
+				type: "structure"
+				structure: "blue_skies:everdawn_blinding_dungeon"
+			}]
+			rewards: [{
+				id: "21B86C83E353972D"
+				type: "item"
+				item: {
+					id: "scalinghealth:medkit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Kill the Summoner"
+			x: 4.5d
+			y: -2.25d
+			shape: "hexagon"
+			subtitle: "I let 100 blind people see for the first time!"
+			description: [
+				"The figure who oversees Illager activities in the Everbright. "
+				""
+				"He... summons... lightning, energy, and guards to attack you. Make sure you deal with the golems quickly."
+				""
+				"The Summoner's loot is not always the same. By using the Arc from his treasure bag, you can rematch him for different loot."
+			]
+			dependencies: ["72A591330ACC53CC"]
+			size: 1.5d
+			id: "2924FE2C8B674AD4"
+			tasks: [{
+				id: "523DDEE32DA8E2D0"
+				type: "item"
+				item: {
+					id: "blue_skies:ethereal_arc"
+					Count: 1b
+					tag: {
+						ArcLevel: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "4E2A30D358F9E018"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			title: "Kill the Alchemist"
+			x: 4.5d
+			y: 2.25d
+			shape: "hexagon"
+			subtitle: "Banned from the kitchen"
+			description: [
+				"The figure who oversees Illager activities in the Everdawn."
+				""
+				"The Alchemist attacks with potions and physical constructs. His attacks are powerful but well-telegraphed, allowing you to get the hang of them with practice."
+				""
+				"The Alchemist's loot is not always the same. By using the Arc from his treasure bag, you can rematch him for different loot."
+			]
+			dependencies: ["72A591330ACC53CC"]
+			size: 1.5d
+			id: "0F83B71A715D90D4"
+			tasks: [{
+				id: "4BB260F1F5C7917F"
+				type: "item"
+				item: {
+					id: "blue_skies:dusk_arc"
+					Count: 1b
+					tag: {
+						ArcLevel: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "61F91CCB86D2971B"
+				type: "ftbmoney:money"
+				ftb_money: 100L
+			}]
+		}
+		{
+			icon: "blue_skies:moonstone"
+			x: 6.5d
+			y: 0.0d
+			shape: "hexagon"
+			description: [
+				"You have now completed everything that's required of you from the Everbright or Everdawn."
+				""
+				"You're not yet done with what's offered in Blue Skies, though. Each dimension has its own bigger, badder dungeon which you can follow this questline to explore. I promise you this'll be worth it."
+				""
+				"*I'm moving towards making Atum fully optional so you can currently unlock the Nether by defeating the second, more difficult boss in the Everbright/dawn."
+			]
+			dependencies: [
+				"0F83B71A715D90D4"
+				"2924FE2C8B674AD4"
+			]
+			dependency_requirement: "one_completed"
+			id: "4718DE22B4D0144F"
+			tasks: [{
+				id: "307FAB6B181BA498"
+				type: "checkmark"
+				title: "The Next Steps"
+			}]
+			rewards: [
+				{
+					id: "4090DB86FAA50A8A"
+					type: "item"
+					item: {
+						id: "paraglider:heart_container"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "51BEC1BF8FEA6098"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "two"
+				}
+			]
+		}
+		{
+			title: "Shade Monitor"
+			x: 1.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "Just turn the brightness up"
+			description: [
+				"Its tail is sought after by local populations for its nutritional value."
+				""
+				"Highly aggressive when attacked, so it's a good idea to use a shield."
+			]
+			dependencies: ["532882C47D607C4B"]
+			id: "5C8A67A3F96703C9"
+			tasks: [{
+				id: "66D3B8AAF893D14E"
+				type: "kill"
+				icon: {
+					id: "blue_skies:monitor_tail"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				entity: "blue_skies:shade_monitor"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "2A8626B1F8464084"
+					type: "item"
+					item: {
+						id: "scalinghealth:bandages"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 3
+				}
+				{
+					id: "4D37A7F7AB3EB517"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "Your EVO champion"
+			description: [
+				"Foxes with silky pelts which are most useful for creating saddles. "
+				""
+				"Has been seen killing smaller creatures for Crescent Fruit. Maybe giving it one will make it like you?"
+			]
+			dependencies: ["532882C47D607C4B"]
+			id: "4A010FF82D4277F6"
+			tasks: [{
+				id: "6B547790ED402E74"
+				type: "observation"
+				title: "Cosmic Fox"
+				icon: {
+					id: "blue_skies:fox_pelt"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "blue_skies:cosmic_fox"
+			}]
+			rewards: [{
+				id: "4275EE5F551706E3"
+				type: "item"
+				item: {
+					id: "blue_skies:camel_saddle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Crystal Camel"
+			x: 2.0d
+			y: 4.5d
+			shape: "diamond"
+			subtitle: "Its back breaks easily"
+			dependencies: ["532882C47D607C4B"]
+			id: "2301ACACEE9A3A40"
+			tasks: [{
+				id: "62029DF5B2C0C3E2"
+				type: "observation"
+				icon: {
+					id: "blue_skies:camel_saddle"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				timer: 0L
+				observe_type: 5
+				to_observe: "blue_skies:crystal_camel"
+			}]
+			rewards: [
+				{
+					id: "45CA51B1E72ABC1A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "70718F42FA571CA7"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+				{
+					id: "75CA13F5F7327919"
+					type: "random"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			shape: "diamond"
+			subtitle: "Economies of scalefruit"
+			description: ["A peculiar fruit loved by Crystal Camels."]
+			dependencies: ["532882C47D607C4B"]
+			id: "7E68913B9D77F1E1"
+			tasks: [{
+				id: "4633D6F3459EB575"
+				type: "item"
+				item: {
+					id: "blue_skies:scalefruit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "20226F732DDBA191"
+					type: "item"
+					item: {
+						id: "scalinghealth:bandages"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "6B71B554C76ED999"
+					type: "ftbmoney:money"
+					ftb_money: 15L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			shape: "diamond"
+			subtitle: "Californication"
+			dependencies: ["532882C47D607C4B"]
+			id: "1AD2A59043EB00AD"
+			tasks: [{
+				id: "034783D2EB3B8F9C"
+				type: "item"
+				item: {
+					id: "blue_skies:fiery_beans"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "608B4464C87692EB"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:fire_aspect"
+						}]
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			shape: "diamond"
+			description: ["Grows into a special type of wood which can't be burnt, but is not useful for things normal wood is."]
+			dependencies: ["532882C47D607C4B"]
+			id: "4245AE439CB2F3F1"
+			tasks: [{
+				id: "22AF320F4653E6A3"
+				type: "item"
+				item: {
+					id: "blue_skies:crystal_flower"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "262B3C5688941934"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6BE1203BB7D6E633"
+					type: "item"
+					item: {
+						id: "scalinghealth:heart_crystal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "0D943C907E140B3B"
+					type: "ftbmoney:money"
+					ftb_money: 10L
+				}
+			]
+		}
+		{
+			icon: "blue_skies:nature_key"
+			x: 7.0d
+			y: -1.0d
+			shape: "diamond"
+			description: [
+				"A maze of gargantuan proportions that can be found in the Everbright."
+				""
+				"You will need 4 keys, with 1 being on each floor. Use the minimap to your advantage!"
+			]
+			dependencies: ["4718DE22B4D0144F"]
+			id: "35FC3473790E00F6"
+			tasks: [{
+				id: "57A324AA023AF9C1"
+				type: "structure"
+				structure: "blue_skies:nature_dungeon"
+			}]
+			rewards: [{
+				id: "21371E3EA458F892"
+				type: "item"
+				item: {
+					id: "scalinghealth:medkit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			icon: {
+				id: "blue_skies:poison_key"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 7.0d
+			y: 1.0d
+			shape: "diamond"
+			description: ["A large underground maze. You will need 4 keys, with 1 being on each floor. Use the minimap to your advantage!"]
+			dependencies: ["4718DE22B4D0144F"]
+			id: "51F9FDCBC134BBC1"
+			tasks: [{
+				id: "29EA05BAC0DA82F1"
+				type: "structure"
+				structure: "blue_skies:poison_dungeon"
+			}]
+		}
+		{
+			title: "Starlit Crusher"
+			x: 6.75d
+			y: -2.25d
+			shape: "hexagon"
+			subtitle: "It burst into flames!"
+			description: [
+				"Once you collect your 4 keys, you may hang out with the Starlit Crusher."
+				""
+				"Since it is mostly immobile, the Starlit Crusher attacks using its powerful roots, creating shockwaves in the ground."
+				""
+				"It is a tree, so use your intuition and bring a powerful axe. When it leaves openings, use a spear to launch a counterattack."
+			]
+			dependencies: ["35FC3473790E00F6"]
+			size: 1.5d
+			id: "08789AE46E8FE60F"
+			tasks: [{
+				id: "7E4C6D849A655A4F"
+				type: "kill"
+				entity: "blue_skies:starlit_crusher"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "029687D57C4B0A1A"
+					type: "item"
+					item: {
+						id: "blue_skies:loot_bag_starlit_crusher"
+						Count: 1b
+						tag: {
+							LootTable: "blue_skies:loot_bags/starlit_crusher/common"
+							Rarity: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "51FB0CB757DE1BBC"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "765CF35A1E94EEBD"
+					type: "gamestage"
+					auto: "invisible"
+					stage: "three"
+				}
+			]
+		}
+		{
+			title: "Arachnarch"
+			x: 6.75d
+			y: 2.25d
+			shape: "hexagon"
+			subtitle: "Creepy crawly"
+			description: [
+				"Massive spider who rules over the Poison Dungeon. Notable for relentless offense."
+				""
+				"She likes to charge at you, spit poison from the ceiling, and summon reinforcements. This fight will not be easy, so bring plenty of healing items. Black brewberries from the Everbright (if you have access to it) are helpful in curing poison. To prevent poison entirely, you can use a Charm of Poison Resistance or the Tea Leaf trinket."
+				""
+				"A couple of enhanced Spartan shields is also necessary, since the lunge attack will stun the spider if blocked."
+			]
+			dependencies: ["51F9FDCBC134BBC1"]
+			size: 1.5d
+			id: "2B17513BBA5F718E"
+			tasks: [{
+				id: "64667D2FEA01C9E8"
+				type: "kill"
+				entity: "blue_skies:arachnarch"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "524649A9F14659CA"
+					type: "item"
+					item: {
+						id: "blue_skies:loot_bag_arachnarch"
+						Count: 1b
+						tag: {
+							LootTable: "blue_skies:loot_bags/arachnarch/common"
+							Rarity: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+					count: 2
+				}
+				{
+					id: "6642E5850D01BA5A"
+					type: "ftbmoney:money"
+					ftb_money: 50L
+				}
+				{
+					id: "04279A8FA54804B6"
+					type: "gamestage"
+					stage: "three"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["5CE16C5714A4247E"]
+			id: "38874196DB6B5843"
+			tasks: [{
+				id: "521482FA89626D4F"
+				type: "item"
+				item: {
+					id: "blue_skies:aquite_gem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "45641CEDBF7F148A"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["5CE16C5714A4247E"]
+			id: "038D96F3013F1C8F"
+			tasks: [{
+				id: "0860DDCDC0030BCD"
+				type: "item"
+				item: {
+					id: "blue_skies:pyrope_gem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "79B721907D26522D"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			shape: "diamond"
+			description: ["The equivalent of diamond in these lands."]
+			dependencies: ["5CE16C5714A4247E"]
+			id: "5F7ECE47C2DE13A8"
+			tasks: [{
+				id: "77026E8FAFEF3992"
+				type: "item"
+				item: {
+					id: "blue_skies:charoite"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0CA0B998D164E550"
+				type: "ftbmoney:money"
+				ftb_money: 25L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["5CE16C5714A4247E"]
+			id: "275F775741BD19BD"
+			tasks: [{
+				id: "5844FB65C95483CE"
+				type: "item"
+				item: {
+					id: "blue_skies:diopside_gem"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6484DBBD7BEE0F83"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["5CE16C5714A4247E"]
+			id: "1B92CCA1D483966C"
+			tasks: [{
+				id: "07C455D0EABA9E35"
+				type: "item"
+				item: {
+					id: "blue_skies:horizonite_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "31D36CC97239E028"
+				type: "ftbmoney:money"
+				ftb_money: 10L
+			}]
+		}
+		{
+			disable_toast: true
+			x: 2.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["5F7ECE47C2DE13A8"]
+			id: "3B94700C7CA080FC"
+			tasks: [{
+				id: "35655D1140766B8E"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+		}
+	]
+}

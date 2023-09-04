@@ -1,0 +1,12 @@
+{
+	"isHoldToAttackEnabled": true,
+	"isMiningWithWeaponsEnabled": true,
+	"isSwingThruGrassEnabled": true,
+	"isHighlightCrosshairEnabled": true,
+	"hudHighlightColor": 16711680,
+	"isShowingArmsInFirstPerson": false,
+	"isShowingOtherHandFirstPerson": true,
+	"isSweepingParticleEnabled": false,
+	"isTooltipAttackRangeEnabled": false,
+	"weaponSwingSoundVolume": 100
+}

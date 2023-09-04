@@ -1,0 +1,15 @@
+{
+  "dump_registries": false,
+  "mobifier": {
+    "darkerdepths:glowshroom_monster": [
+      {
+        "conditions_to_apply": [],
+        "xp_modifier": "*1",
+        "attribute_modifier": {
+          "minecraft:generic.max_health": "*0.6",
+          "minecraft:generic.attack_damage": "0.8"
+        }
+      }
+    ]
+  }
+}

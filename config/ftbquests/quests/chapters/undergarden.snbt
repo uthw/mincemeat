@@ -1,0 +1,326 @@
+{
+	id: "17D76505E394EE6A"
+	group: "0FD19FEC38E74BB8"
+	order_index: 2
+	filename: "undergarden"
+	title: "Undergarden"
+	icon: "undergarden:droopvine_item"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 0.0d
+			y: -3.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "undergarden:textures/block/droopvine.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "undergarden:textures/block/glowy_droopvine.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "undergarden:textures/block/droopvine.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "undergarden:textures/block/droopvine.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "undergarden:textures/block/droopvine_top.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "undergarden:textures/block/glowy_droopvine.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "undergarden:textures/block/indigo_mushroom.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "undergarden:textures/block/shimmerweed.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "undergarden:textures/block/shimmerweed_bulb.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			disable_toast: true
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "What lies below the bedrock..."
+			description: ["To access the Undergarden, you must build a portal from stone bricks (the way you would with a nether portal) and light it with the catalyst."]
+			size: 1.5d
+			id: "2A283C5DC6B90721"
+			tasks: [{
+				id: "696C98EB36BE6214"
+				type: "item"
+				item: "undergarden:catalyst"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			subtitle: "A common ore in the Undergarden that is roughly diamond equivalent."
+			description: [""]
+			dependencies: ["6871B3271B08FAC8"]
+			id: "062DB6C616C801BA"
+			tasks: [{
+				id: "181212070C14728A"
+				type: "item"
+				item: "undergarden:cloggrum_ingot"
+			}]
+			rewards: [{
+				id: "67ACBFD8C7A82B7C"
+				type: "ftbmoney:money"
+				ftb_money: 35L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: ["The Undergarden "]
+			dependencies: ["2A283C5DC6B90721"]
+			id: "6871B3271B08FAC8"
+			tasks: [{
+				id: "79FA875472983CD2"
+				type: "dimension"
+				icon: "undergarden:droopvine_item"
+				dimension: "undergarden:undergarden"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["6871B3271B08FAC8"]
+			id: "706E50FEB722F73C"
+			tasks: [{
+				id: "4FE3DD6A83DAC1BA"
+				type: "structure"
+				icon: "undergarden:forgotten_block"
+				structure: "undergarden:catacombs"
+			}]
+			rewards: [{
+				id: "62F2027B029BF06E"
+				type: "item"
+				item: "scalinghealth:medkit"
+				count: 2
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			subtitle: "Forget about Dre"
+			description: ["A miniboss that naturally spawns in catacombs."]
+			dependencies: ["706E50FEB722F73C"]
+			id: "0FDC26E6288359C3"
+			tasks: [{
+				id: "63A7E869355D5199"
+				type: "kill"
+				entity: "undergarden:forgotten_guardian"
+				value: 1L
+			}]
+			rewards: [{
+				id: "190E7CF4D1F05F4E"
+				type: "ftbmoney:money"
+				ftb_money: 50L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.5d
+			shape: "hexagon"
+			subtitle: "Crafted using nuggets dropped by the Forgotten Guardian."
+			description: ["Can be used at a smithing table to upgrade cloggrum tools (not armor)."]
+			dependencies: [
+				"062DB6C616C801BA"
+				"0FDC26E6288359C3"
+			]
+			id: "6EE78A5293F0A0BE"
+			tasks: [{
+				id: "79E6D3BE6F9E2850"
+				type: "item"
+				item: "undergarden:forgotten_ingot"
+			}]
+			rewards: [
+				{
+					id: "72889034A860F478"
+					type: "loot"
+					table_id: 6879408203518360977L
+				}
+				{
+					id: "68848BC954173D15"
+					type: "loot"
+					table_id: 4031609406185370147L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			subtitle: "This ingot is defined by its slowing capabilities."
+			description: [""]
+			dependencies: ["6871B3271B08FAC8"]
+			id: "2F2B8D03E2F1767C"
+			tasks: [{
+				id: "53AF45FAF673EA81"
+				type: "item"
+				item: "undergarden:froststeel_ingot"
+			}]
+			rewards: [{
+				id: "32D8CD6E60791934"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			subtitle: "For trading with Stoneborn."
+			dependencies: ["6871B3271B08FAC8"]
+			id: "12BA391FE1780BB2"
+			tasks: [{
+				id: "1EC594E6FB97605A"
+				type: "item"
+				item: "undergarden:regalium_ingot"
+			}]
+			rewards: [
+				{
+					id: "09AA124A891E8B7B"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					id: "3D3B04F64FCACC3A"
+					type: "ftbmoney:money"
+					ftb_money: 25L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Large, humanoid creatures with two horns."
+			dependencies: ["12BA391FE1780BB2"]
+			id: "573B07A4A9BDE866"
+			tasks: [{
+				id: "3F7C4C85036899CC"
+				type: "observation"
+				title: "Stoneborn"
+				icon: "undergarden:depthrock_pebble"
+				timer: 0L
+				observe_type: 5
+				to_observe: "undergarden:stoneborn"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			subtitle: "Slightly superior to diamond but inferior to cloggrum. Deals increased damage to the Rotspawn."
+			dependencies: ["6871B3271B08FAC8"]
+			id: "73F86F57E293D2B0"
+			tasks: [{
+				id: "4A8A42C9F005F131"
+				type: "item"
+				item: "undergarden:utherium_ingot"
+			}]
+			rewards: [{
+				id: "02EEDB5CCF4AE55F"
+				type: "ftbmoney:money"
+				ftb_money: 30L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			description: ["Transforms downward-flowing water blocks into sources, so you can use it for bubble columns."]
+			dependencies: ["6871B3271B08FAC8"]
+			id: "4CFBAB752765D81F"
+			tasks: [{
+				id: "2CC9F293846E4D66"
+				type: "item"
+				item: "undergarden:glowing_kelp"
+			}]
+			rewards: [{
+				id: "05C27C86FCE66707"
+				type: "ftbmoney:money"
+				ftb_money: 15L
+			}]
+		}
+	]
+}

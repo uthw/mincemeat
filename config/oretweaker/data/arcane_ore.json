@@ -1,0 +1,14 @@
+{
+  "oreConfig": [
+    {
+      "ore": "ars_nouveau:arcane_ore",
+      "filler": "blue_skies:turquoise_stone",
+      "minY": 1,
+      "maxY": 90,
+      "maxVeinSize": 3,
+      "spawnRate": 5.0,
+      "biomeBlacklist": [],
+      "biomeWhitelist": []
+    }
+  ]
+}

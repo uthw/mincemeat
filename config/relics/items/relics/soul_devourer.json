@@ -1,0 +1,10 @@
+{
+  "stats": {
+    "soulLooseCooldown": 10,
+    "minSoulLooseAmount": 5,
+    "soulLoseMultiplierPerSoul": 0.1,
+    "soulCapacity": 100,
+    "soulFromHealthMultiplier": 0.25,
+    "damageMultiplierPerSoul": 0.1
+  }
+}

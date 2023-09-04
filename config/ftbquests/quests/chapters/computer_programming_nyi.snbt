@@ -1,0 +1,11 @@
+{
+	id: "5060CB512B950FD4"
+	group: "0A93ADDC025C8C14"
+	order_index: 2
+	filename: "computer_programming_nyi"
+	title: "Computer Programming (WIP)"
+	icon: "refinedstorage:wireless_crafting_monitor"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

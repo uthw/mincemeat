@@ -1,0 +1,238 @@
+{
+	id: "2023A4C61A722265"
+	order_index: 9
+	title: "Sparten weapon"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "spartanweaponry:dagger_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:parrying_dagger_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:longsword_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:katana_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:saber_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:rapier_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:greatsword_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:hammer_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:warhammer_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:spear_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:halberd_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:pike_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:lance_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:throwing_knife_iron"
+				Count: 1b
+				tag: {
+					AmmoUsed: 0
+					Damage: 0
+					UUID: [I;
+						-1750052631
+						786778389
+						-2102942201
+						-2001672003
+					]
+					Original: 1b
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:tomahawk_iron"
+				Count: 1b
+				tag: {
+					AmmoUsed: 0
+					Damage: 0
+					UUID: [I;
+						-1375262139
+						796346318
+						-2002733873
+						740392424
+					]
+					Original: 1b
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:javelin_iron"
+				Count: 1b
+				tag: {
+					AmmoUsed: 0
+					Damage: 0
+					UUID: [I;
+						1747015910
+						-709538606
+						-1479565850
+						861676245
+					]
+					Original: 1b
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:boomerang_iron"
+				Count: 1b
+				tag: {
+					AmmoUsed: 0
+					Damage: 0
+					UUID: [I;
+						519790801
+						2138325304
+						-1536755662
+						2008012459
+					]
+					Original: 1b
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:battleaxe_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:flanged_mace_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:glaive_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:quarterstaff_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "spartanweaponry:scythe_iron"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+}
