@@ -364,7 +364,7 @@
 [steel]
 	#Base Damage for steel weapons
 	#Range: 0.1 ~ 100.0
-	base_damage = 2.5
+	base_damage = 3.5
 	#Durability for steel weapons
 	#Range: 1 ~ 100000
 	durability = 480
