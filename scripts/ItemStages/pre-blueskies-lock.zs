@@ -5,6 +5,7 @@ import crafttweaker.api.item.IItemStack;
 var restrictedTag = <tag:items:forge:one_restricted>;
 var restrictedItems = [
     <item:forestcraft:aquamarine>,
+    <item:astralsorcery:aquamarine>,
 
     <item:ars_nouveau:apprentice_spell_book>,
 
