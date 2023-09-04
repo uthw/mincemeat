@@ -47,6 +47,7 @@ for allItems in game.items {
 for allItems in game.items {
     if (
     'armor_silver_' in (allItems.registryName as string) && !('armor_silver_metal_' in (allItems.registryName as string)) || 
+    'armor_copper_' in (allItems.registryName as string) && !('armor_silver_copper_' in (allItems.registryName as string)) || 
     'tide_' in (allItems.registryName as string) && !('_dweller' in (allItems.registryName as string))) {
         restrictedTag.add(allItems);
     }
