@@ -294,6 +294,7 @@
 		}
 		{
 			title: "Wither Skeleton"
+			icon: "minecraft:wither_skeleton_skull"
 			x: 0.0d
 			y: -3.0d
 			shape: "rsquare"
@@ -301,17 +302,8 @@
 			dependencies: ["3EE8FCE77B50FB7B"]
 			id: "7B8953FDC2EBF81E"
 			tasks: [{
-				id: "01BAB881ECFA2EEF"
+				id: "625EDBF6756B2167"
 				type: "observation"
-				icon: {
-					id: "graveyard:wither_skull_pile"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
 				timer: 0L
 				observe_type: 5
 				to_observe: "minecraft:wither_skeleton"
