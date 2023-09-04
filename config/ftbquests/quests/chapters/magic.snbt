@@ -639,7 +639,6 @@
 			shape: "gear"
 			subtitle: "So glad you've come here!"
 			description: ["\"The world is full of magic things, patiently waiting for our senses to grow sharper.\" - William Butler Yeats"]
-			dependencies: ["6ED75E81C1C56B06"]
 			size: 2.0d
 			id: "2A2B25F44A4AE27B"
 			tasks: [{
@@ -1056,8 +1055,15 @@
 		{
 			x: 5.5d
 			y: 0.0d
-			description: ["It lets you store spells for use later.  Keep it somewhere valuable!"]
-			dependencies: ["129CAC4D971CBAD8"]
+			description: [
+				"It lets you store spells for use later.  Keep it somewhere valuable!"
+				""
+				"*Do this by placing it on a scribe table and then shift RMBing it with a spell book with the spell you want."
+			]
+			dependencies: [
+				"129CAC4D971CBAD8"
+				"65F99ED6E5B6B7E9"
+			]
 			id: "5842453086405007"
 			tasks: [{
 				id: "46EB022834DF23D3"
@@ -1598,6 +1604,8 @@
 				"Crucibles are unique because their recipes have multiple steps, like real-life recipes. Also similarly to real life, you must execute the steps in order."
 				""
 				"When you insert the ingredients for one step, it will make a sound to indicate when ready for the insertion of new items."
+				""
+				"*If you drop items in bulk into a crucible, it will not try to make multiple batches of the output!!!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7D3CA5C984F11D23"]
@@ -6799,6 +6807,18 @@
 				id: "0A23446E3712FA86"
 				type: "checkmark"
 				title: "coming soon: Mana and Artifice"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: ["49079A4790CE0545"]
+			id: "65F99ED6E5B6B7E9"
+			tasks: [{
+				id: "49F2A4B940008E1E"
+				type: "item"
+				item: "ars_nouveau:scribes_table"
 			}]
 		}
 	]
