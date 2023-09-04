@@ -1,6 +1,6 @@
 mods/
 
-############################
+############################ 
 
 backups/
 crash-reports/
@@ -15,7 +15,7 @@ modernfix/
 saves/
 screenshots/
 shaderpacks/
-shrines_saves/
+shrines-saves/
 themes/
 xaerowaypoints/
 xaerowaypoints_backup032021/
@@ -26,7 +26,7 @@ xaeroworldmap/
 
 imgui.log
 knownkeys.txt
-ops.txt
+ops.json
 options.txt
 patchouli_data.json
 servers.dat
