@@ -1284,6 +1284,8 @@
 				""
 				"Crescent hammer lets you rotate blocks (right click) and instantly break Thermal machines (shift + right click)."
 			]
+			hide_dependency_lines: true
+			dependencies: ["6FDFFE9DAC0A386D"]
 			size: 2.0d
 			id: "7CAE16ED2E14FF16"
 			tasks: [{
