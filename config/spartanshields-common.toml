@@ -6,7 +6,7 @@
 	forceDisableUncraftableTooltips = false
 	#Cooldown period for Shield Bashes
 	#Range: 1 ~ 1000
-	cooldownShieldBash = 30
+	cooldownShieldBash = 15
 	#Set to true to disable the Shield Bash feature
 	disableShieldBash = false
 
