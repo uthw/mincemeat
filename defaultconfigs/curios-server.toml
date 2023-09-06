@@ -25,5 +25,13 @@ size = 1
 override = true
 [[curiosSettings]]
 identifier = "charm"
-size = 3
+size = 2
+override = true
+[[curiosSettings]]
+identifier = "bracelet"
+size = 1
+override = true
+[[curiosSettings]]
+identifier = "hands"
+size = 1
 override = true
