@@ -1,9 +1,0 @@
-{
-  "retroGen": false,
-  "swapper": {
-    "darkerdepths:amber": "minecraft:air",
-    "darkerdepths:silver_ore": "iceandfire:silver_ore",
-    "scalinghealth:heart_crystal_ore": "minecraft:iron_ore",
-    "scalinghealth:power_crystal_ore": "iceandfire:copper_ore"
-  }
-}
