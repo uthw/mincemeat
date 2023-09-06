@@ -36,14 +36,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 5.5,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -93,14 +86,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 5.3,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -150,14 +136,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 2.5,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -207,14 +186,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 3,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -264,14 +236,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 3,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -321,14 +286,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 3,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -378,14 +336,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 3,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -777,14 +728,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 3.5,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -830,14 +774,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 3.5,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -883,14 +820,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 3.5,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -936,14 +866,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 3.5,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -989,14 +912,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 4.8,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -1046,14 +962,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 5.5,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -1099,14 +1008,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 5.5,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -1152,14 +1054,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 5.5,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -1205,14 +1100,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 5.5,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -1258,14 +1146,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 5.5,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -1311,14 +1192,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 4.5,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
@@ -1364,14 +1238,7 @@ onEvent("server.datapack.high_priority", (event) => {
             max: 4.5,
           },
         },
-        {
-          attribute: "parrying:armor_pen",
-          operation: "MULTIPLY_BASE",
-          value: {
-            min: 0.15,
-            max: 0.75,
-          },
-        },
+        
         {
           attribute: "minecraft:generic.knockback_resistance",
           operation: "ADDITION",
