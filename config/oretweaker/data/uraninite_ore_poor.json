@@ -1,0 +1,15 @@
+{
+    "oreConfig": [
+      {
+        "ore": "powah:uraninite_ore_poor",
+        "filler": "blue_skies:lunar_stone",
+        "minY": 4,
+        "maxY": 60,
+        "maxVeinSize": 4,
+        "spawnRate": 1.5,
+        "biomeBlacklist": [],
+        "biomeWhitelist": []
+      }
+    ]
+  }
+  
