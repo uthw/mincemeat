@@ -13,7 +13,7 @@
 			#Determines if Tuff Blobs should generate underground.
 			GenerateTuff = true
 			#Determines the weight of spawning for Tuff.
-			TuffSpawnWeight = 1
+			TuffSpawnWeight = 2
 
 		["World Generation"."Ore Generation"."Deepslate Settings"]
 			#Determines if Deepslate Blobs should generate underground.
