@@ -1,0 +1,11 @@
+[
+    {
+        "dimension": "minecraft:overworld",
+        "mincount": {
+            "amount": 45,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    }
+]
