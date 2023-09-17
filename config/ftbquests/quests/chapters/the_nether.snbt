@@ -4,19 +4,13 @@
 	order_index: 3
 	filename: "the_nether"
 	title: "The Nether"
-	icon: {
-		id: "forestcraft:netherite_lighter"
-		Count: 1b
-		tag: {
-			Damage: 0
-		}
-	}
+	icon: "minecraft:warped_nylium"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
 			icon: {
-				id: "forestcraft:netherite_lighter"
+				id: "minecraft:flint_and_steel"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -33,30 +27,12 @@
 			dependencies: ["07F915C8F9F3C199"]
 			size: 2.0d
 			id: "252A982DEA1EC5A5"
-			tasks: [
-				{
-					id: "1F31908C2EBB6511"
-					type: "item"
-					item: {
-						id: "forestcraft:netherite_lighter"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "71485107DC52AC82"
-					type: "advancement"
-					advancement: "minecraft:story/enter_the_nether"
-					criterion: ""
-				}
-			]
+			tasks: [{
+				id: "71485107DC52AC82"
+				type: "advancement"
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+			}]
 			rewards: [
 				{
 					id: "731B9DEE89F6F546"
@@ -98,54 +74,10 @@
 			}]
 		}
 		{
-			title: "Wither Catacomb"
-			icon: "bygonenether:withered_debris"
-			x: 2.5d
-			y: -1.5d
-			subtitle: "Heavily fortified by wither skeletons. What could be inside? The shape is unsettling too..."
-			description: [""]
-			dependencies: ["252A982DEA1EC5A5"]
-			id: "1EE49ABC6E6F3353"
-			tasks: [{
-				id: "30BB6B384A9F58D3"
-				type: "structure"
-				structure: "bygonenether:catacomb"
-			}]
-			rewards: [{
-				id: "5174C49E1D17C160"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -2.5d
-			y: -1.5d
-			dependencies: ["252A982DEA1EC5A5"]
-			id: "27CED14910E69BCE"
-			tasks: [{
-				id: "56B60B48F14E245A"
-				type: "item"
-				item: {
-					id: "bygonenether:warped_ender_pearl"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "2A17A6490B19D6D7"
-				type: "ftbmoney:money"
-				ftb_money: 25L
-			}]
-		}
-		{
-			x: -3.5d
-			y: -0.5d
+			x: -2.0d
+			y: -2.0d
 			description: ["Can also be made into a grappling hook upgrade."]
-			dependencies: ["27CED14910E69BCE"]
+			dependencies: ["252A982DEA1EC5A5"]
 			id: "315DB97609ABEFE1"
 			tasks: [{
 				id: "68F4267BEA0C9DAD"
@@ -1201,10 +1133,7 @@
 		{
 			x: 4.0d
 			y: -1.5d
-			dependencies: [
-				"16080CEF30FDFE08"
-				"1EE49ABC6E6F3353"
-			]
+			dependencies: ["16080CEF30FDFE08"]
 			id: "2E7D45F16CAF4396"
 			tasks: [{
 				id: "44D3AF6F7C70D129"
@@ -1337,31 +1266,6 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -0.5d
-			description: ["A gem found in the Nether that inhibits speed."]
-			dependencies: ["252A982DEA1EC5A5"]
-			id: "2592CE1155607212"
-			tasks: [{
-				id: "42432303C254581F"
-				type: "item"
-				item: {
-					id: "forestcraft:jewel_wart"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "297594E35AFA2B24"
-				type: "ftbmoney:money"
-				ftb_money: 20L
-			}]
-		}
-		{
 			x: 0.0d
 			y: -9.0d
 			shape: "hexagon"
@@ -1469,118 +1373,6 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: -0.5d
-			dependencies: ["2592CE1155607212"]
-			id: "57AABD8887A27EE0"
-			tasks: [{
-				id: "48B6DDE4BEA3FA9A"
-				type: "item"
-				item: {
-					id: "forestcraft:jewel_wart_block"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "728A1683F330C003"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: 1.0d
-			y: 1.0d
-			subtitle: "Until the rainbow burns the stars out in the sky"
-			dependencies: ["2592CE1155607212"]
-			id: "77EE0E7697E1E61E"
-			tasks: [{
-				id: "6B14490BD0CAF13F"
-				type: "item"
-				item: {
-					id: "forestcraft:prismatic_diamond"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "34BD0FFF2D986531"
-				type: "ftbmoney:money"
-				ftb_money: 40L
-			}]
-		}
-		{
-			x: 3.0d
-			y: -0.5d
-			dependencies: ["57AABD8887A27EE0"]
-			id: "7F6F1C6AF1FD01DD"
-			tasks: [{
-				id: "563BD26A59B68110"
-				type: "item"
-				item: {
-					id: "forestcraft:jewel_wart_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "4B6964C528D899C9"
-				type: "item"
-				item: {
-					id: "minecraft:obsidian"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				count: 12
-			}]
-		}
-		{
-			x: 1.0d
-			y: 2.0d
-			dependencies: ["77EE0E7697E1E61E"]
-			id: "2600AC3C1AC8D4E5"
-			tasks: [{
-				id: "744A9175C0C6DFBE"
-				type: "item"
-				item: {
-					id: "forestcraft:true_dirtscalibur"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "40DFB28997EFD6C1"
-				type: "ftbmoney:money"
-				ftb_money: 25L
-			}]
-		}
-		{
 			x: 2.5d
 			y: -5.5d
 			dependencies: ["252A982DEA1EC5A5"]
@@ -1597,32 +1389,6 @@
 						}
 					}
 				}
-			}]
-		}
-		{
-			x: -1.25d
-			y: -5.5d
-			subtitle: "It's dropped by Bakudans, mischevious creatures that live in warped forests."
-			description: [""]
-			dependencies: ["252A982DEA1EC5A5"]
-			id: "7F54B80FD89E8A12"
-			tasks: [{
-				id: "09B16189A2825E0E"
-				type: "item"
-				item: {
-					id: "forestcraft:bakudan_ball"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "65CAE3EF3612FA1B"
-				type: "ftbmoney:money"
-				ftb_money: 35L
 			}]
 		}
 		{

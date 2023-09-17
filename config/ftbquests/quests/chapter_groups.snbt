@@ -1,6 +1,5 @@
 {
 	chapter_groups: [
-		{ id: "2C344CA71B9F0CFD", title: "Sorcery" }
 		{ id: "62CA08E8B2EFA105", title: "Required to Progress" }
 		{ id: "0FD19FEC38E74BB8", title: "Exploration" }
 		{ id: "2447BD0EE3FA64CA", title: "Equipment" }

@@ -5,7 +5,7 @@
 	filename: "advanced_technology"
 	title: "Advanced Technology (WIP)"
 	icon: "immersiveengineering:watermill"
-	subtitle: ["Mekanism, Industrial Foregoing, Powah!, ???"]
+	subtitle: [""]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -553,16 +553,6 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -3.0d
-			id: "4B11355907828AB7"
-			tasks: [{
-				id: "6AF441AC3B3A9D4F"
-				type: "item"
-				item: "industrialforegoing:item_transporter_type"
-			}]
-		}
-		{
 			title: "Transporters"
 			x: 1.5d
 			y: -2.0d
@@ -598,6 +588,270 @@
 				id: "752DFBDF1A7948C5"
 				type: "item"
 				item: "industrialforegoing:material_stonework_factory"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -11.5d
+			dependencies: ["61D791CCD650C46B"]
+			id: "0EA3B42C21990AE8"
+			tasks: [{
+				id: "306F8E730AC9D518"
+				type: "item"
+				item: "industrialforegoing:potion_brewer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.5d
+			subtitle: "Generates water from nearby source blocks"
+			dependencies: ["660EF4A9ADCC837E"]
+			id: "1E7A5E981A06ECD7"
+			tasks: [{
+				id: "460D2F5D37D9EF03"
+				type: "item"
+				item: "industrialforegoing:water_condensator"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -13.5d
+			subtitle: "Produces ores like the drill from IE. You can equip a lens to make it more likely to produce certain ores"
+			description: ["Check JEI"]
+			dependencies: ["78F48E17922BE3E9"]
+			id: "069217F599C369D6"
+			tasks: [{
+				id: "2733A425FE831AA7"
+				type: "item"
+				item: "industrialforegoing:ore_laser_base"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -12.0d
+			subtitle: "Converts power into a suitable version for fluid/ore laser bases."
+			description: ["The laser drill should be adjacent to the base with the back of the drill facing the base."]
+			dependencies: ["61D791CCD650C46B"]
+			id: "78F48E17922BE3E9"
+			tasks: [{
+				id: "138EED81DDB07F77"
+				type: "item"
+				item: "industrialforegoing:laser_drill"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -13.5d
+			subtitle: "Produces fluid. Equip it with a lens to make it more likely to produce certain fluids."
+			description: ["Check JEI"]
+			dependencies: ["78F48E17922BE3E9"]
+			id: "0BBBEB6B7F222D19"
+			tasks: [{
+				id: "7C6E2A70C41CF694"
+				type: "item"
+				item: "industrialforegoing:fluid_laser_base"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.5d
+			subtitle: "Charges items with energy, Infinity Items charge faster"
+			dependencies: [
+				"5ED5A83CCB4AD236"
+				"60CB71FE159C4029"
+			]
+			id: "6A17B0178D1E797E"
+			tasks: [{
+				id: "633EEC1309CD4044"
+				type: "item"
+				item: "industrialforegoing:infinity_charger"
+			}]
+		}
+		{
+			title: "Mekanism"
+			icon: "mekanism:metallurgic_infuser"
+			x: 0.0d
+			y: 1.0d
+			shape: "gear"
+			description: [
+				"Here is the first machine you will want to make with Mekanism."
+				""
+				"The Metallurgic Infuser lets you make alloys, which are important ingredients in Mekanism."
+				""
+				"The Side Config lets you adjust where you want to import (primary and extra) items (primary and extra), import energy, and export the outputs."
+				""
+				"The Transporter Config lets you choose what color of pipe you want items to go into."
+				""
+				"On the right side, you will find a tab called Upgrades, where you can add upgrades to machines."
+				""
+				"For example, try making infused alloys. You will need enough energy (you can see this with the bar on the right) as well as iron ingot as primary input and redstone as secondary input."
+			]
+			size: 2.0d
+			id: "1CB095891B94A06A"
+			tasks: [
+				{
+					id: "1FAF130BDD2A7809"
+					type: "item"
+					item: "mekanism:metallurgic_infuser"
+				}
+				{
+					id: "63A2B5A68ECAF412"
+					type: "item"
+					item: "mekanism:alloy_infused"
+					count: 16L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			subtitle: "Pulverizer, but it can handle more items and needs less energy"
+			dependencies: ["1CB095891B94A06A"]
+			id: "615FC6EA071C8ED5"
+			tasks: [{
+				id: "5E028514249635B3"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			subtitle: "Like the redstone furnace, but it needs less energy"
+			dependencies: ["1CB095891B94A06A"]
+			id: "5F3E819FBB656AFD"
+			tasks: [{
+				id: "3AF4BD05A6536B94"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			subtitle: "Whatever the woodcutter from thermal is called (i don't remember its name lol)"
+			dependencies: ["1CB095891B94A06A"]
+			id: "3B47ADA15355EDDD"
+			tasks: [{
+				id: "38FF8FD7AD687989"
+				type: "item"
+				item: "mekanism:precision_sawmill"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			subtitle: "4x as much storage as a Capacitato"
+			dependencies: ["1CB095891B94A06A"]
+			id: "4F65521A3542AA88"
+			tasks: [{
+				id: "181643AA55C43E4D"
+				type: "item"
+				item: "mekanism:energy_tablet"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			subtitle: "Needed for some things like connecting cables"
+			dependencies: ["4F65521A3542AA88"]
+			id: "5713E11A48A518AA"
+			tasks: [{
+				id: "2074ED9953901F89"
+				type: "item"
+				item: "mekanism:configurator"
+			}]
+			rewards: [{
+				id: "074E5603E0791E32"
+				type: "item"
+				item: "mekanism:basic_universal_cable"
+				count: 16
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["4F65521A3542AA88"]
+			id: "5EF570C963D671D3"
+			tasks: [{
+				id: "757A6B6BDD9FAEC5"
+				type: "item"
+				item: "mekanism:basic_energy_cube"
+			}]
+		}
+		{
+			title: "Cables"
+			x: -2.0d
+			y: 2.0d
+			subtitle: "Here are all the cables you can obtain in Mekanism. Each of these follow the 4-tier system of Mekanism."
+			description: ["Cable settings can be changed using a configurator. The things you can change depend on the cable you're working with."]
+			dependencies: ["1CB095891B94A06A"]
+			id: "1A9DC65063E256BB"
+			tasks: [
+				{
+					id: "180A6DF7B9788B3F"
+					type: "item"
+					item: "mekanism:basic_universal_cable"
+				}
+				{
+					id: "33D9C99A8F813C0D"
+					type: "item"
+					item: "mekanism:basic_mechanical_pipe"
+				}
+				{
+					id: "4A6640D1B7296F81"
+					type: "item"
+					item: "mekanism:basic_pressurized_tube"
+				}
+				{
+					id: "21DED2E73F8C6A79"
+					type: "item"
+					item: "mekanism:basic_logistical_transporter"
+				}
+				{
+					id: "5A4C13EE848EA2E1"
+					type: "item"
+					item: "mekanism:basic_thermodynamic_conductor"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["1A9DC65063E256BB"]
+			id: "291725E8B02FA1A6"
+			tasks: [{
+				id: "34492A779488A7EA"
+				type: "item"
+				item: "mekanism:restrictive_transporter"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.5d
+			dependencies: ["1A9DC65063E256BB"]
+			id: "7718EEE0B2B2DB5F"
+			tasks: [{
+				id: "219BA75562AE8B4B"
+				type: "item"
+				item: "mekanism:diversion_transporter"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			subtitle: "Advanced sorting for items"
+			description: [
+				"The bottom on the bottom left of the sorter GUI sets the color prioritized. For example, \"none\" means it will send items through cables with no color before cables that have a color."
+				""
+				"Pressing the new filter button leads you through a GUI in which the filter is specified."
+			]
+			dependencies: ["1A9DC65063E256BB"]
+			id: "70C378B89003E0AC"
+			tasks: [{
+				id: "7081EA7350EBF26C"
+				type: "item"
+				item: "mekanism:logistical_sorter"
 			}]
 		}
 	]
