@@ -15,7 +15,7 @@
 	GiveMode = "MOUSE_PICKUP"
 	#Max number of columns shown
 	#Range: 4 ~ 100
-	MaxColumns = 9
+	MaxColumns = 18
 	#Max. recipe gui height
 	#Range: > 175
 	RecipeGuiHeight = 350
@@ -48,12 +48,12 @@
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	ResourceIdSearchMode = "DISABLED"
 	#Search advanced tooltips (visible with F3+H)
-	SearchAdvancedTooltips = false
+	SearchAdvancedTooltips = true
 
 [modname]
 	#Formatting for mod name tooltip
 	#Use these formatting keys:
 	#black, dark_blue, dark_green, dark_aqua, dark_red, dark_purple, gold, gray, dark_gray, blue, green, aqua, red, light_purple, yellow, white
 	#obfuscated, bold, strikethrough, underline, italic
-	ModNameFormat = "blue italic"
+	ModNameFormat = "gold italic"
 
