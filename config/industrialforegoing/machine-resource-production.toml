@@ -5,7 +5,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Tick - Default: [400FE]
-		powerPerOperation = 1000
+		powerPerOperation = 0
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 
@@ -23,7 +23,7 @@
 
 	[MachineResourceProductionConfig.ResourcefulFurnaceConfig]
 		#Amount of Power Consumed per Tick - Default: [400FE]
-		powerPerTick = 40
+		powerPerTick = 10
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Essence] - Default: [8000mB]
@@ -53,9 +53,9 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Tick - Default: [400FE]
-		powerPerOperation = 1000
+		powerPerOperation = 0
 		#Max Stored Power [FE] - Default: [10000 FE]
-		maxStoredPower = 10000
+		maxStoredPower = 10
 
 	[MachineResourceProductionConfig.MechanicalDirtConfig]
 		#Amount of Power Consumed per Tick - Default: [400FE]
@@ -77,7 +77,7 @@
 		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
 		#Amount of Power Consumed per Tick - Default: [400FE]
-		powerPerOperation = 1000
+		powerPerOperation = 0
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Output] - Default: [8000mB]
