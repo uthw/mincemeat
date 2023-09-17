@@ -109,20 +109,20 @@ onEvent('server.datapack.high_priority', event => {
                             }
                         ]
                     },
-                    {
-                        type: 'item',
-                        name: 'forestcraft:vita',
-                        weight: 1,
-                        functions: [
-                            {
-                                function: 'set_count',
-                                count: {
-                                    min: 3,
-                                    max: 5
-                                }
-                            }
-                        ]
-                    },
+                    // {
+                    //     type: 'item',
+                    //     name: 'forestcraft:vita',
+                    //     weight: 1,
+                    //     functions: [
+                    //         {
+                    //             function: 'set_count',
+                    //             count: {
+                    //                 min: 3,
+                    //                 max: 5
+                    //             }
+                    //         }
+                    //     ]
+                    // },
                     {
                         type: 'item',
                         name: 'apotheosis:rare_shard',

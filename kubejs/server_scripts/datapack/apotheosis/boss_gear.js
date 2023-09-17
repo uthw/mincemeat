@@ -10,8 +10,8 @@ onEvent("server.datapack.high_priority", (event) => {
         { weight: 8, stack: { item: "atum:iron_greatsword" } },
         { weight: 6, stack: { item: "atum:iron_club" } },
         { weight: 8, stack: { item: "atum:iron_khlopesh" } },
-        { weight: 5, stack: { item: "forestcraft:iron_scythe" } },
-        { weight: 5, stack: { item: "forestcraft:ancient_iron_sword" } },
+        // { weight: 5, stack: { item: "forestcraft:iron_scythe" } },
+        // { weight: 5, stack: { item: "forestcraft:ancient_iron_sword" } },
         { weight: 1, stack: { item: "spartanweaponry:dagger_iron" } },
         { weight: 1, stack: { item: "spartanweaponry:parrying_dagger_iron" } },
         { weight: 1, stack: { item: "spartanweaponry:longsword_iron" } },
@@ -48,7 +48,7 @@ onEvent("server.datapack.high_priority", (event) => {
       mainhands: [
         { weight: 10, stack: { item: "minecraft:diamond_sword" } },
         { weight: 6, stack: { item: "undergarden:cloggrum_sword" } },
-        { weight: 6, stack: { item: "forestcraft:vita_sword" } },
+        // { weight: 6, stack: { item: "forestcraft:vita_sword" } },
         { weight: 6, stack: { item: "forbidden_arcanus:obsidian_sword" } },
         { weight: 1, stack: { item: "spartanweaponry:dagger_diamond" } },
         {
@@ -94,28 +94,28 @@ onEvent("server.datapack.high_priority", (event) => {
         { weight: 2, stack: "undergarden:cloggrum_boots" },
         { weight: 1, stack: "forbidden_arcanus:obsidian_boots" },
         { weight: 1, stack: "minecraft:netherite_boots" },
-        { weight: 1, stack: "forestcraft:aquamarine_boots" },
+        // { weight: 1, stack: "forestcraft:aquamarine_boots" },
       ],
       leggings: [
         { weight: 3, stack: "minecraft:diamond_leggings" },
         { weight: 2, stack: "undergarden:cloggrum_leggings" },
         { weight: 1, stack: "forbidden_arcanus:obsidian_leggings" },
         { weight: 1, stack: "minecraft:netherite_leggings" },
-        { weight: 1, stack: "forestcraft:aquamarine_leggings" },
+        // { weight: 1, stack: "forestcraft:aquamarine_leggings" },
       ],
       chestplates: [
         { weight: 3, stack: "minecraft:diamond_chestplate" },
         { weight: 2, stack: "undergarden:cloggrum_chestplate" },
         { weight: 1, stack: "forbidden_arcanus:obsidian_chestplate" },
         { weight: 1, stack: "minecraft:netherite_chestplate" },
-        { weight: 1, stack: "forestcraft:aquamarine_chestplate" },
+        // { weight: 1, stack: "forestcraft:aquamarine_chestplate" },
       ],
       helmets: [
         { weight: 3, stack: "minecraft:diamond_helmet" },
         { weight: 2, stack: "undergarden:cloggrum_helmet" },
         { weight: 1, stack: "forbidden_arcanus:obsidian_helmet" },
         { weight: 1, stack: "minecraft:netherite_helmet" },
-        { weight: 1, stack: "forestcraft:aquamarine_helmet" },
+        // { weight: 1, stack: "forestcraft:aquamarine_helmet" },
       ],
     },
     {
@@ -188,7 +188,7 @@ onEvent("server.datapack.high_priority", (event) => {
           stack: { item: "forbidden_arcanus:obsidian_blacksmith_gavel" },
         },
         { weight: 5, stack: { item: "forbidden_arcanus:obsidian_sword" } },
-        { weight: 1, stack: { item: "forestcraft:soul_eater" } },
+        // { weight: 1, stack: { item: "forestcraft:soul_eater" } },
       ],
       offhands: [
         {

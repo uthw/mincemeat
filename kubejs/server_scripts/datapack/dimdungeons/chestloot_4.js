@@ -25,20 +25,20 @@ onEvent('server.datapack.high_priority', event => {
                             }
                         ]
                     },
-                    {
-                        type: 'item',
-                        name: 'forestcraft:prismatic_diamond',
-                        weight: 2,
-                        functions: [
-                            {
-                                function: 'set_count',
-                                count: {
-                                    min: 1,
-                                    max: 1
-                                }
-                            }
-                        ]
-                    },
+                    // {
+                    //     type: 'item',
+                    //     name: 'forestcraft:prismatic_diamond',
+                    //     weight: 2,
+                    //     functions: [
+                    //         {
+                    //             function: 'set_count',
+                    //             count: {
+                    //                 min: 1,
+                    //                 max: 1
+                    //             }
+                    //         }
+                    //     ]
+                    // },
                     {
                         type: 'item',
                         name: 'iceandfire:summoning_crystal_fire',

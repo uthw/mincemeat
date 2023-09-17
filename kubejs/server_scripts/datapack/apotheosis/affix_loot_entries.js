@@ -129,14 +129,14 @@ onEvent("server.datapack.high_priority", (event) => {
         { item: "iceandfire:dragonbone_sword", weight: 8 },
         { item: "iceandfire:dread_sword", weight: 4 },
 
-        { item: "forestcraft:molten_sword", weight: 25 },
-        { item: "forestcraft:jewel_wart_sword", weight: 30 },
-        { item: "forestcraft:gem_sword", weight: 30 },
-        { item: "forestcraft:aquamarine_sword", weight: 30 },
-        { item: "forestcraft:vita_sword", weight: 30 },
-        { item: "forestcraft:blooming_sword", weight: 15 },
-        { item: "forestcraft:sharped_leaf_sword", weight: 15 },
-        { item: "forestcraft:ancient_iron_sword", weight: 20 },
+        // { item: "forestcraft:molten_sword", weight: 25 },
+        // { item: "forestcraft:jewel_wart_sword", weight: 30 },
+        // { item: "forestcraft:gem_sword", weight: 30 },
+        // { item: "forestcraft:aquamarine_sword", weight: 30 },
+        // { item: "forestcraft:vita_sword", weight: 30 },
+        // { item: "forestcraft:blooming_sword", weight: 15 },
+        // { item: "forestcraft:sharped_leaf_sword", weight: 15 },
+        // { item: "forestcraft:ancient_iron_sword", weight: 20 },
 
         { item: "forbidden_arcanus:arcane_golden_sword", weight: 15 },
         { item: "forbidden_arcanus:obsidian_sword", weight: 40 },
@@ -168,14 +168,14 @@ onEvent("server.datapack.high_priority", (event) => {
 
         { item: "iceandfire:dragonbone_axe", weight: 8 },
 
-        { item: "forestcraft:molten_axe", weight: 25 },
-        { item: "forestcraft:jewel_wart_axe", weight: 30 },
-        { item: "forestcraft:gem_axe", weight: 30 },
-        { item: "forestcraft:aquamarine_axe", weight: 30 },
-        { item: "forestcraft:vita_axe", weight: 30 },
-        { item: "forestcraft:blooming_axe", weight: 15 },
-        { item: "forestcraft:sharped_leaf_axe", weight: 15 },
-        { item: "forestcraft:ancient_iron_axe", weight: 20 },
+        // { item: "forestcraft:molten_axe", weight: 25 },
+        // { item: "forestcraft:jewel_wart_axe", weight: 30 },
+        // { item: "forestcraft:gem_axe", weight: 30 },
+        // { item: "forestcraft:aquamarine_axe", weight: 30 },
+        // { item: "forestcraft:vita_axe", weight: 30 },
+        // { item: "forestcraft:blooming_axe", weight: 15 },
+        // { item: "forestcraft:sharped_leaf_axe", weight: 15 },
+        // { item: "forestcraft:ancient_iron_axe", weight: 20 },
 
         { item: "mod_lavacow:moltenaxe", weight: 30 },
 
@@ -207,14 +207,14 @@ onEvent("server.datapack.high_priority", (event) => {
 
         { item: "iceandfire:dragonbone_pickaxe", weight: 8 },
 
-        { item: "forestcraft:molten_pickaxe", weight: 25 },
-        { item: "forestcraft:jewel_wart_pickaxe", weight: 30 },
-        { item: "forestcraft:gem_pickaxe", weight: 30 },
-        { item: "forestcraft:aquamarine_pickaxe", weight: 30 },
-        { item: "forestcraft:vita_pickaxe", weight: 30 },
-        { item: "forestcraft:blooming_pickaxe", weight: 15 },
-        { item: "forestcraft:sharped_leaf_pickaxe", weight: 15 },
-        { item: "forestcraft:ancient_iron_pickaxe", weight: 20 },
+        // { item: "forestcraft:molten_pickaxe", weight: 25 },
+        // { item: "forestcraft:jewel_wart_pickaxe", weight: 30 },
+        // { item: "forestcraft:gem_pickaxe", weight: 30 },
+        // { item: "forestcraft:aquamarine_pickaxe", weight: 30 },
+        // { item: "forestcraft:vita_pickaxe", weight: 30 },
+        // { item: "forestcraft:blooming_pickaxe", weight: 15 },
+        // { item: "forestcraft:sharped_leaf_pickaxe", weight: 15 },
+        // { item: "forestcraft:ancient_iron_pickaxe", weight: 20 },
 
         { item: "mod_lavacow:moltenpickaxe", weight: 30 },
 
@@ -246,14 +246,14 @@ onEvent("server.datapack.high_priority", (event) => {
 
         { item: "iceandfire:dragonbone_shovel", weight: 8 },
 
-        { item: "forestcraft:molten_shovel", weight: 25 },
-        { item: "forestcraft:jewel_wart_shovel", weight: 30 },
-        { item: "forestcraft:gem_shovel", weight: 30 },
-        { item: "forestcraft:aquamarine_shovel", weight: 30 },
-        { item: "forestcraft:vita_shovel", weight: 30 },
-        { item: "forestcraft:blooming_shovel", weight: 15 },
-        { item: "forestcraft:sharped_leaf_shovel", weight: 15 },
-        { item: "forestcraft:ancient_iron_shovel", weight: 20 },
+        // { item: "forestcraft:molten_shovel", weight: 25 },
+        // { item: "forestcraft:jewel_wart_shovel", weight: 30 },
+        // { item: "forestcraft:gem_shovel", weight: 30 },
+        // { item: "forestcraft:aquamarine_shovel", weight: 30 },
+        // { item: "forestcraft:vita_shovel", weight: 30 },
+        // { item: "forestcraft:blooming_shovel", weight: 15 },
+        // { item: "forestcraft:sharped_leaf_shovel", weight: 15 },
+        // { item: "forestcraft:ancient_iron_shovel", weight: 20 },
 
         { item: "mod_lavacow:moltenshovel", weight: 30 },
 
