@@ -1170,5 +1170,59 @@
 				stage: ""
 			}]
 		}
+		{
+			x: -6.0d
+			y: 2.5d
+			shape: "square"
+			subtitle: "Can be infused."
+			id: "3C010608ACD4F000"
+			tasks: [{
+				id: "735EE3ADD0709D24"
+				type: "item"
+				item: {
+					id: "relics:leather_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			shape: "rsquare"
+			dependencies: ["3C010608ACD4F000"]
+			id: "380233D4910CAA72"
+			tasks: [{
+				id: "1C036E418C797961"
+				type: "item"
+				item: {
+					id: "relics:hunter_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			shape: "rsquare"
+			dependencies: ["3C010608ACD4F000"]
+			id: "5BDC7FB8B36B624C"
+			tasks: [{
+				id: "358F529E5B8764FA"
+				type: "item"
+				item: {
+					id: "relics:drowned_belt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
 	]
 }
