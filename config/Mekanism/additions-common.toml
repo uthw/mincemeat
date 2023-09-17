@@ -59,13 +59,13 @@
 			shouldSpawn = true
 			#The multiplier for weight of baby skeletons spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			weightPercentage = 0.5
+			weightPercentage = 0.02
 			#The multiplier for minimum group size of baby skeletons spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			minSizePercentage = 0.5
+			minSizePercentage = 0.02
 			#The multiplier for maximum group size of baby skeletons spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			maxSizePercentage = 0.5
+			maxSizePercentage = 0.02
 			#The multiplier for spawn cost per entity of baby skeletons spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			spawnCostPerEntityPercentage = 1.0
@@ -83,13 +83,13 @@
 			shouldSpawn = true
 			#The multiplier for weight of baby strays spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			weightPercentage = 0.5
+			weightPercentage = 0.05
 			#The multiplier for minimum group size of baby strays spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			minSizePercentage = 0.5
+			minSizePercentage = 0.05
 			#The multiplier for maximum group size of baby strays spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
-			maxSizePercentage = 0.5
+			maxSizePercentage = 0.05
 			#The multiplier for spawn cost per entity of baby strays spawns, compared to the adult mob.
 			#Range: 0.0 ~ 100.0
 			spawnCostPerEntityPercentage = 1.0
