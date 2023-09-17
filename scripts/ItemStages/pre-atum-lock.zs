@@ -27,7 +27,7 @@ for item in restrictedItems {
 ItemStages.restrict(<tag:items:curios:spellstone>, 'two');
 
 var restrictedWords = [
-    'diamond',
+    // 'diamond',
     'netherite',
     'anvil',
     'neptunium',
@@ -40,6 +40,10 @@ for allItems in game.items {
         {
             restrictedTag.add(allItems);
         }
+    }
+
+    if (allItems.contains(<item:minecraft:diamond>)) {
+        restrictedTag.add(allItems);
     }
 }
 
