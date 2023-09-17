@@ -27,7 +27,7 @@
 [coniferous_forest_biome]
 	#spawn weight of the biome (0 to disable generation)
 	#Range: 0.0 ~ 1.7976931348623157E308
-	weight = 4.0
+	weight = 0.0
 
 #desert_shrubland biome generation
 [desert_shrubland_biome]
@@ -39,7 +39,7 @@
 [high_coniferous_forest_biome]
 	#spawn weight of the biome (0 to disable generation)
 	#Range: 0.0 ~ 1.7976931348623157E308
-	weight = 2.0
+	weight = 0.0
 
 #lush_swamp biome generation
 [lush_swamp_biome]
@@ -51,7 +51,7 @@
 [meadow_biome]
 	#spawn weight of the biome (0 to disable generation)
 	#Range: 0.0 ~ 1.7976931348623157E308
-	weight = 5.0
+	weight = 0.0
 
 #mini_jungle biome generation
 [mini_jungle_biome]
