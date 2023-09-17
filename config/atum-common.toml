@@ -27,10 +27,10 @@
 	"Sandstorm Brightness" = 75
 	#Base transparency for sand particles
 	#Range: 0 ~ 100
-	"Sandstorm Base Transparency" = 10
+	"Sandstorm Base Transparency" = 60
 	#Sand particle transparency while wearing Sandstorm reducing helmets
 	#Range: 0 ~ 100
-	"Sandstorm Helmet Transparency" = 40
+	"Sandstorm Helmet Transparency" = 90
 	#Seconds it takes to transition from clear to sandstorm
 	#Range: 0 ~ 100
 	"Sandstorm Transition Time" = 25
