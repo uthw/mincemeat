@@ -11,7 +11,7 @@ var restrictedItems = [
     <item:enigmaticlegacy:etherium_ore>,
     <item:enigmaticlegacy:astral_dust>,
 
-    <item:forestcraft:equinox_totem>
+    // <item:forestcraft:equinox_totem>
     ] as IItemStack[];
 
 for item in restrictedItems {

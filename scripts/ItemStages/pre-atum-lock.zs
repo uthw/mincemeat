@@ -3,9 +3,9 @@ import crafttweaker.api.item.IItemStack;
 
 var restrictedTag = <tag:items:forge:two_restricted>;
 var restrictedItems = [
-    <item:forestcraft:vita>,
-    <item:forestcraft:blooming_log>,
-    <item:forestcraft:giant_stinger>,
+    // <item:forestcraft:vita>,
+    // <item:forestcraft:blooming_log>,
+    // <item:forestcraft:giant_stinger>,
     
     <item:iceandfire:witherbone>,
     <item:iceandfire:hippogryph_sword>,

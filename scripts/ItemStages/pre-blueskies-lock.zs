@@ -4,7 +4,7 @@ import crafttweaker.api.item.IItemStack;
 // Right now only 3 items are restricted to blueskies but might as well do this to be safe
 var restrictedTag = <tag:items:forge:one_restricted>;
 var restrictedItems = [
-    <item:forestcraft:aquamarine>,
+    // <item:forestcraft:aquamarine>,
     <item:astralsorcery:aquamarine>,
 
     <item:ars_nouveau:apprentice_spell_book>,

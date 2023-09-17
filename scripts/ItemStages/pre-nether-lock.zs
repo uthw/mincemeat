@@ -7,9 +7,9 @@ var restrictedItems = [
     <item:minecraft:blaze_rod>,
     <item:minecraft:wither_skeleton_skull>,
 
-    <item:forestcraft:soul_essence>,
-    <item:forestcraft:molten_ingot>,
-    <item:forestcraft:netherite_lighter>,
+    // <item:forestcraft:soul_essence>,
+    // <item:forestcraft:molten_ingot>,
+    // <item:forestcraft:netherite_lighter>,
 
     <item:ars_nouveau:archmage_spell_book>,
 

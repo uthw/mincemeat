@@ -9,7 +9,7 @@ var restrictedArray = [
     <item:wstweaks:lava_blade>,
     <item:wstweaks:blaze_blade>,
 
-    <item:forestcraft:demon_food>,
+    // <item:forestcraft:demon_food>,
     <item:alexsmobs:mysterious_worm>
     ] as IItemStack[];
 
