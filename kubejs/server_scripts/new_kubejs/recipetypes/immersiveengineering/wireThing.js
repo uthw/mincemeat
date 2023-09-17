@@ -1,6 +1,7 @@
 onEvent("recipes", (event) => {
+    let wireMaterials = ["copper", "electrum", "aluminum", "steel", "lead"];
+
     wireMaterials.forEach((material) => {
-        let wireMaterials = ["copper", "electrum", "aluminum", "steel", "lead"];
         event.remove({
             output: `immersiveengineering:wire_${material}`,
             input: "immersiveengineering:wirecutter",
