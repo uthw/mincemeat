@@ -8,19 +8,19 @@ magmaticFluidsAPI = true
 
 [Energy_Capacity]
 	#Range: 0 ~ 9000000000000000000
-	starterCap = 10000
+	starterCap = 1000
 	#Range: 0 ~ 9000000000000000000
-	basicCap = 100000
+	basicCap = 5000
 	#Range: 0 ~ 9000000000000000000
-	hardenedCap = 500000
+	hardenedCap = 10000
 	#Range: 0 ~ 9000000000000000000
-	blazingCap = 900000
+	blazingCap = 30000
 	#Range: 0 ~ 9000000000000000000
-	nioticCap = 2000000
+	nioticCap = 50000
 	#Range: 0 ~ 9000000000000000000
-	spiritedCap = 5000000
+	spiritedCap = 75000
 	#Range: 0 ~ 9000000000000000000
-	nitroCap = 10000000
+	nitroCap = 100000
 
 [Energy_Transfer]
 	#Range: 0 ~ 9000000000000000000
@@ -42,15 +42,15 @@ magmaticFluidsAPI = true
 	#Range: 0 ~ 9000000000000000000
 	starterGeneration = 15
 	#Range: 0 ~ 9000000000000000000
-	basicGeneration = 70
+	basicGeneration = 30
 	#Range: 0 ~ 9000000000000000000
-	hardenedGeneration = 180
+	hardenedGeneration = 50
 	#Range: 0 ~ 9000000000000000000
-	blazingGeneration = 400
+	blazingGeneration = 80
 	#Range: 0 ~ 9000000000000000000
-	nioticGeneration = 900
+	nioticGeneration = 100
 	#Range: 0 ~ 9000000000000000000
-	spiritedGeneration = 2000
+	spiritedGeneration = 120
 	#Range: 0 ~ 9000000000000000000
-	nitroGeneration = 4800
+	nitroGeneration = 150
 

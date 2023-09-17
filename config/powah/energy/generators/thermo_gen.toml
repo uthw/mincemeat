@@ -1,49 +1,49 @@
 
 [Energy_Capacity]
 	#Range: 0 ~ 9000000000000000000
-	starterCap = 5000
+	starterCap = 1000
 	#Range: 0 ~ 9000000000000000000
-	basicCap = 25000
+	basicCap = 1500
 	#Range: 0 ~ 9000000000000000000
-	hardenedCap = 100000
+	hardenedCap = 2000
 	#Range: 0 ~ 9000000000000000000
-	blazingCap = 500000
+	blazingCap = 3000
 	#Range: 0 ~ 9000000000000000000
-	nioticCap = 1000000
+	nioticCap = 5000
 	#Range: 0 ~ 9000000000000000000
-	spiritedCap = 2500000
+	spiritedCap = 7000
 	#Range: 0 ~ 9000000000000000000
-	nitroCap = 8000000
+	nitroCap = 10000
 
 [Energy_Transfer]
 	#Range: 0 ~ 9000000000000000000
-	starterTransfer = 50
+	starterTransfer = 40
 	#Range: 0 ~ 9000000000000000000
-	basicTransfer = 150
+	basicTransfer = 60
 	#Range: 0 ~ 9000000000000000000
-	hardenedTransfer = 300
+	hardenedTransfer = 80
 	#Range: 0 ~ 9000000000000000000
-	blazingTransfer = 700
+	blazingTransfer = 120
 	#Range: 0 ~ 9000000000000000000
-	nioticTransfer = 1000
+	nioticTransfer = 200
 	#Range: 0 ~ 9000000000000000000
-	spiritedTransfer = 2000
+	spiritedTransfer = 280
 	#Range: 0 ~ 9000000000000000000
-	nitroTransfer = 4000
+	nitroTransfer = 400
 
 [Energy_Generation]
 	#Range: 0 ~ 9000000000000000000
-	starterGeneration = 3
+	starterGeneration = 10
 	#Range: 0 ~ 9000000000000000000
-	basicGeneration = 8
+	basicGeneration = 15
 	#Range: 0 ~ 9000000000000000000
-	hardenedGeneration = 18
+	hardenedGeneration = 20
 	#Range: 0 ~ 9000000000000000000
-	blazingGeneration = 42
+	blazingGeneration = 30
 	#Range: 0 ~ 9000000000000000000
-	nioticGeneration = 90
+	nioticGeneration = 50
 	#Range: 0 ~ 9000000000000000000
-	spiritedGeneration = 200
+	spiritedGeneration = 70
 	#Range: 0 ~ 9000000000000000000
-	nitroGeneration = 800
+	nitroGeneration = 100
 

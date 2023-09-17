@@ -37,13 +37,13 @@
 	#Range: 0 ~ 9000000000000000000
 	basicGeneration = 400
 	#Range: 0 ~ 9000000000000000000
-	hardenedGeneration = 840
+	hardenedGeneration = 800
 	#Range: 0 ~ 9000000000000000000
-	blazingGeneration = 1200
+	blazingGeneration = 1600
 	#Range: 0 ~ 9000000000000000000
-	nioticGeneration = 2700
+	nioticGeneration = 2500
 	#Range: 0 ~ 9000000000000000000
-	spiritedGeneration = 3800
+	spiritedGeneration = 4000
 	#Range: 0 ~ 9000000000000000000
-	nitroGeneration = 5400
+	nitroGeneration = 7000
 
