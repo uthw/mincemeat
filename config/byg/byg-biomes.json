@@ -35,7 +35,7 @@
       "beach": "minecraft:beach",
       "river": "minecraft:river",
       "climate": "WARM",
-      "weight": 2,
+      "weight": 0,
       "dictionary": ["PLAINS", "RARE", "LUSH", "OVERWORLD"]
     },
     "byg:jacaranda_forest": {
@@ -665,7 +665,7 @@
       "beach": "byg:vibrant_swamplands",
       "river": "byg:vibrant_swamplands",
       "climate": "COOL",
-      "weight": 6,
+      "weight": 0,
       "dictionary": ["SWAMP", "WET", "LUSH", "WATER", "OVERWORLD"]
     },
     "byg:araucaria_savanna": {
@@ -688,7 +688,7 @@
     "byg:baobab_savanna": {
       "hills": [
         {
-          "weight": 5,
+          "weight": 3,
           "data": "minecraft:savanna"
         }
       ],
@@ -931,7 +931,7 @@
       "beach": "minecraft:beach",
       "river": "minecraft:river",
       "climate": "WARM",
-      "weight": 6,
+      "weight": 0,
       "dictionary": ["JUNGLE", "HOT", "DENSE", "OVERWORLD"]
     },
     "byg:boreal_forest": {
