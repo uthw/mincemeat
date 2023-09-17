@@ -49,12 +49,6 @@
       "level": 1,
       "minDifficulty": 10,
       "durationInMinutes": 10.0
-    },
-    {
-      "effect": "forestcraft:thorns",
-      "level": 1,
-      "minDifficulty": 10,
-      "durationInMinutes": 10.0
     }
   ],
   "blights": {
