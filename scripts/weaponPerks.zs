@@ -32,14 +32,14 @@ for item in game.items {
     for weapon in twentyFivePercent {
         if (weapon in (item.registryName as string))
         {
-            item.anyDamage().addGlobalAttributeModifier(<attribute:parrying:armor_pen>, "42f502a6-5bd5-4c7b-9043-3cf5d484b049", "armor_pen", 0.25, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
+            item.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:penetration>, "42f502a6-5bd5-4c7b-9043-3cf5d484b049", "armor_pen", 0.25, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
         }
     }
 
     for weapon in thirtyFivePercent {
         if (weapon in (item.registryName as string))
         {
-            item.anyDamage().addGlobalAttributeModifier(<attribute:parrying:armor_pen>, "42f502a6-5bd5-4c7b-9043-3cf5d484b049", "armor_pen", 0.35, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
+            item.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:penetration>, "42f502a6-5bd5-4c7b-9043-3cf5d484b049", "armor_pen", 0.35, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
         }
     }
 
@@ -47,21 +47,21 @@ for item in game.items {
     for weapon in fifteenPercent {
         if (weapon in (item.registryName as string))
         {
-            item.anyDamage().addGlobalAttributeModifier(<attribute:parrying:armor_pen>, "42f502a6-5bd5-4c7b-9043-3cf5d484b049", "armor_pen", 0.15, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
+            item.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:penetration>, "42f502a6-5bd5-4c7b-9043-3cf5d484b049", "armor_pen", 0.15, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
         }
     }
 
     for weapon in fiftyPercent {
         if (weapon in (item.registryName as string))
         {
-            item.anyDamage().addGlobalAttributeModifier(<attribute:parrying:armor_pen>, "42f502a6-5bd5-4c7b-9043-3cf5d484b049", "armor_pen", 0.5, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
+            item.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:penetration>, "42f502a6-5bd5-4c7b-9043-3cf5d484b049", "armor_pen", 0.5, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
         }
     }
 
     for weapon in seventyFivePercent {
         if (weapon in (item.registryName as string))
         {
-            item.anyDamage().addGlobalAttributeModifier(<attribute:parrying:armor_pen>, "42f502a6-5bd5-4c7b-9043-3cf5d484b049", "armor_pen", 0.75, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
+            item.anyDamage().addGlobalAttributeModifier(<attribute:obscure_api:penetration>, "42f502a6-5bd5-4c7b-9043-3cf5d484b049", "armor_pen", 0.75, MULTIPLY_BASE, [<equipmentslottype:mainhand>]);
         }
     }
 
