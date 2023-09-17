@@ -110,7 +110,7 @@
 	#Range: 1 ~ 64
 	"Nebu vein size" = 8
 	#Range: 0 ~ 64
-	"Nebu count, set to 0 to disable" = 1
+	"Nebu count, set to 0 to disable" = 2
 	#Range: 1 ~ 255
 	"Nebu max height" = 64
 	#Should Emeralds generate in Atum?
