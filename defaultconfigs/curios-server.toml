@@ -36,6 +36,6 @@ identifier = "hands"
 size = 1
 override = true
 [[curiosSettings]]
-identifier = "head"
+identifier = "back"
 size = 2
 override = true
