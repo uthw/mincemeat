@@ -43,5 +43,5 @@
 	"Maximum Height" = 0.5
 	#Scale of entries. A lower scale will make room for more rows to show. Works in tandem with "GUI Scale" option in "Video Settings".
 	#Range: 1 ~ 24
-	"Custom Scale" = 4
+	"Custom Scale" = 6
 
