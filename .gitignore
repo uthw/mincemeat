@@ -25,6 +25,11 @@ essential/
 
 ############################
 
+config/oculus.properties
+config/xaerominimap_entities.json
+
+############################
+
 
 imgui.log
 knownkeys.txt
