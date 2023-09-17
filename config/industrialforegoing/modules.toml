@@ -239,7 +239,7 @@
 		enabled = true
 
 		[modules.misc.enchantment_factory]
-			enabled = true
+			enabled = false
 
 		[modules.misc.infinity_charger]
 			enabled = true
@@ -254,7 +254,7 @@
 			enabled = true
 
 		[modules.misc.enchantment_extractor]
-			enabled = true
+			enabled = false
 
 		[modules.misc.mob_detector]
 			enabled = true
