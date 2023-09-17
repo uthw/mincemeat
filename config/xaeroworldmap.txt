@@ -1,4 +1,4 @@
-ignoreUpdate:165
+ignoreUpdate:166
 updateNotification:true
 differentiateByServerAddress:true
 caveMapsAllowed:true
