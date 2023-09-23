@@ -833,8 +833,8 @@ onEvent("server.datapack.high_priority", (event) => {
             valid_gear_sets: ["#standard"],
         },
         {
-            name: "osvermis",
-            entity: "mod_lavacow:osvermis",
+            name: "boneworm",
+            entity: "mod_lavacow:boneworm",
             weight: 4,
             size: {
                 width: 1,
