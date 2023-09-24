@@ -53,11 +53,11 @@ onEvent("recipes", (event) => {
             "minecraft:bone_meal",
             "atum:limestone_gravel",
         ],
-        [
-            { mod: "ars_nouveau" },
-            "minecraft:book",
-            "tombstone:dust_of_vanishing",
-        ],
+        // [
+        //     { mod: "ars_nouveau" },
+        //     "minecraft:book",
+        //     "tombstone:dust_of_vanishing",
+        // ],
         [{ mod: "ars_nouveau" }, "minecraft:hopper", "prettypipes:pipe"],
         [
             { output: "ars_nouveau:belt_of_levitation" },
@@ -484,6 +484,32 @@ onEvent("recipes", (event) => {
             { output: "xreliquary:bullets/neutral_bullet" },
             "minecraft:gold_nugget",
             "#forge:nuggets/lead",
+        ],
+        [
+            { output: "#forge:gears" },
+            "minecraft:iron_nugget",
+            "#forge:nuggets/aluminum",
+        ],
+        [
+            { output: "create:copper_casing" },
+            "#minecraft:planks",
+            "#forge:treated_wood",
+        ],
+        [
+            { output: "immersiveengineering:coil_lv" },
+            "minecraft:iron_ingot",
+            "thermal:rf_coil",
+        ],
+        [{ output: "dynamo" }, "minecraft:iron_ingot", "#forge:plates/iron"],
+        [
+            { output: "immersiveengineering:blastbrick" },
+            "minecraft:nether_brick",
+            "#forge:stone/limestone",
+        ],
+        [
+            { output: "immersiveengineering:blastbrick" },
+            "minecraft:brick",
+            "environmental:mud_brick",
         ],
     ];
 
