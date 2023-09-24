@@ -26,8 +26,8 @@
 			corner: false
 		}
 		{
-			x: 8.5d
-			y: 0.5d
+			x: 14.0d
+			y: 2.0d
 			width: 6.0d
 			height: 1.0d
 			rotation: 0.0d
@@ -38,7 +38,7 @@
 			corner: false
 		}
 		{
-			x: 8.0d
+			x: 6.5d
 			y: 6.0d
 			width: 6.0d
 			height: 1.0d
@@ -53,16 +53,16 @@
 	quests: [
 		{
 			title: "Ars Nouveau"
-			x: 1.5d
-			y: -1.75d
+			x: 8.0d
+			y: -2.0d
 			shape: "octagon"
 			description: [
 				"Ars Nouveau provides spell crafting, magical devices, powerful trinkets, and magical entity automation."
 				""
 				"My Ars Nouveau quests aren't done yet so prefer to the one imported from Enigmatica 6"
 			]
-			dependencies: ["2A2B25F44A4AE27B"]
-			size: 1.5d
+			dependencies: ["5B64E6EE42B87A90"]
+			size: 2.0d
 			id: "49079A4790CE0545"
 			tasks: [{
 				id: "78EC8A83512193B4"
@@ -93,7 +93,7 @@
 		}
 		{
 			x: 10.0d
-			y: -3.5d
+			y: -4.5d
 			shape: "hexagon"
 			dependencies: [
 				"51D2D5057356DD35"
@@ -132,11 +132,10 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: -5.5d
+			x: 7.0d
+			y: -6.0d
 			shape: "hexagon"
-			hide_dependency_lines: true
-			dependencies: ["49079A4790CE0545"]
+			dependencies: ["129CAC4D971CBAD8"]
 			id: "51D2D5057356DD35"
 			tasks: [{
 				id: "6C27AE32A679D581"
@@ -165,8 +164,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -5.5d
+			x: 5.5d
+			y: -1.0d
 			shape: "square"
 			description: [
 				"Crafting glyphs requires a glyph press."
@@ -214,8 +213,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -3.5d
+			x: 6.0d
+			y: -3.0d
 			description: [
 				"This arcane gem is found in the underground Everbright."
 				""
@@ -277,8 +276,8 @@
 		}
 		{
 			title: "Tier 1 Combo #1"
-			x: 7.5d
-			y: -3.5d
+			x: 5.5d
+			y: -2.0d
 			description: [
 				"This combination sets a target on fire with the Projectile and then launches them away from you."
 				""
@@ -349,8 +348,8 @@
 		}
 		{
 			title: "Tier 1 combo #2"
-			x: 8.5d
-			y: -3.5d
+			x: 6.5d
+			y: -2.0d
 			description: ["This one is useful for breaking blocks like obsidian. It shoots a projectile with a more powerful edition of Break due to the 2 Amplifies."]
 			dependencies: ["0A058F26C128ECAC"]
 			id: "00F69E6D876D325E"
@@ -418,8 +417,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -4.5d
+			x: 4.5d
+			y: -3.0d
 			description: ["Creates source gems over time. It can work without player interaction, but is very slow. Having a filled Source Jar nearby is much better."]
 			dependencies: ["72096F084142B453"]
 			id: "0EBFA78A91488E92"
@@ -452,8 +451,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -5.5d
+			x: 3.0d
+			y: -3.0d
 			shape: "square"
 			description: ["Collects Source from nearby generators. See the 5 quests that depend on this one for examples."]
 			dependencies: ["0EBFA78A91488E92"]
@@ -478,8 +477,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -6.0d
+			x: 3.5d
+			y: -2.0d
 			description: ["Generates a large amount of source when potions are brewed close to it."]
 			dependencies: ["3D4F3D27DC68EEF3"]
 			id: "1428E0A6A540FBBD"
@@ -503,8 +502,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -6.5d
+			x: 2.5d
+			y: -2.0d
 			description: ["Generates source when animals are bred or mobs are killed close to it."]
 			dependencies: ["3D4F3D27DC68EEF3"]
 			id: "3B0E94580CB1B0E6"
@@ -528,8 +527,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -5.5d
+			x: 2.0d
+			y: -1.0d
 			description: [" Generates a little source whenever crops grow close to it."]
 			dependencies: ["3D4F3D27DC68EEF3"]
 			id: "63D072A5248B0283"
@@ -553,8 +552,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: -4.5d
+			x: 3.0d
+			y: -1.0d
 			description: ["It decomposes food dropped nearby and turns it into source. More source is generated for using food crafted from source berries."]
 			dependencies: ["3D4F3D27DC68EEF3"]
 			id: "01D420E633271E2E"
@@ -578,8 +577,8 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -5.0d
+			x: 4.0d
+			y: -1.0d
 			description: ["Creates a small amount of source when blocks are burned near it, but Archwood Logs can increase this."]
 			dependencies: ["3D4F3D27DC68EEF3"]
 			id: "63F5A75BE447ED8C"
@@ -603,8 +602,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -6.5d
+			x: 1.5d
+			y: -3.0d
 			description: [
 				"Source relays are the premier method of moving source from place to place. To do this, you can link them using Dominion Wands."
 				""
@@ -654,8 +653,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -2.0d
+			x: 3.0d
+			y: -7.5d
 			shape: "square"
 			description: [
 				"When certain items are placed on the eight surrounding pedestols with the Arcane Core below it, you can place a tool or armor of choice on the apparatus to enchant it."
@@ -721,8 +720,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: -4.0d
+			x: 3.0d
+			y: -4.5d
 			description: ["Place an enchanted item on this for use with an Enchanting Apparatus."]
 			dependencies: ["3D4F3D27DC68EEF3"]
 			id: "5DB7162A1CF3DB61"
@@ -755,8 +754,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -3.0d
+			x: 3.0d
+			y: -6.0d
 			description: ["Place this below an Enchanting Apparatus"]
 			dependencies: ["5DB7162A1CF3DB61"]
 			id: "628CC62A51D9176C"
@@ -789,8 +788,8 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -4.5d
+			x: 6.5d
+			y: -1.0d
 			description: [
 				"Combine with the desired resource in a glyph press and create that spell."
 				""
@@ -837,8 +836,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -5.5d
+			x: 0.5d
+			y: -2.0d
 			dependencies: ["44B343DA2BAED7E9"]
 			id: "053936FA1B6E8E5B"
 			tasks: [{
@@ -861,8 +860,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -7.5d
+			x: 0.5d
+			y: -4.0d
 			dependencies: ["44B343DA2BAED7E9"]
 			id: "4A86AA1B158B6FD8"
 			tasks: [{
@@ -885,8 +884,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -6.5d
+			x: 0.5d
+			y: -3.0d
 			dependencies: ["44B343DA2BAED7E9"]
 			id: "6F5FA76D7E90EF95"
 			tasks: [{
@@ -910,7 +909,7 @@
 		}
 		{
 			x: 4.5d
-			y: -0.5d
+			y: -7.5d
 			description: [
 				"This is a plant made of source that, when mature, allows the creation of 4 magebloom fiber."
 				""
@@ -939,7 +938,7 @@
 		}
 		{
 			x: 4.5d
-			y: 0.5d
+			y: -6.0d
 			dependencies: ["07E655DC37EF5CF5"]
 			id: "129CAC4D971CBAD8"
 			tasks: [{
@@ -963,8 +962,8 @@
 		}
 		{
 			title: "Novice Armor"
-			x: 5.5d
-			y: 1.0d
+			x: 6.0d
+			y: -6.5d
 			description: ["Increases maximum mana"]
 			dependencies: ["129CAC4D971CBAD8"]
 			id: "7C4AECE18FE4A6A1"
@@ -1054,7 +1053,7 @@
 		}
 		{
 			x: 5.5d
-			y: 0.0d
+			y: -7.5d
 			description: [
 				"It lets you store spells for use later.  Keep it somewhere valuable!"
 				""
@@ -1086,8 +1085,8 @@
 		}
 		{
 			title: "Pewter"
-			x: 0.5d
-			y: 4.0d
+			x: 1.5d
+			y: 3.5d
 			shape: "circle"
 			subtitle: "Pewter blend is made by mixing iron and lead."
 			dependencies: ["44061A57BC1657E2"]
@@ -1120,8 +1119,8 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 3.0d
+			x: 0.0d
+			y: 2.0d
 			description: [
 				"You may find it lain across the ground. It is tainted, making undead mobs unwilling to cross it."
 				""
@@ -1151,8 +1150,8 @@
 		{
 			title: "Ritual Preparation"
 			icon: "eidolon:brazier"
-			x: 0.5d
-			y: 5.5d
+			x: 1.5d
+			y: 4.5d
 			description: [
 				"Used to initiate magic rituals. Rituals start by placing an item on top of the brazier, and then using flint and steel to light it."
 				""
@@ -1224,10 +1223,10 @@
 		}
 		{
 			x: 6.0d
-			y: 6.0d
+			y: 5.0d
 			subtitle: "Not like the other girls"
 			description: ["Similar to a normal crafting table, but provides four extra slots on each side to assist with magic recipes."]
-			dependencies: ["461A5C3C298E08ED"]
+			dependencies: ["7017FB66F6F3B2DE"]
 			id: "11F9FFCB87A791C5"
 			tasks: [{
 				id: "1E19527FBACB3114"
@@ -1249,8 +1248,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 5.5d
+			x: 0.5d
+			y: 4.5d
 			description: ["Some rituals require special necrotic items to be used as foci. You will be notified if this item is needed in a ritual. Otherwise, it operates in the same way as a brazier."]
 			dependencies: ["0F8FDFCE19B5216D"]
 			id: "4AE0AEE8B7153385"
@@ -1399,7 +1398,7 @@
 				}
 			}
 			x: 0.5d
-			y: 7.0d
+			y: 5.5d
 			subtitle: "Was he the scientist or the monster?"
 			description: [
 				"Brazier: Charcoal"
@@ -1494,7 +1493,7 @@
 			title: "Purifying Ritual"
 			icon: "easy_villagers:villager"
 			x: 2.5d
-			y: 5.5d
+			y: 4.5d
 			subtitle: "Free my boys"
 			description: ["Turns nearby zombie villagers into villagers. Once again, trap them using enchanted ash or an item that serves a similar purpose."]
 			dependencies: ["31302C25EFA8B097"]
@@ -1594,7 +1593,7 @@
 		}
 		{
 			x: 4.0d
-			y: 7.0d
+			y: 3.5d
 			subtitle: "Yes, they added Destiny in this mod"
 			description: [
 				"Have you boiled water before? No? Well, I'm going to show you how."
@@ -1607,7 +1606,6 @@
 				""
 				"*If you drop items in bulk into a crucible, it will not try to make multiple batches of the output!!!"
 			]
-			hide_dependency_lines: true
 			dependencies: ["7D3CA5C984F11D23"]
 			id: "7017FB66F6F3B2DE"
 			tasks: [{
@@ -1669,8 +1667,8 @@
 		}
 		{
 			title: "Arcane Gold Ingots"
-			x: 2.5d
-			y: 7.0d
+			x: 4.0d
+			y: 4.5d
 			subtitle: "Cooking by the book"
 			description: [
 				"Step 1: 1 Soul Shard and 2 Redstone (any order). The pot must be boiling."
@@ -1681,10 +1679,7 @@
 				""
 				"You may also use Forbidden \\& Arcanus's arcane gold ingot for Eidolon recipes. This is actually suggested since they are more straightforward, not requiring a special workstation."
 			]
-			dependencies: [
-				"7017FB66F6F3B2DE"
-				"736EBC7EB7CDD0CF"
-			]
+			dependencies: ["7017FB66F6F3B2DE"]
 			id: "77D7C0FA8A37671F"
 			tasks: [{
 				id: "09C54FC9787A9BCB"
@@ -1747,8 +1742,8 @@
 		{
 			title: "Shadow Gem Recipe"
 			icon: "eidolon:shadow_gem"
-			x: 5.0d
-			y: 6.0d
+			x: 6.0d
+			y: 3.5d
 			subtitle: "No life stories here"
 			description: [
 				"Step 1: Coal"
@@ -1904,8 +1899,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: 4.0d
+			x: 0.5d
+			y: 3.5d
 			subtitle: "Smuggle potions from the Nether"
 			description: [
 				"A workstation which may brew potions without needing blaze powder. This means potions aren't gated behind killing Blazes (or other methods of getting blaze powder)."
@@ -1947,120 +1942,8 @@
 			}]
 		}
 		{
-			icon: {
-				id: "eidolon:polished_planks"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
-			x: 6.0d
-			y: 7.0d
-			subtitle: "Not found in your average cookbook"
-			description: [
-				"Step 1: any planks (32)"
-				"Step 2: enchanted ash and soul shard"
-				"output: 32 Polished Wood Planks. Used for crafting the Magic Workbench in this modpack."
-			]
-			dependencies: ["7017FB66F6F3B2DE"]
-			id: "461A5C3C298E08ED"
-			tasks: [
-				{
-					id: "38BA9B6BB90FAAA2"
-					type: "item"
-					item: {
-						id: "eidolon:polished_planks"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 32L
-				}
-				{
-					id: "3F4A17FC9BFCFE8D"
-					type: "item"
-					item: {
-						id: "minecraft:oak_planks"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 32L
-				}
-				{
-					id: "4D5B133955902202"
-					type: "item"
-					item: {
-						id: "eidolon:enchanted_ash"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-				{
-					id: "07CF1931EB0CD65C"
-					type: "item"
-					item: {
-						id: "eidolon:soul_shard"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-				}
-			]
-			rewards: [
-				{
-					id: "5B8E8D91F3124855"
-					type: "item"
-					item: {
-						id: "eidolon:polished_wood_pillar"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 2
-				}
-				{
-					id: "1D48E6918EDB590C"
-					type: "item"
-					item: {
-						id: "minecraft:red_carpet"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
-					count: 3
-				}
-				{
-					id: "2033F5D5D4C00424"
-					type: "ftbmoney:money"
-					ftb_money: 30L
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: 8.0d
+			x: 3.0d
+			y: 6.5d
 			description: ["Besides the soul enchanter this may be the most useful item to you in Eidolon."]
 			dependencies: ["3AD5F54906DEF6B4"]
 			id: "7362296699DA8EFE"
@@ -2117,8 +2000,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 8.0d
+			x: 4.0d
+			y: 6.5d
 			dependencies: ["3AD5F54906DEF6B4"]
 			id: "0FBF6E244FB39AC1"
 			tasks: [{
@@ -2173,8 +2056,8 @@
 		}
 		{
 			title: "Baubles"
-			x: 1.0d
-			y: 8.0d
+			x: 3.5d
+			y: 5.5d
 			dependencies: ["77D7C0FA8A37671F"]
 			id: "3AD5F54906DEF6B4"
 			tasks: [
@@ -2267,8 +2150,8 @@
 		}
 		{
 			title: "Wicked Weave"
-			x: 6.0d
-			y: 5.0d
+			x: 8.0d
+			y: 3.5d
 			subtitle: "Be like the cool kids"
 			dependencies: [
 				"5099A90FA346D626"
@@ -2329,8 +2212,8 @@
 		}
 		{
 			title: "Build an Altar"
-			x: 4.5d
-			y: 3.0d
+			x: 5.0d
+			y: 2.0d
 			subtitle: "Get to know the Dark Lord"
 			description: [
 				"You will need a means of communicating with the dark powers. Though rudimentary, the simple wood-straw combination works fine."
@@ -2383,8 +2266,8 @@
 		}
 		{
 			title: "Second Chant"
-			x: 6.0d
-			y: 3.0d
+			x: 6.5d
+			y: 2.0d
 			subtitle: "Ow!"
 			description: [
 				"Eventually, you'll learn the Blood Chant. First, craft a Goblet. This one is different in that it demands a blood sacrifice. Kill a mob near the altar and watch the goblet fill with blood. Then, you're good to use your new chant."
@@ -2437,8 +2320,8 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: 4.0d
+			x: 8.0d
+			y: 2.0d
 			subtitle: "Casual Demon Hexing"
 			description: [
 				"After dropping a Pewter Inlay on the ground, use your new chant. The Dark Lord will give you an Unholy Symbol, which is a crafting ingredient used often with the Magic Workbench."
@@ -2490,8 +2373,8 @@
 					Damage: 0
 				}
 			}
-			x: 4.5d
-			y: 4.0d
+			x: 7.0d
+			y: 3.0d
 			subtitle: "Get dripped out"
 			description: [
 				"Helmet: 50% increase to magic and wither damage from the player. Wither damage also has a lifesteal property now."
@@ -2566,8 +2449,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 5.0d
+			x: 7.0d
+			y: 4.0d
 			subtitle: "Jigglypuff's B-air for all your attacks"
 			description: ["This makes a nasty combination with the Spectre's Grasp from Meet Your Fight."]
 			dependencies: ["5B64E6EE42B87A90"]
@@ -2600,8 +2483,8 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 4.0d
+			x: 9.5d
+			y: 3.0d
 			subtitle: "He needs your help!"
 			description: ["Enemies killed by the blade of this weapon will have their remains crystallized and turned into soul shards."]
 			dependencies: ["2D8BA0A7766C58D9"]
@@ -2664,8 +2547,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 8.0d
+			x: 5.0d
+			y: 5.5d
 			description: [
 				"This item has a unique premise: there is no level requirement and even already enchanted items can be upgraded, but it can only do this in increments of 1 level. It also requires soul shards instead of lapis."
 				""
@@ -2790,7 +2673,7 @@
 			]
 		}
 		{
-			x: 2.5d
+			x: 9.5d
 			y: -1.0d
 			description: [
 				"You need mana to cast spells. Now, how do you get mana? A few ways:"
@@ -2807,8 +2690,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: 0.5d
+			x: 6.5d
+			y: -7.5d
 			description: ["A flask that can store 8 charges of a potion effect. Filled using a Potion Jar or combining them on a crafting grid."]
 			dependencies: ["129CAC4D971CBAD8"]
 			id: "7F40EB23D1F8F1DB"
@@ -2844,8 +2727,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -0.5d
+			x: 4.0d
+			y: -8.5d
 			description: ["The enchanting apparatus can also create trinkets like this one."]
 			dependencies: ["013CDE87A0D999C3"]
 			id: "52AAFFDAAB15AE28"
@@ -2897,8 +2780,8 @@
 			}]
 		}
 		{
-			x: 6.0d
-			y: -3.0d
+			x: 4.5d
+			y: -4.5d
 			shape: "square"
 			subtitle: "Better get used to it!"
 			description: [
@@ -2944,7 +2827,7 @@
 		}
 		{
 			x: 7.0d
-			y: -2.5d
+			y: -4.5d
 			description: ["Gives creative flight for a short time. Useful when you're doing things like building and excavating. Every time your flight is replenished, some source is used."]
 			dependencies: ["0AA8E8253E201B38"]
 			optional: true
@@ -2969,10 +2852,13 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -2.5d
+			x: 8.5d
+			y: -4.5d
 			description: ["When amplified with one of each wilden drop and a lapis block, the Wilden Guardian is summoned, a moderately difficult boss. Killing it and taking its trophy allows you to craft the Archmage's Spellbook."]
-			dependencies: ["5E79EE36DB5F353A"]
+			dependencies: [
+				"5E79EE36DB5F353A"
+				"0AA8E8253E201B38"
+			]
 			id: "65C258505EBC649E"
 			tasks: [{
 				id: "1AC59EAE90527847"
@@ -3019,8 +2905,8 @@
 		}
 		{
 			title: "Tier 2 Combo"
-			x: 12.0d
-			y: -2.5d
+			x: 10.0d
+			y: -6.0d
 			description: ["A strong combination that shoots a projectile that does around 13 damage to an unprotected foe. This makes it good for crowd control."]
 			dependencies: ["37EE86D7C8A52C68"]
 			id: "4CEC8C1B47838DCD"
@@ -3097,8 +2983,8 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -3.5d
+			x: 11.5d
+			y: -4.5d
 			description: ["If you haven't figured it out yet, this allows you to create tier 3 glyphs at a glyph press."]
 			dependencies: ["085A157C19E990CC"]
 			id: "613A9E5A9D880A19"
@@ -3129,8 +3015,8 @@
 			]
 		}
 		{
-			x: 6.0d
-			y: -1.0d
+			x: 7.0d
+			y: -3.5d
 			subtitle: "Sign the contract"
 			description: [
 				"This ritual converts nearby capable entities into bound scripts, which can be used to summon familiars."
@@ -3191,8 +3077,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -1.0d
+			x: 10.5d
+			y: -3.0d
 			description: ["Gives you speed 2 while active. Feed it a gold nugget and it'll give you x-ray for gold ore."]
 			dependencies: ["40A4602377E4E3F2"]
 			id: "670E8F6892F81E37"
@@ -3223,8 +3109,8 @@
 			]
 		}
 		{
-			x: 7.0d
-			y: -1.5d
+			x: 9.5d
+			y: -3.5d
 			description: ["When summoned as an ally, bookwyrms use their power to buff your spells and increase their mana efficiency."]
 			dependencies: ["40A4602377E4E3F2"]
 			id: "2626C487E7BA6230"
@@ -3255,8 +3141,8 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: -1.5d
+			x: 11.5d
+			y: -3.5d
 			description: ["Drygmy familiars can increase your looting level and buff your Earth spells."]
 			dependencies: ["40A4602377E4E3F2"]
 			id: "62A650D0391A90B5"
@@ -3295,8 +3181,8 @@
 			}]
 		}
 		{
-			x: 9.0d
-			y: -0.5d
+			x: 11.5d
+			y: -2.5d
 			description: ["Summoned wixies seek to assist mages in combat, tossing their concoctions at adversaries."]
 			dependencies: ["40A4602377E4E3F2"]
 			id: "0FC6F8A814D4DF45"
@@ -3320,8 +3206,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: -0.5d
+			x: 9.5d
+			y: -2.5d
 			description: ["As familiars, sylphs cut the mana costs of earth glyphs in half, as well as increasing the saturation bonus from the foods you're eating."]
 			dependencies: ["40A4602377E4E3F2"]
 			id: "209F204F488FC560"
@@ -3354,8 +3240,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: -2.0d
+			x: 5.0d
+			y: -8.5d
 			description: ["Can be used for a plethora of things in Ars Nouveau. Coming soon."]
 			dependencies: ["013CDE87A0D999C3"]
 			id: "47E4D3920AB4A17C"
@@ -3591,7 +3477,7 @@
 					}
 				}
 			}
-			x: 9.0d
+			x: 9.5d
 			y: 5.0d
 			subtitle: "Let's get thaumic"
 			description: [
@@ -3684,8 +3570,8 @@
 			]
 		}
 		{
-			x: 10.0d
-			y: 5.0d
+			x: 9.5d
+			y: 6.0d
 			subtitle: "Now, your power is without rival"
 			description: ["A faster netherite sword. When full praetor armor is worn, it shoots a beam while there is blood in your meter."]
 			dependencies: ["65109F3D722D59B2"]
@@ -3713,8 +3599,8 @@
 			}]
 		}
 		{
-			x: 7.0d
-			y: 3.0d
+			x: 9.5d
+			y: 2.0d
 			dependencies: ["2D8BA0A7766C58D9"]
 			id: "6A592BBCF4008FC5"
 			tasks: [{
@@ -4120,8 +4006,8 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: -3.5d
+			x: 8.5d
+			y: -6.0d
 			dependencies: ["51D2D5057356DD35"]
 			id: "37EE86D7C8A52C68"
 			tasks: [{
@@ -5910,230 +5796,8 @@
 			]
 		}
 		{
-			title: "Forbidden and Arcanus"
-			x: -0.5d
-			y: -1.5d
-			shape: "octagon"
-			description: [
-				"F\\&A adds a broad range of new materials, items, ritauls, and such with a magic/fantasy theme. Many of these items focus on the late-game."
-				""
-				"The guide book is incomplete on 1.16, so all your guidance will come from these quests."
-			]
-			dependencies: ["2A2B25F44A4AE27B"]
-			id: "0AE94853AD2E52FE"
-			tasks: [{
-				id: "20AAA2445299658D"
-				type: "item"
-				item: "forbidden_arcanus:arcane_crystal"
-			}]
-			rewards: [{
-				id: "4593E82BF148A9B5"
-				type: "ftbmoney:money"
-				ftb_money: 15L
-			}]
-		}
-		{
-			x: 1.0d
-			y: -3.0d
-			subtitle: "Hold right click on soul sand to extract a soul from it"
-			description: ["Some rituals require souls."]
-			dependencies: ["7F5FBAF8DDAEDF75"]
-			id: "788B5BB6F7C97EEB"
-			tasks: [{
-				id: "2AEFFF2C4C707D74"
-				type: "item"
-				item: {
-					id: "forbidden_arcanus:soul_extractor"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4BAEB03FC0FEBAC6"
-				type: "ftbmoney:money"
-				ftb_money: 20L
-			}]
-		}
-		{
-			title: "Forbidden Rituals"
-			icon: "forbidden_arcanus:hephaestus_forge"
-			x: 0.0d
-			y: -2.5d
-			subtitle: "What if it crashes your game?"
-			description: [
-				"The Hephaestus Forge is a special block that acts as the centerpiece for rituals from this mod. Here is the multiblock you must build to accomodate it:"
-				"{image:kubejs:textures/item/forge.png width:1000 height:700 align:1 fit:true}"
-				"After you're done, place the smithing table in the center shift + right click it with the dust."
-				""
-				"This may seem obvious, but the last step before you're ready to start rituals is putting a pedestal on all 8 of the arcane chiseled stone."
-			]
-			dependencies: ["0AE94853AD2E52FE"]
-			id: "7F5FBAF8DDAEDF75"
-			tasks: [
-				{
-					id: "03936323C9C6662D"
-					type: "item"
-					item: "forbidden_arcanus:polished_darkstone"
-					count: 45L
-				}
-				{
-					id: "34327F66C877E97F"
-					type: "item"
-					item: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
-					count: 9L
-				}
-				{
-					id: "01E13D7D07EE5A59"
-					type: "item"
-					item: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
-					count: 4L
-				}
-				{
-					id: "734E2328A16DC03E"
-					type: "item"
-					item: "forbidden_arcanus:mundabitur_dust"
-				}
-				{
-					id: "7DD32BC44E842820"
-					type: "item"
-					item: "minecraft:smithing_table"
-				}
-				{
-					id: "49BD45457D2AB392"
-					type: "item"
-					item: "forbidden_arcanus:darkstone_pedestal"
-					count: 6L
-				}
-			]
-			rewards: [
-				{
-					id: "7A82FF2671C6DF39"
-					type: "loot"
-					table_id: 6879408203518360977L
-				}
-				{
-					id: "06C640D9F6061C08"
-					type: "loot"
-					table_id: 5232846627972773386L
-				}
-				{
-					id: "261D9F355CD7CAB6"
-					type: "item"
-					item: "forbidden_arcanus:sanity_meter"
-				}
-			]
-		}
-		{
-			title: "Obelisk"
-			x: 1.0d
-			y: -4.0d
-			subtitle: "Small multiblock that can generate aureal"
-			description: [
-				"Place the darkstone on the bottom and crystal blocks on top. To transform it into an obelisk, right click with mundabitur dust."
-				""
-				"If this is used in place of a pedestal on the ritual multiblock, it will slowly fill the Aureal bar on the forge."
-				""
-				"Since most rituals only need 6 pedestals, it's best to create 2 obelisks."
-			]
-			dependencies: ["7F5FBAF8DDAEDF75"]
-			id: "3375175EAF11F03F"
-			tasks: [
-				{
-					id: "02EF26979E4D47E6"
-					type: "item"
-					item: "forbidden_arcanus:arcane_crystal_block"
-					count: 2L
-				}
-				{
-					id: "2D753DD2B77F5879"
-					type: "item"
-					item: "forbidden_arcanus:arcane_polished_darkstone"
-				}
-				{
-					id: "52DB510EA4BFE70E"
-					type: "item"
-					item: "forbidden_arcanus:mundabitur_dust"
-				}
-			]
-			rewards: [{
-				id: "6A95FADF8873305B"
-				type: "ftbmoney:money"
-				ftb_money: 30L
-			}]
-		}
-		{
-			title: "Is this even worth it?"
-			icon: {
-				id: "forbidden_arcanus:mystical_dagger"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: 0.0d
-			y: -3.5d
-			subtitle: "I don't know."
-			description: [
-				"Here are some things you may need for the extra side slots of the hephaestus forge."
-				""
-				"The only uses for rituals are making enchanted books."
-			]
-			dependencies: ["7F5FBAF8DDAEDF75"]
-			id: "2D48CDDC35597ED3"
-			tasks: [
-				{
-					id: "4ED8A25B017E3A31"
-					type: "item"
-					item: "forbidden_arcanus:test_tube"
-				}
-				{
-					id: "63442A9D1F762B90"
-					type: "item"
-					item: {
-						id: "forbidden_arcanus:mystical_dagger"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "5C6190420093EB49"
-					type: "item"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "minecraft:experience_bottle"
-									Count: 1b
-								}
-								{
-									id: "forbidden_arcanus:xpetrified_orb"
-									Count: 1b
-								}
-							]
-						}
-					}
-				}
-				{
-					id: "296A5D3369CBD1AF"
-					type: "item"
-					item: "forbidden_arcanus:soul"
-				}
-			]
-			rewards: [{
-				id: "1DDAD905A2BEAE3B"
-				type: "ftbmoney:money"
-				ftb_money: 25L
-			}]
-		}
-		{
-			x: 1.0d
-			y: 9.0d
+			x: 3.5d
+			y: 7.5d
 			dependencies: ["3AD5F54906DEF6B4"]
 			id: "18C67A9D50E018CA"
 			tasks: [{
@@ -6152,7 +5816,6 @@
 			x: -2.5d
 			y: 2.0d
 			shape: "octagon"
-			dependencies: ["2A2B25F44A4AE27B"]
 			size: 1.5d
 			id: "75D319539CD92872"
 			tasks: [{
@@ -6760,14 +6423,10 @@
 			}]
 		}
 		{
-			x: -3.5d
+			x: -4.0d
 			y: 3.0d
 			subtitle: "Cast AN spells using LP"
-			hide_dependency_lines: true
-			dependencies: [
-				"1C2300F8EFEE7A81"
-				"49079A4790CE0545"
-			]
+			dependencies: ["1C2300F8EFEE7A81"]
 			hide: true
 			id: "14271CB536B0603C"
 			tasks: [{
@@ -6799,19 +6458,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 1.5d
-			dependencies: ["2A2B25F44A4AE27B"]
-			id: "0D0001F182BB457A"
-			tasks: [{
-				id: "0A23446E3712FA86"
-				type: "checkmark"
-				title: "coming soon: Mana and Artifice"
-			}]
-		}
-		{
-			x: 5.0d
-			y: -1.5d
+			x: 6.0d
+			y: -8.5d
 			hide_dependency_lines: true
 			dependencies: ["49079A4790CE0545"]
 			id: "65F99ED6E5B6B7E9"
