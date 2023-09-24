@@ -19,6 +19,7 @@
 			x: 0.0d
 			y: -4.0d
 			shape: "gear"
+			subtitle: "That's why they call me Mr. Fahrenheit!"
 			description: [
 				"A special flint and steel needed to get into the nether."
 				""
@@ -243,43 +244,6 @@
 			}]
 		}
 		{
-			x: -5.25d
-			y: -4.5d
-			subtitle: "Exact revenge!"
-			dependencies: ["227A041194766265"]
-			id: "1A78D0E2515CE73E"
-			tasks: [{
-				id: "701D8557806FC646"
-				type: "item"
-				item: {
-					id: "forestcraft:ghast_cannon"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "31341865ADF95514"
-				type: "item"
-				item: {
-					id: "minecraft:fire_charge"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				count: 12
-			}]
-		}
-		{
 			x: -4.25d
 			y: -3.0d
 			subtitle: "The real solution to world hunger"
@@ -476,150 +440,6 @@
 						}
 					}
 				}
-			}]
-		}
-		{
-			x: 7.0d
-			y: -8.0d
-			subtitle: "Stop raising my prices!"
-			dependencies: ["755C36B2CA0A0FD2"]
-			id: "7F256ADD51A9A8BA"
-			tasks: [{
-				id: "2E1EECD89FCB36BB"
-				type: "item"
-				item: {
-					id: "forestcraft:spectralum"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "457CF3DDDFFC8F32"
-				type: "item"
-				item: {
-					id: "forestcraft:molten_ingot"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				count: 4
-			}]
-		}
-		{
-			x: 6.5d
-			y: -7.0d
-			dependencies: ["7F256ADD51A9A8BA"]
-			id: "34F7BDFC24DAACC3"
-			tasks: [{
-				id: "7C004D6F8BCDD90A"
-				type: "item"
-				item: {
-					id: "forestcraft:soul_harp"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "60FA9D2E0E7114ED"
-				type: "ftbmoney:money"
-				ftb_money: 15L
-			}]
-		}
-		{
-			x: 7.5d
-			y: -9.0d
-			description: ["Inflicts wither."]
-			dependencies: ["7F256ADD51A9A8BA"]
-			id: "605F9A9EE7884595"
-			tasks: [{
-				id: "0909AF0337F03C3C"
-				type: "item"
-				item: {
-					id: "forestcraft:soul_scythe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "39EB634174FBABA1"
-				type: "ftbmoney:money"
-				ftb_money: 15L
-			}]
-		}
-		{
-			x: 7.5d
-			y: -7.0d
-			dependencies: ["7F256ADD51A9A8BA"]
-			id: "4CD8C5B30BFA73A7"
-			tasks: [{
-				id: "034D32AD0C68E72E"
-				type: "item"
-				item: {
-					id: "forestcraft:soul_conqueror"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "4930385DA536806B"
-				type: "ftbmoney:money"
-				ftb_money: 15L
-			}]
-		}
-		{
-			x: 6.5d
-			y: -9.0d
-			subtitle: "If I had a nickel for every Terraria reference in this modpack..."
-			dependencies: ["7F256ADD51A9A8BA"]
-			id: "0C1D51A7167A95B0"
-			tasks: [{
-				id: "6F17E7E62374E603"
-				type: "item"
-				item: {
-					id: "forestcraft:soul_eater"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "3BEAF7B1E6DC1FC3"
-				type: "ftbmoney:money"
-				ftb_money: 15L
 			}]
 		}
 		{
