@@ -9,9 +9,9 @@
 		#Range: 0.0 ~ 10.0
 		movementSpeed = 0.2
 		#Range: 1.0 ~ 100000.0
-		maxHealth = 200.0
+		maxHealth = 300.0
 		#Range: 0.0 ~ 1000.0
-		armor = 16.0
+		armor = 8.0
 		#Range: 1.0 ~ 1000.0
 		attackDamage = 1.0
 		#Range: 0.0 ~ 10.0
@@ -22,7 +22,7 @@
 		followRange = 128.0
 		pullAndSpinTargets = true
 		#Range: 0 ~ 1000
-		regenerationSkillUses = 2
+		regenerationSkillUses = 1
 
 	[Mobs.Anglerfish]
 		#Range: 0.0 ~ 100.0
