@@ -13,7 +13,7 @@
 	#The amount of blocks that can be between two Aura Field Creators for them to be connectable and work together
 	fieldCreatorRange = 24
 	#The Aura to RF ratio used by the RF converter, read as aura*ratio = rf
-	auraToRFRatio = 0.05
+	auraToRFRatio = 0.15
 	#The maximum amount of animals that can be around the powder of fertility before it stops working
 	maxAnimalsAroundPowder = 200
 
