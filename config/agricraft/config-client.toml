@@ -83,16 +83,16 @@
 	"Enable resource crop json generation" = true
 	#
 	#Set to false to disable the coal nugget (in case resource crops are disabled, or alternatives are available
-	"Enable coal nugget" = true
+	"Enable coal nugget" = false
 	#
 	#Set to false to disable the diamond nugget (in case resource crops are disabled, or alternatives are available
-	"Enable diamond nugget" = true
+	"Enable diamond nugget" = false
 	#
 	#Set to false to disable the emerald nugget (in case resource crops are disabled, or alternatives are available
-	"Enable emerald nugget" = true
+	"Enable emerald nugget" = false
 	#
 	#Set to false to disable the quartz nugget (in case resource crops are disabled, or alternatives are available
-	"Enable quartz nugget" = true
+	"Enable quartz nugget" = false
 
 [stats]
 	#
