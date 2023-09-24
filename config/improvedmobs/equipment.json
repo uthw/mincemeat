@@ -2767,10 +2767,6 @@
     "minecraft:lava_bucket": [
       900,
       0.0
-    ],
-    "minecraft:tnt": [
-      500,
-      0.0
     ]
   },
   "FEET": {
