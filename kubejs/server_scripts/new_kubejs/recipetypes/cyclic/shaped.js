@@ -38,9 +38,9 @@ onEvent("recipes", (event) => {
                 D: "create:honeyed_apple",
                 E: "minecraft:ghast_tear",
                 F: "abnormals_delight:dune_platter",
-                G: "netherdepthsupgrade:warped_kelp_roll",
+                G: "byg:nightshade_berry_pie",
                 H: "aquaculture:sushi",
-                I: "culturaldelights:beef_burrito",
+                I: "simplefarming:turnip_beetroot_gratin",
             },
         ],
         [
