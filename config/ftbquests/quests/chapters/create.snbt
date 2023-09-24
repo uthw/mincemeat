@@ -1483,10 +1483,10 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: -2.5d
+			x: -8.0d
+			y: -3.5d
 			subtitle: "Access storage containers on a contraption"
-			dependencies: ["22DCBF43BC71C6C6"]
+			dependencies: ["0644D041FE2F0FEB"]
 			id: "044CC20C4AD5A6AC"
 			tasks: [{
 				id: "6E8BFA37FF84DF90"
@@ -2998,7 +2998,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: -0.5d
 			y: -4.5d
 			shape: "rsquare"
 			subtitle: "Crafts items using engineer's blueprints"
@@ -3074,7 +3074,7 @@
 				""
 				"The coke oven turns coal into this, and doesn't use any fuel. It produces creosote on the side, which can be used to cure wood."
 				""
-				"It's a 3x3x3 cube and you right click the middle block. Yes, it's slow. If you want speed, build another."
+				"It's a 3x3x3 cube and you right click the middle block with an Engineer's Hammer. Yes, it's slow. If you want speed, build another."
 			]
 			dependencies: ["1D5CE82107D9BB8B"]
 			id: "72346C8A70029F2C"
@@ -3465,8 +3465,8 @@
 		}
 		{
 			title: "Tesla Coil (IE)"
-			x: -2.0d
-			y: -7.5d
+			x: -1.5d
+			y: -8.5d
 			subtitle: "When powered by redstone and IF, it zaps anything that comes near it."
 			description: ["Sneak Rclicking a coil changes its mode between high and low power. Low-power means it uses less energy, but has less range."]
 			dependencies: ["1244E451C72F32DC"]
@@ -4689,8 +4689,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -7.5d
+			x: -0.5d
+			y: -8.5d
 			subtitle: "A handgun with enough stopping power to drop a crazed rhino, and heavy enough to beat it to death if you're out of ammo."
 			description: [
 				"Must be loaded with cartridges."
@@ -5282,7 +5282,7 @@
 			}]
 		}
 		{
-			x: -0.25d
+			x: 1.5d
 			y: -8.625d
 			dependencies: ["6FDFFE9DAC0A386D"]
 			size: 0.75d
@@ -5294,7 +5294,7 @@
 			}]
 		}
 		{
-			x: -0.25d
+			x: 1.5d
 			y: -7.875d
 			dependencies: ["6FDFFE9DAC0A386D"]
 			size: 0.75d
@@ -5352,7 +5352,7 @@
 			}]
 		}
 		{
-			x: -7.5d
+			x: -7.0d
 			y: -3.5d
 			dependencies: ["76281775D40F7602"]
 			id: "50070F541F0CA7CA"
@@ -5365,6 +5365,16 @@
 				id: "0A131876A0C345B5"
 				type: "ftbmoney:money"
 				ftb_money: 15L
+			}]
+		}
+		{
+			x: -7.5d
+			y: -4.5d
+			id: "0455791851E19CC2"
+			tasks: [{
+				id: "7E5E2E3BFB8EE7ED"
+				type: "item"
+				item: "create:mechanical_saw"
 			}]
 		}
 	]
