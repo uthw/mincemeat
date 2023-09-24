@@ -1829,6 +1829,7 @@
 		{
 			x: -4.5d
 			y: 3.0d
+			subtitle: "The end."
 			dependencies: ["5D05B9303A7D4850"]
 			id: "0F4CD7416740F40C"
 			tasks: [{
