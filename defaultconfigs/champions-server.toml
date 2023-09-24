@@ -213,7 +213,7 @@ reflectiveMaxPercent = 0.35
 #Range: > 0
 reflectiveMax = 100
 #Set to true to enable deadly reflected strikes
-reflectiveLethal = true
+reflectiveLethal = false
 
 [affixes.magnetic]
 #Strength of the magnetic pulling effect
@@ -229,4 +229,4 @@ woundingChance = 0.4
 #Scaling Health
 #List of tiers with numbers to multiply spawn rates by difficulty
 #Format: [tier];[percent increase]
-scalingHealthSpawnModifiers = []
+scalingHealthSpawnModifiers = ["1;10", "2;20", "3;25", "4;30"]
