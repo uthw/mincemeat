@@ -4,6 +4,10 @@ onEvent("recipes", (event) => {
             "create:belt_connector",
             ["5x immersiveengineering:hemp_fabric", "#minecraft:coals"],
         ],
+        [
+            "create:depot",
+            ["supplementaries:pedestal", "create:andesite_casing"],
+        ],
     ];
 
     recipes.forEach((recipe) => {
