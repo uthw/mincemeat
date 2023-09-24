@@ -1,0 +1,10 @@
+{
+	id: "5FA5B056787E3351"
+	group: "5E7920C0BF356D7F"
+	order_index: 0
+	filename: "agriculture"
+	title: "Agriculture"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
