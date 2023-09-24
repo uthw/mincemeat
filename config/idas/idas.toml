@@ -51,7 +51,7 @@ locateMaxTime = 15.0
 # 1 for spawning in most chunks and 1001 for none.
 [PillagerFortress]
 	#Range: 1 ~ 1001
-	pillagerfortressAverageChunkDistance = 120
+	pillagerfortressAverageChunkDistance = 300
 
 #-----------------------------------------------------------------------------------------
 # Average distance between spawn attempts for IDAS Ancient Mines.
