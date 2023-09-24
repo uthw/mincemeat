@@ -24,6 +24,7 @@ onEvent("recipes", (event) => {
         "botania:flight_tiara",
         "botania:hyacidus",
         "botania:medumone",
+        "botania:apothecary_default",
 
         "byg:ametrine_helmet",
         "byg:ametrine_chestplate",
