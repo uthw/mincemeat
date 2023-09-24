@@ -75,7 +75,7 @@
       "weapon_attributes": "bettercombat:wand"
     },
     {
-      "item_id_regex": "mace|hammer|flail|depth_star|mesargenstern",
+      "item_id_regex": "mace|hammer|flail|depth_star|mesargenstern|club",
       "weapon_attributes": "bettercombat:mace"
     },
     {
