@@ -2,11 +2,11 @@
   "startingValue": 0,
   "minValue": 0,
   "maxValue": 500,
-  "changePerSecond": 0.0009,
+  "changePerSecond": 0.0012,
   "mode": {
     "type": "distance_and_time",
     "distance": {
-      "distanceFactor": 0.015
+      "distanceFactor": 0.01
     },
     "average": {
       "radius": 128
