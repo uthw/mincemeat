@@ -33,6 +33,38 @@ onEvent("recipes", (event) => {
             reagent: "minecraft:ender_pearl",
             output: "cyclic:ender_pearl_reuse",
         },
+        {
+            inputs: [
+                { item: "naturesaura:gold_leaf" },
+                { tag: "forge:gems/mana" },
+            ],
+            reagent: "minecraft:stripped_oak_log",
+            output: "naturesaura:wood_stand",
+        },
+        {
+            inputs: [
+                { tag: "botania:petals/yellow" },
+                { tag: "botania:petals/yellow" },
+                { tag: "botania:petals/yellow" },
+                { tag: "botania:petals/yellow" },
+
+                // { }
+            ],
+            reagent: "minecraft:grass",
+            output: "naturesaura:gold_fiber",
+        },
+        {
+            inputs: [
+                { item: "naturesaura:infused_iron" },
+                { item: "naturesaura:infused_iron" },
+                { item: "naturesaura:infused_iron" },
+                { tag: "forge:gems/mana" },
+                { tag: "forge:gems/arcane_crystal" },
+                { item: "naturesaura:gold_powder" },
+            ],
+            reagent: "supplementaries:pedestal",
+            output: "naturesaura:offering_table",
+        },
     ];
 
     recipes.forEach((recipe) => {
