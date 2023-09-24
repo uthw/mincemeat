@@ -76,7 +76,7 @@
 				""
 				"You can dodge roll using whatever you have set the \"key.elenaidodge.dodge\" to in the controls menu."
 				""
-				"Shields are briefly disabled when you lower your guard or when they take a hit for you. Shield parrying negates this penalty. Weapon parrying occurs when a mob hits you while you're swinging your weapon. This negates the hits for both combatants."
+				"Shields are briefly disabled when you lower your guard or when they take a hit for you. Shield parrying negates this penalty."
 			]
 			id: "4D5D2503604B7EF3"
 			tasks: [{
@@ -264,6 +264,18 @@
 				id: "027A72833641D29F"
 				type: "checkmark"
 				title: "The Shop"
+			}]
+		}
+		{
+			icon: "immersiveengineering:hemp_fabric"
+			x: -4.0d
+			y: -1.5d
+			description: ["The end goal of this modpack is to reach the End and kill all the bosses there. If you're a completionist, you can also kill ALL bosses, build the factory of your dreams, and master all the arcane arts. Quests will help with all of those!"]
+			id: "0B1257A59CF5D1B6"
+			tasks: [{
+				id: "3C858A7962244EC1"
+				type: "checkmark"
+				title: "What's the point?"
 			}]
 		}
 	]
