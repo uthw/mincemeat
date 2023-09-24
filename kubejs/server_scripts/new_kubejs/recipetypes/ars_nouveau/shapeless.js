@@ -18,7 +18,7 @@ onEvent("recipes", (event) => {
                 "ars_nouveau:novice_spell_book",
                 "3x blue_skies:charoite",
                 "2x #forge:ingots/silver",
-                "2x paraglider:spirit_orb",
+                "2x ars_nouveau:mana_fiber",
                 "#forge:scales/sea_serpent",
             ],
         ],
@@ -38,6 +38,10 @@ onEvent("recipes", (event) => {
         [
             "ars_nouveau:mana_fiber",
             ["ars_nouveau:mana_bloom", "forbidden_arcanus:arcane_crystal"],
+        ],
+        [
+            "ars_nouveau:novice_spell_book",
+            ["minecraft:book", "4x eidolon:wicked_weave"],
         ],
     ];
 
