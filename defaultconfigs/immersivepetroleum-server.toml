@@ -2,7 +2,7 @@
 [Extraction]
 	#The chance that a chunk contains a fluid reservoir
 	#Default: 0.5
-	reservoir_chance = 0.5
+	reservoir_chance = 0.0
 	#The Flux the Pumpjack requires each tick to pump
 	#Default: 1024
 	pumpjack_consumption = 1024
