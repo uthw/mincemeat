@@ -1,6 +1,0 @@
-{
-  "parent": "mysticalagriculture:item/inferium_crossbow",
-  "textures": {
-    "layer0": "mysticalagriculture:item/gear/inferium_crossbow_pulling_1"
-  }
-}

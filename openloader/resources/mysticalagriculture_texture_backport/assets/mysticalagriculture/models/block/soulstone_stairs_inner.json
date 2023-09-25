@@ -1,8 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "mysticalagriculture:block/soulstone",
-    "top": "mysticalagriculture:block/soulstone",
-    "side": "mysticalagriculture:block/soulstone"
-  }
-}

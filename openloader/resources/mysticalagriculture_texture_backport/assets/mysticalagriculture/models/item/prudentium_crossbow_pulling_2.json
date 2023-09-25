@@ -1,6 +1,0 @@
-{
-  "parent": "mysticalagriculture:item/prudentium_crossbow",
-  "textures": {
-    "layer0": "mysticalagriculture:item/gear/prudentium_crossbow_pulling_2"
-  }
-}

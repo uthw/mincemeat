@@ -1,5 +1,0 @@
-{
-    "tip": {
-        "text": "You can prefix a term with - in JEI to exclude items with that term. Example: bucket -water"
-    }
-}
