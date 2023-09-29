@@ -5,7 +5,7 @@ onEvent("recipes", (event) => {
             ["ABA", "BCB", "ABA"],
             {
                 A: "atum:nebu_drop",
-                B: "blue_skies:pearl",
+                B: "#forge:gems/mana",
                 C: "minecraft:diamond",
             },
         ],
