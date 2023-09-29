@@ -1,7 +1,7 @@
 onEvent("recipes", (event) => {
     let recipes = [
         [
-            "3x eidolon:pewter_blend",
+            "2x eidolon:pewter_blend",
             ["#forge:ingots/copper", "#forge:ingots/tin", "#forge:ingots/iron"],
         ],
     ];
