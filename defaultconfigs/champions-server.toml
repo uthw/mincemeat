@@ -60,6 +60,7 @@ entitiesList = [
 	"mowziesmobs:ferrous_wroughtnaut",
 	"mowziesmobs:frostmaw",
 	"mowziesmobs:barako",
+	"minecraft:vex"
 ]
 #Set whether the entities list is a blacklist or whitelist
 #Allowed Values: BLACKLIST, WHITELIST
