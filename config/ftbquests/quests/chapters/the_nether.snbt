@@ -450,19 +450,10 @@
 			dependencies: ["252A982DEA1EC5A5"]
 			id: "2977431B7576A243"
 			tasks: [{
-				id: "23CB3AC4F245A1AC"
-				type: "structure"
-				title: "Soul Black Smith[sic]"
-				icon: {
-					id: "minecraft:blackstone"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				structure: "cataclysm:soul_black_smith"
+				id: "76894BF33F056480"
+				type: "advancement"
+				advancement: "cataclysm:find_soul_black_smith"
+				criterion: ""
 			}]
 			rewards: [
 				{
@@ -502,11 +493,10 @@
 			]
 		}
 		{
+			icon: "cataclysm:bulwark_of_the_flame"
 			x: 1.0d
 			y: -7.0d
 			description: [
-				"Home of the Ignited Revenants, shielded blazes who look eerily similar to that one mob who lost the mob vote."
-				""
 				"They drop their ashes, which you may use at the altar upstairs to summon Ignis."
 				""
 				"You should use the blocks you're rewarded with for finding this palace to seal the holes in the Ignis Arena. If you don't, you will constantly fall in them."
@@ -514,19 +504,10 @@
 			dependencies: ["252A982DEA1EC5A5"]
 			id: "2689B7B775BBB707"
 			tasks: [{
-				id: "1C8589F4E3D92438"
-				type: "structure"
-				title: "Burning Arena"
-				icon: {
-					id: "minecraft:nether_bricks"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				structure: "cataclysm:burning_arena"
+				id: "33CD2853019F4467"
+				type: "kill"
+				entity: "cataclysm:ignited_revenant"
+				value: 2L
 			}]
 			rewards: [{
 				id: "7F01B095811C8191"
