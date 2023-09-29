@@ -47,13 +47,13 @@
 	Lavabombamount = 5
 	#Monstrosity's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityHealthMultiplier = 1.35
+	MonstrosityHealthMultiplier = 2
 	#Monstrosity's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	MonstrosityDamageMultiplier = 1.2
+	MonstrosityDamageMultiplier = 1.5
 	#Monstrosity's DamageCap
 	#Range: 0 ~ 1000000
-	MonstrosityDamageCap = 22
+	MonstrosityDamageCap = 16
 	#soul black smith spawn
 	SoulblacksmithSpawn = true
 	#Monstrosity's bodyBlocking verdict
@@ -78,10 +78,10 @@
 [Ignis]
 	#Ignis's Health Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisHealthMultiplier = 1.4
+	IgnisHealthMultiplier = 2.2
 	#Ignis's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	IgnisDamageMultiplier = 1.2
+	IgnisDamageMultiplier = 1.8
 	#Ignis's Immune to Long distance attack range.
 	#Range: 1.0 ~ 1000000.0
 	"Ignis's prevent attacks from far away Range" = 20.0
