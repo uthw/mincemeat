@@ -102,18 +102,5 @@
       "type": "file",
       "value": "C:\\Users\\uthma\\curseforge\\minecraft\\Instances\\Mincemeat (2)\\config\\spark\\heap-2023-08-07_23.14.27.hprof"
     }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "uthw",
-      "uniqueId": "20c841d9-4402-42f0-a51c-c57aa8b28d7f"
-    },
-    "time": 1690699784834,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/8j2FeSLPUr"
-    }
   }
 ]
