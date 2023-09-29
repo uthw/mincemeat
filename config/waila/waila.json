@@ -3,21 +3,18 @@
     "displayTooltip": true,
     "shiftForDetails": false,
     "displayMode": "TOGGLE",
+    "hideFromPlayerList": true,
     "hideFromDebug": true,
-    "iconMode": "TOP",
+    "showItem": true,
     "enableTextToSpeech": false,
     "maxHealthForRender": 40,
     "maxHeartsPerLine": 10,
-    "fluldMode": "SOURCE_ONLY",
-    "reachDistance": 0.0
+    "displayFluids": false
   },
   "overlay": {
     "overlayPosX": 0.5,
     "overlayPosY": 0.9673913,
-    "overlayAnchorX": 0.5,
-    "overlayAnchorY": 0.0,
-    "overlaySquare": false,
-    "flipMainHand": false,
+    "overlayScale": 1.0,
     "color": {
       "alpha": 25,
       "themes": [
