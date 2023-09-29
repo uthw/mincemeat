@@ -808,17 +808,9 @@
 					count: 3
 				}
 				{
-					id: "7800DDFBE72C5BE9"
+					id: "6F813B8D6216649F"
 					type: "item"
-					item: {
-						id: "forestcraft:rain_flute"
-						Count: 1b
-						ForgeCaps: {
-							"dungeons_libraries:built_in_enchantments": {
-								BuiltInEnchantments: [ ]
-							}
-						}
-					}
+					item: "rsgauges:industrial_rain_sensor"
 				}
 			]
 		}
