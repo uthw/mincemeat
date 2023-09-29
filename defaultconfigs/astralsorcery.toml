@@ -8,7 +8,7 @@ giveJournalOnJoin = true
 #If set to 'true' anything that prevents mobspawning !by this mod!, will also prevent EVERY natural mobspawning of any mobtype. When set to 'false' it'll only stop monsters of type 'MONSTER' from spawning.
 mobSpawningDenyAllTypes = false
 #Features generating random ores in AstralSorcery will not spawn ores from mods listed here.
-modidOreBlacklist = ["atum", "betterendforge", "mekanism", "undergarden", "byg", "powah"]
+modidOreBlacklist = ["atum", "betterendforge", "mekanism", "undergarden", "byg", "powah", "mysticalagriculture"]
 #Set this to false to prevent players from being affected by entity-related colored lens effects.
 doColoredLensesAffectPlayers = true
 
@@ -671,7 +671,7 @@ chargeCostPerAxe = 250
 enabled = true
 #Defines the amount of starlight charge consumed per !second! during creative-flight with the vicio mantle.
 #Range: 1 ~ 500
-chargeCost = 250
+chargeCost = 300
 
 [registries]
 
