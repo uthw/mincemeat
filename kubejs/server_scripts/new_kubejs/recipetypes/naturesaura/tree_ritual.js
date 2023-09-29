@@ -25,6 +25,18 @@ onEvent("recipes", (event) => {
             output: { item: "naturesaura:ancient_sapling", count: 2 },
             time: 120,
         },
+        {
+            inputs: [
+                { item: "xreliquary:fertile_essence" },
+                { item: "xreliquary:fertile_essence" },
+                { item: "enigmaticlegacy:infinimeal" },
+                { item: "ars_nouveau:mana_bloom" },
+                { item: "bloodmagic:reagentgrowth" },
+                { item: "bloodmagic:reagentgrowth" },
+            ],
+            sapling: { item: "minecraft:lily_pad" },
+            output: "xreliquary:fertile_lily_pad",
+        },
     ];
 
     recipes.forEach((recipe) => {
