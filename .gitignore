@@ -43,3 +43,4 @@ usercache.json
 usernamecache.json
 minecraftinstance.json
 .curseclient
+config/ue/UEBase.toml
