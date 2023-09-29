@@ -339,8 +339,8 @@
 			]
 		}
 		{
-			x: -5.0d
-			y: 1.0d
+			x: -4.0d
+			y: 0.5d
 			subtitle: "Don't question it"
 			description: [
 				"This is an augment for your mixing contraption that unlocks many new features like bulk brewing. It's also useful for other machines you haven't seen yet such as the steam engine."
@@ -390,7 +390,7 @@
 				""
 				"Brass is useful for item sorting machines."
 			]
-			dependencies: ["1AC306CB46497761"]
+			dependencies: ["10133AC76AEBA7AF"]
 			id: "5F0FE0B40BFAB7E1"
 			tasks: [{
 				id: "4D6AA1CE5B7675A5"
@@ -1483,8 +1483,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: -3.5d
+			x: -12.0d
+			y: -4.5d
 			subtitle: "Access storage containers on a contraption"
 			dependencies: ["0644D041FE2F0FEB"]
 			id: "044CC20C4AD5A6AC"
@@ -1594,8 +1594,8 @@
 			]
 		}
 		{
-			x: -10.5d
-			y: -2.5d
+			x: -8.5d
+			y: -3.5d
 			subtitle: "Lets you precisely control rotation speed,"
 			description: [""]
 			dependencies: ["0644D041FE2F0FEB"]
@@ -1628,8 +1628,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: -3.5d
+			x: -10.5d
+			y: -5.0d
 			dependencies: ["0644D041FE2F0FEB"]
 			id: "521FE636081DA708"
 			tasks: [{
@@ -1645,7 +1645,7 @@
 		}
 		{
 			x: -9.0d
-			y: -3.5d
+			y: -5.0d
 			subtitle: "See ponder description"
 			dependencies: ["0644D041FE2F0FEB"]
 			id: "73A8A5123EB0E60A"
@@ -2788,7 +2788,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -5.5d
 			y: -1.5d
 			subtitle: "Pushes blocks in front of it. You can apply slime ball to make it sticky, and use chassis or superglue to attach multiblocks."
 			dependencies: ["22DCBF43BC71C6C6"]
@@ -3009,7 +3009,6 @@
 				""
 				"This workbench also letts you modify some items from IE such as the Revolver. Place it in the left slot and then add your upgrades."
 			]
-			hide_dependency_lines: true
 			dependencies: ["72346C8A70029F2C"]
 			id: "6B0E73C45F8090D9"
 			tasks: [{
@@ -3025,16 +3024,16 @@
 		}
 		{
 			title: "Alloy Kiln"
-			x: 1.5d
-			y: -3.5d
+			x: -6.0d
+			y: 0.5d
 			shape: "rsquare"
-			subtitle: "It would be impossible to mess this up."
+			subtitle: "It would be impossible to mess this up. *UNLOCKS CREATE BRASS AGE"
 			description: [
 				"Place the bricks in a 2x2x2 shape, then right click with the engineer hammer. Congratulations, you've made your first IE multiblock!"
 				""
 				"The alloy kiln allows you to alloy two ingots or dusts together and let them turn into something else. Two key items that can be made in this way are constantan and electrum."
 			]
-			dependencies: ["1D5CE82107D9BB8B"]
+			dependencies: ["1E4131100B225BC0"]
 			id: "10133AC76AEBA7AF"
 			tasks: [{
 				id: "4878C0F0F3BBBFDD"
@@ -5335,8 +5334,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: -2.5d
+			x: -7.5d
+			y: -2.0d
 			subtitle: "Generate rotational force using a heated furnace"
 			dependencies: ["0644D041FE2F0FEB"]
 			id: "76281775D40F7602"
@@ -5352,8 +5351,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -3.5d
+			x: -6.0d
+			y: -0.5d
 			dependencies: ["76281775D40F7602"]
 			id: "50070F541F0CA7CA"
 			tasks: [{
@@ -5368,8 +5367,9 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -4.5d
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["22DCBF43BC71C6C6"]
 			id: "0455791851E19CC2"
 			tasks: [{
 				id: "7E5E2E3BFB8EE7ED"
