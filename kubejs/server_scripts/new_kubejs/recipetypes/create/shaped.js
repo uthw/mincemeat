@@ -29,15 +29,23 @@ onEvent("recipes", (event) => {
                 E: "create:brass_hand",
             },
         ],
+        // [
+        //     "3x create:mechanical_crafter",
+        //     ["ABA", "CDC", "AEA"],
+        //     {
+        //         A: "#forge:ingots/bronze",
+        //         B: "create:electron_tube",
+        //         C: "#forge:gears/copper",
+        //         D: "create:copper_casing",
+        //         E: "#forge:workbench",
+        //     },
+        // ],
         [
-            "3x create:mechanical_crafter",
-            ["ABA", "CDC", "AEA"],
+            "create:brass_hand",
+            [" A ", "ABA", " A "],
             {
-                A: "#forge:ingots/bronze",
-                B: "create:electron_tube",
-                C: "#forge:gears/copper",
-                D: "create:copper_casing",
-                E: "#forge:workbench",
+                A: "create:brass_ingot",
+                B: "eidolon:stone_hand",
             },
         ],
     ];
