@@ -320,9 +320,9 @@
 		{
 			title: "Thermal Expansion"
 			icon: "thermal:rf_coil"
-			x: -3.5d
-			y: 2.5d
-			dependencies: ["6587026FAEED1370"]
+			x: -4.0d
+			y: 3.0d
+			dependencies: ["15110D1935BF6E7F"]
 			id: "2FCD7D6E5F70CD11"
 			tasks: [{
 				id: "13D11140AB9C4FB2"
@@ -349,7 +349,7 @@
 			x: -4.5d
 			y: 1.5d
 			subtitle: "Modded Minecraft's swiss army knife"
-			dependencies: ["2FCD7D6E5F70CD11"]
+			dependencies: ["15110D1935BF6E7F"]
 			optional: true
 			id: "6D0722A5B0CC54FE"
 			tasks: [{
@@ -436,8 +436,8 @@
 		{
 			title: "Industrial Foregoing Tiers 1-2"
 			icon: "industrialforegoing:plastic"
-			x: -4.0d
-			y: 3.0d
+			x: -4.5d
+			y: 3.5d
 			dependencies: ["2FCD7D6E5F70CD11"]
 			id: "4FCCBA253842A908"
 			tasks: [{
@@ -448,8 +448,8 @@
 		}
 		{
 			icon: "pneumaticcraft:ingot_iron_compressed"
-			x: -4.5d
-			y: 3.5d
+			x: -5.0d
+			y: 4.0d
 			subtitle: "Requires Atum access"
 			dependencies: ["4FCCBA253842A908"]
 			id: "5968C1C788948429"
@@ -502,20 +502,6 @@
 			}]
 		}
 		{
-			title: "Mekanism Tier 1"
-			icon: "mekanism:alloy_infused"
-			x: -5.0d
-			y: 4.0d
-			subtitle: "Ordinary ingots are so vanilla Minecraft"
-			dependencies: ["5968C1C788948429"]
-			id: "292F074086F780D5"
-			tasks: [{
-				id: "0AFCAAD44A46D0BD"
-				type: "checkmark"
-				title: "Start of Mekanism"
-			}]
-		}
-		{
 			icon: "integrateddynamics:crystalized_menril_chunk"
 			x: -2.0d
 			y: 5.5d
@@ -545,28 +531,15 @@
 		}
 		{
 			icon: "create:crushing_wheel"
-			x: -5.5d
-			y: 4.5d
+			x: -3.5d
+			y: 2.5d
 			subtitle: "From rocks to riches - Requires the Nether"
-			dependencies: ["292F074086F780D5"]
+			dependencies: ["6587026FAEED1370"]
 			id: "15110D1935BF6E7F"
 			tasks: [{
 				id: "185FE31851365110"
 				type: "checkmark"
 				title: "Create (Brass Age)"
-			}]
-		}
-		{
-			icon: "createaddition:alternator"
-			x: -6.5d
-			y: 3.5d
-			dependencies: ["15110D1935BF6E7F"]
-			optional: true
-			id: "27D805D8F3D2F244"
-			tasks: [{
-				id: "4CE05BC84D16BDA8"
-				type: "checkmark"
-				title: "Create Crafts \\& Additions"
 			}]
 		}
 		{
@@ -584,9 +557,9 @@
 					}
 				}
 			}
-			x: -7.0d
-			y: 4.0d
-			dependencies: ["15110D1935BF6E7F"]
+			x: -6.5d
+			y: 3.5d
+			dependencies: ["0B06047BBE7EBDD9"]
 			optional: true
 			id: "23E434249D71C9F2"
 			tasks: [{
@@ -597,9 +570,9 @@
 		}
 		{
 			icon: "mekanism:alloy_reinforced"
-			x: -6.0d
-			y: 5.0d
-			dependencies: ["15110D1935BF6E7F"]
+			x: -5.5d
+			y: 4.5d
+			dependencies: ["5968C1C788948429"]
 			id: "0B06047BBE7EBDD9"
 			tasks: [{
 				id: "0EA78D7368DB90CD"
@@ -648,7 +621,7 @@
 			icon: "rftoolsbuilder:builder"
 			x: -6.0d
 			y: 3.0d
-			dependencies: ["292F074086F780D5"]
+			dependencies: ["5968C1C788948429"]
 			optional: true
 			id: "749C67A2DB2DFC27"
 			tasks: [{
@@ -659,10 +632,10 @@
 		}
 		{
 			icon: "powersuits:plating_netherite"
-			x: -4.0d
-			y: 5.0d
+			x: -4.5d
+			y: 5.5d
 			subtitle: "High-tech (and high-function) fashion"
-			dependencies: ["292F074086F780D5"]
+			dependencies: ["0B06047BBE7EBDD9"]
 			optional: true
 			id: "4F4A4A0FCE50915C"
 			tasks: [{
