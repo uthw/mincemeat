@@ -15,7 +15,7 @@ onEvent("recipes", (event) => {
                     tag: "forge:ingots/pewter",
                 },
                 {
-                    tag: "forge:ingots/sky",
+                    item: "naturesaura:sky_ingot",
                 },
             ],
             output: "botania:terrasteel_ingot",
