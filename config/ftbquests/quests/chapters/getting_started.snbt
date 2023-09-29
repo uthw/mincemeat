@@ -430,13 +430,14 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: 4.5d
+			x: 0.0d
+			y: 2.0d
 			shape: "square"
 			description: [
 				"While not too useful for tools, gold has many other uses."
 				"Most applications of gold are found in the magic mods, but here are some items you may find useful:"
 			]
+			dependencies: ["4FD64AEA10EC3D72"]
 			id: "14CE0F41145FC55E"
 			tasks: [{
 				id: "69AB945A0FB04B84"
@@ -621,8 +622,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 6.0d
+			x: 2.0d
+			y: 1.5d
 			description: [
 				"Right click to shoot torches. It can shoot 256 torches before breaking, making it more efficent than placing them manually."
 				""
@@ -1408,11 +1409,7 @@
 			y: 3.5d
 			shape: "square"
 			description: ["Aquaculture 2 greatly expands fishing. Now, you can catch special fish depending on the biome, such as arapaimas in jungles or tuna in oceans."]
-			hide_dependency_lines: true
-			dependencies: [
-				"06423DE8404671CB"
-				"45A8A70BEE505781"
-			]
+			dependencies: ["7ACACA010AAFBADE"]
 			id: "6547BC07B68FC8D0"
 			tasks: [{
 				id: "239B76098A6B77EF"
@@ -1482,6 +1479,7 @@
 		{
 			x: -8.0d
 			y: 2.5d
+			subtitle: "Up to fishy business"
 			dependencies: ["45A8A70BEE505781"]
 			id: "7ACACA010AAFBADE"
 			tasks: [{
@@ -1681,7 +1679,7 @@
 			}]
 		}
 		{
-			x: -0.5d
+			x: 2.0d
 			y: -2.0d
 			subtitle: "Use a knife to cut certain items."
 			description: [""]
@@ -1707,8 +1705,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -2.0d
+			x: 0.0d
+			y: -3.0d
 			subtitle: "Killing animals with a knife can yield unique items."
 			hide_dependency_lines: true
 			dependencies: [
@@ -1739,7 +1737,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: 3.5d
 			y: -2.5d
 			description: [
 				"The opposite of scaffolding. Can be continuously placed below the last block."
@@ -1769,8 +1767,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -3.0d
+			x: 2.0d
+			y: -4.0d
 			subtitle: "Save the turtles!"
 			dependencies: ["7D1CE70A0736CB85"]
 			id: "726D0342998FB259"
@@ -1794,8 +1792,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 3.0d
+			x: 0.5d
+			y: 4.0d
 			subtitle: "For all your storage needs"
 			description: ["Needed by every storage network. This item does not require energy to be given to it in order to function."]
 			dependencies: ["32D230590CD6F5BB"]
@@ -1836,8 +1834,8 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: 4.5d
+			x: 1.5d
+			y: 5.0d
 			subtitle: "Access all inventories on your network"
 			description: ["Place this adjacent to or linked to the storage root using network cables."]
 			dependencies: ["2FC60C010FA5AA99"]
@@ -1862,8 +1860,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 6.0d
+			x: 2.0d
+			y: 6.5d
 			subtitle: "Add inventories to your network"
 			description: ["Run these between your root and various inventories (chests and the like) to connect them."]
 			dependencies: ["722E21A2C19E2ED1"]
@@ -1888,8 +1886,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -2.0d
+			x: 4.0d
+			y: -1.0d
 			description: ["You will not take fall damage if you land on this."]
 			dependencies: ["62FC7466F8200367"]
 			id: "11FC8F805A878382"
@@ -1987,9 +1985,9 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -3.0d
-			subtitle: "What Was He Cooking?"
+			x: 0.0d
+			y: -4.0d
+			subtitle: "Did I hear delicious pancakes?"
 			description: [
 				"When placed above some sources of heat, it cooks food. It doesn't require fuel."
 				""
@@ -2129,8 +2127,8 @@
 		}
 		{
 			disable_toast: true
-			x: -4.0d
-			y: 4.5d
+			x: -3.5d
+			y: 6.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"208F9467D721C8EA"
@@ -2150,9 +2148,14 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: 4.5d
-			subtitle: "Summoning item for Swampjaw, an early-game boss."
+			x: -4.5d
+			y: 5.5d
+			subtitle: "Any time now..."
+			description: [
+				"Summoning item for Swampjaw, an early-game boss."
+				""
+				"See the \"Progression\" chapter for a full route for defeating every boss in the modpack."
+			]
 			dependencies: ["6818CB4D9BAF4960"]
 			id: "0DF1C381AD4AD131"
 			tasks: [{
@@ -2180,8 +2183,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 6.0d
+			x: 4.0d
+			y: 2.5d
 			subtitle: "What lies below the bedrock..."
 			description: [
 				"The piece that activates the portal to a subterranean dimension composed of strange animals."
@@ -2229,18 +2232,14 @@
 		}
 		{
 			title: "Loot Cases"
-			x: -4.0d
-			y: 3.0d
+			x: -2.0d
+			y: 6.0d
 			description: [
 				"Contains a random tool, weapon, or piece of armor. The stats and special qualities are different every time (hence the name \"Random Loot\")."
 				""
 				"As you use items found in loot cases, they will gain experience and level up."
 			]
-			hide_dependency_lines: true
-			dependencies: [
-				"208F9467D721C8EA"
-				"06423DE8404671CB"
-			]
+			dependencies: ["6818CB4D9BAF4960"]
 			id: "074BBEA540815BFA"
 			tasks: [{
 				id: "337432B179D8BC3A"
@@ -2472,6 +2471,85 @@
 				type: "item"
 				item: {
 					id: "chiselsandbits:chisel_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Straw Golem"
+			x: -1.5d
+			y: -3.0d
+			description: ["Let the straw golem take care of your farms for you! These little helpers can tend to crops, replant them, and deliver your final products to nearby inventories."]
+			dependencies: ["7D1CE70A0736CB85"]
+			id: "4A99DAA11797E1AC"
+			tasks: [
+				{
+					id: "14154BEBB5F6E819"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+				}
+				{
+					id: "41514F477C3372FC"
+					type: "item"
+					item: "minecraft:hay_block"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			subtitle: "Cook the pig, get the egg!"
+			description: [
+				"*This item does not do damage*"
+				""
+				"Load a slingshot by right clicking and then release to shoot a block from your inventory! The block is placed and does not do damage."
+			]
+			dependencies: ["6818CB4D9BAF4960"]
+			id: "0879D270084D20AA"
+			tasks: [{
+				id: "3F4F8FCB89233DBA"
+				type: "item"
+				item: {
+					id: "supplementaries:slingshot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			subtitle: "Deals damage instead of placing blocks."
+			dependencies: ["0879D270084D20AA"]
+			id: "788DD3AA8BE5D954"
+			tasks: [{
+				id: "2152D49968E18392"
+				type: "item"
+				item: {
+					id: "undergarden:slingshot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			subtitle: "Saves you from drowning!"
+			dependencies: ["7D1EA49A0A42048B"]
+			id: "052CEDF4AE734E4C"
+			tasks: [{
+				id: "31FEA03D1D9C1682"
+				type: "item"
+				item: {
+					id: "engineerstools:diving_capsule"
 					Count: 1b
 					tag: {
 						Damage: 0
