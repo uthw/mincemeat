@@ -172,6 +172,7 @@ onEvent("recipes", (event) => {
         "refinedstorage:basic_processor",
         "refinedstorage:improved_processor",
         "refinedstorage:advanced_processor",
+        "refinedstorage:quartz_enriched_iron",
 
         "sophisticatedbackpacks:pickup_upgrade",
         //   "sophisticatedbackpacks:advanced_pickup_upgrade",
