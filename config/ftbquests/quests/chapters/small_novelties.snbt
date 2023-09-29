@@ -1164,10 +1164,9 @@
 			size: 2.0d
 			id: "4959593468C3393A"
 			tasks: [{
-				id: "4560D959D3777604"
+				id: "6CD69DF252DE4BA9"
 				type: "gamestage"
-				title: "atum"
-				stage: ""
+				stage: "two"
 			}]
 		}
 		{
