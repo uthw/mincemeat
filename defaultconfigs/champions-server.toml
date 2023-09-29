@@ -229,4 +229,4 @@ woundingChance = 0.4
 #Scaling Health
 #List of tiers with numbers to multiply spawn rates by difficulty
 #Format: [tier];[percent increase]
-scalingHealthSpawnModifiers = ["1;10", "2;20", "3;25", "4;30"]
+scalingHealthSpawnModifiers = []
