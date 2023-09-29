@@ -1670,7 +1670,7 @@
 	Frogs = true
 	Stonelings = true
 	Toretoise = true
-	Wraith = true
+	Wraith = false
 
 	[mobs.crabs]
 		"Enable Brewing" = true
