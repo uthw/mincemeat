@@ -29,6 +29,15 @@ onEvent("recipes", (event) => {
                 B: "enigmaticlegacy:etherium_ingot",
             },
         ],
+        [
+            "iceandfire:dragon_horn",
+            ["AB ", "AAC", " A "],
+            {
+                A: "iceandfire:dragonbone",
+                B: "#forge:ingots/arcane_gold",
+                C: "alexsmobs:gazelle_horn",
+            },
+        ],
     ];
 
     recipes.forEach((recipe) => {
