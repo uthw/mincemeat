@@ -39,6 +39,21 @@ onEvent("recipes", (event) => {
                 E: "#forge:silicon",
             },
         ],
+        [
+            "immersiveengineering:capacitor_lv",
+            ["ABA", "CDC", "AEA"],
+            {
+                A: "#forge:ingots/copper",
+                B: "create:andesite_alloy",
+                C: "thermal:cured_rubber",
+                D: "immersiveengineering:wirecoil_copper",
+                E: "#forge:plates/copper",
+            },
+        ],
+        // [
+        //     "immersiveengineering:component_iron",
+        //     ["A A", " B "]
+        // ]
     ];
 
     recipes.forEach((recipe) => {
