@@ -944,6 +944,18 @@
 					item: "statues:slabfish"
 					buy: 10000L
 				}
+				{
+					item: "randomloot:basic_case"
+					buy: 200L
+				}
+				{
+					item: "randomloot:golden_case"
+					buy: 400L
+				}
+				{
+					item: "randomloot:titan_case"
+					buy: 700L
+				}
 			]
 		}
 		{
