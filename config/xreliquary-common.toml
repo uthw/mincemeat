@@ -468,7 +468,7 @@ mobDropsEnabled = true
 	[blocks.fertileLilypad]
 		#Interval in seconds at which the lilypad causes growth tick updates
 		#Range: 1 ~ 150
-		secondsBetweenGrowthTicks = 10
+		secondsBetweenGrowthTicks = 20
 		#Radius in which lilypad causes growh ticks
 		#Range: 1 ~ 15
 		tileRange = 4
