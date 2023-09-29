@@ -41,7 +41,7 @@
 	#If valid Target Icons should be shown
 	"Enchantment Icons" = true
 	#If Icons should be displayed. Can be toggled ingame with a key
-	"Enchantment Icons Visible" = false
+	"Enchantment Icons Visible" = true
 	#Decide how agressive the icon filter is
 	#Limited => tries to limit the amount of icons visible drastically
 	#Normal => is a reduced amount but everything important is still shown
