@@ -16,7 +16,6 @@ onEvent("recipes", (event) => {
 
         "bloodmagic:soulforge",
 
-        "botania:terrasteel_ingot",
         "botania:mana_ring",
         "botania:reach_ring",
         "botania:bellethorne",
@@ -139,6 +138,17 @@ onEvent("recipes", (event) => {
         "engineerstools:crushing_hammer",
         "immersiverods:stick_gold",
         "engineersdecor:metal_bar",
+        "engineersdecor:factory_placer",
+        "engineersdecor:small_block_breaker",
+        "immersivepetroleum:gas_generator",
+        "immersiveengineering:sample_drill",
+        "immersiveengineering:workbench",
+        "immersiveengineering:capacitor_lv",
+        "immersiveengineering:capacitor_mv",
+        "immersiveengineering:capacitor_hv",
+        "immersiveengineering:windmill",
+        "immersiveengineering:sorter",
+        // "immersiveengineering:component_iron",
 
         "industrialforegoing:machine_frame_pity",
 
@@ -147,6 +157,7 @@ onEvent("recipes", (event) => {
 
         "modularrouters:blank_module",
         "modularrouters:energy_output_module",
+        "modularrouters:energy_distributor_module",
 
         "naturesaura:ancient_sapling",
         "naturesaura:offering_table",
@@ -158,6 +169,9 @@ onEvent("recipes", (event) => {
         "powah:furnator_niotic",
         "powah:furnator_spirited",
         "powah:furnator_nitro",
+        "refinedstorage:basic_processor",
+        "refinedstorage:improved_processor",
+        "refinedstorage:advanced_processor",
 
         "sophisticatedbackpacks:pickup_upgrade",
         //   "sophisticatedbackpacks:advanced_pickup_upgrade",
@@ -193,6 +207,7 @@ onEvent("recipes", (event) => {
 
         "xreliquary:angelheart_vial",
         "xreliquary:phoenix_down",
+        "xreliquary:fertile_lily_pad",
     ];
 
     toRemove.forEach((item) => event.remove({ output: item }));
