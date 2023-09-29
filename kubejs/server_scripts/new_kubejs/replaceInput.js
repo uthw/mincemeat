@@ -205,20 +205,30 @@ onEvent("recipes", (event) => {
             "create:gabbro",
         ],
         [
-            { output: "immersiveengineering:capacitor_hv" },
-            "#forge:storage_blocks/lead",
-            "#forge:storage_blocks/brass",
+            { output: "immersiveengineering:cokebrick" },
+            "minecraft:brick",
+            "architects_palette:algal_brick",
         ],
+        [
+            { output: "immersiveengineering:cokebrick" },
+            "minecraft:clay_ball",
+            "#forge:plates/iron",
+        ],
+        // [
+        //     { output: "immersiveengineering:capacitor_hv" },
+        //     "#forge:storage_blocks/lead",
+        //     "#forge:storage_blocks/brass",
+        // ],
         [
             { output: "immersiveengineering:conveyor_dropping" },
             "minecraft:iron_trapdoor",
             "create:chute",
         ],
-        [
-            { output: "immersiveengineering:capacitor_mv" },
-            "#forge:ingots/iron",
-            "#blue_skies:ingots/horizonite",
-        ],
+        // [
+        //     { output: "immersiveengineering:capacitor_mv" },
+        //     "#forge:ingots/iron",
+        //     "#blue_skies:ingots/horizonite",
+        // ],
         [
             { output: "immersiveengineering:windmill" },
             "#forge:ingots/iron",
@@ -500,7 +510,11 @@ onEvent("recipes", (event) => {
             "minecraft:iron_ingot",
             "thermal:rf_coil",
         ],
-        [{ output: "dynamo" }, "minecraft:iron_ingot", "#forge:plates/iron"],
+        [
+            { output: "immersiveengineering:dynamo" },
+            "minecraft:iron_ingot",
+            "#forge:plates/iron",
+        ],
         [
             { output: "immersiveengineering:blastbrick" },
             "minecraft:nether_brick",
@@ -510,6 +524,26 @@ onEvent("recipes", (event) => {
             { output: "immersiveengineering:blastbrick" },
             "minecraft:brick",
             "environmental:mud_brick",
+        ],
+        [
+            { output: "immersiveengineering:component_iron" },
+            "#forge:ingots/copper",
+            "create:andesite_alloy",
+        ],
+        [
+            { output: "immersiveengineering:component_steel" },
+            "#forge:ingots/copper",
+            "create:andesite_alloy",
+        ],
+        [
+            { output: "immersiveengineering:item_batcher" },
+            "minecraft:redstone",
+            "refinedstorage:silicon",
+        ],
+        [
+            { mod: "create" },
+            "minecraft:dried_kelp",
+            "immersiveengineering:hemp_fabric",
         ],
     ];
 
