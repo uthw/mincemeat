@@ -38,7 +38,7 @@
     },
     "structures": {
       "aquamirae:ice_maze": {
-        "spacing": 2,
+        "spacing": 99,
         "separation": 0,
         "salt": 1191766016,
         "disabled": false
@@ -2139,15 +2139,15 @@
       "fancyMountains": true
     },
     "steppe": {
-      "weight": 2.292,
+      "weight": 1.701,
       "baseScale": 1.0,
       "verticalScale": 1.159,
       "horizontalScale": 1.0
     },
     "plains": {
-      "weight": 1.003,
-      "baseScale": 1.0,
-      "verticalScale": 1.029,
+      "weight": 1.443,
+      "baseScale": 1.046,
+      "verticalScale": 1.056,
       "horizontalScale": 1.0
     },
     "hills": {
@@ -2163,7 +2163,7 @@
       "horizontalScale": 1.0
     },
     "plateau": {
-      "weight": 1.778,
+      "weight": 1.777,
       "baseScale": 1.0,
       "verticalScale": 2.009,
       "horizontalScale": 1.649
@@ -2175,16 +2175,16 @@
       "horizontalScale": 1.0
     },
     "torridonian": {
-      "weight": 2.139,
-      "baseScale": 1.185,
-      "verticalScale": 2.01,
+      "weight": 1.726,
+      "baseScale": 1.184,
+      "verticalScale": 2.009,
       "horizontalScale": 1.932
     },
     "mountains": {
-      "weight": 2.783,
-      "baseScale": 1.231,
-      "verticalScale": 2.319,
-      "horizontalScale": 1.0
+      "weight": 1.726,
+      "baseScale": 1.154,
+      "verticalScale": 1.288,
+      "horizontalScale": 1.288
     },
     "volcano": {
       "weight": 1.5,
