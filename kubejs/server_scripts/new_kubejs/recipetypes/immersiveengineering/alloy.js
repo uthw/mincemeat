@@ -18,6 +18,20 @@ onEvent("recipes", (event) => {
             inputs: ["minecraft:iron_ingot", "minecraft:quartz"],
             output: "2x refinedstorage:quartz_enriched_iron",
         },
+        {
+            inputs: [
+                "immersiveengineering:component_iron",
+                "grapplemod:baseupgradeitem",
+            ],
+            output: "grapplemod:motorupgradeitem",
+        },
+        {
+            inputs: [
+                "immersiveengineering:component_iron",
+                "#paraglider:paragliders",
+            ],
+            output: "numina:component_parachute",
+        },
     ];
 
     recipes.forEach((recipe) => {
