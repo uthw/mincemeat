@@ -33,7 +33,7 @@
 	airborne_cost = 3
 	#The amount of ticks required to regenerate half a feather. Please only change this when you have full feathers.
 	#Range: > 1
-	regen_rate = 60
+	regen_rate = 30
 	#Whether to enable 'Half Feathers'. Instead of weight values rounding down, they will instead show as a half feather. These can be used if the 'Cost' value is set to an odd number.
 	half_feathers = false
 
