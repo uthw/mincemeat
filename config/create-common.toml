@@ -11,14 +11,14 @@
 		[worldgen.v2.copper_ore]
 			# 
 			#Range: > 0
-			clusterSize = 8
+			clusterSize = 12
 			# 
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.
 			#  <1 to make it a chance.
 			#  0 to disable.
 			#Range: 0.0 ~ 512.0
-			frequency = 2.0
+			frequency = 3.0
 			# 
 			#Range: > 0
 			minHeight = 28
@@ -54,7 +54,7 @@
 			#  <1 to make it a chance.
 			#  0 to disable.
 			#Range: 0.0 ~ 512.0
-			frequency = 2.0
+			frequency = 3.0
 			# 
 			#Range: > 0
 			minHeight = 15
