@@ -20,10 +20,10 @@
 
 #Enemy Sets for Dungeons
 [enemySets]
-	basicEnemySet1 = ["minecraft:zombie", "minecraft:husk", "minecraft:drowned", "minecraft:spider", "ars_nouveau:wilden_stalker", "atum:bonestorm", "infernalexp:embody", "eidolon:zombie_brute", "minecraft:wither_skeleton", "minecraft:stray", "minecraft:skeleton", "atum:wraith", "forestcraft:petrified_zombie", "forestcraft:infected_zombie", "eidolon:wraith"]
-	basicEnemySet2 = ["minecraft:pillager", "ars_nouveau:wilden_hunter", "atum:brigand", "infernalexp:voline", "infernalexp:voline", "thegraveyard:skeleton_creeper", "iceandfire:death_worm", "atum:barbarian", "atum:forsaken", "atum:nomad", "darkerdepths:magma_minion"]
+	basicEnemySet1 = ["minecraft:zombie", "minecraft:husk", "minecraft:drowned", "minecraft:spider", "ars_nouveau:wilden_stalker", "atum:bonestorm", "infernalexp:embody", "eidolon:zombie_brute", "minecraft:wither_skeleton", "minecraft:stray", "minecraft:skeleton", "atum:wraith", "eidolon:wraith"]
+	basicEnemySet2 = ["minecraft:pillager", "ars_nouveau:wilden_hunter", "atum:brigand", "infernalexp:voline", "infernalexp:voline", "iceandfire:death_worm", "atum:barbarian", "atum:forsaken", "atum:nomad"]
 	advancedEnemySet1 = ["minecraft:pillager", "minecraft:skeleton", "minecraft:stray", "minecraft:hoglin", "atum:mummy", "atum:tarantula", "infernalexp:blackstone_dwarf", "eidolon:wraith"]
-	advancedEnemySet2 = ["minecraft:vindicator", "minecraft:witch", "atum:bonestorm", "atum:stoneguard", "atum:stonewarden", "darkerdepths:glowshroom_monster", "graveyard:ghoul", "graveyard:acolyte", "atum:assassin", "atum:seargeant", "betterendforge:shadow_walker"]
+	advancedEnemySet2 = ["minecraft:vindicator", "minecraft:witch", "atum:bonestorm", "atum:stoneguard", "atum:stonewarden", "atum:assassin", "atum:seargeant", "betterendforge:shadow_walker"]
 	basicEnemyHealthScaling = 1.0
 	advancedEnemyHealthScaling = 2.0
 
