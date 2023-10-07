@@ -1793,8 +1793,8 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: 7.0d
+			x: -6.5d
+			y: 8.0d
 			dependencies: ["5292FE7997FA5D63"]
 			id: "7988F6326CCD2EDF"
 			tasks: [{
@@ -2091,6 +2091,20 @@
 				id: "426212093ED09918"
 				type: "item"
 				item: "mythicbotany:mjoellnir"
+			}]
+		}
+		{
+			x: -8.0d
+			y: 8.0d
+			shape: "hexagon"
+			subtitle: "Ready for Blood Magic! Check it out back in Supernatural Magic"
+			dependencies: ["5292FE7997FA5D63"]
+			size: 1.5d
+			id: "235259A75349C608"
+			tasks: [{
+				id: "342FA7A62A6D6590"
+				type: "item"
+				item: "bloodmagic:altar"
 			}]
 		}
 	]
