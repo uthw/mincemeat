@@ -40,7 +40,7 @@ onEvent("recipes", (event) => {
                 F: "abnormals_delight:dune_platter",
                 G: "byg:nightshade_berry_pie",
                 H: "aquaculture:sushi",
-                I: "simplefarming:turnip_beetroot_gratin",
+                I: "alexsmobs:kangaroo_burger",
             },
         ],
         [
