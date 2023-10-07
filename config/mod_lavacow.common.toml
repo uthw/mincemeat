@@ -306,7 +306,7 @@
 	"banshee attack" = 7.0
 	#Set the effect radius of Banshee scream [1-1000]
 	#Range: 1.0 ~ 1000.0
-	"banshee scream radius" = 3.0
+	"banshee scream radius" = 5.0
 
 [Weta]
 	#Set the spawn rate of Weta [0-10000]
