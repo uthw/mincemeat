@@ -10,6 +10,16 @@ onEvent("recipes", (event) => {
                 D: "eidolon:lesser_soul_gem",
             },
         ],
+        [
+            "bloodmagic:altar",
+            ["A A", "BCB", "DDD"],
+            {
+                A: "#forge:gems/cinnabar",
+                B: "#supplementaries:deepslate",
+                C: "naturesaura:token_rage",
+                D: "#forge:ingots/pewter",
+            },
+        ],
     ];
 
     recipes.forEach((recipe) => {
