@@ -14,6 +14,17 @@ onEvent("recipes", (event) => {
             time: 10,
             syphon: 10,
         },
+        {
+            output: "occultism:divination_rod",
+            inputs: [
+                "occultism:spirit_attuned_gem",
+                "#forge:ingots/obsidian",
+                "spartanweaponry:pole",
+            ],
+            tier: 1,
+            time: 40,
+            syphon: 100,
+        },
     ];
 
     recipes.forEach((recipe) => {
