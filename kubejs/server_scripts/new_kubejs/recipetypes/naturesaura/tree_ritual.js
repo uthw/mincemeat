@@ -35,7 +35,8 @@ onEvent("recipes", (event) => {
                 { item: "bloodmagic:reagentgrowth" },
             ],
             sapling: { item: "minecraft:lily_pad" },
-            output: "xreliquary:fertile_lily_pad",
+            output: { item: "xreliquary:fertile_lily_pad", count: 1 },
+            time: 60,
         },
     ];
 
