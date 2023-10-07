@@ -278,5 +278,149 @@
 				}
 			]
 		}
+		{
+			x: 4.0d
+			y: 0.5d
+			subtitle: "Not to be confused with vanilla Ender Chests"
+			description: [
+				"Did you know these Ender Chests existed before the vanilla item did, and it may be true that EnderStorage inspired vanilla ender chests?"
+				""
+				"Chests can be color coded and claimed (using a Key from Supplementaries). Color them with dye."
+				""
+				"Any two chests with the same color will be linked, containing the same items."
+				""
+				"The pouch acts as an EnderStorage chest, but it's portable. You can set the Pouch's color to be the same as the Ender Chest you shift + Rclick while holding the pouch."
+			]
+			dependencies: ["050E820868DD4EC3"]
+			id: "3B8312D8718DC5B4"
+			tasks: [
+				{
+					id: "5B1BE9F7FD08E550"
+					type: "item"
+					item: "enderstorage:ender_chest"
+				}
+				{
+					id: "1655AA6DC68DA29B"
+					type: "item"
+					item: "enderstorage:ender_pouch"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["742BE2ED8337B051"]
+			id: "050E820868DD4EC3"
+			tasks: [{
+				id: "58A94937B0C5B04E"
+				type: "checkmark"
+				title: "Advanced Storage"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			description: [
+				"The linking mechanics of tanks are the same as they are for chests."
+				""
+				"These tanks are powerful in that they can transfer liquids between dimensions!"
+			]
+			dependencies: ["3B8312D8718DC5B4"]
+			id: "313E61ACD510E3B2"
+			tasks: [{
+				id: "7CFFF0F0CC95F579"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			subtitle: "You can use an Ars Nouveau spellbook as an Ender Pouch instead!"
+			dependencies: ["3B8312D8718DC5B4"]
+			id: "0CD280401B8BF9BC"
+			tasks: [{
+				id: "4532A2D84CC89D32"
+				type: "item"
+				item: "ars_nouveau:glyph_ender_inventory"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			description: ["This makes the drawer remember the item(s) it has, even when there aren't any. This is useful if you don't want other storage managers to fill the drawer with random junk."]
+			dependencies: ["6FA77AB82BB6400A"]
+			id: "3667DAB1080B260B"
+			tasks: [{
+				id: "4E2C49DDF41FF1C4"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			description: ["Toggles labels on drawers that tell you how many items are in the drawer."]
+			dependencies: ["3667DAB1080B260B"]
+			id: "770EE77FCEC1536E"
+			tasks: [{
+				id: "662F58FDEBE3C0F0"
+				type: "item"
+				item: "storagedrawers:quantify_key"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			description: ["useful if you're on a lower end PC and the drawers make your game lag."]
+			dependencies: ["770EE77FCEC1536E"]
+			id: "73FA79CA904114C3"
+			tasks: [{
+				id: "79081C95814ABC37"
+				type: "item"
+				item: "storagedrawers:shroud_key"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			subtitle: "You can upgrade your storage drawers to enhance their usefulness."
+			description: ["JEI Right click"]
+			dependencies: ["050E820868DD4EC3"]
+			id: "6FA77AB82BB6400A"
+			tasks: [{
+				id: "4A05336F50332E1F"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -5.0d
+			id: "6A39634F3E4448AF"
+			tasks: [{
+				id: "20D6D9367D7D0422"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -7.0d
+			description: ["You can double Rclick a controller to get a form of Terraria's \"quick stack\": insert any items from your inventory, but only if they already exist in the drawer system."]
+			dependencies: ["6A39634F3E4448AF"]
+			id: "6B87C9B1BF3F31C7"
+			tasks: [{
+				id: "1829117859594D4F"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [{
+				id: "3B857EBE660B9794"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+				count: 2
+			}]
+		}
 	]
 }
