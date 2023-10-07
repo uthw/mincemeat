@@ -45,3 +45,6 @@ minecraftinstance.json
 .curseclient
 config/ue/UEBase.toml
 config/badmobs-common.toml
+config/jei/ingredient-list-mod-sort-order.ini
+config/jei/ingredient-list-type-sort-order.ini
+config/jei/recipe-category-sort-order.ini
