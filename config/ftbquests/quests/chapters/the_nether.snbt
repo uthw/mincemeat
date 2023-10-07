@@ -1066,6 +1066,7 @@
 				"39739C139F8E53F9"
 				"113F3969A0C3144F"
 			]
+			dependency_requirement: "one_completed"
 			id: "0B5CE92F23ED32FE"
 			tasks: [{
 				id: "75189B551B736F35"
@@ -1166,8 +1167,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: -5.5d
+			x: -2.5d
+			y: -5.0d
 			dependencies: ["252A982DEA1EC5A5"]
 			id: "784BEAAB567C23AC"
 			tasks: [{
