@@ -780,42 +780,6 @@
 			}]
 		}
 		{
-			title: "Cables"
-			x: -2.0d
-			y: 2.0d
-			subtitle: "Here are all the cables you can obtain in Mekanism. Each of these follow the 4-tier system of Mekanism."
-			description: ["Cable settings can be changed using a configurator. The things you can change depend on the cable you're working with."]
-			dependencies: ["1CB095891B94A06A"]
-			id: "1A9DC65063E256BB"
-			tasks: [
-				{
-					id: "180A6DF7B9788B3F"
-					type: "item"
-					item: "mekanism:basic_universal_cable"
-				}
-				{
-					id: "33D9C99A8F813C0D"
-					type: "item"
-					item: "mekanism:basic_mechanical_pipe"
-				}
-				{
-					id: "4A6640D1B7296F81"
-					type: "item"
-					item: "mekanism:basic_pressurized_tube"
-				}
-				{
-					id: "21DED2E73F8C6A79"
-					type: "item"
-					item: "mekanism:basic_logistical_transporter"
-				}
-				{
-					id: "5A4C13EE848EA2E1"
-					type: "item"
-					item: "mekanism:basic_thermodynamic_conductor"
-				}
-			]
-		}
-		{
 			x: -3.0d
 			y: 1.5d
 			dependencies: ["1A9DC65063E256BB"]
