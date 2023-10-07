@@ -4,7 +4,217 @@
 	order_index: 0
 	filename: "agriculture"
 	title: "Agriculture"
+	icon: "artifacts:villager_hat"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Agriculture"
+			disable_toast: true
+			x: 1.0d
+			y: 1.5d
+			shape: "hexagon"
+			dependencies: ["42C54117621F5C0E"]
+			id: "6CF926BB3DD6F91E"
+			tasks: [{
+				id: "0D6F4028C2C2F6F0"
+				type: "checkmark"
+				title: "Agriculture"
+			}]
+		}
+		{
+			title: "Advanced Beehives"
+			x: -0.5d
+			y: 1.5d
+			subtitle: "Adds more housing for bees to the advanced beehive."
+			dependencies: ["6CF926BB3DD6F91E"]
+			id: "337D1229E2B9EFD9"
+			tasks: [
+				{
+					id: "4A3B892F55292FA1"
+					type: "item"
+					title: "Any #productivebees:expansion_boxes"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "productivebees:expansion_boxes"
+						}
+					}
+				}
+				{
+					id: "1FC45F3FA2F9B207"
+					type: "item"
+					title: "Any #productivebees:advanced_beehives"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "productivebees:advanced_beehives"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			subtitle: "Capture bees"
+			description: [
+				"You can also use bee cages to set the home of the bee to whatever hive you interact with. Pretty useful :)"
+				""
+				"You should put all your bees in enclosed areas so they don't fly off. In case they do, you can use the World Map to locate them."
+			]
+			dependencies: ["337D1229E2B9EFD9"]
+			id: "2B4A4A5602F6F9CE"
+			tasks: [{
+				id: "2961E4BE8B9E1EC8"
+				type: "item"
+				item: "productivebees:bee_cage"
+			}]
+			rewards: [{
+				id: "068F124E2B06FBD0"
+				type: "item"
+				item: "darkutils:filter_player"
+				count: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			description: [
+				"You've probably found bee nests in the wild, typically on the ground. You can also craft these to have them in your base."
+				""
+				"Make sure your nest is in the right biome (look it up in JEI and click the \"Information\" tab)"
+				""
+				"Using a treat on the nest will spawn a unique bee that is used for breeding. They can't be used for any other purpose. We'll refer to these as solitary bees."
+				""
+			]
+			dependencies: ["2B4A4A5602F6F9CE"]
+			id: "3E15B4B10D92F885"
+			tasks: [{
+				id: "5765F83C0E3B76CB"
+				type: "item"
+				item: "productivebees:honey_treat"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			subtitle: "Convert ____combs into whatever materials is appropriate"
+			dependencies: ["3E15B4B10D92F885"]
+			id: "2445D90B2094825A"
+			tasks: [{
+				id: "136DA6C7C2CD54BE"
+				type: "item"
+				item: "productivebees:centrifuge"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["2445D90B2094825A"]
+			id: "103F3524A57F1BC8"
+			tasks: [{
+				id: "6FD7D927D35209E4"
+				type: "item"
+				item: "productivebees:powered_centrifuge"
+			}]
+		}
+		{
+			title: "Challenge: Diamond Comb"
+			x: -5.0d
+			y: 4.5d
+			subtitle: "Made with GMOs"
+			description: [
+				"Get breeding! (you can just use flowers to breed most bees. It says in JEI)"
+				""
+				"You can see what combination produces each breed in JEI; you might've noticed the fancy animated bee models -- click on those."
+				""
+				"All bee breeding trees are rooted in a combination of wild bees."
+			]
+			dependencies: ["69A250ABF81E343A"]
+			id: "3BC189664EF6ED5C"
+			tasks: [{
+				id: "2B7F5BE550C20E15"
+				type: "item"
+				item: "productivebees:honeycomb_diamond"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["2B4A4A5602F6F9CE"]
+			id: "510831283C0EC837"
+			tasks: [{
+				id: "6C933829A3CD9CC2"
+				type: "item"
+				item: {
+					id: "productivebees:nest_locator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			subtitle: "*Requires the Nether"
+			description: [
+				"Usually, bees are bred with flowers."
+				""
+				"You can see what combination produces each breed in JEI; you might've noticed the fancy animated bee models -- click on those. JEI can also tell you how to obtain each bee, whether it be through breeding or in the wild."
+				""
+				"All bee breeding trees are rooted in a combination of wild bees."
+			]
+			dependencies: ["2445D90B2094825A"]
+			id: "69A250ABF81E343A"
+			tasks: [{
+				id: "5A2FFCDC03E22ED9"
+				type: "item"
+				item: "productivebees:honeycomb_iron"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["I'm sure you found it before. Any living thing can drop it when killed."]
+			dependencies: ["6CF926BB3DD6F91E"]
+			id: "404FD5800936477B"
+			tasks: [{
+				id: "23E6861BC13A025E"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["404FD5800936477B"]
+			id: "577B09397DB07282"
+			tasks: [{
+				id: "67D1DC3995B46297"
+				type: "item"
+				item: "mysticalagriculture:inferium_seeds"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			subtitle: "Able to upgrade inferium essence."
+			dependencies: ["577B09397DB07282"]
+			id: "4A8D788D659185D8"
+			tasks: [{
+				id: "00D16DF3E76BE47B"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:infusion_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
 }
