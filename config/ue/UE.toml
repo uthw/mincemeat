@@ -53,7 +53,7 @@
 			#If the Enchantment is Obtainable
 			enabled = true
 			#If the Enchantment has any effect
-			activated = true
+			activated = false
 			#Minimum Enchantment Level
 			#Range: > 0
 			min_level = 1
@@ -97,7 +97,7 @@
 			#If the Enchantment is Obtainable
 			enabled = true
 			#If the Enchantment has any effect
-			activated = true
+			activated = false
 			#Minimum Enchantment Level
 			#Range: > 0
 			min_level = 1
@@ -141,7 +141,7 @@
 			#If the Enchantment is Obtainable
 			enabled = true
 			#If the Enchantment has any effect
-			activated = true
+			activated = false
 			#Minimum Enchantment Level
 			#Range: > 0
 			min_level = 1
