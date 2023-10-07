@@ -14,9 +14,9 @@ onEvent("item.modification", (event) => {
     event.modify("minecraft:lingering_potion", (item) => {
         item.maxStackSize = 16;
     });
-    event.modify("#minecraft:boats", (item) => {
-        item.maxStackSize = 16;
-    });
+    // event.modify("#minecraft:boats", (item) => {
+    //     item.maxStackSize = 16;
+    // });
     event.modify("#minecraft:beds", (item) => {
         item.maxStackSize = 16;
     });
