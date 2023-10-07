@@ -423,7 +423,7 @@
 		}
 		{
 			icon: "mysticalagriculture:supremium_essence"
-			x: 2.0d
+			x: 1.0d
 			y: 6.0d
 			dependencies: ["20B162460C213D2C"]
 			id: "5E0D72CF3BBC7C02"
@@ -448,10 +448,10 @@
 		}
 		{
 			icon: "pneumaticcraft:ingot_iron_compressed"
-			x: -5.0d
-			y: 4.0d
+			x: -5.5d
+			y: 4.5d
 			subtitle: "Requires Atum access"
-			dependencies: ["4FCCBA253842A908"]
+			dependencies: ["206C2F89952E6119"]
 			id: "5968C1C788948429"
 			tasks: [{
 				id: "56380472337FB9D0"
@@ -461,8 +461,8 @@
 		}
 		{
 			icon: "xnet:connector_red"
-			x: -5.5d
-			y: 0.5d
+			x: -5.0d
+			y: 2.0d
 			dependencies: ["2FCD7D6E5F70CD11"]
 			optional: true
 			id: "572876986211CE70"
@@ -517,10 +517,10 @@
 		}
 		{
 			icon: "fluxnetworks:flux_core"
-			x: -5.5d
-			y: 2.5d
+			x: -6.0d
+			y: 3.0d
 			subtitle: "WiFi networks for your power"
-			dependencies: ["5968C1C788948429"]
+			dependencies: ["206C2F89952E6119"]
 			optional: true
 			id: "399E1FD4858265E5"
 			tasks: [{
@@ -557,8 +557,8 @@
 					}
 				}
 			}
-			x: -6.5d
-			y: 3.5d
+			x: -7.0d
+			y: 4.0d
 			dependencies: ["0B06047BBE7EBDD9"]
 			optional: true
 			id: "23E434249D71C9F2"
@@ -570,8 +570,8 @@
 		}
 		{
 			icon: "mekanism:alloy_reinforced"
-			x: -5.5d
-			y: 4.5d
+			x: -6.0d
+			y: 5.0d
 			dependencies: ["5968C1C788948429"]
 			id: "0B06047BBE7EBDD9"
 			tasks: [{
@@ -619,8 +619,8 @@
 		}
 		{
 			icon: "rftoolsbuilder:builder"
-			x: -6.0d
-			y: 3.0d
+			x: -6.5d
+			y: 3.5d
 			dependencies: ["5968C1C788948429"]
 			optional: true
 			id: "749C67A2DB2DFC27"
@@ -632,8 +632,8 @@
 		}
 		{
 			icon: "powersuits:plating_netherite"
-			x: -4.5d
-			y: 5.5d
+			x: -5.0d
+			y: 6.0d
 			subtitle: "High-tech (and high-function) fashion"
 			dependencies: ["0B06047BBE7EBDD9"]
 			optional: true
@@ -771,15 +771,15 @@
 			]
 		}
 		{
-			x: 1.0d
-			y: -6.0d
+			x: 0.0d
+			y: -7.0d
 			subtitle: "Giant skeleton who summons a skeleton army! - Read description for summoning process"
 			description: [
 				"Step 1: find a Desert biome."
 				"Step 2: obtain a skeleton head and Cursed King's Crown."
 				"Step 3: while in the desert, place the head and right click it with the crown."
 			]
-			dependencies: ["1D5EAD570BCBD284"]
+			dependencies: ["65B0C03101B1E505"]
 			id: "76788D0090D29CE9"
 			tasks: [{
 				id: "24708A17E7C2AC2C"
@@ -890,8 +890,8 @@
 			]
 		}
 		{
-			x: 3.0d
-			y: -4.0d
+			x: 2.0d
+			y: -7.0d
 			subtitle: "Requires progression through Botania"
 			dependencies: ["63284F65F1C62A2A"]
 			id: "5DB96F13BB91A5D7"
@@ -916,10 +916,10 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -5.0d
+			x: 1.0d
+			y: -6.0d
 			subtitle: "A little different from normal!"
-			dependencies: ["76788D0090D29CE9"]
+			dependencies: ["1D5EAD570BCBD284"]
 			id: "63284F65F1C62A2A"
 			tasks: [{
 				id: "75BB4C2A2286DF7A"
@@ -1086,8 +1086,8 @@
 		}
 		{
 			icon: "securitycraft:camera_monitor"
-			x: -5.0d
-			y: 2.0d
+			x: -5.5d
+			y: 2.5d
 			dependencies: ["4FCCBA253842A908"]
 			optional: true
 			id: "7E52C5B1E470674D"
@@ -1108,6 +1108,37 @@
 				type: "kill"
 				entity: "minecraft:ender_dragon"
 				value: 1L
+			}]
+		}
+		{
+			icon: "mekanism:alloy_infused"
+			x: -5.0d
+			y: 4.0d
+			dependencies: ["4FCCBA253842A908"]
+			id: "206C2F89952E6119"
+			tasks: [{
+				id: "62793238A0B074DD"
+				type: "checkmark"
+				title: "Mekanism Tier 1"
+			}]
+		}
+		{
+			icon: {
+				id: "tconstruct:earth_slime_sling"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["5B3B47B919747301"]
+			optional: true
+			id: "07D4ABD043A1B82E"
+			tasks: [{
+				id: "521BB784B4D5BAF7"
+				type: "checkmark"
+				title: "Tinkers' Construct/Tetra"
 			}]
 		}
 	]
