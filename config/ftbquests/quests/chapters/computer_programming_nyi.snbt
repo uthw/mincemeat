@@ -5,6 +5,7 @@
 	filename: "computer_programming_nyi"
 	title: "Computer Programming (WIP)"
 	icon: "refinedstorage:wireless_crafting_monitor"
+	subtitle: ["This is CC50, Mincemeat's introduction to Computer Science"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [ ]
