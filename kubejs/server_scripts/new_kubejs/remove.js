@@ -15,6 +15,8 @@ onEvent("recipes", (event) => {
         "betterendforge:ender_block",
 
         "bloodmagic:soulforge",
+        "bloodmagic:altar",
+        "bloodmagic:blankrune",
 
         "botania:mana_ring",
         "botania:reach_ring",
@@ -106,6 +108,10 @@ onEvent("recipes", (event) => {
         "eidolon:worktable",
         "eidolon:pewter_blend",
 
+        "enderstorage:ender_chest",
+        "enderstorage:ender_tank",
+        "enderstorage:ender_pouch",
+
         "enigmaticlegacy:xp_scroll",
         "enigmaticlegacy:escape_scroll", // Escape doesn't work with corail tombstone.
         "enigmaticlegacy:heaven_scroll",
@@ -129,6 +135,8 @@ onEvent("recipes", (event) => {
         "forbidden_arcanus:tyr_boots",
 
         "forbidden_arcanus:ender_pearl_fragment",
+
+        "grapplemod:motorupgradeitem",
 
         "iceandfire:dragon_flute",
         "iceandfire:dragon_horn",
@@ -158,9 +166,20 @@ onEvent("recipes", (event) => {
         "modularrouters:blank_module",
         "modularrouters:energy_output_module",
         "modularrouters:energy_distributor_module",
+        "modularrouters:energy_upgrade",
+
+        "numina:component_servo",
+        "numina:component_glider_wing",
+        "numina:component_iron_thruster",
+        "numina:component_parachute",
+        "numina:component_field_emitter",
+        "numina:component_laser_emitter",
+        "numina:component_control_circuit",
 
         "naturesaura:ancient_sapling",
         "naturesaura:offering_table",
+
+        "occultism:divination_rod",
 
         "powah:furnator_starter",
         "powah:furnator_basic",
