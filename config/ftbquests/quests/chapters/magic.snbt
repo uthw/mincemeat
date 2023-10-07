@@ -4652,8 +4652,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -4.5d
+			x: -0.5d
+			y: -4.0d
 			description: ["Spawns in a lot of hostile mobs where it's used. This includes modded mobs and you can even get some silly things like Stone Statues"]
 			dependencies: ["33C8F0F340210441"]
 			id: "068E37E36D8578F9"
@@ -5812,28 +5812,9 @@
 			}]
 		}
 		{
-			title: "Blood Magic"
-			x: -2.5d
-			y: 2.0d
-			shape: "octagon"
-			size: 1.5d
-			id: "75D319539CD92872"
-			tasks: [{
-				id: "3EBD18621F5A31B8"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "bloodmagic:guide"
-					}
-				}
-			}]
-		}
-		{
 			x: -2.5d
 			y: 3.5d
-			dependencies: ["75D319539CD92872"]
+			dependencies: ["235259A75349C608"]
 			id: "1C2300F8EFEE7A81"
 			tasks: [{
 				id: "1D1FD45C329440DF"
@@ -6411,8 +6392,8 @@
 			}]
 		}
 		{
-			x: -6.0d
-			y: 8.0d
+			x: -5.5d
+			y: 8.5d
 			subtitle: "Make living armor"
 			dependencies: ["331CFB1DC66B5ACF"]
 			id: "6B87F7B9F24FC0BA"
@@ -6467,6 +6448,62 @@
 				id: "49F2A4B940008E1E"
 				type: "item"
 				item: "ars_nouveau:scribes_table"
+			}]
+		}
+		{
+			title: "Beginning of Occultism"
+			x: -7.0d
+			y: 8.5d
+			shape: "octagon"
+			description: [
+				"1. break grass until you find yourself some Demon's Dream seeds"
+				""
+				"2. grow the seeds into fruit"
+				""
+				"3. drop the fruit on a block and ignite it with a Flint and Steel. This creates a special, purple fire."
+				""
+				"This special fire doesn't have most properties of fire. It is only used for converting items."
+			]
+			dependencies: ["2B77E1A67BA9E56E"]
+			size: 1.5d
+			id: "77219718DABB8F62"
+			tasks: [
+				{
+					id: "0B63A88F3A14F5BE"
+					type: "item"
+					item: "occultism:datura_seeds"
+				}
+				{
+					id: "5CC20C888242545B"
+					type: "item"
+					item: "occultism:datura"
+				}
+				{
+					id: "5E36E004482DCE4C"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 10.5d
+			dependencies: ["77219718DABB8F62"]
+			id: "498A2873A812881A"
+			tasks: [{
+				id: "526B8D9E3F9AF3BA"
+				type: "item"
+				item: {
+					id: "occultism:divination_rod"
+					Count: 1b
+					tag: { }
+				}
 			}]
 		}
 	]
