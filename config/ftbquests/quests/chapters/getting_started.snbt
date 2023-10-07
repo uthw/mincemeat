@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: -8.25d
+			x: -8.0d
 			y: 0.0d
 			shape: "square"
 			description: ["Also, this is the first modpack I've made other than that one on Fabric we had a good time on. Expect serious balance/design issues I'm not aware of, particularly in these quests."]
@@ -92,8 +92,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: 1.0d
+			x: 1.5d
+			y: -2.5d
 			description: [
 				"Easily one of the most useful items in the game. Allows you to find any structure like /locate, and tells you the coordinates and distance you need to travel."
 				""
@@ -137,8 +137,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 0.0d
+			x: 1.0d
+			y: -1.5d
 			description: ["Allows you to find biomes. Useful for finding building blocks or a particular place to build your base."]
 			dependencies: ["4FD64AEA10EC3D72"]
 			id: "0282D1BEC64A2E22"
@@ -174,8 +174,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 7.0d
+			x: -9.0d
+			y: 9.5d
 			subtitle: "Very useful portable inventory, can be accessed with a hotkey"
 			description: ["More inventory space. You can press the button to the top-left of the render of your skin in the inventory to open the Curios GUI and place the Backpack in the \"back\" slot."]
 			dependencies: ["17931C186781CFC0"]
@@ -216,8 +216,8 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: 6.0d
+			x: -9.0d
+			y: 11.0d
 			dependencies: ["3B5888D439CDA9AD"]
 			id: "74E341009059B8D8"
 			tasks: [{
@@ -264,8 +264,8 @@
 		}
 		{
 			title: "Wool"
-			x: -7.25d
-			y: -3.0d
+			x: -13.25d
+			y: 0.0d
 			hide_dependency_lines: true
 			dependencies: [
 				"208F9467D721C8EA"
@@ -291,8 +291,8 @@
 			}]
 		}
 		{
-			x: -6.25d
-			y: -4.5d
+			x: -12.25d
+			y: -1.5d
 			description: ["Lets you sleep through the night, but doesn't set your spawn point. The sleeping bag is broken afterwards so you can pick it up."]
 			dependencies: ["3B54B827153F210A"]
 			id: "356BAEB4B5E2ACC4"
@@ -316,8 +316,8 @@
 			}]
 		}
 		{
-			x: -8.25d
-			y: -4.5d
+			x: -14.25d
+			y: -1.5d
 			description: ["Lets you sleep through the day."]
 			dependencies: ["3B54B827153F210A"]
 			id: "7F02E6EE2D1A7D6E"
@@ -365,7 +365,7 @@
 			}]
 		}
 		{
-			x: -2.0d
+			x: -1.0d
 			y: 0.0d
 			shape: "square"
 			subtitle: "You're probably going to want some iron."
@@ -430,8 +430,8 @@
 			]
 		}
 		{
-			x: 0.0d
-			y: 2.0d
+			x: 3.0d
+			y: 0.0d
 			shape: "square"
 			description: [
 				"While not too useful for tools, gold has many other uses."
@@ -491,8 +491,9 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 10.5d
+			x: -1.0d
+			y: 10.0d
+			subtitle: "Extract enchantments *a more sophisticated extractor will be available later"
 			description: [
 				"The Altar of the Sea allows you to disenchant items in a more complicated way. The premise is it absorbs XP of nearby players, destroys the 4 enchanted items placed on it, and creates a new enchanted book with the enchantments."
 				""
@@ -521,35 +522,8 @@
 		}
 		{
 			x: -1.0d
-			y: 6.0d
-			dependencies: ["32D230590CD6F5BB"]
-			id: "7953644BD15BF1A1"
-			tasks: [{
-				id: "2DA569FD95EB8AC0"
-				type: "item"
-				item: {
-					id: "minecraft:diamond_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "7AC7D038BE591B32"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: -1.0d
 			y: 7.5d
-			dependencies: ["7953644BD15BF1A1"]
+			dependencies: ["32D230590CD6F5BB"]
 			id: "0090669B53FA5F66"
 			tasks: [{
 				id: "68B80AA66C2BBF7E"
@@ -588,7 +562,7 @@
 		{
 			title: "Welcome"
 			icon: "minecraft:cooked_beef"
-			x: -11.0d
+			x: -10.5d
 			y: 0.0d
 			shape: "hexagon"
 			description: [
@@ -622,8 +596,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 1.5d
+			x: 4.5d
+			y: 0.0d
 			description: [
 				"Right click to shoot torches. It can shoot 256 torches before breaking, making it more efficent than placing them manually."
 				""
@@ -696,8 +670,8 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 7.0d
+			x: -9.5d
+			y: 6.5d
 			subtitle: "It smells a little wild in here..."
 			description: [
 				"Hold it in midair and glide. Initially you can't go that far, but you can upgrade it at special statues in villages."
@@ -774,8 +748,8 @@
 			}]
 		}
 		{
-			x: -8.0d
-			y: 9.0d
+			x: -8.5d
+			y: 6.5d
 			dependencies: ["17931C186781CFC0"]
 			id: "7F2342D061DBC680"
 			tasks: [{
@@ -798,12 +772,15 @@
 			description: [
 				"Rip bozo"
 				"You lose 75% of your levels at the time of death. There is no way to directly prevent this other than having no levels."
+				""
+				"Hmm..."
 			]
 			hide_dependency_lines: true
 			dependencies: [
 				"208F9467D721C8EA"
 				"06423DE8404671CB"
 			]
+			optional: true
 			id: "78ABD6682850A81F"
 			tasks: [{
 				id: "23E8DD6164393C7F"
@@ -817,6 +794,7 @@
 			y: 5.0d
 			description: ["Is traded for Grave Dust when you collect your items. Sometimes, you will spawn with an Enchanted Grave Key that lets you teleport straight to your grave."]
 			dependencies: ["78ABD6682850A81F"]
+			optional: true
 			id: "2EE1262D97309044"
 			tasks: [{
 				id: "793E196D6135784B"
@@ -935,8 +913,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 9.0d
+			x: -2.0d
+			y: 10.0d
 			description: [
 				"Increases Eterna (the max enchant level)"
 				""
@@ -964,8 +942,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.0d
+			x: 0.5d
+			y: -2.5d
 			description: ["Combine an item with this book in an anvil to extract most of its enchantments."]
 			dependencies: ["4FD64AEA10EC3D72"]
 			id: "7AB200E89A5C1574"
@@ -990,42 +968,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: 8.0d
-			description: ["Increases Arcana, which makes rare enchantments more common."]
-			dependencies: ["38BEEB45ACD68854"]
-			id: "37BAC0DC95AFE34E"
-			tasks: [{
-				id: "7752234639A6448C"
-				type: "item"
-				item: {
-					id: "minecraft:jack_o_lantern"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "05DC5061926AFE23"
-				type: "item"
-				item: {
-					id: "autumnity:pumpkin_bread"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-				count: 4
-			}]
-		}
-		{
-			x: -3.5d
-			y: 9.0d
+			x: -2.0d
+			y: 11.0d
 			dependencies: ["4C041E6E18FC74F9"]
 			id: "2F97C9966CBC715C"
 			tasks: [{
@@ -1056,42 +1000,13 @@
 		}
 		{
 			x: -5.5d
-			y: 6.5d
-			subtitle: "I've got a bone to pick with you"
-			hide_dependency_lines: true
-			dependencies: [
-				"208F9467D721C8EA"
-				"06423DE8404671CB"
-			]
-			id: "530D39397BF8B6E8"
-			tasks: [{
-				id: "6F7F3A38AE74BC5E"
-				type: "item"
-				item: {
-					id: "minecraft:bone"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-			rewards: [{
-				id: "4D3AD00604E3A068"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
-		}
-		{
-			x: -5.5d
 			y: 8.5d
 			description: [
 				"Your tamed wolf should disappear and then change color, then you'll receive a message saying \"Level up!\""
 				""
 				"Use the stick for deeper commands than follow/stay."
 			]
-			dependencies: ["530D39397BF8B6E8"]
+			dependencies: ["6818CB4D9BAF4960"]
 			id: "4CE46EF5E30BF9B9"
 			tasks: [
 				{
@@ -1128,8 +1043,8 @@
 			}]
 		}
 		{
-			x: -7.25d
-			y: -5.0d
+			x: -13.25d
+			y: -2.0d
 			description: ["If your dog dies, it can be revived at its bed, just like you!"]
 			dependencies: ["3B54B827153F210A"]
 			id: "5846CD6F06CAACA6"
@@ -1223,7 +1138,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -2.5d
 			y: 7.0d
 			dependencies: ["12BFE3576E46C38A"]
 			id: "659DF4528D7D3268"
@@ -1506,7 +1421,7 @@
 		}
 		{
 			x: -8.0d
-			y: -1.5d
+			y: -2.0d
 			subtitle: "Like it never happened"
 			dependencies: ["06423DE8404671CB"]
 			id: "4515FAC352403D5F"
@@ -1679,8 +1594,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -2.0d
+			x: 6.0d
+			y: -3.0d
 			subtitle: "Use a knife to cut certain items."
 			description: [""]
 			dependencies: ["7D1CE70A0736CB85"]
@@ -1705,8 +1620,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -3.0d
+			x: 4.0d
+			y: -3.5d
 			subtitle: "Killing animals with a knife can yield unique items."
 			hide_dependency_lines: true
 			dependencies: [
@@ -1737,8 +1652,8 @@
 			}]
 		}
 		{
-			x: 3.5d
-			y: -2.5d
+			x: 7.5d
+			y: -3.0d
 			description: [
 				"The opposite of scaffolding. Can be continuously placed below the last block."
 				""
@@ -1767,8 +1682,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -4.0d
+			x: 6.0d
+			y: -4.5d
 			subtitle: "Save the turtles!"
 			dependencies: ["7D1CE70A0736CB85"]
 			id: "726D0342998FB259"
@@ -1793,10 +1708,10 @@
 		}
 		{
 			x: 0.5d
-			y: 4.0d
+			y: 3.5d
 			subtitle: "For all your storage needs"
 			description: ["Needed by every storage network. This item does not require energy to be given to it in order to function."]
-			dependencies: ["32D230590CD6F5BB"]
+			dependencies: ["069B1509B0FFA946"]
 			id: "2FC60C010FA5AA99"
 			tasks: [{
 				id: "3B7C6EAB8452FCB0"
@@ -1834,7 +1749,7 @@
 			]
 		}
 		{
-			x: 1.5d
+			x: 0.5d
 			y: 5.0d
 			subtitle: "Access all inventories on your network"
 			description: ["Place this adjacent to or linked to the storage root using network cables."]
@@ -1860,7 +1775,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 0.5d
 			y: 6.5d
 			subtitle: "Add inventories to your network"
 			description: ["Run these between your root and various inventories (chests and the like) to connect them."]
@@ -1886,8 +1801,8 @@
 			}]
 		}
 		{
-			x: 4.0d
-			y: -1.0d
+			x: 8.0d
+			y: -1.5d
 			description: ["You will not take fall damage if you land on this."]
 			dependencies: ["62FC7466F8200367"]
 			id: "11FC8F805A878382"
@@ -1961,7 +1876,7 @@
 		}
 		{
 			x: -1.5d
-			y: -4.0d
+			y: -4.5d
 			description: ["Acts like a campfire with 6 slots instead of 4."]
 			dependencies: ["0D0EC0B5DEABAE62"]
 			id: "52C92A2F59895AFB"
@@ -1985,8 +1900,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -4.0d
+			x: 5.0d
+			y: -5.0d
 			subtitle: "Did I hear delicious pancakes?"
 			description: [
 				"When placed above some sources of heat, it cooks food. It doesn't require fuel."
@@ -2076,7 +1991,7 @@
 		}
 		{
 			x: -7.0d
-			y: -1.0d
+			y: -2.0d
 			subtitle: "Interact with crafting table to turn it into a workbench. Can be upgraded."
 			dependencies: ["06423DE8404671CB"]
 			id: "7F2F32A5B847D44E"
@@ -2106,7 +2021,7 @@
 		}
 		{
 			x: -6.0d
-			y: -1.5d
+			y: -1.0d
 			subtitle: "Place a vanilla or (select) modded weapon here to edit any part of the weapon, upgrade parts, and more."
 			dependencies: ["7F2F32A5B847D44E"]
 			id: "2A37913B35DC0D59"
@@ -2148,7 +2063,7 @@
 			}]
 		}
 		{
-			x: -4.5d
+			x: -5.0d
 			y: 5.5d
 			subtitle: "Any time now..."
 			description: [
@@ -2171,8 +2086,8 @@
 		}
 		{
 			disable_toast: true
-			x: 0.0d
-			y: 1.0d
+			x: 1.5d
+			y: -0.5d
 			subtitle: "An alloy known for being magically active."
 			dependencies: ["4FD64AEA10EC3D72"]
 			id: "2A77B885F55E9621"
@@ -2184,7 +2099,7 @@
 		}
 		{
 			x: 4.0d
-			y: 2.5d
+			y: -1.0d
 			subtitle: "What lies below the bedrock..."
 			description: [
 				"The piece that activates the portal to a subterranean dimension composed of strange animals."
@@ -2206,8 +2121,8 @@
 		}
 		{
 			title: "Rockwool"
-			x: -8.5d
-			y: -3.5d
+			x: -14.5d
+			y: -0.5d
 			subtitle: "Wool that is unable to catch fire."
 			description: [""]
 			dependencies: ["3B54B827153F210A"]
@@ -2233,7 +2148,7 @@
 		{
 			title: "Loot Cases"
 			x: -2.0d
-			y: 6.0d
+			y: 5.5d
 			description: [
 				"Contains a random tool, weapon, or piece of armor. The stats and special qualities are different every time (hence the name \"Random Loot\")."
 				""
@@ -2272,8 +2187,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: -1.0d
+			x: -3.0d
+			y: -2.0d
 			subtitle: "Build a 3x3x3 cube of furnaces. Don't waste time on a super smelter, make this instead!"
 			dependencies: ["4299828604426BEA"]
 			id: "1CCF9A3BFF04623C"
@@ -2291,7 +2206,7 @@
 		}
 		{
 			x: 0.0d
-			y: -1.0d
+			y: -1.5d
 			dependencies: ["4FD64AEA10EC3D72"]
 			id: "21EDF8C2714DE0EB"
 			tasks: [{
@@ -2302,7 +2217,7 @@
 		}
 		{
 			x: 0.5d
-			y: 0.0d
+			y: -0.5d
 			dependencies: ["4FD64AEA10EC3D72"]
 			id: "17F0ED90CF335F54"
 			tasks: [{
@@ -2313,7 +2228,7 @@
 		}
 		{
 			x: -9.0d
-			y: -1.5d
+			y: -2.0d
 			subtitle: "Chipped allows you to customize the appearance of many blocks with lots of different options. "
 			description: [
 				"These workbenches handle blocks of different themes (example: botanist's table -> natural blocks)"
@@ -2366,8 +2281,8 @@
 			}]
 		}
 		{
-			x: -5.75d
-			y: -6.0d
+			x: -11.75d
+			y: -3.0d
 			dependencies: ["356BAEB4B5E2ACC4"]
 			id: "5868396064B273E1"
 			tasks: [{
@@ -2425,8 +2340,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: -1.5d
+			x: -1.0d
+			y: -2.0d
 			subtitle: "Press N to put the tank into bucket mode, letting you use it as a bucket. Shift Rclick to empty 1 block of water at the location"
 			description: ["This item can store 32 buckets of one fluid. It supports things other than water such as Essence of Knowledge and Napalm."]
 			dependencies: ["4FD64AEA10EC3D72"]
@@ -2443,45 +2358,51 @@
 			}]
 		}
 		{
-			x: -10.0d
-			y: 9.0d
-			subtitle: "Careful!"
-			dependencies: ["17931C186781CFC0"]
-			id: "60D1B1E06457BE27"
-			tasks: [{
-				id: "4CFD28FAB73613CE"
-				type: "item"
-				title: "Any #mekanismadditions:balloons"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "mekanismadditions:balloons"
-					}
-				}
-			}]
-		}
-		{
-			x: -4.5d
-			y: -1.0d
+			title: "Chiseler's Toolkit"
+			x: -5.0d
+			y: -2.0d
+			subtitle: "Warning: read at your own risk. If you give this mod a chance then it will consume hours of your time on simple projects!"
+			description: [
+				"The description is from a forum post by user Punane. The mod referred to is Chisels \\& Bits, which allows you to create incredibly detailed builds."
+				""
+				"First, set the Undo and Redo keybinds. Maybe the same thing as your favorite word processor for simplicity's sake?"
+				""
+				"Place bits by right clicking, and break them with left click. You can change the shape with a key bind, or by shift + scrolling."
+				""
+				"More will go here as I playtest the pack (I haven't used Chisels and Bits before). Have fun for now!"
+			]
 			dependencies: ["4299828604426BEA"]
 			id: "2494C4466E476105"
-			tasks: [{
-				id: "5CE8C8B0F3B12B11"
-				type: "item"
-				item: {
-					id: "chiselsandbits:chisel_stone"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "5CE8C8B0F3B12B11"
+					type: "item"
+					title: "Any #chiselsandbits:chisel"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "chiselsandbits:chisel"
+						}
 					}
 				}
-			}]
+				{
+					id: "180312B5DF5B29BE"
+					type: "item"
+					item: {
+						id: "chiselsandbits:bit_bag"
+						Count: 1b
+						tag: {
+							Inventory: { }
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "Straw Golem"
-			x: -1.5d
-			y: -3.0d
+			x: 2.5d
+			y: -2.5d
 			description: ["Let the straw golem take care of your farms for you! These little helpers can tend to crops, replant them, and deliver your final products to nearby inventories."]
 			dependencies: ["7D1CE70A0736CB85"]
 			id: "4A99DAA11797E1AC"
@@ -2522,7 +2443,7 @@
 			}]
 		}
 		{
-			x: -2.5d
+			x: -3.0d
 			y: 3.0d
 			subtitle: "Deals damage instead of placing blocks."
 			dependencies: ["0879D270084D20AA"]
@@ -2540,8 +2461,8 @@
 			}]
 		}
 		{
-			x: -2.5d
-			y: -2.5d
+			x: -1.0d
+			y: -3.5d
 			subtitle: "Saves you from drowning!"
 			dependencies: ["7D1EA49A0A42048B"]
 			id: "052CEDF4AE734E4C"
@@ -2550,6 +2471,353 @@
 				type: "item"
 				item: {
 					id: "engineerstools:diving_capsule"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			description: ["Automatically collects chicken eggs."]
+			dependencies: ["4A99DAA11797E1AC"]
+			id: "78F5213A9148627A"
+			tasks: [{
+				id: "6318C7387CD3CCD7"
+				type: "item"
+				item: "farmingforblockheads:chicken_nest"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			description: ["The function of the item is in its tooltip."]
+			dependencies: ["4A99DAA11797E1AC"]
+			id: "05FCF488F0E0C088"
+			tasks: [{
+				id: "5489B934D27B480E"
+				type: "item"
+				item: "farmingforblockheads:feeding_trough"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.5d
+			subtitle: "*Better trades will be added to the Market in a future version"
+			dependencies: ["7D1CE70A0736CB85"]
+			id: "35781A3629F67B8A"
+			tasks: [{
+				id: "5937EDB57A50BF1F"
+				type: "item"
+				item: "farmingforblockheads:market"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			shape: "square"
+			subtitle: "Re-introduction to Redstone - REDS101"
+			description: [
+				"I don't know about you, but I personally find redstone VERY complicated. It's weird because I understand far more complicated things like Mekanism just fine, but I just can't make any sense out of redstone."
+				""
+				"It's really tough when there's no resource in-game that teaches you about it besides a hidden basement in Ancient Cities which probably no one has even heard of."
+				""
+				"These next few quests are designed to help you learn (or relearn) redstone, it can be pretty useful in this modpack and modded MC in general."
+			]
+			dependencies: ["14CE0F41145FC55E"]
+			id: "78DAAA73F3C55520"
+			tasks: [{
+				id: "0033AF1F4DA81D28"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			subtitle: "Emits 15 redstone power. You can right-click it to set its delay."
+			description: [
+				""
+				""
+				""
+			]
+			dependencies: ["78DAAA73F3C55520"]
+			id: "3BD1C6B4B1A4BE48"
+			tasks: [{
+				id: "440ABD16F038E68E"
+				type: "item"
+				item: "minecraft:repeater"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			subtitle: "Important in modded MC! Produces a signal based on the blcok its arrow points at"
+			description: ["This block also has some wonky features, indicated by whether the torch is on. It can stop signal emittance when the torch is on, or subtract the side inputs strength from its output (off)."]
+			dependencies: ["3BD1C6B4B1A4BE48"]
+			id: "5DE3CABC7403CFD6"
+			tasks: [{
+				id: "714B3DCF2D5F80D7"
+				type: "item"
+				item: "minecraft:comparator"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			description: [
+				"- Placing a torch on a block provides a signal to all adjacent blocks except below."
+				""
+				"- Placing a torch on a powered block will deactivate it."
+			]
+			dependencies: ["78DAAA73F3C55520"]
+			id: "2FD5A5B602BA834F"
+			tasks: [{
+				id: "5448A29B7FE2FE20"
+				type: "item"
+				item: "minecraft:redstone_torch"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.0d
+			subtitle: "Emits a signal when the block its \"face\" is up against experiences a change, such as a sugarcane growing to an empty block or a grass block turning into a dirt block."
+			dependencies: ["78DAAA73F3C55520"]
+			id: "0AB55D1AEEE94519"
+			tasks: [{
+				id: "3F0F759474E812E1"
+				type: "item"
+				item: "minecraft:observer"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			subtitle: "Always emits a signal."
+			dependencies: ["2FD5A5B602BA834F"]
+			id: "4E763C15746B4815"
+			tasks: [{
+				id: "13ACA53865A16483"
+				type: "item"
+				item: "minecraft:redstone_block"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			subtitle: "Destroy the calculating scum"
+			description: ["Like the mechanical ruler from Terraria. Allows you to quickly measure the block distance between two (reasonably close) points."]
+			dependencies: ["4FD64AEA10EC3D72"]
+			id: "53EBCFC4A9B106ED"
+			tasks: [{
+				id: "127A4E3822869B1E"
+				type: "item"
+				item: "quark:abacus"
+			}]
+		}
+		{
+			title: "Ambience Disc"
+			x: -4.0d
+			y: 4.5d
+			description: [
+				"These unique discs play ambient noises instead of music. "
+				""
+				"They are dropped when a skeleton shoots down a spider."
+			]
+			dependencies: ["6818CB4D9BAF4960"]
+			id: "31B7D454C449BB3F"
+			tasks: [{
+				id: "1672956136E0B0AD"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "quark:music_disc_chatter"
+								Count: 1b
+							}
+							{
+								id: "quark:music_disc_crickets"
+								Count: 1b
+							}
+							{
+								id: "quark:music_disc_clock"
+								Count: 1b
+							}
+							{
+								id: "quark:music_disc_fire"
+								Count: 1b
+							}
+							{
+								id: "quark:music_disc_wind"
+								Count: 1b
+							}
+							{
+								id: "quark:music_disc_rain"
+								Count: 1b
+							}
+							{
+								id: "quark:music_disc_ocean"
+								Count: 1b
+							}
+							{
+								id: "quark:music_disc_drips"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.5d
+			subtitle: "When powered from the back (the base of the T), it randomly outputs the signal to the left or right."
+			description: [""]
+			dependencies: ["5DE3CABC7403CFD6"]
+			id: "011CCF8E36D3A0D4"
+			tasks: [{
+				id: "7995015E7CC4A0C3"
+				type: "item"
+				item: "quark:redstone_randomizer"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			subtitle: "Randomly emits a long-lasting redstone signal."
+			dependencies: ["011CCF8E36D3A0D4"]
+			id: "67AE753563A4C7DB"
+			tasks: [{
+				id: "47AD9529298B8416"
+				type: "item"
+				item: "darkutils:redstone_randomizer"
+			}]
+		}
+		{
+			title: "Advanced Storage Unlocked"
+			x: 0.75d
+			y: 8.25d
+			shape: "hexagon"
+			subtitle: "You're ready for some cooler things now! Head over to the Advanced Storage chapter to check them out"
+			dependencies: ["7916121559DA4589"]
+			size: 1.5d
+			id: "742BE2ED8337B051"
+			tasks: [{
+				id: "08DE060FB7CF95E3"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+		}
+		{
+			title: "Storage Drawers"
+			x: 0.5d
+			y: 2.0d
+			description: [
+				"Drawers are a visually pleasing way of organizing your items."
+				""
+				"Fortunately for you, drawers come in many varieties! The basic 1x1 version can hold 32 stacks of a single item, 1x2 drawers can hold 16 stacks each of 2 different items, and so on."
+				""
+				"There are also drawers which are half the size but also store half the items."
+			]
+			dependencies: ["4FD64AEA10EC3D72"]
+			id: "069B1509B0FFA946"
+			tasks: [{
+				id: "734BCE7F48220D84"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: [
+				"Right click: add the stack you're holding to the drawer"
+				""
+				"Double right click: add all matching items from your inventory"
+				""
+				"left click: remove an item"
+				""
+				"Shift left click: remove a stack of items"
+			]
+			dependencies: ["069B1509B0FFA946"]
+			id: "20BB99E4AD129B2E"
+			tasks: [{
+				id: "7B539A7E8245DC03"
+				type: "checkmark"
+				title: "Drawers Controls"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -5.5d
+			subtitle: "Obtained when shearing a beehive. Make sure you place a campfire under the hive."
+			description: ["Campfires under beehives make those bees passive."]
+			dependencies: ["0D0EC0B5DEABAE62"]
+			id: "49F349EED2FD699B"
+			tasks: [{
+				id: "5DD22F0FEEF2ED0E"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
+		}
+		{
+			title: "Advanced Beehive"
+			x: -5.0d
+			y: -6.5d
+			subtitle: "Has more features than the vanilla Bee Nest!"
+			description: ["The advanced beehive can show you the bees currently in the hive, an inventory for honeycombs, and a slot for automatically collecting honey bottles."]
+			dependencies: ["49F349EED2FD699B"]
+			id: "64514616F3FA4953"
+			tasks: [{
+				id: "247E4E77FC594116"
+				type: "item"
+				title: "Any #productivebees:advanced_beehives"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "productivebees:advanced_beehives"
+					}
+				}
+			}]
+		}
+		{
+			icon: "statues:bee_statue"
+			x: -7.0d
+			y: -7.0d
+			shape: "hexagon"
+			description: ["You're ready to start Advanced Agriculture! This route is useful for automating many of the resources you'll need, as well as enhancing the yields of your crops (of course)!"]
+			dependencies: ["64514616F3FA4953"]
+			size: 1.5d
+			id: "42C54117621F5C0E"
+			tasks: [{
+				id: "714E0791EFBB83EE"
+				type: "checkmark"
+				title: "Advanced Agriculture"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			dependencies: ["32D230590CD6F5BB"]
+			id: "15D39FB1E49B0E1D"
+			tasks: [{
+				id: "71D58B5D6917FEF0"
+				type: "item"
+				item: {
+					id: "quark:pickarang"
 					Count: 1b
 					tag: {
 						Damage: 0
