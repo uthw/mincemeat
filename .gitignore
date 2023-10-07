@@ -44,3 +44,4 @@ usernamecache.json
 minecraftinstance.json
 .curseclient
 config/ue/UEBase.toml
+config/badmobs-common.toml
