@@ -65,6 +65,30 @@ onEvent("recipes", (event) => {
             reagent: "supplementaries:pedestal",
             output: "naturesaura:offering_table",
         },
+        {
+            inputs: [
+                { item: "eidolon:pewter_ingot" },
+                { item: "cavesandcliffs:deepslate" },
+                { item: "cavesandcliffs:deepslate" },
+                { item: "cavesandcliffs:deepslate" },
+                { item: "cavesandcliffs:deepslate" },
+                { item: "astralsorcery:aquamarine" },
+            ],
+            output: "bloodmagic:blankrune",
+            reagent: "bloodmagic:blankslate",
+        },
+        {
+            inputs: [
+                { item: "eidolon:polished_wood_pillar" },
+                { item: "cavesandcliffs:deepslate" },
+                { item: "cavesandcliffs:deepslate" },
+                { item: "cavesandcliffs:deepslate" },
+                { tag: "forge:ingots/arcane_gold" },
+                { tag: "ars_nouveau:potion_flask" },
+            ],
+            output: "bloodmagic:alchemytable",
+            reagent: "bloodmagic:blankslate",
+        },
     ];
 
     recipes.forEach((recipe) => {
