@@ -545,6 +545,122 @@ onEvent("recipes", (event) => {
             "minecraft:dried_kelp",
             "immersiveengineering:hemp_fabric",
         ],
+        [
+            { output: "sophisticatedbackpacks:upgrade_base" },
+            "#forge:string",
+            "mysticalagriculture:infernium_essence",
+        ],
+        [
+            { mod: "sophisticatedbackpacks" },
+            "#forge:ingots/iron",
+            "#forge:ingots/tin",
+        ],
+        [{ mod: "grapplemod" }, "minecraft:lead", "#supplementaries:ropes"],
+        [
+            { output: "grapplemod:swingupgradeitem" },
+            "minecraft:feather",
+            "aquaculture:iron_hook",
+        ],
+        [
+            { output: "storagenetwork:request" },
+            "minecraft:gold_ingot",
+            "#forge:ingots/brass",
+        ],
+        [
+            { output: "storagenetwork:request" },
+            "#forge:workbench",
+            "storagenetwork:kabel", // Why is it spelled like this? Inside joke?
+        ],
+        [
+            { mod: "storagedrawers" },
+            "#forge:rods/wooden",
+            "farmersdelight:straw",
+        ],
+        [
+            { output: "storagedrawers:obsidian_storage_upgrade" },
+            "#forge:obsidian",
+            "#supplementaries:deepslate",
+        ],
+        [
+            { output: "storagedrawers:iron_storage_upgrade" },
+            "minecraft:iron_ingot",
+            "#forge:ingots/zinc",
+        ],
+        [
+            { output: "storagedrawers:emerald_storage_upgrade" },
+            "minecraft:emerald",
+            "thermal:cinnabar",
+        ],
+        [
+            { output: "storagedrawers:void_upgrade" },
+            "#forge:obsidian",
+            "forbidden_arcanus:dark_rune",
+        ],
+        // [
+        //     { output: "ars_nouveau:novice_spell_book"},
+        //     "minecraft:iron_sword",
+        //     "eidolon:wicked_weave"
+        // ],[
+        //     { output: "ars_nouveau:novice_spell_book"},
+        //     "minecraft:iron_sword",
+        //     "eidolon:wicked_weave"
+        // ],
+        [
+            { output: "bloodmagic:speedrune" },
+            "minecraft:sugar",
+            "mod_lavacow:feather_black",
+        ],
+        [
+            { output: "bloodmagic:sacrificerune" },
+            "minecraft:gold_ingot",
+            "#forge:ingots/arcane_gold",
+        ],
+        [
+            { output: "bloodmagic:dislocationrune" },
+            "minecraft:water_bucket",
+            "blue_skies:charoite",
+        ],
+        [
+            { output: "bloodmagic:altarcapacityrune" },
+            "minecraft:bucket",
+            "thermal:basalz_powder",
+        ],
+        [
+            { output: "bloodmagic:bettercapacityrune" },
+            "minecraft:bucket",
+            "thermal:blizz_powder",
+        ],
+        [
+            { output: "bloodmagic:bettercapacityrune" },
+            "minecraft:obsidian",
+            "infernalexp:smooth_dimstone",
+        ],
+        [
+            { output: "bloodmagic:accelerationrune" },
+            "minecraft:bucket",
+            "forbidden_arcanus:arcane_crystal",
+        ],
+        [
+            { output: "bloodmagic:accelerationrune" },
+            "minecraft:gold_ingot",
+            "#forge:ingots/arcane_gold",
+        ],
+        [
+            { output: "bloodmagic:chargingrune" },
+            "minecraft:redstone",
+            "thermal:rf_coil",
+        ],
+        [
+            { output: "bloodmagic:daggerofsacrifice" },
+            "minecraft:iron_sword",
+            "mod_lavacow:spectral_dagger",
+        ],
+        [{}, "numina:component_wiring", "#forge:wires/copper"],
+        [
+            { output: "numina:component_solenoid" },
+            "#forge:ingots/steel",
+            "#forge:rods/steel",
+        ],
     ];
 
     replacements.forEach((item) =>
