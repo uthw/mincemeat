@@ -32,7 +32,7 @@ break_in_creative = false
 	leaves_blacklisted = []
 	#The maximum size of a tree. If there's more logs than this value the tree won't be cut.
 	#Range: > 1
-	logs_max_count = 200
+	logs_max_count = 120
 	#When set to true, the mod will cut trees with one cut.
 	tree_breaking = true
 	#When set to true, leaves that should naturally break will be broken instantly.
