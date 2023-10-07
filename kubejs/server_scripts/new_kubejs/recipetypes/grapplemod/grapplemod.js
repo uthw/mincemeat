@@ -16,5 +16,20 @@ onEvent("recipes", (event) => {
         E: "#forge:feathers",
     });
 
+    // event.remove({output: "grapplemod:motorupgradeitem"})
+
     event.remove({ output: "grapplemod:rocketupgradeitem" });
+
+    event.remove({ output: "grapplemod:magnetupgradeitem" });
+    event.shapeless("grapplemod:magnetupgradeitem", [
+        "grapplemod:baseupgradeitem",
+        "enigmaticlegacy:magnet_ring",
+    ]);
+
+    event.remove({ output: "grapplemod:repeller" });
+    event.shaped("grapplemod:repeller", ["ABA", "BCB", "ABA"], {
+        A: "#forge:ingots/iron",
+        B: "#forge:ingots/nickel",
+        C: "enigmaticlegacy:magnet_ring",
+    });
 });
