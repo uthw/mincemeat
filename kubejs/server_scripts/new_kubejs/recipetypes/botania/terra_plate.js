@@ -9,17 +9,17 @@ onEvent("recipes", (event) => {
                     item: "botania:mana_pearl",
                 },
                 {
-                    item: "botania:mana_diamond",
+                    tag: "forge:gems/mana",
                 },
                 {
                     tag: "forge:ingots/pewter",
                 },
                 {
-                    item: "naturesaura:sky_ingot",
+                    item: "naturesaura:infused_iron",
                 },
             ],
             output: "botania:terrasteel_ingot",
-            mana: 400000,
+            mana: 500000,
         },
     ];
 
@@ -28,7 +28,7 @@ onEvent("recipes", (event) => {
             type: "botania:terra_plate",
             mana: recipe.mana,
             ingredients: recipe.inputs,
-            output: recipe.output,
+            result: { item: recipe.output },
         });
     });
 });
