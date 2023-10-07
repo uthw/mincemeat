@@ -12,7 +12,7 @@ onEvent("item.tags", (event) => {
     event.add("forge:dusts/ender_pearl", "betterendforge:ender_dust");
 
     // food
-    event.add("forge:pasta", "simplefarming:pasta");
+    // event.add("forge:pasta", "simplefarming:pasta");
 
     event.add("spartanweaponry:arrows", "iceandfire:dragonbone_arrow");
     event.add("spartanweaponry:arrows", "iceandfire:stymphalian_arrow");
