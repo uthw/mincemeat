@@ -10,7 +10,7 @@ lens_of_ender = true
 
 ["World Gen"]
 	#Enable/Disable ore generation. [default:true]
-	oreGen = true
+	oreGen = false
 	#Poor Uraninite Ore generation chance
 	#Range: 1 ~ 64
 	poorUraniniteGenChance = 8
