@@ -4,7 +4,7 @@
   "enableAlfheim": true,
   
   // Whether to replace the recipe for the Gaia Pylon with a recipe that requires Alfsteel.
-  "replaceGaiaRecipe": true,
+  "replaceGaiaRecipe": false,
   
   // Whether rituals and infusions that are cancelled will drop solidified mana that can be used to get the mana back.
   "solidified_mana": true,
