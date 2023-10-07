@@ -5,7 +5,6 @@
 	filename: "create"
 	title: "Basic Technology"
 	icon: "create:water_wheel"
-	subtitle: ["Create, Thermal, Immersive Engineering, and more"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -1674,11 +1673,7 @@
 				"Configuration lets you choose whether you want the machine to automatically input/output items, and what sides to do this from. Click to cycle. You must press the arrows to enable/disable this."
 				"Note: you don't need hoppers or similar items to input/output the items. It does this when there is a container adjacent to the machine."
 			]
-			hide_dependency_lines: true
-			dependencies: [
-				"6F919BD7E7779A22"
-				"7CAE16ED2E14FF16"
-			]
+			dependencies: ["1A9DC65063E256BB"]
 			id: "755E790FA3963507"
 			tasks: [
 				{
@@ -2076,7 +2071,7 @@
 			}]
 		}
 		{
-			x: 12.5d
+			x: 13.0d
 			y: -2.0d
 			subtitle: "Turning blocks into liquid"
 			dependencies: ["0275C47A5738C00A"]
@@ -2093,7 +2088,7 @@
 			}]
 		}
 		{
-			x: 12.0d
+			x: 12.5d
 			y: -3.0d
 			subtitle: "Turns liquid into blocks"
 			dependencies: ["0275C47A5738C00A"]
@@ -2522,7 +2517,7 @@
 				""
 				"Multiple flux plugs on the same network add RF to that network, while flux points extract it."
 			]
-			dependencies: ["6F919BD7E7779A22"]
+			dependencies: ["1A9DC65063E256BB"]
 			id: "7494404582E2B588"
 			tasks: [
 				{
@@ -2664,42 +2659,10 @@
 			}]
 		}
 		{
-			title: "Energy Cables"
-			x: 6.5d
-			y: 0.0d
-			dependencies: ["6021909A60A357B0"]
-			optional: true
-			id: "6F919BD7E7779A22"
-			tasks: [{
-				id: "50A01CB9AF58FFDB"
-				type: "item"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "cyclic:energy_pipe"
-								Count: 1b
-							}
-							{
-								id: "mekanism:basic_universal_cable"
-								Count: 1b
-							}
-						]
-					}
-				}
-			}]
-			rewards: [{
-				id: "4E749208A52E4811"
-				type: "ftbmoney:money"
-				ftb_money: 10L
-			}]
-		}
-		{
-			x: 11.5d
-			y: -2.0d
+			x: 11.8125d
+			y: -1.6875d
 			dependencies: ["46DB7349232ECB54"]
+			size: 0.675d
 			id: "0275C47A5738C00A"
 			tasks: [{
 				id: "0DF4A0EA03C69F52"
@@ -5376,6 +5339,46 @@
 				type: "item"
 				item: "create:mechanical_saw"
 			}]
+		}
+		{
+			title: "Cables"
+			x: 6.5d
+			y: 0.0d
+			subtitle: "Here are all the cables you can obtain in Mekanism. Each of these follow the 4-tier system of Mekanism."
+			description: [
+				"Cable settings can be changed using a configurator. The things you can change depend on the cable you're working with."
+				""
+				"I took this directly from my meka quests so it may feel out of place."
+			]
+			dependencies: ["6021909A60A357B0"]
+			id: "1A9DC65063E256BB"
+			tasks: [
+				{
+					id: "180A6DF7B9788B3F"
+					type: "item"
+					item: "mekanism:basic_universal_cable"
+				}
+				{
+					id: "33D9C99A8F813C0D"
+					type: "item"
+					item: "mekanism:basic_mechanical_pipe"
+				}
+				{
+					id: "4A6640D1B7296F81"
+					type: "item"
+					item: "mekanism:basic_pressurized_tube"
+				}
+				{
+					id: "21DED2E73F8C6A79"
+					type: "item"
+					item: "mekanism:basic_logistical_transporter"
+				}
+				{
+					id: "5A4C13EE848EA2E1"
+					type: "item"
+					item: "mekanism:basic_thermodynamic_conductor"
+				}
+			]
 		}
 	]
 }
