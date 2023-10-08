@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "The mega torch prevents hostile mobs from spawning near it."
-  }
+    "title": {
+        "text": "Torchmaster Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "The mega torch prevents hostile mobs from spawning near it."
+    }
 }

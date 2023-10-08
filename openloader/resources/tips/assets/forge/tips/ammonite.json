@@ -1,4 +1,9 @@
 {
+    "title": {
+        "text": "Upgrade Aquatic Tip",
+        "bold": true,
+        "color": "gold"
+    },
     "tip": {
         "text": "Ammonite, found deep in oceans, can be smelted into nautilus shells."
     }

@@ -1,6 +1,10 @@
 {
+    "title": {
+        "text": "Quark Tip",
+        "bold": true,
+        "color": "red"
+    },
     "tip": {
-      "text": "Quark (NOT Forbidden and Arcanus) dragon scales can be used to duplicate elytras."
+        "text": "Dragon scales can be used to duplicate elytras."
     }
-  }
-  
+}

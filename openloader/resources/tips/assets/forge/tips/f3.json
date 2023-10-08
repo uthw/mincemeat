@@ -1,4 +1,9 @@
 {
+    "title": {
+        "text": "General Tip",
+        "bold": true,
+        "color": "yellow"
+    },
     "tip": {
         "text": "You can rebind the button to open the debug HUD (normally F3)."
     }

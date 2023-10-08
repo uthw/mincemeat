@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Artifacts can be found very rarely in chests or when mining relic ore."
-  }
+    "title": {
+        "text": "Atum Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Artifacts can be found very rarely in chests or when mining relic ore."
+    }
 }

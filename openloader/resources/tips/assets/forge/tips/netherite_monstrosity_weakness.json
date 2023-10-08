@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Netherite Monstrosities' armor makes most weapons apart from axes ineffective"
-  }
+    "title": {
+        "text": "Cataclysm Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Netherite Monstrosities' armor makes most weapons apart from axes ineffective"
+    }
 }

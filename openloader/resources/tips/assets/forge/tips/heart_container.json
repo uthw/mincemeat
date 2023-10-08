@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Combining 5 heart crystals with 4 spirit orbs yields a heart container."
-  }
+    "title": {
+        "text": "Paragliders Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Combining 5 heart crystals with 4 spirit orbs yields a heart container."
+    }
 }

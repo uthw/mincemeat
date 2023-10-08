@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Certain weapons are two-handed, restricting the off-hand when held."
-  }
+    "title": {
+        "text": "Combat Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Certain weapons are two-handed, restricting the off-hand when held."
+    }
 }

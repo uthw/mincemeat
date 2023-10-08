@@ -1,4 +1,9 @@
 {
+    "title": {
+        "text": "Warning",
+        "bold": true,
+        "color": "aqua"
+    },
     "tip": {
         "text": "Never press F11 (fullscreen hotkey) when a world is loading, it can freeze the game!"
     }

@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Wither skeletons can be found in Dimensional Dungeons."
-  }
+    "title": {
+        "text": "Dimensional Dungeons Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Wither skeletons can be found in Dimensional Dungeons."
+    }
 }

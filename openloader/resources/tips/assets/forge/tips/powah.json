@@ -1,4 +1,9 @@
 {
+    "title": {
+        "text": "Powah Tip",
+        "bold": true,
+        "color": "green"
+    },
     "tip": {
         "text": "The thermo generator from Powah is renewable and also ridiculously simple."
     }

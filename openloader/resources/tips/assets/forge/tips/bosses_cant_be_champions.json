@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Bosses and most minibosses cannot spawn as Champions."
-  }
+    "title": {
+        "text": "Champions Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Bosses and most minibosses cannot spawn as Champions."
+    }
 }

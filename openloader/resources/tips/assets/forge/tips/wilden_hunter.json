@@ -1,6 +1,10 @@
 {
+    "title": {
+        "text": "Ars Nouveau Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
     "tip": {
-      "text": "Wilden hunters cannot spawn naturally due to an issue, but you can find their drops in chests or bought for money."
+        "text": "Wilden hunters cannot spawn naturally due to an issue, but you can find their drops in chests or bought for money."
     }
-  }
-  
+}

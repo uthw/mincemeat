@@ -1,6 +1,10 @@
 {
+    "title": {
+        "text": "Cyclic/Dark Utils Tip",
+        "bold": true,
+        "color": "green"
+    },
     "tip": {
-      "text": "Item collectors are similar to hoppers but operate in a large, customizable area."
+        "text": "Item collectors and Ender Hoppers are similar to hoppers but operate in a large, customizable area."
     }
-  }
-  
+}

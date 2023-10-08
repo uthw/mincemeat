@@ -1,4 +1,9 @@
 {
+    "title": {
+        "text": "AgriCraft Tip",
+        "bold": true,
+        "color": "green"
+    },
     "tip": {
         "text": "Agricraft weeds are disabled. Time to switch over to something harder."
     }

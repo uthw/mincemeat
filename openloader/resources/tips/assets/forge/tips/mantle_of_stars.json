@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "A mantle of the stars has a special effect depending on what it is attuned to."
-  }
+    "title": {
+        "text": "Astral Sorcery Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "A mantle of the stars has a special effect depending on what it is attuned to."
+    }
 }

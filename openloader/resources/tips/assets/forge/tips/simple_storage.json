@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Save yourself the hassle of organizing chests by using a Simple Storage System."
-  }
+    "title": {
+        "text": "Storage Tip",
+        "bold": true,
+        "color": "gray"
+    },
+    "tip": {
+        "text": "Save yourself the hassle of organizing chests by using a Simple Storage System."
+    }
 }

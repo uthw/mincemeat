@@ -1,6 +1,10 @@
 {
+    "title": {
+        "text": "Tech Tip",
+        "bold": true,
+        "color": "green"
+    },
     "tip": {
-      "text": "While Create windmills do not mind obstructions, IE windmills will experience slowdowns if a block is in their way."
+        "text": "While Create windmills do not mind obstructions, IE windmills will experience slowdowns if a block is in their way."
     }
-  }
-  
+}

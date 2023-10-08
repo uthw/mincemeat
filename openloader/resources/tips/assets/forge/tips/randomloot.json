@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Mobs sometimes drop cases with equipment inside that you can level up by using."
-  }
+    "title": {
+        "text": "Random Loot Mod Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Mobs sometimes drop cases with equipment inside that you can level up by using."
+    }
 }

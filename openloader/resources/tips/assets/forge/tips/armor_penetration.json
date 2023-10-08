@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Bludgeoning weapons like maces and hammers partially ignore armor when dealing damage."
-  }
+    "title": {
+        "text": "Combat Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Bludgeoning weapons like maces and hammers partially ignore armor when dealing damage."
+    }
 }

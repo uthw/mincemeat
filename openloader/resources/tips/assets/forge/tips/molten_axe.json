@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Molten axes turn logs into charcoal."
-  }
+    "title": {
+        "text": "Fish's Undead Rising Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Molten axes turn logs into charcoal."
+    }
 }

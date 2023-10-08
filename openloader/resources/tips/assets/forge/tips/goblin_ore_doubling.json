@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Goblin traders can increase the outputs of certain ores beyond what a furnace would allow."
-  }
+    "title": {
+        "text": "Goblin Trader Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Goblin traders can increase the outputs of certain ores beyond what a furnace would allow."
+    }
 }

@@ -1,4 +1,9 @@
 {
+    "title": {
+        "text": "Did you know?",
+        "bold": true,
+        "color": "aqua"
+    },
     "tip": {
         "text": "Creeper explosions aren't always that bad."
     }

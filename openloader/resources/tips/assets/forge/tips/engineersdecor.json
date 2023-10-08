@@ -1,4 +1,9 @@
 {
+    "title": {
+        "text": "Engineer's Decor Tip",
+        "bold": true,
+        "color": "green"
+    },
     "tip": {
         "text": "Engineer's Decor adds some small machines, not just building blocks."
     }

@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Pressing the Del key while hovering over an item puts it in your trash slot."
-  }
+    "title": {
+        "text": "General Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "Pressing the Del key while hovering over an item puts it in your trash slot."
+    }
 }

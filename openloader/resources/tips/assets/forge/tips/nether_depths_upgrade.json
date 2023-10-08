@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Crafting a lava fishing rod reveals a whole new world in the depths of the nether."
-  }
+    "title": {
+        "text": "Nether Depths Upgrade Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Crafting a lava fishing rod reveals a whole new world in the depths of the nether."
+    }
 }

@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Revolvers can crash the game when fired near Wilden Hunters, but I have not been able to cause this consistently."
-  }
+    "title": {
+        "text": "Immersive Engineering Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Revolvers can crash the game when fired near Wilden Hunters, but I have not been able to cause this consistently."
+    }
 }

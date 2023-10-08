@@ -1,6 +1,10 @@
 {
+    "title": {
+        "text": "Cyclic tip",
+        "bold": true,
+        "color": "red"
+    },
     "tip": {
-      "text": "Cyclic machines can have heavy impacts on TPS."
+        "text": "Cyclic machines can have heavy impacts on TPS."
     }
-  }
-  
+}

@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "The only places where Waystones can be found are battle towers and Zelda-style towers."
-  }
+    "title": {
+        "text": "Custom Title",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "The only places where Waystones can be found are BotW-style towers."
+    }
 }

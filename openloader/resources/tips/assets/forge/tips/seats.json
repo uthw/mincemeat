@@ -1,5 +1,10 @@
 {
+    "title": {
+        "text": "Create Tip",
+        "bold": true,
+        "color": "green"
+    },
     "tip": {
-        "text": "Seats (from Create) are a performance-friendly version of boats for mob trapping."
+        "text": "Seats are a performance-friendly version of boats for mob trapping."
     }
 }

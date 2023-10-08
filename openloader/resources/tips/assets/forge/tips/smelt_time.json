@@ -1,4 +1,9 @@
 {
+    "title": {
+        "text": "Logistics Tip",
+        "bold": true,
+        "color": "green"
+    },
     "tip": {
         "text": "Burn time in ticks converts to items smelted at a 200:1 ratio."
     }

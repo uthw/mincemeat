@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Nebu is equivalent to netherite on a modular weapon, but can be found earlier on."
-  }
+    "title": {
+        "text": "Tetra Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Nebu is equivalent to netherite on a modular weapon, but can be found earlier on."
+    }
 }

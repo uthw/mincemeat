@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "When blocking an attack right after raising your shield, the attack is parried and there will be no cooldown."
-  }
+    "title": {
+        "text": "Combat Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "When blocking an attack right after raising your shield, the attack is parried and there will be no cooldown."
+    }
 }

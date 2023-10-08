@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "You can search for items from a specific mod in JEI by typing @[mod ID]."
-  }
+    "title": {
+        "text": "JEI Tip",
+        "bold": true,
+        "color": "aqua"
+    },
+    "tip": {
+        "text": "You can search for items from a specific mod in JEI by typing @[mod ID]."
+    }
 }

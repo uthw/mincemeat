@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "You can only attune to bright constellations."
-  }
+    "title": {
+        "text": "Astral Sorcery Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "You can only attune to bright constellations."
+    }
 }

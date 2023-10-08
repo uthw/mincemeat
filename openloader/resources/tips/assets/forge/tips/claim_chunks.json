@@ -1,4 +1,9 @@
 {
+    "title": {
+        "text": "FTB Chunks Tip",
+        "bold": true,
+        "color": "yellow"
+    },
     "tip": {
         "text": "Don't forget to claim chunks near your base! This will make them immune to explosions. You can click them in the minimap to toggle chunk loading."
     }

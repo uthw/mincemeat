@@ -1,6 +1,10 @@
 {
+    "title": {
+        "text": "Blue Skies Tip",
+        "bold": true,
+        "color": "red"
+    },
     "tip": {
-      "text": "You can make an enchanting table before you otherwise would be able to using charoite."
+        "text": "You can make an enchanting table before you otherwise would be able to using charoite."
     }
-  }
-  
+}

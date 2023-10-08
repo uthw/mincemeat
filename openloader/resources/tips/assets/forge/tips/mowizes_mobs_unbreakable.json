@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Items dropped by Mowzie's Mobs bosses can't lose durability."
-  }
+    "title": {
+        "text": "Mowzie's Mobs Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Items dropped by Mowzie's Mobs bosses can't lose durability."
+    }
 }

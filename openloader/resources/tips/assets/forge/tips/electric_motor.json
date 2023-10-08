@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Electric motors can power Create contraptions using Redstone Flux."
-  }
+    "title": {
+        "text": "Create Additions Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Electric motors can power Create contraptions using Redstone Flux."
+    }
 }

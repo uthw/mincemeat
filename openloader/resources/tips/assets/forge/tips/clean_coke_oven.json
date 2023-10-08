@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Insert items into an advanced coke oven using a hopper on the top. Slag is put into inventories behind it and steel goes in front."
-  }
+    "title": {
+        "text": "Immersive Engineering Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "Insert items into an advanced coke oven using a hopper on the top. Slag is put into inventories behind it and steel goes in front."
+    }
 }

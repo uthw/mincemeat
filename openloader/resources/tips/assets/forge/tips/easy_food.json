@@ -1,5 +1,10 @@
 {
+    "title": {
+        "text": "Farmer's Delight Tip",
+        "bold": true,
+        "color": "aqua"
+    },
     "tip": {
-        "text": "Automating food is not that hard. Try automating Pasta from Simple Farming."
+        "text": "Automating food is not that hard. Try automating Egg Sandwiches."
     }
 }

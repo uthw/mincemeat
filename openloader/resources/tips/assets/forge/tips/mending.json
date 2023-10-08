@@ -1,4 +1,9 @@
 {
+    "title": {
+        "text": "Mincemeat Tip",
+        "bold": true,
+        "color": "aqua"
+    },
     "tip": {
         "text": "Librarians no longer sell random enchanted books, but at level 5, they will always offer a Mending book."
     }

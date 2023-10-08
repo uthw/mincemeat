@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "A mostly complete Akashic Tome can be bought from the shop for 5 coins."
-  }
+    "title": {
+        "text": "Akashic Tome Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "A mostly complete Akashic Tome can be bought from the shop for 5 coins."
+    }
 }

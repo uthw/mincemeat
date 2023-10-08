@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "The Engineer villager buys and sells items from IE. They might be worth checking out."
-  }
+    "title": {
+        "text": "Immersive Engineering Tip",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "The Engineer villager buys and sells items from IE. They might be worth checking out."
+    }
 }

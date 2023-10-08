@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "Torch launchers are much more efficient than manually placing torches."
-  }
+    "title": {
+        "text": "Cyclic tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "Torch launchers are much more efficient than manually placing torches."
+    }
 }

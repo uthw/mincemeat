@@ -1,5 +1,10 @@
 {
-  "tip": {
-    "text": "The Acknowledgement is a good early game weapon."
-  }
+    "title": {
+        "text": "Enigmatic Legacy Tip",
+        "bold": true,
+        "color": "light_purple"
+    },
+    "tip": {
+        "text": "The Acknowledgement is a good early game weapon."
+    }
 }

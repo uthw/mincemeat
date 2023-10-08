@@ -1,4 +1,9 @@
 {
+    "title": {
+        "text": "General Tip",
+        "bold": true,
+        "color": "yellow"
+    },
     "tip": {
         "text": "There is no RPG-style level up mod available by default, but Astral Sorcery has attunement which is very similar to a skill tree."
     }

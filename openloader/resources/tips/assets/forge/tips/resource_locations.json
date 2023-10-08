@@ -1,6 +1,10 @@
 {
+    "title": {
+        "text": "General Tip",
+        "bold": true,
+        "color": "yellow"
+    },
     "tip": {
-      "text": "Most ores can be found in the Overworld."
+        "text": "Most ores can be found in the Overworld. The quest book tells you when this is not the case."
     }
-  }
-  
+}
