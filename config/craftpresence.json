@@ -385,7 +385,8 @@
     },
     "dynamicIcons": {
       "uthw": "https://mc-heads.net/avatar/20c841d9440242f0a51cc57aa8b28d7f",
-      "default": "https://via.placeholder.com/256.png"
+      "default": "https://via.placeholder.com/256.png",
+      "c10820e2-cc18-44da-910f-830346170dc2.essential-sps": "https://api.mcsrvstat.us/icon/c10820e2-cc18-44da-910f-830346170dc2.essential-sps"
     },
     "dynamicVariables": {
       "default": "Example Text",
