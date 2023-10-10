@@ -100,7 +100,7 @@
 	sword_damage = 4
 	#Minimum speed a sword can have.
 	#Range: -4.0 ~ 4.0
-	sword_speed = -2.9
+	sword_speed = -2.8
 	#Minimum damage a throwable can do.
 	#Range: 0 ~ 100
 	throw_damage = 4
@@ -134,10 +134,10 @@
 	#Range: 0 ~ 100
 	gold_rolls = 4
 	#Range: 0 ~ 100
-	titan_rolls = 10
+	titan_rolls = 6
 	#Initital Max XP for tools.
 	#Range: 0 ~ 10000
-	init_xp = 256
+	init_xp = 192
 	#Odds of an item getting a buff rather than a trait on a stats roll (editor upgrade, tool init, etc.)
 	#Range: 0 ~ 100
 	trait_ratio = 5
