@@ -9,7 +9,7 @@
   "forge:ingots/steel": "mekanism:ingot_steel",
   "forge:ingots/lead": "eidolon:lead_ingot",
   "forge:ingots/mithril": "null",
-  "forge:ingots/iridium": "null",
+  "forge:ingots/iridium": "emendatusenigmatica:iridium_ingot",
   "forge:ingots/zinc": "create:zinc_ingot",
   "forge:ingots/invar": "thermal:invar_ingot",
   "forge:gems/ruby": "thermal:ruby",
