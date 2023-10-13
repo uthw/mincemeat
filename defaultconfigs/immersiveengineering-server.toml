@@ -394,7 +394,7 @@ retrogen_enable = false
 [ores.lead]
 #The maximum size of a vein. Set to 0 to disable generation
 #Range: > 0
-vein_size = 0
+vein_size = 6
 #The minimum Y coordinate this ore can spawn at
 #Range: > -2147483648
 min_y = 8
@@ -405,7 +405,7 @@ max_y = 36
 #Range: > 0
 avg_veins_per_chunk = 4
 #Set this to true to allow retro-generation of lead Ore.
-retrogen_enable = false
+retrogen_enable = true
 
 #Ore generation config - silver
 [ores.silver]
