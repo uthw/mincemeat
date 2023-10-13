@@ -46,6 +46,8 @@ onEvent("recipes", (event) => {
 
         "create:andesite_alloy",
         "create:belt_connector",
+        "create:millstone",
+        "create:brass_hand",
 
         "cyclic:charm_longfall",
         "cyclic:uncrafter",
@@ -97,6 +99,11 @@ onEvent("recipes", (event) => {
         "cyclic:water_candle",
         "cyclic:charm_xp_blocker",
 
+        // cyclic pipes
+        "cyclic:energy_pipe",
+        "cyclic:item_pipe",
+        "cyclic:fluid_pipe",
+
         "darkutils:charm_portal",
         "darkutils:flat_tile",
 
@@ -123,6 +130,13 @@ onEvent("recipes", (event) => {
         "enigmaticlegacy:etherium_helmet",
         "enigmaticlegacy:ender_rod",
         "enigmaticlegacy:cursed_stone",
+        "enigmaticlegacy:magnet_ring",
+        "enigmaticlegacy:monster_charm",
+        "enigmaticlegacy:super_magnet_ring",
+        "enigmaticlegacy:mining_charm",
+        "enigmaticlegacy:mega_sponge",
+        "enigmaticlegacy:forbidden_axe",
+        "enigmaticlegacy:infinimeal",
 
         "forbidden_arcanus:mundabitur_dust",
         "forbidden_arcanus:quantum_catcher",
@@ -181,6 +195,8 @@ onEvent("recipes", (event) => {
 
         "occultism:divination_rod",
 
+        "pneumaticcraft:pressure_tube",
+
         "powah:furnator_starter",
         "powah:furnator_basic",
         "powah:furnator_hardened",
@@ -188,6 +204,9 @@ onEvent("recipes", (event) => {
         "powah:furnator_niotic",
         "powah:furnator_spirited",
         "powah:furnator_nitro",
+
+        "quarryplus:workbenchplus",
+
         "refinedstorage:basic_processor",
         "refinedstorage:improved_processor",
         "refinedstorage:advanced_processor",
