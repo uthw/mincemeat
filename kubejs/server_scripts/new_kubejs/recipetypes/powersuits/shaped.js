@@ -2,7 +2,7 @@ onEvent("recipes", (event) => {
     let recipes = [
         [
             "numina:component_glider_wing",
-            [" AA", "BCB", "DB "],
+            [" AA", "BCB", "CB "],
             {
                 A: "immersiveengineering:component_steel",
                 B: "#forge:ingots/aluminum",
