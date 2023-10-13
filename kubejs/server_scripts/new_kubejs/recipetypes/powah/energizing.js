@@ -22,7 +22,7 @@ onEvent("recipes", (event) => {
             type: "powah:energizing",
             ingredients: recipe.ingredients,
             energy: recipe.energy,
-            result: { item: recipe.result },
+            result: recipe.result,
         });
     });
 });
