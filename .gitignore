@@ -52,3 +52,4 @@ config/badmobs-common.toml
 config/mgrb_extras.toml
 config/modernfix-mixins.properties
 config/spark/activity.json
+config/ue/UE.toml
