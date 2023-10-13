@@ -43,6 +43,9 @@
 	#Cap the maximum bands that will be rendered
 	#Range: 0 ~ 3
 	"Maximum Bands" = 3
+	#The render style of water ripples
+	#Allowed Values: CIRCLE, DARK_CIRCLE, DARK_SQUARE, PIXELATED_CIRCLE
+	"Water Ripple Style" = "PIXELATED_CIRCLE"
 
 #Options that control the various fog effects in the client
 ["Fog Options"]
