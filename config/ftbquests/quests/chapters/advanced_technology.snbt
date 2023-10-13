@@ -782,7 +782,10 @@
 		{
 			x: -3.0d
 			y: 1.5d
-			dependencies: ["1A9DC65063E256BB"]
+			dependencies: [
+				"1A9DC65063E256BB"
+				"1CB095891B94A06A"
+			]
 			id: "291725E8B02FA1A6"
 			tasks: [{
 				id: "34492A779488A7EA"
@@ -793,7 +796,10 @@
 		{
 			x: -3.0d
 			y: 2.5d
-			dependencies: ["1A9DC65063E256BB"]
+			dependencies: [
+				"1A9DC65063E256BB"
+				"1CB095891B94A06A"
+			]
 			id: "7718EEE0B2B2DB5F"
 			tasks: [{
 				id: "219BA75562AE8B4B"
@@ -810,12 +816,99 @@
 				""
 				"Pressing the new filter button leads you through a GUI in which the filter is specified."
 			]
-			dependencies: ["1A9DC65063E256BB"]
+			dependencies: [
+				"1A9DC65063E256BB"
+				"1CB095891B94A06A"
+			]
 			id: "70C378B89003E0AC"
 			tasks: [{
 				id: "7081EA7350EBF26C"
 				type: "item"
 				item: "mekanism:logistical_sorter"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			dependencies: ["317406E8D0562528"]
+			id: "21388BCB9F1AB8A0"
+			tasks: [{
+				id: "15DC5A87BC259AAF"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+			}]
+		}
+		{
+			title: "PneumaticCraft"
+			icon: "pneumaticcraft:pressure_gauge"
+			x: 3.0d
+			y: 6.0d
+			shape: "gear"
+			description: [
+				"Throw your iron on the ground and blow it up. It will be turned into compressed iron."
+				""
+				"Worry not, as this will only be a temporary measure. Do not build a farm for this because you will lose some of the iron in the explosion"
+				""
+				"While you're here, it's worth mentioning PNC's energy system. You will be dealing in bar from now on, which measures air pressure."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1CB095891B94A06A"]
+			size: 1.5d
+			id: "317406E8D0562528"
+			tasks: [{
+				id: "60A27A7F16A51F59"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			subtitle: "Build yourself a pressure chamber"
+			description: [
+				"When you're done, you should find yourself with a big, hollow cube. Take note of the faces with blocks that have \"I\" and \"O\" etched into them."
+				""
+				"\"I\" is your input and \"O\" is your output. That's how you'll be inserting and extracting items with the pressure chamber. "
+				""
+				"You will need to have some way of handling these items without just right clicking; for example, Mekanism, Create, or Pretty Pipes. (input)"
+				""
+				"You can put an inventory adjacent to the interface (output)"
+				""
+				"As your reward, here's a pretty good amount of iron. I want you to try putting the iron blocks into the pressure chamber and then taking out your new compressed iron."
+			]
+			dependencies: ["21388BCB9F1AB8A0"]
+			id: "71A954E60804A1CF"
+			tasks: [{
+				id: "783E83FF7FA67124"
+				type: "advancement"
+				advancement: "pneumaticcraft:pressure_chamber"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "12F41FE1EBBD069E"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					count: 3
+				}
+				{
+					id: "2B84B1E6B454602B"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 6.0d
+			description: ["You may notice your pressure chamber stalls for a little bit sometimes. This is because it's waiting for its compressed air to charge."]
+			dependencies: ["71A954E60804A1CF"]
+			id: "61DCBF5F73CC920A"
+			tasks: [{
+				id: "0FC1BB546E2298D7"
+				type: "checkmark"
+				title: "Pressurized Air"
 			}]
 		}
 	]
