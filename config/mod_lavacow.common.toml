@@ -29,18 +29,18 @@
 	"parasite spawn rate" = 10
 	#Maximum Parasite health [1-1000]
 	#Range: 1.0 ~ 1000.0
-	"parasite health" = 5.0
+	"parasite health" = 4.0
 	#Parasite strength [1-1000]
 	#Range: 1.0 ~ 1000.0
-	"parasite attack" = 1.0
+	"parasite attack" = 0.8
 	#Rate of spawning Parasite when destroying sand blocks in the desert [0-100]
 	#Range: 0 ~ 100
-	"parasite from sand blocks" = 0
+	"parasite from sand blocks" = 1
 	#Parasite will attack their target by attaching on them [false/true]
 	"parasite attacks by attaching onto target" = true
 	#The amount of seconds before parasites naturally die or form into cocoons
 	#Range: 0 ~ 10000
-	"parasite lifespan" = 14
+	"parasite lifespan" = 6
 	#You can pick up parasites by right clicking them with an empty main hand while sneaking [false/true]
 	"parasite pickup" = true
 
