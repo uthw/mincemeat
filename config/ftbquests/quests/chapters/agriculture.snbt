@@ -10,6 +10,13 @@
 	quests: [
 		{
 			title: "Agriculture"
+			icon: {
+				id: "mysticalagriculture:imperium_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
 			disable_toast: true
 			x: 1.0d
 			y: 1.5d
@@ -215,6 +222,152 @@
 					}
 				}
 			}]
+		}
+		{
+			title: "Botany Pot"
+			x: 1.0d
+			y: 0.0d
+			description: [
+				"Place soil of your choice and then add seeds of your choice. Saplings work too."
+				""
+				"Adding a hopper to the recipe makes it so the pot will automatically harvest and replant the crop, placing it into an inventory below (such as a chest or furnace)"
+			]
+			dependencies: ["6CF926BB3DD6F91E"]
+			id: "6C340535E02761A7"
+			tasks: [{
+				id: "102CAC4EB781C5AD"
+				type: "item"
+				title: "Any #botanypots:botany_pots"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botanypots:botany_pots"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			subtitle: "Almost all Agricraft descriptions are NOT written by me. See the quest for stats if youd like more info."
+			description: [
+				"AgriCraft adds depth to Minecraft's farming system with systems such as genetics, crop sticks, and preferred soil."
+				""
+				"First, shift+ right click the journal onto the Analyzer. This will let you store data about the seeds in your Journal, including potential crossbreeds between two different plants."
+				""
+				"`The more seeds you analyze, the more information the journal will possess. This also, by default, unlocks the crossbreeding in JEI for known pairings."
+				""
+				"Shift+ Right Clicking the seed onto the Seed Analyzer with a journal in it will place the seed into the Analyzer. Right clicking now brings up a more useful and immersive user interface. You're presented with a DNA helix and you can use mousewheel to scroll through the various alleles, five in total. "
+			]
+			dependencies: ["6CF926BB3DD6F91E"]
+			id: "55ED6F4275B2AC2B"
+			tasks: [
+				{
+					id: "499A39EE7CF6E8B9"
+					type: "item"
+					item: "agricraft:seed_analyzer"
+				}
+				{
+					id: "470222C572E3F0C7"
+					type: "item"
+					item: {
+						id: "agricraft:agri_journal"
+						Count: 1b
+						ForgeCaps: {
+							"agricraft:agri_journal": {
+								agri_entries: [ ]
+								agri_index: 0
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tell me the alleles!"
+			x: -0.5d
+			y: 4.5d
+			description: [
+				"(This is taken from the following forum: https://forum.feed-the-beast.com/threads/agricraft-for-mc-1-16-for-newbies-a-reference-for-the-rest-of-us.304977/ -- the thread assumes you have played the 1.12 version of this mod before)"
+				""
+				"Growth: Still determines how rapidly a crop will grow"
+				""
+				"Gain: Still determines how much yield a crop has when harvested at maturity"
+				""
+				"Strength: No longer judges resistance from accursed weeds, but now determines the flexibility it has in growing conditions"
+				""
+				"Mutativity: This covers how likely you are to get increments and crossbreeds from your crossbreeding."
+				""
+				"Resistance is omitted because weeds are disabled in this modpack."
+			]
+			dependencies: ["55ED6F4275B2AC2B"]
+			id: "4417FB66F81F7AB3"
+			tasks: [{
+				id: "5758C4679C33235A"
+				type: "checkmark"
+				title: "AgriCraft Stats"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			subtitle: "Big description ahead!"
+			description: [
+				"So, you put two crops one tile apart from each other, on crop sticks, then place a cross-cropsticks between them. What happens next? Well, that's what this section is about: mutation, and genes. Making better crops through technology!"
+				""
+				"Specifically, whenever this happens with two (or more, but you no longer get better results from more than two) parent crops, you have a chance for mutation, based on the Mutativity score of said crops."
+				""
+				"This can change one (or more) of the stats, or it can crossbreed into a totally different crop if the combination is valid! However, unlike the previous versions, there's more going on here than meets the eye. "
+				""
+				"You see, a plant will inherit part from one parent and part from another parent. That's right folks, we've got Dominant and Recessive genes now, so break out your Punnett Squares!"
+				""
+				"Dominant genes will be expressed as the crop's actual stats, but the recessives still exist, and can affect future crossbreeds. For example, if I were to breed a crop with a Gain of 6 to another crop with a gain of 6, and it got a mutation to increase to a gain of 7, it would still have that 6 as a recessive trait."
+				""
+				"If I duplicated the crop, and crossbred it with itself, I would have (barring further mutations) a 25% chance of losing the recessive, a 7-7 on Gain, a 50% chance of remaining a Gain 7 with a Recessive 6, and a 25% chance of having it revert back to a gain of 6-6.                                                                   "
+				"For purposes of documentation, I'll be writing these in Dominant-Recessive format. So a Gain: 7-6 would be a plant with a Gain of 7 with a recessive trait of only 6. "
+				""
+				"Therefore, while a plaint with a trait of 10-7 would behave in every way as a 10 in that stat, there's always a chance that 7 recessive will come out during crossbreeding. As such, it may be wise to breed out reduced recessives until you come up with a 10-10 to ensure maximum quality. "
+				""
+				"There's another thing about this new system: Crops don't lose some or all of their stats when they crossbreed, they inherit the stat traits from their parents. Therefore, if you plan on a substantial crossbreeding program, it would be wise to start off with your 'base' crops maximized at 10-10's across the board before beginning the crossbreeding process. "
+			]
+			dependencies: ["55ED6F4275B2AC2B"]
+			id: "571AF624BD3C6CEA"
+			tasks: [{
+				id: "25E291923EC16E00"
+				type: "item"
+				item: "agricraft:crop_sticks_wood"
+			}]
+		}
+		{
+			title: "Choosing the Right Soil"
+			x: 2.5d
+			y: 6.0d
+			description: [
+				"Each crop has ideal conditions for it to grow in, and at Strength 1, that's going to be fairly strict. Once you have analyzed a crop, you can see what growth conditions are required in JEI."
+				""
+				"You'll notice such things as Humidity, Acidity, and Nutrients."
+				""
+				"But an easier and more practical way is to look at which soil is under the crop. For example, for a Potato, at Strength 1, you need tilled Farmland, as you'd expect. But with a high enough Strength, it can also grow on Podzol."
+				""
+				"This gives you more options to plant with, and can make a larger greenhouse easier to prepare if you can get the crops you want on the same soil type. "
+				""
+				"Some aquatic plants do require the cropsticks to be flooded to grow. This water will not carry over to other cropsticks nearby, but WILL spill out into empty adjacent squares if you aren't careful. "
+			]
+			dependencies: ["571AF624BD3C6CEA"]
+			id: "6373375B510FEB73"
+			tasks: [
+				{
+					id: "75363851079809D0"
+					type: "item"
+					item: "farmersdelight:rich_soil"
+				}
+				{
+					id: "431979A06E067304"
+					type: "item"
+					item: "minecraft:sand"
+				}
+			]
 		}
 	]
 }
