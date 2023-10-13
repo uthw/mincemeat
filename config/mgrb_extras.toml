@@ -6,7 +6,7 @@
 		"Chunk Fade In Quality (OFF, FAST, FANCY)" = "FANCY"
 
 	[Settings."FPS Counter"]
-		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "ADVANCED"
+		"Display FPS Counter (OFF, SIMPLE, ADVANCED)" = "SIMPLE"
 		"Right-align FPS Counter" = false
 		"FPS Counter Distance" = 12
 
@@ -22,6 +22,6 @@
 		"Zoom Scrolling Enabled" = true
 		"Zoom Transition Mode (OFF, LINEAR, SMOOTH)" = "SMOOTH"
 		"Zoom Transition Mode (TOGGLE, HOLD, PERSISTENT)" = "HOLD"
-		"Cinematic Camera Mode (OFF, VANILLA, MULTIPLIED)" = "OFF"
+		"Cinematic Camera Mode (OFF, VANILLA, MULTIPLIED)" = "MULTIPLIED"
 		"Enable Zoom Overlay" = true
 
