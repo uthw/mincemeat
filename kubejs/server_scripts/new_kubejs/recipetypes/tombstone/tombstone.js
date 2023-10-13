@@ -34,4 +34,6 @@ onEvent("recipes", (event) => {
         "tombstone:strange_scroll",
         "eidolon:enchanted_ash",
     ]);
+
+    // event.shapeless("")
 });
