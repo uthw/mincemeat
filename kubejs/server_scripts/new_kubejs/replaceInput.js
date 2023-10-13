@@ -661,6 +661,90 @@ onEvent("recipes", (event) => {
             "#forge:ingots/steel",
             "#forge:rods/steel",
         ],
+        [
+            { output: "enigmaticlegacy:super_magnet_ring" },
+            "minecraft:lapis_lazuli",
+            "forbidden_arcanus:arcane_crystal",
+        ],
+        [
+            { output: "enigmaticlegacy:super_magnet_ring" },
+            "minecraft:gold_ingot",
+            "#forge:ingots/arcane_gold",
+        ],
+        [
+            {
+                output: "pneumaticcraft:pressure_tube",
+            },
+            "#forge:glass",
+            "#thermal:glass/hardened",
+        ],
+        [
+            { output: "#botanypots:botany_pots" },
+            "minecraft:flower_pot",
+            "supplementaries:planter",
+        ],
+        [
+            { output: "supplementaries:planter" },
+            "minecraft:bone_meal",
+            "create:tree_fertilizer",
+        ],
+        [
+            { output: "create:tree_fertilizer" },
+            "minecraft:bone_meal",
+            "#forge:gems/niter",
+        ],
+        [
+            { output: "thermal:phytogro" },
+            "minecraft:bone_meal",
+            "create:tree_fertilizer",
+        ],
+        [{ mod: "prettypipes" }, "minecraft:quartz", "#forge:ingots/copper"],
+        [
+            { mod: "prettypipes" },
+            "minecraft:stone_slab",
+            "create:dark_scoria_cobblestone_slab",
+        ],
+        [{ mod: "prettypipes" }, "minecraft:piston", "supplementaries:jar"],
+        [
+            { mod: "prettypipes" },
+            "minecraft:gold_ingot",
+            "eidolon:pewter_ingot",
+        ],
+        [
+            { output: "prettypipes:low_filter_module" },
+            "minecraft:hopper",
+            "cyclic:carbon_paper",
+        ],
+        [
+            { output: "prettypipes:medium_speed_module" },
+            "minecraft:sugar",
+            "#supplementaries:cookies",
+        ],
+        [
+            { output: "prettypipes:high_speed_module" },
+            "minecraft:sugar",
+            "#supplementaries:cookies",
+        ],
+        [
+            { mod: "prettypipes" },
+            "minecraft:ender_pearl",
+            "enigmaticlegacy:magnet_ring",
+        ],
+        // [
+        //     { mod: "prettypipes" },
+        //     "minecraft:sticky_piston",
+        //     "immersiveengineering:fluid_pipe",
+        // ],
+        [
+            { output: "prettypipes:pressurizer" },
+            "minecraft:iron_ingot",
+            "#forge:ingots/aluminum",
+        ],
+        [
+            { output: "prettypipes:item_terminal" },
+            "#forge:storage_blocks/iron",
+            "#forge:storage_blocks/aluminum",
+        ],
     ];
 
     replacements.forEach((item) =>
