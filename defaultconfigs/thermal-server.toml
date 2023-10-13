@@ -230,6 +230,6 @@ Lead = false
 #Set to FALSE to prevent 'Thermal Series' Silver from generating.
 Silver = false
 #Set to FALSE to prevent 'Thermal Series' Nickel from generating.
-Nickel = false
+Nickel = true
 #Set to FALSE to prevent 'Thermal Series' Oil Sands from generating.
 Oil = true
