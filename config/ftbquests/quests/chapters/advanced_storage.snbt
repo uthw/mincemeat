@@ -407,7 +407,12 @@
 		{
 			x: 2.0d
 			y: -7.0d
-			description: ["You can double Rclick a controller to get a form of Terraria's \"quick stack\": insert any items from your inventory, but only if they already exist in the drawer system."]
+			description: [
+				"You can double Rclick a controller to get a form of Terraria's \"quick stack\": insert any items from your inventory, but only if they already exist in the drawer system."
+				""
+				"The drawer controller can see inventories of all drawers that touch it."
+				"{image:kubejs:textures/item/controller.png width:571 height:661 align:1 fit:true}"
+			]
 			dependencies: ["6A39634F3E4448AF"]
 			id: "6B87C9B1BF3F31C7"
 			tasks: [{
