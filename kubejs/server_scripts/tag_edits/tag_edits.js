@@ -21,6 +21,24 @@ onEvent("item.tags", (event) => {
     event.add("spartanweaponry:arrows", "ars_nouveau:pierce_arrow");
     event.add("spartanweaponry:arrows", "ars_nouveau:split_arrow");
     event.add("spartanweaponry:arrows", "ars_nouveau:amplify_arrow");
+
+    event.add(
+        "tombstone:enchanted_grave_key_ingredients",
+        "forbidden_arcanus:dark_rune"
+    );
+    event.add(
+        "tombstone:enchanted_grave_key_ingredients",
+        "blue_skies:soul_fragment"
+    );
+    event.add("tombstone:enchanted_grave_key_ingredients", "#forge:ectoplasms");
+    event.add(
+        "tombstone:enchanted_grave_key_ingredients",
+        "eidolon:death_essence"
+    );
+
+    event.add("supplementaries:cookies", "abnormals_delight:cherry_cookie");
+    event.add("supplementaries:cookies", "abnormals_delight:maple_cookie");
+    event.add("supplementaries:cookies", "abnormals_delight:mulberry_cookie");
 });
 // priority: 2
 
