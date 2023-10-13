@@ -6506,5 +6506,17 @@
 				}
 			}]
 		}
+		{
+			x: 13.5d
+			y: -2.5d
+			subtitle: "Generate Create power using Ars Nouveau source!"
+			dependencies: ["670E8F6892F81E37"]
+			id: "404967192EF51704"
+			tasks: [{
+				id: "71A890C19CC4FFC6"
+				type: "item"
+				item: "ars_creo:starbuncle_wheel"
+			}]
+		}
 	]
 }
