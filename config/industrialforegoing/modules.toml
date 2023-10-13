@@ -21,10 +21,10 @@
 			enabled = true
 
 		[modules.agriculture.mob_crusher]
-			enabled = false
+			enabled = true
 
 		[modules.agriculture.mob_duplicator]
-			enabled = false
+			enabled = true
 
 		[modules.agriculture.wither_builder]
 			enabled = true
