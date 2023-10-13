@@ -51,7 +51,7 @@ onEvent("recipes", (event) => {
         },
         {
             output: "numina:component_servo",
-            inputs: [" A ", " B ", "CDC", "B "],
+            inputs: [" A ", " B ", "CDC", " B "],
             keys: {
                 A: "numina:component_solenoid",
                 B: "immersiveengineering:component_iron",
@@ -99,8 +99,30 @@ onEvent("recipes", (event) => {
             inputs: ["AB", "C "],
             keys: {
                 A: "#forge:wires/copper",
-                B: "immersiveengineering:logic_circuit",
+                B: "immersiveengineering:circuit_board",
                 C: "#forge:ingots/electrum",
+            },
+        },
+        {
+            output: "pneumaticcraft:pressure_tube",
+            inputs: ["ABA", " C "],
+            keys: {
+                A: "#forge:ingots/compressed_iron",
+                B: "mekanism:alloy_infused",
+                C: "powah:capacitor_basic",
+            },
+        },
+        {
+            output: "quarryplus:workbenchplus",
+            inputs: ["ABBBA", "BCDCB", "EFAFE", "BCDCB", "GGGGG"],
+            keys: {
+                A: "minecraft:repeater",
+                B: "#forge:storage_blocks/aluminum",
+                C: "#forge:storage_blocks/regalium",
+                D: "immersiveengineering:heavy_engineering",
+                E: "thermal:flux_drill",
+                F: "immersiveengineering:craftingtable",
+                G: "create:polished_rose_quartz",
             },
         },
     ];
