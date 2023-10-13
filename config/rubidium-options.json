@@ -20,9 +20,8 @@
     "ignore_driver_blacklist": false
   },
   "performance": {
-    "chunk_builder_threads": 2,
-    "always_defer_chunk_updates": false,
-    "use_no_error_g_l_context": true
+    "chunk_builder_threads": 4,
+    "always_defer_chunk_updates": true
   },
   "notifications": {
     "hide_donation_button": false
