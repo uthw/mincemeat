@@ -105,6 +105,17 @@ onEvent("recipes", (event) => {
                 { tag: "forge:scales/dragon", index: 7 },
             ],
         },
+        {
+            input: "minecraft:netherite_axe",
+            output: "enigmaticlegacy:forbidden_axe",
+            time: 100,
+            catalysts: [
+                { item: "forbidden_arcanus:dark_rune", index: 1 },
+                { item: "forbidden_arcanus:corrupted_pixie", index: 7 },
+                { item: "mod_lavacow:scythe_claw", index: 0 },
+                { item: "mod_lavacow:scythe_claw", index: 2 },
+            ],
+        },
     ];
     infusionRecipes.forEach((recipe) => {
         event.custom({
