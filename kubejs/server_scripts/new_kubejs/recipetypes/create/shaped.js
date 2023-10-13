@@ -23,7 +23,7 @@ onEvent("recipes", (event) => {
             ["ABA", "CDC", " E "],
             {
                 A: "create:electron_tube",
-                B: "immersiveengineering:logic_circuit",
+                B: "immersiveengineering:circuit_board",
                 C: "create:cogwheel",
                 D: "create:andesite_casing",
                 E: "create:brass_hand",
