@@ -5214,7 +5214,7 @@
 			}]
 		}
 		{
-			x: 0.5d
+			x: -0.5d
 			y: 5.0d
 			subtitle: "Turns heat from a high temperature block or liquid. It needs water in order to run."
 			description: ["Can be upgraded."]
@@ -5227,8 +5227,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: 3.5d
+			x: -0.5d
+			y: 2.5d
 			description: [
 				"I think you should get a lot more than just one dielectric paste, given it's one of the most used ingredients in Powah. Maybe even consider automating it using Create. The recipe is shapeless so you can use the mixer to craft it."
 				""
@@ -5348,7 +5348,9 @@
 			description: [
 				"Cable settings can be changed using a configurator. The things you can change depend on the cable you're working with."
 				""
-				"I took this directly from my meka quests so it may feel out of place."
+				"&cThis is important because you normally need cables to supply energy to machines!"
+				""
+				"Meka energy cables do not need to be configured. They are smart enough to know where to put the energy."
 			]
 			dependencies: ["6021909A60A357B0"]
 			id: "1A9DC65063E256BB"
@@ -5379,6 +5381,86 @@
 					item: "mekanism:basic_thermodynamic_conductor"
 				}
 			]
+			rewards: [{
+				id: "61E8541704CC38C6"
+				type: "item"
+				item: "mekanism:configurator"
+			}]
+		}
+		{
+			x: 0.75d
+			y: 3.75d
+			shape: "gear"
+			subtitle: "Pretty good"
+			description: [
+				"Pretty Pipes is a mod only adds a pipe that can move items around."
+				""
+				"These pipes can be fitted with modules that let it filter, import, export, and more."
+				""
+				"They're a great option for small-scale setups, and will hold off well until you get modular routers!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["471727F30759990B"]
+			size: 1.5d
+			id: "6814C6612B11818F"
+			tasks: [{
+				id: "205341A871D894E7"
+				type: "item"
+				item: "prettypipes:pipe"
+			}]
+			rewards: [
+				{
+					id: "072ACFFAD5C6CF19"
+					type: "item"
+					item: "prettypipes:low_extraction_module"
+				}
+				{
+					id: "0494363CAA4F81CE"
+					type: "item"
+					item: "prettypipes:low_retrieval_module"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			dependencies: [
+				"7AE3F096FF1B525C"
+				"6814C6612B11818F"
+			]
+			id: "7BDF2262356FA5F5"
+			tasks: [{
+				id: "4FB6CE33A23C4840"
+				type: "item"
+				item: "prettypipes:pressurizer"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			description: [
+				"You can even make a full-on storage network using only Pretty Pipes!"
+				""
+				"This would end up functioning similarly to what you get with Simple Storage Network, but here you arguably get more flexibility with your modules."
+			]
+			dependencies: ["6814C6612B11818F"]
+			id: "60475CC66ACBEDD5"
+			tasks: [{
+				id: "7743E6B1269B9278"
+				type: "item"
+				item: "prettypipes:item_terminal"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			dependencies: ["60475CC66ACBEDD5"]
+			id: "33BC37A9062A22E0"
+			tasks: [{
+				id: "177603A29C6A8347"
+				type: "item"
+				item: "prettypipes:crafting_terminal"
+			}]
 		}
 	]
 }
