@@ -84,10 +84,42 @@ onEvent("recipes", (event) => {
                 { item: "cavesandcliffs:deepslate" },
                 { item: "cavesandcliffs:deepslate" },
                 { tag: "forge:ingots/arcane_gold" },
-                { tag: "ars_nouveau:potion_flask" },
+                { item: "ars_nouveau:potion_flask" },
             ],
             output: "bloodmagic:alchemytable",
             reagent: "bloodmagic:blankslate",
+        },
+        {
+            inputs: [
+                { item: "forbidden_arcanus:rune" },
+                { item: "alexsmobs:cockroach_wing" },
+            ],
+            output: "enigmaticlegacy:recall_potion",
+            reagent: Item.of(
+                "naturesaura:aura_bottle",
+                '{stored_type:"naturesaura:overworld"}'
+            ),
+        },
+        {
+            inputs: [
+                { tag: "forge:gems/sapphire" },
+                { item: "eidolon:gold_inlay" },
+                { tag: "forge:ingots/arcane_gold" },
+                { tag: "forge:ingots/arcane_gold" },
+                { item: "aquamirae:pirate_pouch" },
+            ],
+            output: "enigmaticlegacy:mining_charm",
+            reagent: "ars_nouveau:dull_trinket",
+        },
+        {
+            inputs: [
+                { item: "minecraft:heart_of_the_sea" },
+                { item: "minecraft:sponge" },
+                { item: "minecraft:sponge" },
+                { item: "upgrade_aquatic:guardian_spine" },
+            ],
+            reagent: "alexsmobs:soul_heart",
+            output: "enigmaticlegacy:mega_sponge",
         },
     ];
 
