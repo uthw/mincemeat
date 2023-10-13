@@ -4,7 +4,7 @@
 	order_index: 1
 	filename: "getting_started"
 	title: "Getting Started"
-	icon: "botania:overgrowth_seed"
+	icon: "enigmaticlegacy:infinimeal"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -174,8 +174,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: 9.5d
+			x: -11.0d
+			y: 6.0d
 			subtitle: "Very useful portable inventory, can be accessed with a hotkey"
 			description: ["More inventory space. You can press the button to the top-left of the render of your skin in the inventory to open the Curios GUI and place the Backpack in the \"back\" slot."]
 			dependencies: ["17931C186781CFC0"]
@@ -216,8 +216,8 @@
 			]
 		}
 		{
-			x: -9.0d
-			y: 11.0d
+			x: -12.5d
+			y: 6.0d
 			dependencies: ["3B5888D439CDA9AD"]
 			id: "74E341009059B8D8"
 			tasks: [{
@@ -670,8 +670,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: 6.5d
+			x: -10.0d
+			y: 6.0d
 			subtitle: "It smells a little wild in here..."
 			description: [
 				"Hold it in midair and glide. Initially you can't go that far, but you can upgrade it at special statues in villages."
@@ -724,8 +724,8 @@
 			]
 		}
 		{
-			x: -9.0d
-			y: 8.0d
+			x: -10.0d
+			y: 7.5d
 			description: ["It can also be obtained by smelting rotten flesh!"]
 			hide_dependency_lines: true
 			dependencies: [
@@ -748,8 +748,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: 6.5d
+			x: -9.0d
+			y: 6.0d
 			dependencies: ["17931C186781CFC0"]
 			id: "7F2342D061DBC680"
 			tasks: [{
@@ -767,7 +767,7 @@
 			}]
 		}
 		{
-			x: -6.5d
+			x: -7.5d
 			y: 7.0d
 			description: [
 				"Rip bozo"
@@ -775,11 +775,7 @@
 				""
 				"Hmm..."
 			]
-			hide_dependency_lines: true
-			dependencies: [
-				"208F9467D721C8EA"
-				"06423DE8404671CB"
-			]
+			dependencies: ["0DFACC10A8F55C68"]
 			optional: true
 			id: "78ABD6682850A81F"
 			tasks: [{
@@ -790,8 +786,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: 5.0d
+			x: -9.0d
+			y: 8.5d
 			description: ["Is traded for Grave Dust when you collect your items. Sometimes, you will spawn with an Enchanted Grave Key that lets you teleport straight to your grave."]
 			dependencies: ["78ABD6682850A81F"]
 			optional: true
@@ -2044,11 +2040,7 @@
 			disable_toast: true
 			x: -3.5d
 			y: 6.0d
-			hide_dependency_lines: true
-			dependencies: [
-				"208F9467D721C8EA"
-				"06423DE8404671CB"
-			]
+			dependencies: ["0DFACC10A8F55C68"]
 			id: "6818CB4D9BAF4960"
 			tasks: [{
 				id: "39D99760EB0554F4"
@@ -2823,6 +2815,41 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 6.5d
+			subtitle: "Kill or die to a mob"
+			id: "0DFACC10A8F55C68"
+			tasks: [{
+				id: "5ECCD716C1848E4D"
+				type: "advancement"
+				advancement: "minecraft:adventure/root"
+				criterion: ""
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.5d
+			subtitle: "Unlock a hat (you can find mobs who are wearing hats)"
+			description: [
+				"You can press H to bring up the hat GUI!"
+				""
+				"This mod is cosmetic and doesn't give you any perks unlike the lost trinkets or artifacts."
+			]
+			dependencies: ["0DFACC10A8F55C68"]
+			id: "2D284864D6FB0472"
+			tasks: [{
+				id: "313C831EF0B6373F"
+				type: "advancement"
+				advancement: "hats:hats/wear_hat"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6C3384C543C47A1D"
+				type: "ftbmoney:money"
+				ftb_money: 10L
 			}]
 		}
 	]
