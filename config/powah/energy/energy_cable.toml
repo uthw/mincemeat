@@ -17,17 +17,17 @@
 
 [Energy_Transfer]
 	#Range: 0 ~ 9000000000000000000
-	starterTransfer = 100
+	starterTransfer = 300
 	#Range: 0 ~ 9000000000000000000
-	basicTransfer = 1400
+	basicTransfer = 600
 	#Range: 0 ~ 9000000000000000000
-	hardenedTransfer = 5000
+	hardenedTransfer = 1200
 	#Range: 0 ~ 9000000000000000000
-	blazingTransfer = 18000
+	blazingTransfer = 2400
 	#Range: 0 ~ 9000000000000000000
-	nioticTransfer = 40000
+	nioticTransfer = 4000
 	#Range: 0 ~ 9000000000000000000
-	spiritedTransfer = 90000
+	spiritedTransfer = 8000
 	#Range: 0 ~ 9000000000000000000
-	nitroTransfer = 200000
+	nitroTransfer = 16000
 
