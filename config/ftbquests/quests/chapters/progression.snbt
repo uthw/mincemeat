@@ -281,9 +281,9 @@
 		}
 		{
 			icon: "astralsorcery:observatory"
-			x: 2.0d
-			y: 5.0d
-			dependencies: ["6B50D35D45BED26B"]
+			x: 1.5d
+			y: 4.5d
+			dependencies: ["4B22B20D486AB5FE"]
 			id: "20B162460C213D2C"
 			tasks: [{
 				id: "2A5F3AB3CAB5DDEC"
@@ -410,8 +410,8 @@
 		}
 		{
 			icon: "ars_nouveau:glyph_ender_inventory"
-			x: 0.0d
-			y: 4.5d
+			x: -0.5d
+			y: 4.0d
 			dependencies: ["5BCC78E2E45FE94D"]
 			optional: true
 			id: "3E3B7236A68D7BF7"
@@ -423,8 +423,8 @@
 		}
 		{
 			icon: "mysticalagriculture:supremium_essence"
-			x: 1.0d
-			y: 6.0d
+			x: 2.5d
+			y: 5.5d
 			dependencies: ["20B162460C213D2C"]
 			id: "5E0D72CF3BBC7C02"
 			tasks: [{
@@ -474,9 +474,10 @@
 		}
 		{
 			icon: "psi:cad_assembly_ebony_psimetal"
-			x: 1.5d
-			y: 4.5d
+			x: 2.0d
+			y: 3.0d
 			dependencies: ["4B22B20D486AB5FE"]
+			optional: true
 			id: "6B50D35D45BED26B"
 			tasks: [{
 				id: "50C7DD2527712AC8"
@@ -486,7 +487,7 @@
 		}
 		{
 			icon: "computercraft:computer_normal"
-			x: -3.0d
+			x: -2.0d
 			y: 4.5d
 			subtitle: "IT in Minecraft - Realize your dreams of helping elderly people turn on their computers"
 			dependencies: [
@@ -503,9 +504,9 @@
 		}
 		{
 			icon: "integrateddynamics:crystalized_menril_chunk"
-			x: -2.0d
-			y: 5.5d
-			subtitle: "Data Science in Minecraft - what if computer science was actually cool?"
+			x: -3.0d
+			y: 4.5d
+			subtitle: "CC: Tweaked, but blue?!"
 			dependencies: ["63D38912D38E897C"]
 			optional: true
 			id: "6DEC4B60C5D6C1DB"
@@ -659,10 +660,10 @@
 		}
 		{
 			icon: "modularrouters:item_router"
-			x: -3.5d
-			y: 0.5d
+			x: -0.5d
+			y: 5.0d
 			subtitle: "Give IKEA a run for its money - Requires Undergarden access"
-			dependencies: ["5B3B47B919747301"]
+			dependencies: ["61739A26E001CCD8"]
 			optional: true
 			id: "65C4D28E9C431FCD"
 			tasks: [{
@@ -686,8 +687,8 @@
 			}]
 		}
 		{
-			x: -5.0d
-			y: -1.0d
+			x: -5.5d
+			y: -2.5d
 			subtitle: "Poison Dungeon in the Everdawn"
 			dependencies: ["6ED75E81C1C56B06"]
 			optional: true
@@ -1139,6 +1140,19 @@
 				id: "521BB784B4D5BAF7"
 				type: "checkmark"
 				title: "Tinkers' Construct/Tetra"
+			}]
+		}
+		{
+			icon: "prettypipes:pipe"
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["7BA3A178A4F43620"]
+			optional: true
+			id: "61739A26E001CCD8"
+			tasks: [{
+				id: "02734433C4E147D5"
+				type: "checkmark"
+				title: "Pretty Pipes"
 			}]
 		}
 	]
