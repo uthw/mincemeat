@@ -4,7 +4,7 @@
 	order_index: 2
 	filename: "the_blue_skies"
 	title: "Everbright/Everdawn"
-	icon: "paraglider:essence"
+	icon: "blue_skies:everdawn_portal"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
