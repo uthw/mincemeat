@@ -13,6 +13,6 @@ villagerTrades.addTrade(<profession:minecraft:librarian>, 2, <item:minecraft:eme
 villagerTrades.removeItemsForEmeraldsTrade(<profession:minecraft:librarian>, 2, <item:minecraft:lantern>);
 
 villagerTrades.addTrade(<profession:minecraft:librarian>, 4, <item:minecraft:emerald> * 12, <item:minecraft:book> * 1, <item:apotheosis:scrap_tome>, 4, 8, 0.05);
-villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:minecraft:emerald> * 26, <item:minecraft:book> * 1, <item:tombstone:book_of_disenchantment>, 3, 10, 0.05);
+// villagerTrades.addTrade(<profession:minecraft:librarian>, 5, <item:minecraft:emerald> * 26, <item:minecraft:book> * 1, <item:tombstone:book_of_disenchantment>, 3, 10, 0.05);
 
 // 

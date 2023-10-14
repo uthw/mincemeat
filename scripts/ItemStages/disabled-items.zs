@@ -6,7 +6,7 @@ var restrictedItems = [
 
     <item:wstweaks:blaze_blade>,
 
-    <item:tombstone:soul_receptacle>
+    // <item:tombstone:soul_receptacle>
 
     // <item:mahoutsukai:scroll_damage_replication>
     ] as IItemStack[];
