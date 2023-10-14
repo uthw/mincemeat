@@ -125,6 +125,48 @@ onEvent("recipes", (event) => {
                 G: "create:polished_rose_quartz",
             },
         },
+        {
+            output: "mekanism:basic_universal_cable",
+            inputs: ["ABA"],
+            keys: {
+                A: "#forge:plates/iron",
+                B: "thermal:cured_rubber",
+            },
+        },
+        {
+            output: "mekanism:basic_mechanical_pipe",
+            inputs: ["ABA"],
+            keys: {
+                A: "#forge:plates/copper",
+                B: "infernalexp:quartz_glass_pane",
+            },
+        },
+        {
+            output: "mekanism:basic_pressurized_tube",
+            inputs: ["ABA"],
+            keys: {
+                A: "#forge:plates/copper",
+                B: "create:polished_rose_quartz",
+            },
+        },
+        {
+            output: "mekanism:basic_logistical_transporter",
+            inputs: ["ABA"],
+            keys: {
+                A: "#forge:plates/steel",
+                B: "immersiveengineering:component_iron",
+            },
+        },
+        {
+            output: "mekanism:logistical_sorter",
+            inputs: ["ABA", "BCB", "DDD"],
+            keys: {
+                A: "#forge:ingots/compressed_iron",
+                B: "mekanism:alloy_infused",
+                C: "mekanism:basic_control_circuit",
+                D: "create:filter",
+            },
+        },
     ];
 
     recipes.forEach((recipe) => {
