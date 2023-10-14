@@ -149,21 +149,6 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 0.0d
-			dependencies: ["2B4A4A5602F6F9CE"]
-			id: "510831283C0EC837"
-			tasks: [{
-				id: "6C933829A3CD9CC2"
-				type: "item"
-				item: {
-					id: "productivebees:nest_locator"
-					Count: 1b
-					tag: { }
-				}
-			}]
-		}
-		{
 			x: -5.0d
 			y: 3.0d
 			subtitle: "*Requires the Nether"
@@ -368,6 +353,22 @@
 					item: "minecraft:sand"
 				}
 			]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			description: ["Instructions: shift rclick to set the nest youd like to look for, rclick to search nearby"]
+			dependencies: ["337D1229E2B9EFD9"]
+			id: "799D81A627ED09C0"
+			tasks: [{
+				id: "429BE68CD09098FC"
+				type: "item"
+				item: {
+					id: "productivebees:nest_locator"
+					Count: 1b
+					tag: { }
+				}
+			}]
 		}
 	]
 }
