@@ -1,68 +1,68 @@
 {
-  "startingValue": 0,
-  "minValue": 0,
-  "maxValue": 500,
-  "changePerSecond": 0.0012,
-  "mode": {
-    "type": "distance_and_time",
-    "distance": {
-      "distanceFactor": 0.01
+    "startingValue": 0,
+    "minValue": 0,
+    "maxValue": 500,
+    "changePerSecond": 0.0012,
+    "mode": {
+        "type": "distance_and_time",
+        "distance": {
+            "distanceFactor": 0.02
+        },
+        "average": {
+            "radius": 128
+        }
     },
-    "average": {
-      "radius": 128
+    "groupBonus": "1 + 0.075 * (areaPlayerCount - 1)",
+    "groupBonusRadius": 128,
+    "idleMultiplier": 0.25,
+    "afkMessage": false,
+    "timeBeforeAfk": 120,
+    "sleepWarningMessage": false,
+    "multipliers": {
+        "lunarMultipliers": [1.1, 1.075, 1.05, 1.0, 0.95, 1.0, 1.05, 1.075],
+        "locationMultipliers": [
+            {
+                "scale": 1.1,
+                "dimensions": ["blue_skies:everbright"]
+            },
+            {
+                "scale": 1.1,
+                "dimensions": ["blue_skies:everdawn"]
+            },
+            {
+                "scale": 1.2,
+                "dimensions": ["atum:atum"]
+            },
+            {
+                "scale": 0.5,
+                "dimensions": ["minecraft:the_nether"]
+            },
+            {
+                "scale": 1.45,
+                "dimensions": ["minecraft:the_end"]
+            },
+            {
+                "scale": 0.001,
+                "dimensions": ["dimdungeons:dungeon_dimension"]
+            }
+        ]
+    },
+    "mutators": {
+        "onBlightKilled": "difficulty",
+        "onHostileKilled": "difficulty",
+        "onPeacefulKilled": "difficulty",
+        "onPlayerKilled": "difficulty + 1",
+        "onPlayerDeath": "difficulty",
+        "onPlayerSleep": "difficulty",
+        "byEntity": [
+            {
+                "entities": ["minecraft:villager"],
+                "onKilled": "difficulty + 0.05"
+            },
+            {
+                "entities": ["minecraft:wither", "minecraft:ender_dragon"],
+                "onKilled": "difficulty"
+            }
+        ]
     }
-  },
-  "groupBonus": "1 + 0.075 * (areaPlayerCount - 1)",
-  "groupBonusRadius": 128,
-  "idleMultiplier": 0.25,
-  "afkMessage": false,
-  "timeBeforeAfk": 120,
-  "sleepWarningMessage": false,
-  "multipliers": {
-    "lunarMultipliers": [1.1, 1.075, 1.05, 1.0, 0.95, 1.0, 1.05, 1.075],
-    "locationMultipliers": [
-      {
-        "scale": 1.1,
-        "dimensions": ["blue_skies:everbright"]
-      },
-      {
-        "scale": 1.1,
-        "dimensions": ["blue_skies:everdawn"]
-      },
-      {
-        "scale": 1.2,
-        "dimensions": ["atum:atum"]
-      },
-      {
-        "scale": 0.5,
-        "dimensions": ["minecraft:the_nether"]
-      },
-      {
-        "scale": 1.45,
-        "dimensions": ["minecraft:the_end"]
-      },
-      {
-        "scale": 0.001,
-        "dimensions": ["dimdungeons:dungeon_dimension"]
-      }
-    ]
-  },
-  "mutators": {
-    "onBlightKilled": "difficulty",
-    "onHostileKilled": "difficulty",
-    "onPeacefulKilled": "difficulty",
-    "onPlayerKilled": "difficulty + 1",
-    "onPlayerDeath": "difficulty",
-    "onPlayerSleep": "difficulty",
-    "byEntity": [
-      {
-        "entities": ["minecraft:villager"],
-        "onKilled": "difficulty + 0.05"
-      },
-      {
-        "entities": ["minecraft:wither", "minecraft:ender_dragon"],
-        "onKilled": "difficulty"
-      }
-    ]
-  }
 }
