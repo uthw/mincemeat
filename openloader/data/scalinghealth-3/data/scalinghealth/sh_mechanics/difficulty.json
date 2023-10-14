@@ -6,7 +6,7 @@
     "mode": {
         "type": "distance_and_time",
         "distance": {
-            "distanceFactor": 0.02
+            "distanceFactor": 0.015
         },
         "average": {
             "radius": 128
