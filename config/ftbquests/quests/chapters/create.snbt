@@ -1270,6 +1270,7 @@
 			]
 			hide_dependency_lines: true
 			dependencies: ["6FDFFE9DAC0A386D"]
+			hide: true
 			size: 2.0d
 			id: "7CAE16ED2E14FF16"
 			tasks: [{
@@ -1673,7 +1674,7 @@
 				"Configuration lets you choose whether you want the machine to automatically input/output items, and what sides to do this from. Click to cycle. You must press the arrows to enable/disable this."
 				"Note: you don't need hoppers or similar items to input/output the items. It does this when there is a container adjacent to the machine."
 			]
-			dependencies: ["1A9DC65063E256BB"]
+			dependencies: ["7CBB36204EB8155E"]
 			id: "755E790FA3963507"
 			tasks: [
 				{
@@ -2435,8 +2436,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 4.0d
+			x: 4.0d
+			y: 6.5d
 			subtitle: "Extracts oil from trees"
 			description: ["This fluid can be outputted to something like a Compression Dynamo, which produces RF with the tree oil"]
 			hide_dependency_lines: true
@@ -2454,8 +2455,8 @@
 			}]
 		}
 		{
-			x: 5.0d
-			y: 5.0d
+			x: 5.5d
+			y: 6.5d
 			subtitle: "Uses combustible liquid for RF"
 			dependencies: ["1EF5E87CC2963F08"]
 			id: "086040969B216870"
@@ -2507,8 +2508,8 @@
 		}
 		{
 			title: "Flux Network"
-			x: 6.5d
-			y: -1.0d
+			x: 5.5d
+			y: 4.5d
 			subtitle: "Adds energy to an RF network, enabling wireless flux transportation, even across dimensions"
 			description: [
 				"You can use cables to feed energy to the plug, or have it next to the output."
@@ -3724,6 +3725,7 @@
 			icon: "immersiveengineering:metal_press"
 			x: 0.5d
 			y: -8.0d
+			shape: "hexagon"
 			subtitle: "Uses stamps to turn ingots into plates, rods, and wires."
 			description: [
 				"Use an engineer's hammer on the piston to convert your structure. Energy is sent through the top block, and items are placed on a conveyor belt going into it, which should be extended."
@@ -4838,7 +4840,7 @@
 		}
 		{
 			x: 7.5d
-			y: -6.0d
+			y: -5.5d
 			subtitle: "Can store lubricant, which can be applied to machines and increase their speed"
 			dependencies: ["082B12C35CE310D1"]
 			id: "766CEA0291D93F9E"
@@ -5342,8 +5344,8 @@
 		}
 		{
 			title: "Cables"
-			x: 6.5d
-			y: 0.0d
+			x: 5.5d
+			y: 3.0d
 			subtitle: "Here are all the cables you can obtain in Mekanism. Each of these follow the 4-tier system of Mekanism."
 			description: [
 				"Cable settings can be changed using a configurator. The things you can change depend on the cable you're working with."
@@ -5352,7 +5354,7 @@
 				""
 				"Meka energy cables do not need to be configured. They are smart enough to know where to put the energy."
 			]
-			dependencies: ["6021909A60A357B0"]
+			dependencies: ["7BE464B823C3FDEC"]
 			id: "1A9DC65063E256BB"
 			tasks: [
 				{
@@ -5460,6 +5462,31 @@
 				id: "177603A29C6A8347"
 				type: "item"
 				item: "prettypipes:crafting_terminal"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			dependencies: ["6021909A60A357B0"]
+			id: "7CBB36204EB8155E"
+			tasks: [{
+				id: "79BB59BF86DE5C4F"
+				type: "item"
+				item: "powah:energy_cable_starter"
+				count: 12L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			subtitle: "There are 8 tiers of Powah items. Each tier has large advantages in terms of raw numbers over the last!"
+			description: ["Connect machines to power sources using these handy cables. You will usually be able to configure where power comes from (as in what side), or there will be a place on the machine where it's indicated that there's a port."]
+			dependencies: ["7CBB36204EB8155E"]
+			id: "7BE464B823C3FDEC"
+			tasks: [{
+				id: "52546231DF4BCC44"
+				type: "item"
+				item: "powah:energy_cable_basic"
 			}]
 		}
 	]
