@@ -50,6 +50,14 @@ onEvent("recipes", (event) => {
                 E: "#forge:plates/copper",
             },
         ],
+        [
+            "4x immersiveengineering:hemp_fabric",
+            ["AAA", "ABA", "AAA"],
+            {
+                A: "immersiveengineering:hemp_fiber",
+                B: "#forge:rods/wooden",
+            },
+        ],
         // [
         //     "immersiveengineering:component_iron",
         //     ["A A", " B "]
