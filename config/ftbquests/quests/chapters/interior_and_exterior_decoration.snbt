@@ -4,7 +4,403 @@
 	order_index: 1
 	filename: "interior_and_exterior_decoration"
 	title: "Interior and Exterior Decoration"
+	icon: "forbidden_arcanus:arcane_gold_door"
 	default_quest_shape: ""
-	default_hide_dependency_lines: false
-	quests: [ ]
+	default_hide_dependency_lines: true
+	quests: [
+		{
+			icon: "minecraft:grass_block"
+			x: -2.0d
+			y: 2.0d
+			description: [
+				"If you're a builder, you might be intimidated by all the new toys you get to play with."
+				""
+				"This chapter shows you what you can use to build like never before!"
+				""
+				"Don't forget you can type @[mod ID] to filter by mod. You can get the mod IDs by pressing F3 + H."
+			]
+			id: "39932D59F4B41B64"
+			tasks: [{
+				id: "653FD7C4D0F37989"
+				type: "checkmark"
+				title: "Interior and Exterior Decoration"
+			}]
+		}
+		{
+			title: "Supplementaries"
+			icon: "supplementaries:globe"
+			x: 2.0d
+			y: 1.0d
+			description: ["Adds a lot of decorative and functional blocks and items. Here are just a few of them."]
+			dependencies: ["39932D59F4B41B64"]
+			id: "5A0FFD9C19E30678"
+			tasks: [
+				{
+					id: "262F1BDB6CBA72D5"
+					type: "item"
+					item: "supplementaries:jar"
+				}
+				{
+					id: "05F051F08B7D9315"
+					type: "item"
+					item: "supplementaries:globe"
+				}
+				{
+					id: "42AA47D7F5CD6201"
+					type: "item"
+					item: "supplementaries:clock_block"
+				}
+				{
+					id: "61EECA46988F08D2"
+					type: "item"
+					item: "supplementaries:bellows"
+				}
+				{
+					id: "57611D612CEB9016"
+					type: "item"
+					item: "supplementaries:pancake"
+				}
+				{
+					id: "64A9024052AD9133"
+					type: "item"
+					item: "supplementaries:deepslate_lamp"
+				}
+				{
+					id: "792FA83D855778FE"
+					type: "item"
+					item: "supplementaries:candelabra_silver"
+				}
+				{
+					id: "285EC46A71841579"
+					type: "item"
+					item: "supplementaries:spring_launcher"
+				}
+				{
+					id: "38C3799B9B88BC5D"
+					type: "item"
+					item: "supplementaries:blackboard"
+				}
+			]
+			rewards: [{
+				id: "28D65BCCBEA30876"
+				type: "ftbmoney:money"
+				ftb_money: 60L
+			}]
+		}
+		{
+			title: "Chisels \\& Bits"
+			disable_toast: true
+			x: 1.0d
+			y: -2.0d
+			subtitle: "Refer to Getting Started for guidance on this mod."
+			dependencies: ["39932D59F4B41B64"]
+			id: "07B9BEF9701D89B3"
+			tasks: [{
+				id: "11CB06AE911495E8"
+				type: "item"
+				item: {
+					id: "chiselsandbits:chisel_iron"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Valhelsia Structures"
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["39932D59F4B41B64"]
+			id: "39CD16101979FE73"
+			tasks: [
+				{
+					id: "63D274A2CD920FBA"
+					type: "item"
+					item: "valhelsia_structures:brazier"
+				}
+				{
+					id: "57ED9B2BD18D0E5F"
+					type: "item"
+					item: "valhelsia_structures:glazed_jar"
+				}
+			]
+		}
+		{
+			title: "Statues"
+			x: 0.0d
+			y: 2.0d
+			description: [
+				"Statues are little figurines of mobs you can place. Obtain them from killing mobs on rare occasions."
+				""
+				"Maybe you can get one from killing your friend?"
+			]
+			dependencies: ["39932D59F4B41B64"]
+			id: "2252EBC0A2D368EE"
+			tasks: [{
+				id: "1746E7E9BF336251"
+				type: "advancement"
+				advancement: "statues:root"
+				criterion: ""
+			}]
+		}
+		{
+			title: "MrCrayfish's Furniture Mod"
+			x: 0.0d
+			y: -2.0d
+			description: [
+				"CFM adds a treasure trove of furniture and decorations for your enjoyment."
+				""
+				"Unlike most other mods, CFM blocks are available in every wood type in the modpack."
+			]
+			dependencies: ["39932D59F4B41B64"]
+			id: "303B782A83DF56A2"
+			tasks: [{
+				id: "2757FB32397905CD"
+				type: "item"
+				item: {
+					id: "cfm:spatula"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Macaw's Roofs"
+			x: -1.0d
+			y: -2.0d
+			description: ["Adds roofs that clash with vanilla Minecraft's simpler style, but definitely look good. It's up to you if you want to use them."]
+			dependencies: ["39932D59F4B41B64"]
+			id: "29C5191DBA06612D"
+			tasks: [{
+				id: "7EECF12B8C4A3D37"
+				type: "item"
+				item: "mcwroofs:roofing_hammer"
+			}]
+		}
+		{
+			title: "Macaw's Bridges"
+			x: -2.0d
+			y: 0.0d
+			description: ["Adds bridges and foundations for bridges."]
+			dependencies: ["39932D59F4B41B64"]
+			id: "38EBB2BF19AC544F"
+			tasks: [{
+				id: "7E1A87DA9DA6872B"
+				type: "item"
+				item: "mcwbridges:pliers"
+			}]
+		}
+		{
+			title: "Macaw's Doors/Trapdoors"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "Please excuse my missing texture"
+			dependencies: ["39932D59F4B41B64"]
+			id: "011326BF6C8601AF"
+			tasks: [
+				{
+					id: "1B844475B3F225E3"
+					type: "item"
+					title: "Any #minecraft:doors"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:doors"
+						}
+					}
+				}
+				{
+					id: "3994F7360C7E8804"
+					type: "item"
+					title: "Any #minecraft:trapdoors"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:trapdoors"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Macaw's Windows"
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["39932D59F4B41B64"]
+			id: "77E4A158EEE62FDA"
+			tasks: [{
+				id: "73B590C9267F7F00"
+				type: "item"
+				item: "mcwwindows:hammer"
+			}]
+		}
+		{
+			title: "Architect's Palette"
+			x: -1.0d
+			y: 2.0d
+			description: ["Adds a lot of blocks for your builds"]
+			dependencies: ["39932D59F4B41B64"]
+			id: "2646F36CBBD1C527"
+			tasks: [{
+				id: "2104E246C32EF81C"
+				type: "item"
+				item: "architects_palette:algal_brick"
+			}]
+		}
+		{
+			title: "Charm"
+			x: 2.0d
+			y: -2.0d
+			description: ["Smaller mod inspired by Quark. Adds some decorations for buildings."]
+			dependencies: ["7B9FBC52D686A444"]
+			id: "5CE007DFAD42984B"
+			tasks: [
+				{
+					id: "3CCDFC542BD3DA59"
+					type: "item"
+					title: "Any #charm:crates"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "charm:crates"
+						}
+					}
+				}
+				{
+					id: "1AC0CC68AF251AAF"
+					type: "item"
+					title: "Any #charm:lanterns"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "charm:lanterns"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Quark"
+			x: 2.0d
+			y: 0.0d
+			description: [
+				"Chances are, you've seen something from Quark while exploring or in the quests already. This mod is everywhere, in almost every modpack you'll play."
+				""
+				"Quark adds a lot of color palettes for your use, as well as tools for builders such as the abacus and vertical slabs."
+			]
+			dependencies: ["39932D59F4B41B64"]
+			id: "7B9FBC52D686A444"
+			tasks: [{
+				id: "785E3A052EB0DA24"
+				type: "item"
+				title: "Any #quark:vertical_slab"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "quark:vertical_slab"
+					}
+				}
+			}]
+		}
+		{
+			title: "Engineer's Decor"
+			x: -2.0d
+			y: -1.0d
+			description: ["Adds some industrial-themed building blocks and functional machines."]
+			dependencies: ["39932D59F4B41B64"]
+			id: "5A490B18950CDBDD"
+			tasks: [
+				{
+					id: "5EAFFE32FFE635B7"
+					type: "item"
+					item: "engineersdecor:clinker_brick_block"
+				}
+				{
+					id: "5FBCBE14ACA463BA"
+					type: "item"
+					item: "engineersdecor:labeled_crate"
+				}
+			]
+		}
+		{
+			title: "Chipped"
+			disable_toast: true
+			x: -2.0d
+			y: -2.0d
+			subtitle: "Refer to Getting Started for guidance on this mod."
+			dependencies: ["39932D59F4B41B64"]
+			id: "1AAA512CD47DE294"
+			tasks: [{
+				id: "3B9591B36B0CCEC8"
+				type: "item"
+				item: "chipped:carpenters_table"
+			}]
+		}
+		{
+			title: "Chapter Complete!"
+			icon: "statues:player_statue"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"Seems like you've done quite a bit of building. You're now quite the polished architect!"
+				""
+				"These aren't all the tools available to you! Don't forget about new biomes in your world which add new blocks such as:"
+				"- Green wood from Bayou Blues"
+				"- Terracotta bricks from Environmental"
+				"- Glowstone blocks from Infernal Expansion"
+				""
+				"Also, don't forget about The Mighty Architect if you got this far and somehow don't care!"
+			]
+			dependencies: [
+				"5A490B18950CDBDD"
+				"38EBB2BF19AC544F"
+				"1AAA512CD47DE294"
+				"77E4A158EEE62FDA"
+				"29C5191DBA06612D"
+				"303B782A83DF56A2"
+				"07B9BEF9701D89B3"
+				"39CD16101979FE73"
+				"7B9FBC52D686A444"
+				"5CE007DFAD42984B"
+				"5A0FFD9C19E30678"
+				"011326BF6C8601AF"
+				"2252EBC0A2D368EE"
+				"2646F36CBBD1C527"
+			]
+			hide: true
+			id: "1BB754A80094710E"
+			tasks: [{
+				id: "47EE20418B170EB5"
+				type: "checkmark"
+				title: "That's not all!"
+			}]
+		}
+		{
+			title: "Fairy Lights"
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["39932D59F4B41B64"]
+			id: "12B96F8A9C17F127"
+			tasks: [{
+				id: "60A3580C9346A475"
+				type: "item"
+				title: "Any #fairylights:lights"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "fairylights:lights"
+					}
+				}
+			}]
+		}
+	]
 }
