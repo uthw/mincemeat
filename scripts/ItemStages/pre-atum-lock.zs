@@ -29,7 +29,7 @@ ItemStages.restrict(<tag:items:curios:spellstone>, 'two');
 var restrictedWords = [
     // 'diamond',
     'netherite',
-    'anvil',
+    // 'anvil',
     'neptunium',
     'celestial',
 ] as string[];
