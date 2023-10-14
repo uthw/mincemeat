@@ -15,7 +15,7 @@
 	ghostly_shape_duration = 180
 	#The chance that a player receives an already enchanted Grave's Key on death [-1..100|default:0|disabled:-1]
 	#Range: -1 ~ 100
-	chance_enchanted_grave_key = 40
+	chance_enchanted_grave_key = 50
 	#Defines the progression scale to be able to upgrade perks to higher level (based on the level in Knowledge of Death) [1..5|default:2]
 	#Range: 1 ~ 5
 	perk_progression_scale = 2
