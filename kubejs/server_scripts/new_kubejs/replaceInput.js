@@ -311,11 +311,11 @@ onEvent("recipes", (event) => {
             "#forge:ingots/aluminum",
         ],
         [({ mod: "mcwbridges" }, "minecraft:string", "#forge:rope")],
-        [
-            { output: "mekanism:logistical_sorter" },
-            "minecraft:piston",
-            "immersiveengineering:logic_unit",
-        ],
+        // [
+        //     { output: "mekanism:logistical_sorter" },
+        //     "minecraft:piston",
+        //     "immersiveengineering:logic_unit",
+        // ],
         [
             { output: "mekanismgenerators:solar_panel" },
             "#forge:glass_panes",
@@ -397,16 +397,16 @@ onEvent("recipes", (event) => {
             "minecraft:ender_pearl",
             "paraglider:spirit_orb",
         ],
-        [
-            { output: "powah:dielectric_paste" },
-            "minecraft:clay_ball",
-            "architects_palette:algal_blend",
-        ],
-        [
-            { output: "powah:dielectric_paste" },
-            "#minecraft:coals",
-            "#forge:silicon",
-        ],
+        // [
+        //     { output: "powah:dielectric_paste" },
+        //     "minecraft:clay_ball",
+        //     "architects_palette:algal_blend",
+        // ],
+        // [
+        //     { output: "powah:dielectric_paste" },
+        //     "#minecraft:coals",
+        //     "#forge:nuggets/aluminum",
+        // ],
         [
             { output: "powah:capacitor_basic" },
             "minecraft:redstone_block",
@@ -519,6 +519,11 @@ onEvent("recipes", (event) => {
             { output: "immersiveengineering:blastbrick" },
             "minecraft:nether_brick",
             "#forge:stone/limestone",
+        ],
+        [
+            { output: "immersiveengineering:conveyor_basic" },
+            "#forge:leather",
+            "immersiveengineering:hemp_fabric",
         ],
         [
             { output: "immersiveengineering:blastbrick" },
@@ -744,6 +749,11 @@ onEvent("recipes", (event) => {
             { output: "prettypipes:item_terminal" },
             "#forge:storage_blocks/iron",
             "#forge:storage_blocks/aluminum",
+        ],
+        [
+            { output: "astralsorcery:altar_discovery" },
+            "minecraft:crafting_table",
+            "occultism:otherstone_pedestal",
         ],
     ];
 
