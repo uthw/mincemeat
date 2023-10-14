@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Death Tip",
+        "bold": true,
+        "color": "red"
+    },
+    "tip": {
+        "text": "You do not lose any XP when you die."
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "title": {
+        "text": "Chicken Chunks Tip",
+        "bold": true,
+        "color": "yellow"
+    },
+    "tip": {
+        "text": "You can use the Chicken Chunks mod to force chunks to stay loaded at all times."
+    }
+}
