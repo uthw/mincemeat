@@ -121,6 +121,26 @@ onEvent("recipes", (event) => {
             reagent: "alexsmobs:soul_heart",
             output: "enigmaticlegacy:mega_sponge",
         },
+        {
+            inputs: [
+                { item: "paraglider:spirit_orb" },
+                { item: "paraglider:spirit_orb" },
+                { item: "forbidden_arcanus:arcane_crystal_dust" },
+                { item: "forbidden_arcanus:arcane_crystal_dust" },
+            ],
+            reagent: "forbidden_arcanus:rune",
+            output: "scalinghealth:enchanted_heart",
+        },
+        {
+            inputs: [
+                { item: "paraglider:spirit_orb" },
+                { item: "paraglider:spirit_orb" },
+                { tag: "forge:ectoplasms" },
+                { tag: "forge:ectoplasms" },
+            ],
+            reagent: "forbidden_arcanus:dark_rune",
+            output: "scalinghealth:cursed_heart",
+        },
     ];
 
     recipes.forEach((recipe) => {
