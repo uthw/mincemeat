@@ -85,11 +85,27 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "0C23E59248DF2500"
-				type: "ftbmoney:money"
-				ftb_money: 5L
-			}]
+			rewards: [
+				{
+					id: "0C23E59248DF2500"
+					type: "ftbmoney:money"
+					ftb_money: 5L
+				}
+				{
+					id: "15A6379970D1BE6F"
+					type: "item"
+					item: {
+						id: "productivebees:nest_locator"
+						Count: 1b
+						tag: {
+							productivebees_locator_nest: {
+								nestName: "Bee Nest"
+								nest: "minecraft:bee_nest"
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -757,46 +773,6 @@
 				type: "item"
 				item: {
 					id: "minecraft:book"
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-				}
-			}]
-		}
-		{
-			x: -7.5d
-			y: 7.0d
-			description: [
-				"Rip bozo"
-				"You lose 75% of your levels at the time of death. There is no way to directly prevent this other than having no levels."
-				""
-				"Hmm..."
-			]
-			dependencies: ["0DFACC10A8F55C68"]
-			optional: true
-			id: "78ABD6682850A81F"
-			tasks: [{
-				id: "23E8DD6164393C7F"
-				type: "advancement"
-				advancement: "tombstone:adventure/first_grave"
-				criterion: ""
-			}]
-		}
-		{
-			x: -9.0d
-			y: 8.5d
-			description: ["Is traded for Grave Dust when you collect your items. Sometimes, you will spawn with an Enchanted Grave Key that lets you teleport straight to your grave."]
-			dependencies: ["78ABD6682850A81F"]
-			optional: true
-			id: "2EE1262D97309044"
-			tasks: [{
-				id: "793E196D6135784B"
-				type: "item"
-				item: {
-					id: "tombstone:grave_key"
 					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
@@ -2851,6 +2827,146 @@
 				type: "ftbmoney:money"
 				ftb_money: 10L
 			}]
+		}
+		{
+			icon: "statues:cow_statue"
+			x: -8.0d
+			y: -5.0d
+			shape: "hexagon"
+			description: ["You've officially Gotten Started! Now do something fun!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"06423DE8404671CB"
+				"4E9BD919E9A2EA30"
+				"0D0EC0B5DEABAE62"
+				"4528671646433723"
+				"0282D1BEC64A2E22"
+				"3B5888D439CDA9AD"
+				"74E341009059B8D8"
+				"3B54B827153F210A"
+				"356BAEB4B5E2ACC4"
+				"7F02E6EE2D1A7D6E"
+				"4299828604426BEA"
+				"4FD64AEA10EC3D72"
+				"32D230590CD6F5BB"
+				"14CE0F41145FC55E"
+				"38BEEB45ACD68854"
+				"145D375145679A2E"
+				"0090669B53FA5F66"
+				"208F9467D721C8EA"
+				"5DC3EDF681E28194"
+				"6AB8CCAAD5C12829"
+				"48A885CD1853C066"
+				"17931C186781CFC0"
+				"7F2342D061DBC680"
+				"6AA8075245E0B92A"
+				"7B8262777A957400"
+				"4C041E6E18FC74F9"
+				"7AB200E89A5C1574"
+				"2F97C9966CBC715C"
+				"4CE46EF5E30BF9B9"
+				"5846CD6F06CAACA6"
+				"399F60CCF46DCAF1"
+				"12BFE3576E46C38A"
+				"659DF4528D7D3268"
+				"11EA5F6BAA0611E9"
+				"42AB060EB0268F3C"
+				"10FDF2B64A00E2EB"
+				"162654229295E7D8"
+				"43445FFF6CA5FA32"
+				"6547BC07B68FC8D0"
+				"0D9C427C49A6F1B8"
+				"7039D7446572A404"
+				"7ACACA010AAFBADE"
+				"4515FAC352403D5F"
+				"1475920B6E3F7BDA"
+				"7836642EE61B370E"
+				"5F7BEB61AE60BB70"
+				"1AB1A96F7DE4E806"
+				"3B5C4A36A8828F4F"
+				"7D1CE70A0736CB85"
+				"62FC7466F8200367"
+				"726D0342998FB259"
+				"2FC60C010FA5AA99"
+				"722E21A2C19E2ED1"
+				"7916121559DA4589"
+				"11FC8F805A878382"
+				"6E47DA8F926DC430"
+				"7A63425AF665D7E0"
+				"52C92A2F59895AFB"
+				"60C479981C836FA6"
+				"63DC90B152B4F5DB"
+				"2DDC564BB636DECA"
+				"79B25632B6985B02"
+				"7F2F32A5B847D44E"
+				"2A37913B35DC0D59"
+				"6818CB4D9BAF4960"
+				"0DF1C381AD4AD131"
+				"2A77B885F55E9621"
+				"4A10C5E8B200A1A6"
+				"03EE941F17B387AA"
+				"074BBEA540815BFA"
+				"1CCF9A3BFF04623C"
+				"21EDF8C2714DE0EB"
+				"17F0ED90CF335F54"
+				"7C6893651C7CF5B8"
+				"5868396064B273E1"
+				"7FE45C3330D0615B"
+				"45A8A70BEE505781"
+				"7D1EA49A0A42048B"
+				"2494C4466E476105"
+				"4A99DAA11797E1AC"
+				"0879D270084D20AA"
+				"788DD3AA8BE5D954"
+				"052CEDF4AE734E4C"
+				"78F5213A9148627A"
+				"05FCF488F0E0C088"
+				"35781A3629F67B8A"
+				"78DAAA73F3C55520"
+				"3BD1C6B4B1A4BE48"
+				"5DE3CABC7403CFD6"
+				"2FD5A5B602BA834F"
+				"0AB55D1AEEE94519"
+				"4E763C15746B4815"
+				"53EBCFC4A9B106ED"
+				"31B7D454C449BB3F"
+				"011CCF8E36D3A0D4"
+				"67AE753563A4C7DB"
+				"742BE2ED8337B051"
+				"069B1509B0FFA946"
+				"20BB99E4AD129B2E"
+				"49F349EED2FD699B"
+				"64514616F3FA4953"
+				"42C54117621F5C0E"
+				"15D39FB1E49B0E1D"
+				"0DFACC10A8F55C68"
+				"2D284864D6FB0472"
+			]
+			hide: true
+			size: 2.0d
+			id: "4C8CDD37459B39A4"
+			tasks: [{
+				id: "4683BA4B68536C1A"
+				type: "checkmark"
+				title: "Chapter Complete!"
+			}]
+			rewards: [
+				{
+					id: "622DB9DA83B1261D"
+					type: "loot"
+					table_id: 4031609406185370147L
+				}
+				{
+					id: "4FE629807B8AA56A"
+					type: "loot"
+					table_id: 5232846627972773386L
+				}
+				{
+					id: "442B780B7413745E"
+					type: "ftbmoney:money"
+					ftb_money: 150L
+				}
+			]
 		}
 	]
 }
