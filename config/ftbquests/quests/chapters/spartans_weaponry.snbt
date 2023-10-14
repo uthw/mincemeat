@@ -94,6 +94,7 @@
 		{
 			x: -6.0d
 			y: 1.0d
+			subtitle: "* disabled"
 			description: ["Special bows that have longer range but take longer to charge."]
 			id: "2D088240BCB28026"
 			tasks: [{
@@ -117,6 +118,7 @@
 		{
 			x: -6.0d
 			y: 2.0d
+			subtitle: "* disabled"
 			id: "11F289EBEC076F40"
 			tasks: [{
 				id: "4E0BAA9A670B6A4B"
