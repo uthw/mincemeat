@@ -170,12 +170,18 @@ onEvent("recipes", (event) => {
         "immersiveengineering:capacitor_hv",
         "immersiveengineering:windmill",
         "immersiveengineering:sorter",
+        "immersiveengineering:hemp_fabric",
         // "immersiveengineering:component_iron",
 
         "industrialforegoing:machine_frame_pity",
 
         "mekanism:metallurgic_infuser",
         "mekanism:energy_tablet",
+        "mekanism:basic_universal_cable",
+        "mekanism:basic_mechanical_pipe",
+        "mekanism:basic_pressurized_tube",
+        "mekanism:basic_logistical_transporter",
+        "mekanism:logistical_sorter",
 
         "modularrouters:blank_module",
         "modularrouters:energy_output_module",
@@ -204,6 +210,8 @@ onEvent("recipes", (event) => {
         "powah:furnator_niotic",
         "powah:furnator_spirited",
         "powah:furnator_nitro",
+
+        "powah:dielectric_paste",
 
         "quarryplus:workbenchplus",
 
