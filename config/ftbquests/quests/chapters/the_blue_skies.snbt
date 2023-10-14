@@ -1299,5 +1299,66 @@
 				item: "minecraft:enchanting_table"
 			}]
 		}
+		{
+			icon: "paraglider:essence"
+			x: 8.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: [
+				"You've freed both the Everbright and Everdawn from their captors, while doing (just about) everything along the way."
+				""
+				"Take these cool looking bookshelves. They definitely do absolutely nothing."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3FFF9128B1E265A0"
+				"3BE7305E0BF0FE29"
+				"5CE16C5714A4247E"
+				"7D4ABC616DFE98B4"
+				"532882C47D607C4B"
+				"7E43AC6532B00705"
+				"47625B530DCD63EE"
+				"38C3730D4F209C17"
+				"0876DD5CE3992EAC"
+				"718502A2BF38AD54"
+				"7B6277CA5FF294F6"
+				"72A591330ACC53CC"
+				"233F79E589A46800"
+				"68A8CFDD1934C987"
+				"2924FE2C8B674AD4"
+				"0F83B71A715D90D4"
+				"4718DE22B4D0144F"
+				"5C8A67A3F96703C9"
+				"4A010FF82D4277F6"
+				"2301ACACEE9A3A40"
+				"7E68913B9D77F1E1"
+				"1AD2A59043EB00AD"
+				"4245AE439CB2F3F1"
+				"35FC3473790E00F6"
+				"51F9FDCBC134BBC1"
+				"08789AE46E8FE60F"
+				"2B17513BBA5F718E"
+				"38874196DB6B5843"
+				"038D96F3013F1C8F"
+				"5F7ECE47C2DE13A8"
+				"275F775741BD19BD"
+				"1B92CCA1D483966C"
+				"3B94700C7CA080FC"
+			]
+			hide: true
+			size: 1.5d
+			id: "171D5E71D4460049"
+			tasks: [{
+				id: "39856FDDF693B01A"
+				type: "checkmark"
+				title: "Chapter Complete!"
+			}]
+			rewards: [{
+				id: "177C3489A2513C75"
+				type: "item"
+				item: "apotheosis:hellshelf"
+				count: 3
+			}]
+		}
 	]
 }
