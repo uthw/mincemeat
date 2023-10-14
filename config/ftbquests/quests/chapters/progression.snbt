@@ -158,6 +158,12 @@
 			]
 		}
 		{
+			icon: {
+				id: "enigmaticlegacy:oblivion_stone"
+				Count: 1b
+				tag: { }
+			}
+			disable_toast: true
 			x: -2.0d
 			y: 0.0d
 			description: [
@@ -169,9 +175,11 @@
 			]
 			id: "566EC518915F3B21"
 			tasks: [{
-				id: "0A165987C05611AC"
-				type: "checkmark"
+				id: "58B64C2B3291DA3F"
+				type: "stat"
 				title: "What's this?"
+				stat: "minecraft:play_one_minute"
+				value: 1
 			}]
 			rewards: [{
 				id: "47C4141767BF1EC3"
@@ -603,6 +611,7 @@
 			y: -1.0d
 			subtitle: "\"Please alloy me to introduce myself\" - Use an item to summon her"
 			dependencies: ["1E31BB336485A461"]
+			hide: true
 			id: "5FFFE6AACA5680BE"
 			tasks: [
 				{
@@ -755,6 +764,7 @@
 			y: -2.0d
 			subtitle: "Use an item to summon it"
 			dependencies: ["64913539F8C67585"]
+			hide: true
 			optional: true
 			id: "3F42E2A04E13AF70"
 			tasks: [
@@ -781,6 +791,7 @@
 				"Step 3: while in the desert, place the head and right click it with the crown."
 			]
 			dependencies: ["65B0C03101B1E505"]
+			hide: true
 			id: "76788D0090D29CE9"
 			tasks: [{
 				id: "24708A17E7C2AC2C"
@@ -806,6 +817,7 @@
 			y: -5.0d
 			subtitle: "Found in the Barakoa Village"
 			dependencies: ["363F7F0BC9FC127B"]
+			hide: true
 			id: "1D5EAD570BCBD284"
 			tasks: [{
 				id: "7FD8A9551C954304"
@@ -819,6 +831,7 @@
 			y: -3.0d
 			subtitle: "Spawns randomly in the Ice Maze. You will get a warning message"
 			dependencies: ["363F7F0BC9FC127B"]
+			hide: true
 			id: "45C11DBEC852AF69"
 			tasks: [{
 				id: "275D52728952EEAD"
@@ -832,6 +845,7 @@
 			y: -2.0d
 			subtitle: "Summoned with a Shell Horn"
 			dependencies: ["45C11DBEC852AF69"]
+			hide: true
 			id: "292F65721C0BBA3D"
 			tasks: [{
 				id: "0A26AE1156C47453"
@@ -863,6 +877,7 @@
 			y: -4.0d
 			subtitle: "Found in caves in snowy biomes"
 			dependencies: ["66F65E9CF7CDE740"]
+			hide: true
 			id: "363F7F0BC9FC127B"
 			tasks: [{
 				id: "5472A56BB0A4A018"
@@ -875,6 +890,7 @@
 			x: 1.0d
 			y: -2.0d
 			dependencies: ["66F65E9CF7CDE740"]
+			hide: true
 			id: "1E31BB336485A461"
 			tasks: [
 				{
@@ -895,6 +911,7 @@
 			y: -7.0d
 			subtitle: "Requires progression through Botania"
 			dependencies: ["63284F65F1C62A2A"]
+			hide: true
 			id: "5DB96F13BB91A5D7"
 			tasks: [{
 				id: "6BC0C59566B4D205"
@@ -908,6 +925,7 @@
 			y: -3.0d
 			subtitle: "Found in Theatres within forests"
 			dependencies: ["3F42E2A04E13AF70"]
+			hide: true
 			id: "66F65E9CF7CDE740"
 			tasks: [{
 				id: "1E2424A50B830275"
@@ -921,6 +939,7 @@
 			y: -6.0d
 			subtitle: "A little different from normal!"
 			dependencies: ["1D5EAD570BCBD284"]
+			hide: true
 			id: "63284F65F1C62A2A"
 			tasks: [{
 				id: "75BB4C2A2286DF7A"
@@ -939,6 +958,7 @@
 				"Step 3: throw in a diamond."
 			]
 			dependencies: ["1E31BB336485A461"]
+			hide: true
 			id: "2B4D582BBD0B3B72"
 			tasks: [{
 				id: "609E0E7E73C4D9E5"
@@ -952,6 +972,7 @@
 			y: 0.0d
 			subtitle: "Found in mazes"
 			dependencies: ["2B4D582BBD0B3B72"]
+			hide: true
 			id: "7AEA0578CE82A9D0"
 			tasks: [{
 				id: "518F223AA0FED91A"
@@ -966,6 +987,7 @@
 			y: -1.0d
 			subtitle: "Tricky! You can't brute force it! - Found in large, spiraling towers"
 			dependencies: ["7AEA0578CE82A9D0"]
+			hide: true
 			id: "54F773B83E45BD35"
 			tasks: [{
 				id: "2B23C5E2563058B1"
@@ -980,6 +1002,7 @@
 			y: -2.0d
 			subtitle: "Found in Labrynths within large hills"
 			dependencies: ["54F773B83E45BD35"]
+			hide: true
 			id: "32B4C255EEE10600"
 			tasks: [{
 				id: "65E18E6B6A6CE9C3"
@@ -994,6 +1017,7 @@
 			y: -3.0d
 			subtitle: "Found in the Fire Swamp"
 			dependencies: ["32B4C255EEE10600"]
+			hide: true
 			id: "04CE84B4465050BB"
 			tasks: [{
 				id: "2CD56B3ECD675BAE"
@@ -1007,6 +1031,7 @@
 			y: -4.0d
 			subtitle: "Minibosses found in Undergarden structures"
 			dependencies: ["1D5EAD570BCBD284"]
+			hide: true
 			id: "10293853464FD527"
 			tasks: [{
 				id: "3DC0279EC12C00FB"
@@ -1021,6 +1046,7 @@
 			y: -4.0d
 			subtitle: "Found in the Dark Forest"
 			dependencies: ["04CE84B4465050BB"]
+			hide: true
 			id: "48077339EDB3E2C0"
 			tasks: [{
 				id: "1F04539E80822E2E"
@@ -1035,6 +1061,7 @@
 			y: -3.0d
 			subtitle: "Found in towers within the Dark Forest"
 			dependencies: ["48077339EDB3E2C0"]
+			hide: true
 			id: "0AE70DC462F11559"
 			tasks: [{
 				id: "10A88F4D63B9B007"
@@ -1049,6 +1076,7 @@
 			y: -2.0d
 			subtitle: "Found in the Snowy Forest"
 			dependencies: ["0AE70DC462F11559"]
+			hide: true
 			id: "153BB9B98B0937B4"
 			tasks: [{
 				id: "4142E454D6DCD2CD"
@@ -1064,6 +1092,7 @@
 			subtitle: "Found in large borealis-looking towers in the Glacier"
 			description: ["The rest of Twilight Forest is unifinished and not really worth visiting."]
 			dependencies: ["153BB9B98B0937B4"]
+			hide: true
 			id: "0437A441F76A81D1"
 			tasks: [{
 				id: "672957BE5544622B"
@@ -1077,6 +1106,7 @@
 			y: -6.0d
 			subtitle: "Requires progression through tier 2 of Ars Nouveau"
 			dependencies: ["1D5EAD570BCBD284"]
+			hide: true
 			id: "65B0C03101B1E505"
 			tasks: [{
 				id: "4ED4C674F1D3BBD3"
