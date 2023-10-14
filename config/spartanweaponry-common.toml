@@ -337,7 +337,7 @@
 	base_damage = 1.5
 	#Durability for copper weapons
 	#Range: 1 ~ 100000
-	durability = 200
+	durability = 400
 	#Set to true to disable copper weapons
 	disable = false
 
@@ -347,7 +347,7 @@
 	base_damage = 1.75
 	#Durability for tin weapons
 	#Range: 1 ~ 100000
-	durability = 180
+	durability = 360
 	#Set to true to disable tin weapons
 	disable = false
 
@@ -357,7 +357,7 @@
 	base_damage = 2.0
 	#Durability for bronze weapons
 	#Range: 1 ~ 100000
-	durability = 320
+	durability = 640
 	#Set to true to disable bronze weapons
 	disable = false
 
@@ -367,7 +367,7 @@
 	base_damage = 3.5
 	#Durability for steel weapons
 	#Range: 1 ~ 100000
-	durability = 480
+	durability = 960
 	#Set to true to disable steel weapons
 	disable = false
 
@@ -387,7 +387,7 @@
 	base_damage = 2.200000047683716
 	#Durability for invar weapons
 	#Range: 1 ~ 100000
-	durability = 440
+	durability = 880
 	#Set to true to disable invar weapons
 	disable = false
 
@@ -407,7 +407,7 @@
 	base_damage = 2.0
 	#Durability for electrum weapons
 	#Range: 1 ~ 100000
-	durability = 180
+	durability = 360
 	#Set to true to disable electrum weapons
 	disable = false
 
@@ -417,7 +417,7 @@
 	base_damage = 2.0
 	#Durability for nickel weapons
 	#Range: 1 ~ 100000
-	durability = 200
+	durability = 400
 	#Set to true to disable nickel weapons
 	disable = false
 
@@ -427,7 +427,7 @@
 	base_damage = 2.0
 	#Durability for lead weapons
 	#Range: 1 ~ 100000
-	durability = 240
+	durability = 480
 	#Set to true to disable lead weapons
 	disable = false
 
@@ -511,7 +511,7 @@
 	#Set to false to disable spawning Iron Weapons in Village Weaponsmith chests via loot table injection
 	add_iron_weapons_to_village_blacksmith = true
 	#Set to false to disable spawning Longbow and Heavy Crossbow-related loot in Village Fletcher chests via loot table injection
-	add_bow_and_crossbow_loot_to_village_fletcher = true
+	add_bow_and_crossbow_loot_to_village_fletcher = false
 	#Set to false to disable spawning Diamond Weapons in End City chests via loot table injection
 	add_diamond_weapons_to_end_city = true
 	#Chance for Zombies to spawn with Iron Melee Weapons on all difficulties apart from Hard and Hardcore

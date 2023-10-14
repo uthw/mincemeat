@@ -13,88 +13,88 @@
 [vanilla]
 	#Crude Wooden Shield Durability
 	#Range: 0 ~ 100000
-	durabilityWoodShield = 104
+	durabilityWoodShield = 208
 	#Stone Braced Shield Durability
 	#Range: 0 ~ 100000
-	durabilityStoneShield = 230
+	durabilityStoneShield = 460
 	#Iron Plated Shield Durability
 	#Range: 0 ~ 100000
-	durabilityIronShield = 538
+	durabilityIronShield = 1076
 	#Gold Gilded Shield Durability
 	#Range: 0 ~ 100000
-	durabilityGoldShield = 192
+	durabilityGoldShield = 384
 	#Diamond Reinforced Shield Durability
 	#Range: 0 ~ 100000
-	durabilityDiamondShield = 2560
+	durabilityDiamondShield = 5120
 	#Netherite Strengthened Shield Durability
 	#Range: 0 ~ 100000
-	durabilityNetheriteShield = 3554
+	durabilityNetheriteShield = 7108
 	#Bulky Obsidian Shield Durability
 	#Range: 0 ~ 100000
-	durabilityObsidianShield = 1600
+	durabilityObsidianShield = 3200
 
 [moddedCommon]
 	#Copper Braced Shield Durability
 	#Range: 0 ~ 100000
-	durabilityCopperShield = 400
+	durabilityCopperShield = 800
 	#Tin Braced Shield Durability
 	#Range: 0 ~ 100000
-	durabilityTinShield = 320
+	durabilityTinShield = 640
 	#Bronze Plated Shield Durability
 	#Range: 0 ~ 100000
-	durabilityBronzeShield = 680
+	durabilityBronzeShield = 1360
 	#Steel Plated Shield Durability
 	#Range: 0 ~ 100000
-	durabilitySteelShield = 800
+	durabilitySteelShield = 1600
 	#Silver Gilded Shield Durability
 	#Range: 0 ~ 100000
 	durabilitySilverShield = 864
 	#Lead Plated Shield Durability
 	#Range: 0 ~ 100000
-	durabilityLeadShield = 480
+	durabilityLeadShield = 960
 	#Nickel Braced Shield Durability
 	#Range: 0 ~ 100000
-	durabilityNickelShield = 420
+	durabilityNickelShield = 840
 	#Invar Plated Shield Durability
 	#Range: 0 ~ 100000
-	durabilityInvarShield = 720
+	durabilityInvarShield = 1440
 	#Constantan Plated Shield Durability
 	#Range: 0 ~ 100000
-	durabilityConstantanShield = 640
+	durabilityConstantanShield = 1280
 	#Platinum Plated Shield Durability
 	#Range: 0 ~ 100000
 	durabilityPlatinumShield = 1536
 	#Electrum Plated Shield Durability
 	#Range: 0 ~ 100000
-	durabilityElectrumShield = 320
+	durabilityElectrumShield = 640
 
 [moddedBotania]
 	#Manasteel Plated Shield Durability
 	#Range: 0 ~ 100000
-	durabilityManasteelShield = 450
+	durabilityManasteelShield = 900
 	#Terrasteel Strengthened Shield Durability
 	#Range: 0 ~ 100000
-	durabilityTerrasteelShield = 2920
+	durabilityTerrasteelShield = 5840
 	#Elementium Plated Shield Durability
 	#Range: 0 ~ 100000
-	durabilityElementiumShield = 1080
+	durabilityElementiumShield = 2160
 
 [moddedMekanism]
 	#Osmium Plated Shield Durability
 	#Range: 0 ~ 100000
-	durabilityOsmiumShield = 750
+	durabilityOsmiumShield = 1500
 	#Lapis Lazuli Gilded Shield Durability
 	#Range: 0 ~ 100000
-	durabilityLapisLazuliShield = 300
+	durabilityLapisLazuliShield = 600
 	#Refined Glowstone Plated Shield Durability
 	#Range: 0 ~ 100000
-	durabilityRefinedGlowstoneShield = 450
+	durabilityRefinedGlowstoneShield = 900
 	#Refined Obsidian Refined Shield Durability
 	#Range: 0 ~ 100000
-	durabilityRefinedObsidianShield = 3750
+	durabilityRefinedObsidianShield = 7500
 
 [moddedPowered]
 	#Damage to FE Multiplier
 	#Range: 0 ~ 1000000
-	damageToFEMultpier = 50
+	damageToFEMultpier = 35
 
