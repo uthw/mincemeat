@@ -8,7 +8,7 @@
 	verticality = 0.25
 	#How much exhaustion is added when dodging. For reference, sprinting adds 0.01 exhaustion per meter, and the Hunger effect adds 0.1 per second.
 	#Range: 0.0 ~ 40.0
-	exhaustion = 0.2
+	exhaustion = 0.15
 	#How many half drumsticks the player needs to dodge. The default six is the same as sprinting.
 	#Range: -1 ~ 20
 	hunger = 6
