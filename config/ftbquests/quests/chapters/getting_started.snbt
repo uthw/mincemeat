@@ -2728,16 +2728,28 @@
 			}]
 		}
 		{
+			title: "Honeycomb"
 			x: -3.5d
 			y: -5.5d
 			subtitle: "Obtained when shearing a beehive. Make sure you place a campfire under the hive."
-			description: ["Campfires under beehives make those bees passive."]
+			description: [
+				"Campfires under beehives make those bees passive."
+				""
+				"If you want to take an entire bee nest, make sure the bees are pacified and then break the nest with silk touch."
+			]
 			dependencies: ["0D0EC0B5DEABAE62"]
 			id: "49F349EED2FD699B"
 			tasks: [{
 				id: "5DD22F0FEEF2ED0E"
 				type: "item"
-				item: "minecraft:honeycomb"
+				title: "Any #forge:honeycombs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:honeycombs"
+					}
+				}
 			}]
 		}
 		{
