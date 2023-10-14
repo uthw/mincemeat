@@ -67,7 +67,7 @@
       "weapon_attributes": "bettercombat:soul_knife"
     },
     {
-      "item_id_regex": "dagger|knife|anputs_hunger|magicbane",
+      "item_id_regex": "dagger|knife|anputs_hunger|magicbane|famine",
       "weapon_attributes": "bettercombat:dagger"
     },
     {
@@ -75,11 +75,11 @@
       "weapon_attributes": "bettercombat:wand"
     },
     {
-      "item_id_regex": "mace|hammer|flail|depth_star|mesargenstern|club",
+      "item_id_regex": "mace|hammer|flail|depth_star|mesargenstern|club|redia",
       "weapon_attributes": "bettercombat:mace"
     },
     {
-      "item_id_regex": "axe|eater_of_the_souls|paxel",
+      "item_id_regex": "axe|eater_of_the_souls|paxel|spatula|moltenpan|soulfirepan",
       "weapon_attributes": "bettercombat:axe"
     },
     {
