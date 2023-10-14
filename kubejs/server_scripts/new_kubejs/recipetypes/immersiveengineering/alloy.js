@@ -32,6 +32,13 @@ onEvent("recipes", (event) => {
             ],
             output: "numina:component_parachute",
         },
+        {
+            inputs: [
+                "#forge:ingots/aluminum",
+                "architects_palette:algal_blend",
+            ],
+            output: "8x powah:dielectric_paste",
+        },
     ];
 
     recipes.forEach((recipe) => {
