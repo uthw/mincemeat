@@ -32,7 +32,7 @@
 	"parasite health" = 4.0
 	#Parasite strength [1-1000]
 	#Range: 1.0 ~ 1000.0
-	"parasite attack" = 0.8
+	"parasite attack" = 1.0
 	#Rate of spawning Parasite when destroying sand blocks in the desert [0-100]
 	#Range: 0 ~ 100
 	"parasite from sand blocks" = 1
@@ -485,7 +485,7 @@
 [Wraith]
 	#Set the spawn rate of Wraith [0-10000]
 	#Range: 0 ~ 10000
-	"wraith spawn rate" = 20
+	"wraith spawn rate" = 2
 	#Maximum Wraith health [1-1000]
 	#Range: 1.0 ~ 1000.0
 	"wraith health" = 20.0
