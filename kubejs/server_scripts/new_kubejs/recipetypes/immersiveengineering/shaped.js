@@ -58,6 +58,17 @@ onEvent("recipes", (event) => {
                 B: "#forge:rods/wooden",
             },
         ],
+        [
+            "immersiveengineering:capacitor_mv",
+            ["ABA", "CDC", "AEA"],
+            {
+                A: "#forge:ingots/silver",
+                B: "immersiveengineering:component_iron",
+                C: "#forge:silicon",
+                D: "immersiveengineering:wirecoil_electrum",
+                E: "#forge:plates/silver",
+            },
+        ],
         // [
         //     "immersiveengineering:component_iron",
         //     ["A A", " B "]
