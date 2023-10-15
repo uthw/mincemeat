@@ -169,23 +169,34 @@ onEvent("recipes", (event) => {
         },
         {
             output: "integrateddynamics:mechanical_drying_basin",
-            ingredients: [" A ", "BCB", " A "],
+            inputs: [" A ", "BCB", " A "],
             keys: {
-                A: "immersiveengineering:coil_hv",
+                A: "immersiveengineering:wirecoil_copper",
                 B: "integrateddynamics:energy_battery",
                 C: "integrateddynamics:drying_basin",
             },
         },
         {
             output: "integrateddynamics:mechanical_squeezer",
-            ingredients: [" A ", "BCB", " D "],
+            inputs: [" A ", "BCB", " D "],
             keys: {
                 A: "minecraft:diamond",
                 B: "integrateddynamics:energy_battery",
                 C: "integrateddynamics:squeezer",
-                D: "immersiveengineering:coil_hv",
+                D: "immersiveengineering:wirecoil_copper",
             },
         },
+        {
+            output: "immersiveengineering:capacitor_hv",
+            inputs: ["ABA", "CDC", "AEA"],
+            keys: {
+                A: "#forge:ingots/steel",
+                B: "immersiveengineering:component_steel",
+                C: "#thermal:rockwool",
+                D: "immersiveengineering:wirecoil_steel",
+                E: "#forge:plates/steel"
+            }
+        }
     ];
 
     recipes.forEach((recipe) => {

@@ -19,7 +19,7 @@ onEvent("recipes", (event) => {
             ingredients: [
                 { item: "integrateddynamics:crystalized_menril_chunk" },
                 { item: "integrateddynamics:crystalized_menril_block" },
-                { item: "integrateddynamics:capacitor_mv" },
+                { item: "immersiveengineering:capacitor_mv" },
                 { item: "integrateddynamics:crystalized_menril_block" },
                 { item: "integrateddynamics:crystalized_menril_chunk" },
             ],
