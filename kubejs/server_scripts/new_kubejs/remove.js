@@ -157,6 +157,11 @@ onEvent("recipes", (event) => {
         "iceandfire:tide_trident",
         "iceandfire:ghost_sword",
 
+        "integrateddynamics:drying_basin",
+        "integrateddynamics:energy_battery",
+        "integrateddynamics:mechanical_drying_basin",
+        "integrateddynamics:mechanical_squeezer",
+
         "engineerstools:crushing_hammer",
         "immersiverods:stick_gold",
         "engineersdecor:metal_bar",
@@ -227,6 +232,12 @@ onEvent("recipes", (event) => {
         "sophisticatedbackpacks:pump_upgrade",
         "sophisticatedbackpacks:battery_upgrade",
         "sophisticatedbackpacks:inception_upgrade",
+
+        "storagenetwork:inventory",
+        "storagenetwork:master",
+        "storagenetwork:inventory_remote",
+        "storagenetwork:crafting_remote",
+        // "storagenetwork:",
 
         "thermal:machine_smelter",
 

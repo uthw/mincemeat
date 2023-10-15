@@ -755,6 +755,41 @@ onEvent("recipes", (event) => {
             "minecraft:crafting_table",
             "occultism:otherstone_pedestal",
         ],
+        [
+            { output: "integrateddynamics:squeezer" },
+            "minecraft:iron_ingot",
+            "supplementaries:spring_launcher",
+        ],
+        [
+            { output: "integrateddynamics:squeezer" },
+            "#forge:rods/wooden",
+            "#forge:rods/iron",
+        ],
+        [
+            { output: "integrateddynamics:cable" },
+            "minecraft:stick",
+            "#forge:rods/iron",
+        ],
+        [
+            { output: "integrateddynamics:variable_transformer_input" },
+            "minecraft:sticky_piston",
+            "immersiveengineering:circuit_board",
+        ],
+        [
+            { output: "immersiveengineering:insulating_glass" },
+            "minecraft:green_dye",
+            "supplementaries:flax",
+        ],
+        [
+            { output: "immersiveengineering:insulating_glass" },
+            "#forge:glass",
+            "#thermal:glass/hardened",
+        ],
+        [
+            { output: "integrateddynamics:variable_transformer_output" },
+            "minecraft:piston",
+            "thermal:redstone_servo",
+        ],
     ];
 
     replacements.forEach((item) =>

@@ -167,6 +167,25 @@ onEvent("recipes", (event) => {
                 D: "create:filter",
             },
         },
+        {
+            output: "integrateddynamics:mechanical_drying_basin",
+            ingredients: [" A ", "BCB", " A "],
+            keys: {
+                A: "immersiveengineering:coil_hv",
+                B: "integrateddynamics:energy_battery",
+                C: "integrateddynamics:drying_basin",
+            },
+        },
+        {
+            output: "integrateddynamics:mechanical_squeezer",
+            ingredients: [" A ", "BCB", " D "],
+            keys: {
+                A: "minecraft:diamond",
+                B: "integrateddynamics:energy_battery",
+                C: "integrateddynamics:squeezer",
+                D: "immersiveengineering:coil_hv",
+            },
+        },
     ];
 
     recipes.forEach((recipe) => {
