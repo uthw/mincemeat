@@ -269,25 +269,6 @@
 			}]
 		}
 		{
-			icon: {
-				id: "tombstone:decorative_grave_normal"
-				Count: 1b
-				tag: {
-					model_texture: 1
-				}
-			}
-			x: 0.0d
-			y: 1.0d
-			dependencies: ["6DFEE2FAB757B2B0"]
-			optional: true
-			id: "7437D3919C743E5C"
-			tasks: [{
-				id: "36FE535F489E9F0C"
-				type: "checkmark"
-				title: "Corail Tombstone"
-			}]
-		}
-		{
 			icon: "astralsorcery:observatory"
 			x: 1.5d
 			y: 4.5d
@@ -1183,6 +1164,105 @@
 				id: "02734433C4E147D5"
 				type: "checkmark"
 				title: "Pretty Pipes"
+			}]
+		}
+		{
+			title: "Malum"
+			x: 0.0d
+			y: 1.0d
+			subtitle: "This is a mod that will be in the pack in the future."
+			dependencies: ["6DFEE2FAB757B2B0"]
+			optional: true
+			id: "2FC82573DC42F4EF"
+			tasks: [{
+				id: "440C532D40CDA316"
+				type: "checkmark"
+				title: "Malum?"
+			}]
+		}
+		{
+			icon: {
+				id: "wstweaks:blaze_blade"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: -5.5d
+			subtitle: "Ok, now do it in Hardcore and 'in under 10 hours while recording it"
+			description: [
+				"You will not get a prize"
+				""
+				"(multiple sessions are allowed because I respect your mental health)"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"566EC518915F3B21"
+				"64913539F8C67585"
+				"36EC37D10624CB21"
+				"6ED75E81C1C56B06"
+				"1C810ECA3DEA1460"
+				"79D737D2C1FCDE1A"
+				"4085348B84700E0B"
+				"07F915C8F9F3C199"
+				"6A616CC012F5994F"
+				"64EEE913EB498F71"
+				"1052F86408D327E1"
+				"533B3F8C8CFEB288"
+				"79370B3A63EFB0ED"
+				"7C14721CCF388938"
+				"74F7BAE8A75AA872"
+				"76788D0090D29CE9"
+				"65B0C03101B1E505"
+				"1D5EAD570BCBD284"
+				"63284F65F1C62A2A"
+				"5DB96F13BB91A5D7"
+				"10293853464FD527"
+				"66F65E9CF7CDE740"
+				"3F42E2A04E13AF70"
+				"363F7F0BC9FC127B"
+				"45C11DBEC852AF69"
+				"1E31BB336485A461"
+				"5FFFE6AACA5680BE"
+				"292F65721C0BBA3D"
+				"7AEA0578CE82A9D0"
+				"54F773B83E45BD35"
+				"32B4C255EEE10600"
+				"04CE84B4465050BB"
+				"48077339EDB3E2C0"
+				"0AE70DC462F11559"
+				"153BB9B98B0937B4"
+				"0437A441F76A81D1"
+			]
+			size: 2.0d
+			id: "1637BD30454B4970"
+			tasks: [{
+				id: "055F95572BC53EAB"
+				type: "checkmark"
+				title: "Kill every boss in the game"
+			}]
+			rewards: [{
+				id: "45AA2381CEA75B27"
+				type: "item"
+				item: {
+					id: "twilightforest:glass_sword"
+					Count: 1b
+					tag: {
+						Unbreakable: 1
+						RepairCost: 0
+						AS_Amulet_Holder: [I;
+							549994969
+							1140998896
+							-1524841094
+							-1464693377
+						]
+						Damage: 0
+						display: {
+							Name: "{\"text\":\"Don't know why you did that\"}"
+						}
+					}
+				}
 			}]
 		}
 	]
