@@ -21,7 +21,7 @@
   },
   "performance": {
     "chunk_builder_threads": 4,
-    "always_defer_chunk_updates": true
+    "always_defer_chunk_updates": false
   },
   "notifications": {
     "hide_donation_button": false
