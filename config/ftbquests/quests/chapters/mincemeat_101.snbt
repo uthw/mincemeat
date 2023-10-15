@@ -16,8 +16,8 @@
 			title: "Don't worry about multiblocks!"
 			icon: "create:schematicannon"
 			disable_toast: true
-			x: -1.0d
-			y: 2.5d
+			x: -4.0d
+			y: 0.5d
 			description: [
 				"In case you're not that big of a fan of multiblocks, I took the time to build every multiblock in the modpack in creative mode so you don't need to do it in survival."
 				""
@@ -88,7 +88,7 @@
 		{
 			icon: "cyclic:heart"
 			x: -7.0d
-			y: 0.5d
+			y: -1.5d
 			subtitle: "(may be disabled)"
 			description: [
 				"By default, a datapack made by myself is active that fully restores the HP of mobs when you die. This prevents cheesing bosses by setting your spawn in the arena and running head-first at them until they die."
@@ -97,7 +97,7 @@
 				""
 				"To remove the datapack, you will want to go in (installation folder)/openloader/data and remove the \"healthreset\" folder."
 				""
-				"I dedicate this datapack to the public domain, meaning you can use it/copy its code without asking."
+				"You can use the code from my data pack without asking."
 			]
 			id: "34C0C35B898BE717"
 			tasks: [{
@@ -108,7 +108,7 @@
 		}
 		{
 			icon: "infernalexp:infernal_painting"
-			x: -7.0d
+			x: -5.0d
 			y: -1.5d
 			description: [
 				"Update and polish Ice and Fire's textures: Frostbite \\& Brimstone"
@@ -134,8 +134,8 @@
 		}
 		{
 			icon: "doggytalents:sunglasses"
-			x: -7.0d
-			y: -0.5d
+			x: -6.0d
+			y: -1.5d
 			description: [
 				"You should use Complementary v4 or Reimagined for the best balance of visuals and performance. It should be noted that banners will render incorrectly due to an incompatibility with Flywheel, but BSL does not have this problem."
 				""
@@ -150,8 +150,8 @@
 		}
 		{
 			icon: "create:empty_schematic"
-			x: -2.0d
-			y: 2.5d
+			x: -5.0d
+			y: 0.5d
 			description: ["Pressing a keybind lets you effortlessly design a blueprint for a house. This house will be saved in the schematics folder, so if you have the blocks for it you can build it with the Schematicannon."]
 			dependencies: ["43AE01442F56FC8F"]
 			id: "4E6C631378CB4B42"
@@ -179,7 +179,7 @@
 		}
 		{
 			icon: "naturesaura:range_visualizer"
-			x: -2.0d
+			x: -1.0d
 			y: 0.5d
 			description: [
 				"A mod that allows you to view and search for any item in the game."
@@ -198,6 +198,7 @@
 			}]
 		}
 		{
+			title: "Ultimine"
 			icon: {
 				id: "minecraft:wooden_pickaxe"
 				Count: 1b
@@ -205,7 +206,7 @@
 					Damage: 0
 				}
 			}
-			x: -3.0d
+			x: -2.0d
 			y: 0.5d
 			description: [
 				"Hold ` while mining a block to break all connected blocks of the same type. This can be done with any tool or a bare hand and can break up to 64 blocks in one go."
@@ -221,7 +222,7 @@
 		}
 		{
 			icon: "minecraft:white_banner"
-			x: -4.0d
+			x: -3.0d
 			y: 0.5d
 			description: [
 				"If you're in multiplayer, make a new team using the button in the top left of the inventory."
@@ -233,24 +234,6 @@
 				id: "47048D745DF253CA"
 				type: "checkmark"
 				title: "FTB Teams"
-			}]
-		}
-		{
-			icon: "forbidden_arcanus:xpetrified_orb"
-			x: -1.0d
-			y: 0.5d
-			description: [
-				"This is the level-up mod of the modpack. I chose it over PMMO due to its simplicity."
-				""
-				"There is a scroll in the top-right corner of your inventory. Click on it to view the PlayerEx menu."
-				""
-				"You can level up one of 5 stats, each of which increasing a few perks. Note: for balance reasons, dexterity does not increase attack speed."
-			]
-			id: "289007A4EE45DCF9"
-			tasks: [{
-				id: "7D8E0123A5674A9A"
-				type: "checkmark"
-				title: "PlayerEx"
 			}]
 		}
 		{
