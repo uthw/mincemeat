@@ -38,6 +38,21 @@ onEvent("recipes", (event) => {
             output: { item: "xreliquary:fertile_lily_pad", count: 1 },
             time: 60,
         },
+        {
+            inputs: [
+                { item: "forbidden_arcanus:arcane_crystal" },
+                { item: "forbidden_arcanus:arcane_crystal" },
+                { item: "forbidden_arcanus:arcane_crystal" },
+                { item: "forbidden_arcanus:arcane_crystal" },
+                { item: "forbidden_arcanus:arcane_crystal" },
+                { item: "forbidden_arcanus:arcane_crystal" },
+                { item: "forbidden_arcanus:arcane_crystal" },
+                { item: "forbidden_arcanus:arcane_crystal" },
+            ],
+            sapling: { tag: "minecraft:saplings" },
+            output: { item: "integrateddynamics:menril_sapling" },
+            time: 20,
+        },
     ];
 
     recipes.forEach((recipe) => {
