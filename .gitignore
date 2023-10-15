@@ -54,3 +54,4 @@ config/modernfix-mixins.properties
 config/spark/activity.json
 config/ue/UE.toml
 config/badmobs-common.toml
+config/craftpresence.json
