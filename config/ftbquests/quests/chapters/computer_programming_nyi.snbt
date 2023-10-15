@@ -8,5 +8,300 @@
 	subtitle: ["This is CC50, Mincemeat's introduction to Computer Science"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: -2.5d
+			subtitle: "Unique tree that you'll want to have in order to start using Integrated Dynamics."
+			id: "335C32B754AFB2DE"
+			tasks: [{
+				id: "690FC9ABE2EBF213"
+				type: "item"
+				item: "integrateddynamics:menril_sapling"
+			}]
+			rewards: [{
+				id: "3E6EDCD89D3DA5CF"
+				type: "item"
+				item: "integrateddynamics:on_the_dynamics_of_integration"
+			}]
+		}
+		{
+			title: "Squeezer + Basin"
+			icon: "integrateddynamics:squeezer"
+			x: 0.0d
+			y: -0.5d
+			description: [
+				"Let's harvest that menril now."
+				""
+				"Go ahead and place these blocks next to each other. Now, place a menril log in the squeezer."
+				""
+				"You're just going to want to compress the menril log by jumping on it a lot."
+				""
+				"Voilà, you have made crystalized menril!"
+				""
+				"Supply a redstone signal to the squeezer to reset its position."
+			]
+			dependencies: ["335C32B754AFB2DE"]
+			id: "5CBB6EA7FB333EA6"
+			tasks: [
+				{
+					id: "6AC7429C4E24AF8D"
+					type: "item"
+					item: "integrateddynamics:squeezer"
+				}
+				{
+					id: "31B17077EFE2B305"
+					type: "item"
+					item: "integrateddynamics:drying_basin"
+				}
+				{
+					id: "791DF45BF0399C2B"
+					type: "item"
+					item: "integrateddynamics:menril_log"
+				}
+				{
+					id: "2CE064FA8275E298"
+					type: "item"
+					title: "Any #rsgauges:pressure_plates"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "rsgauges:pressure_plates"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Mechanical Squeezer / Drying Basin"
+			x: -1.0d
+			y: 0.5d
+			subtitle: "(recommended)"
+			description: ["These items can do what you just did, but on their own using energy."]
+			dependencies: ["5CBB6EA7FB333EA6"]
+			optional: true
+			id: "03ED299282E5C76A"
+			tasks: [
+				{
+					id: "68EE0CB38ABB0E22"
+					type: "item"
+					item: "integrateddynamics:mechanical_squeezer"
+				}
+				{
+					id: "474D9C8FFCB3C414"
+					type: "item"
+					item: "integrateddynamics:mechanical_drying_basin"
+				}
+			]
+		}
+		{
+			title: "Link 2+ Chests to a Terminal"
+			x: 1.5d
+			y: 1.0d
+			description: [
+				"Place the interfaces on inventories you want to link to the terminal."
+				""
+				"Connect both of these to the terminal."
+				""
+				"You now have a storage system akin to the ones from Simple Storage Network and Pretty Pipes!"
+				""
+				"Interacting with the terminal, you can press the chest tab to see stored items and the crafting tab to make things with them."
+				""
+				"It doesn't need any energy."
+			]
+			dependencies: ["5CBB6EA7FB333EA6"]
+			id: "44E53A8A061B85E9"
+			tasks: [
+				{
+					id: "0B031F77136BECD6"
+					type: "item"
+					item: "integratedtunnels:part_interface_item"
+					count: 2L
+				}
+				{
+					id: "727B9551576ABADC"
+					type: "item"
+					item: "integrateddynamics:cable"
+				}
+				{
+					id: "768F35775D2297D8"
+					type: "item"
+					item: "integratedterminals:part_terminal_storage"
+				}
+			]
+		}
+		{
+			title: "Integrated Dynamics goes liquid!"
+			x: 0.0d
+			y: 2.5d
+			description: [
+				"Hook the exporter to the container you'd like to export FROM. It's a little bit tricky."
+				""
+				"Variable cards store variables used by logical blocks."
+				""
+				"Now, i want you to click the exporter."
+				""
+				"Hope you passed Computer Science in high school!"
+				""
+				"... I wonder what types of automation you can do using this mod?"
+			]
+			dependencies: ["44E53A8A061B85E9"]
+			id: "4B407F60FF0D3AA2"
+			tasks: [
+				{
+					id: "31A1171C4657205D"
+					type: "item"
+					item: "integratedtunnels:part_interface_fluid"
+				}
+				{
+					id: "53FD2D7A94A0028C"
+					type: "item"
+					item: "integratedtunnels:part_exporter_fluid"
+				}
+				{
+					id: "6591410963256424"
+					type: "item"
+					item: "integrateddynamics:variable"
+					count: 24L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			description: [
+				"{image:kubejs:textures/item/fluid_exporter.png width:377 height:273 align:1 fit:true}"
+				"You will be greeted by this screen when interacting with the Fluid Exporter."
+				""
+				"Hovering over the blue things on the left and holding shift tells you what the \"types\" mean. This knowledge mostly carries into programming; a \"boolean\" is always either true or false in every programming language (that I've used, at least)."
+			]
+			dependencies: ["4B407F60FF0D3AA2"]
+			id: "56DFDF7FC0E86387"
+			tasks: [{
+				id: "140641B3DE13D4EA"
+				type: "checkmark"
+				title: "Fluid Exporter GUI"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			description: [
+				"Try a simple example of the display panel's power."
+				""
+				"Hook up (with cables) the redstone reader to something that has a redstone value, like a block of redstone."
+				""
+				"Now, Shift Rclick on the reader and scroll down to the first orange one that is an integer. You can set it if you'd like."
+				""
+				"You will now have a card for that level of redstone power. Shift rclick the display panel and slot in the variable card."
+				""
+				"Pretty cool, right?"
+			]
+			dependencies: ["44E53A8A061B85E9"]
+			id: "2268E46AD333F9CD"
+			tasks: [
+				{
+					id: "1BD378ADB28E7531"
+					type: "item"
+					item: "integrateddynamics:part_redstone_reader"
+				}
+				{
+					id: "0345E3E361156671"
+					type: "item"
+					item: "integrateddynamics:cable"
+				}
+				{
+					id: "45CCF6D589CEE7B1"
+					type: "item"
+					item: "integrateddynamics:part_display_panel"
+				}
+				{
+					id: "393174908CC690CE"
+					type: "advancement"
+					advancement: "integrateddynamics:aspects/redstone_observement"
+					criterion: ""
+				}
+			]
+			rewards: [{
+				id: "5864258634DAA9C2"
+				type: "ftbmoney:money"
+				ftb_money: 40L
+			}]
+		}
+		{
+			title: "Logic Programmer"
+			x: 3.0d
+			y: 4.0d
+			description: [
+				"What if, in some foreign, mystical world, you could consider not just one value (like you just did before), but two?"
+				""
+				"Regardless of what programmer you're using, right click it to open a menu. "
+				""
+				"Find the operator that says \"Integer.\" You might need to scroll down. Click on it and set the number that appears."
+				""
+				"Do that again, for another integer."
+				""
+				"Now, find the Addition operator. Insert your two variable cards, which will bind them into a new one."
+			]
+			dependencies: ["2268E46AD333F9CD"]
+			id: "054A34E6B912C042"
+			tasks: [
+				{
+					id: "0CEA0F9E3F03ABFF"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "integrateddynamics:logic_programmer"
+									Count: 1b
+								}
+								{
+									id: "integrateddynamics:portable_logic_programmer"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "6BA2826E371E8C3A"
+					type: "item"
+					item: "integrateddynamics:variable"
+					count: 2L
+				}
+			]
+		}
+		{
+			title: "Variable Store                                                                                              "
+			x: 3.0d
+			y: 5.5d
+			subtitle: "*description taken from Integrated Dynamics guidebook because I don't understand this item*"
+			description: [
+				"As Integrated Dynamics evaluates variables in a lazy manner, this Addition Variable Card does not contain the addition of these Integers directly, but the addition will only be performed when the value is needed in the network, based on the variable references. For this, the network has to be able to find these referenced Variable Card. For this, you will need to craft and place a Variable Store. Insert the two Integer Variable Cards into this store to make them available to the network."
+				""
+				"Finally, you can now connect a cable to the Variable Store, attach a Display Panel, and insert the Addition Variable Card to display the addition."
+				""
+				"The Logic Programmer and Variable Stores are going to be your best friends when you want to do more complex automation."
+			]
+			dependencies: ["054A34E6B912C042"]
+			id: "2BCF1DA646EB606E"
+			tasks: [
+				{
+					id: "37D7226A46A8D057"
+					type: "item"
+					item: "integrateddynamics:variablestore"
+				}
+				{
+					id: "28563B4F34F5B26F"
+					type: "advancement"
+					advancement: "integrateddynamics:logic_operations/arithmetic_addition"
+					criterion: ""
+				}
+			]
+		}
+	]
 }
